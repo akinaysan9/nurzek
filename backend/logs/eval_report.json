@@ -1,0 +1,425 @@
+{
+  "hitRate": 83.33333333333334,
+  "results": [
+    {
+      "id": 1,
+      "question": "30. Lema’da geçen “Ene” kelimesinin metafizik anlamı nedir?",
+      "hit": false,
+      "top_result": "Unknown",
+      "top_score": 0.5526307195027914
+    },
+    {
+      "id": 2,
+      "question": "Risale-i Nur’a göre insan nefsinin temel eğilimleri nelerdir ve bu eğilimler nasıl kontrol edilir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.5409095169914322
+    },
+    {
+      "id": 3,
+      "question": "Bediüzzaman’a göre “tesadüf” kavramı hangi bağlamda reddedilmiştir?",
+      "hit": false,
+      "top_result": "Unknown",
+      "top_score": 0.5514876932351443
+    },
+    {
+      "id": 4,
+      "question": "Risale-i Nur’da “Vahdet-i Vücut” ile tevhid inancı arasındaki fark nasıl vurgulanır?",
+      "hit": false,
+      "top_result": "Unknown",
+      "top_score": 0.7090433708042274
+    },
+    {
+      "id": 5,
+      "question": "Nursi’nin eserlerinde Allah’ın isim ve sıfatlarının tecellisi kavramı nasıl açıklanır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.7134236838777056
+    },
+    {
+      "id": 6,
+      "question": "Risale-i Nur’a göre insanın yaradılıştaki en önemli görevi nedir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.5983663280529385
+    },
+    {
+      "id": 7,
+      "question": "Nefs’in emmare, levvame ve mutmainne mertebeleri Risale-i Nur’da nasıl tanımlanır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.5632162136891723
+    },
+    {
+      "id": 8,
+      "question": "Risale-i Nur’da “hikmet-i ilahiye” (ilahi hikmet) kavramının önemi nedir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.6392882882329011
+    },
+    {
+      "id": 9,
+      "question": "Risale-i Nur’da “kuvve-i muhitte” kavramı ne anlama gelir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.6510252318580467
+    },
+    {
+      "id": 10,
+      "question": "Risale-i Nur’daki farklı âlemler tasavvuru (örneğin ruhani ve cismani âlem farkı) nasıl açıklanır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.641838984435591
+    },
+    {
+      "id": 11,
+      "question": "Risale-i Nur’da “marifetullah” (Allah’ı bilme/ilim) nedir ve nasıl anlatılır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.765597142469507
+    },
+    {
+      "id": 12,
+      "question": "Nursi’nin eserlerinde insanın var oluş gayesi (yaşam amacı) nasıl açıklanır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.603578857784281
+    },
+    {
+      "id": 13,
+      "question": "Risale-i Nur’a göre her musibette saklı bir hayır olduğunu nasıl kanıtlar?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.6591215481314482
+    },
+    {
+      "id": 14,
+      "question": "Risale-i Nur’da merhamet nasıl tanımlanır ve Allah’ın bu sıfatı nasıl açıklanır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.6992254437333739
+    },
+    {
+      "id": 15,
+      "question": "Risale-i Nur’da “iman kuvveti” ne demektir ve nasıl oluşur?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.6708155768758792
+    },
+    {
+      "id": 16,
+      "question": "Risale-i Nur’un en temel evrensel mesajlarından biri nedir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.6510968389370576
+    },
+    {
+      "id": 17,
+      "question": "Risale-i Nur’da “hudûd-i ilahiye” (Allah’ın koyduğu sınırlar) nasıl belirtilmiştir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.8478359854997917
+    },
+    {
+      "id": 18,
+      "question": "Risale-i Nur metinlerinde mucize kavramı nasıl tanımlanmıştır?",
+      "hit": false,
+      "top_result": "Unknown",
+      "top_score": 0.6268818525560749
+    },
+    {
+      "id": 19,
+      "question": "Risale-i Nur’a göre evrendeki düzen ve intizamın arkasında ne vardır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.638296196112032
+    },
+    {
+      "id": 20,
+      "question": "Risale-i Nur’da insanın akıl ve kalp ilişkisi nasıl değerlendirilir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.6052165642171389
+    },
+    {
+      "id": 21,
+      "question": "Sözler ve Mektubat’ta “zerre” (atom) metaforu nasıl ele alınmıştır?",
+      "hit": false,
+      "top_result": "Unknown",
+      "top_score": 0.5732363943235183
+    },
+    {
+      "id": 22,
+      "question": "Mektubat ve Şualar’da tevazu (alçak gönüllülük) teması nasıl işlenmiştir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.7473739893077344
+    },
+    {
+      "id": 23,
+      "question": "Sözler ve Şualar’da insanın nefs eğitimiyle ilgili hangi benzetmeler kullanılmıştır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.5794723463344519
+    },
+    {
+      "id": 24,
+      "question": "Mektubat ve Mesnevî-i Nuriye’de mucize ve deliller nasıl karşılaştırılmıştır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.6825190473877677
+    },
+    {
+      "id": 25,
+      "question": "Sözler ve “Asa’yı Musa” eserinde insanın akıl-kalp ilişkisi nasıl açıklanır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.6742349927445832
+    },
+    {
+      "id": 26,
+      "question": "Şualar ve Sözler’de ümit (umut) ve dua teması nasıl yansıtılmıştır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.6868470720670535
+    },
+    {
+      "id": 27,
+      "question": "Mektubat ve Sözler’de Hz. Musa kıssasından alınan ibretler nasıldır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.7444325321064884
+    },
+    {
+      "id": 28,
+      "question": "Sözler ve Mesnevî-i Nuriye’de dünyevî saadetin gerçek anlamı nasıl açıklanır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.8071521774439656
+    },
+    {
+      "id": 29,
+      "question": "Mesnevî-i Nuriye ve Sözler’de bir musibet karşısında sabrın anlamı nasıl vurgulanır?",
+      "hit": false,
+      "top_result": "Unknown",
+      "top_score": 0.7901320350448572
+    },
+    {
+      "id": 30,
+      "question": "Şualar ve Mektubat’ta “yaratılış amacı” nasıl açıklanır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.6137297262431052
+    },
+    {
+      "id": 31,
+      "question": "Sözler ve Mektubat’ta imanın toplumsal hayata etkisi nasıl ele alınmıştır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.672174374908507
+    },
+    {
+      "id": 32,
+      "question": "Sözler ve Mesnevî’de kainattaki hikmetlere işaret eden örnekler nelerdir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.7742731129657439
+    },
+    {
+      "id": 33,
+      "question": "“Asa’yı Musa” ve Mektubat’ta Hz. Musa olayından ne gibi dersler çıkarılır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.6434872159750088
+    },
+    {
+      "id": 34,
+      "question": "Şualar ve Sözler’de delillerin gücü ve insanın şükür yükümlülüğü nasıl işlenir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.7446664765639589
+    },
+    {
+      "id": 35,
+      "question": "Mektubat ve Mesnevî’de insanın kâmil hâle gelme süreci nasıl tarif edilir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.6983871685407427
+    },
+    {
+      "id": 36,
+      "question": "Şualar ve Sözler’de insanın zayıflıkları ile ilahi yardım teması nasıl birleştirilmiştir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.6935121754668725
+    },
+    {
+      "id": 37,
+      "question": "Mesnevî-i Nuriye ve “Asa’yı Musa”da imtihan konusundaki yaklaşımlar nelerdir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.652698086913202
+    },
+    {
+      "id": 38,
+      "question": "Sözler ve Mektubat’ta kıyamet alametlerinden örnekler nasıl anlatılır?",
+      "hit": false,
+      "top_result": "Unknown",
+      "top_score": 0.7442170339974314
+    },
+    {
+      "id": 39,
+      "question": "Mektubat ve Şualar’da dua ve Rab ile yakınlık ilişkisi nasıl açıklanır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.6777889323150212
+    },
+    {
+      "id": 40,
+      "question": "Sözler ve Sikke-i Tasdik-i Gaybi’de manevi yükseliş yolları nasıl tarif edilmiştir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.6674919556779069
+    },
+    {
+      "id": 41,
+      "question": "Risale-i Nur’da insan özgür iradesinin sınırları nasıl tanımlanır?",
+      "hit": false,
+      "top_result": "Unknown",
+      "top_score": 0.6505532449130955
+    },
+    {
+      "id": 42,
+      "question": "Risale-i Nur metinlerine göre Allah’a olan güven (tevekkül) insan hayatını nasıl etkiler?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.6893915618581957
+    },
+    {
+      "id": 43,
+      "question": "Risale-i Nur’da gerçek huzur ve mutluluk nasıl tarif edilir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.5961501044224895
+    },
+    {
+      "id": 44,
+      "question": "Risale-i Nur’da sıkıntıların ve imtihanların ilahi hikmeti nasıl açıklanmıştır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.7385592985187834
+    },
+    {
+      "id": 45,
+      "question": "Risale-i Nur’a göre imanın güçlenme yolları nelerdir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.6797895224532423
+    },
+    {
+      "id": 46,
+      "question": "Risale-i Nur’un temel mesajlarından biri olan “çok bilmek ile çok inanmak arasındaki ilişki” nasıl ifade edilir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.661080493426277
+    },
+    {
+      "id": 47,
+      "question": "Risale-i Nur’da dünyevi hayatın geçiciliği ve ahiret hayatının önemi nasıl vurgulanır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.662512161896843
+    },
+    {
+      "id": 48,
+      "question": "Risale-i Nur’da insanın acizliği ve Allah’ın kudreti ilişkisi nasıl anlatılır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.7664789159431586
+    },
+    {
+      "id": 49,
+      "question": "Risale-i Nur’da dünyadaki zorlukların ardından gelecek rahmet ve kerem nasıl anlatılabilir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.7158792501887613
+    },
+    {
+      "id": 50,
+      "question": "Risale-i Nur metinlerine göre insanın gerçek değeri neye göre belirlenir?",
+      "hit": false,
+      "top_result": "Unknown",
+      "top_score": 0.5305964915040206
+    },
+    {
+      "id": 51,
+      "question": "Risale-i Nur’dan alınacak derslerle bir kimsenin yaşam felsefesi nasıl şekillendirilebilir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.580216391003479
+    },
+    {
+      "id": 52,
+      "question": "Risale-i Nur’a göre toplumsal sorunlara karşı bireyin tutumu nasıl olmalıdır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.5556373057308679
+    },
+    {
+      "id": 53,
+      "question": "Risale-i Nur’da insanın kendini bilmesi nasıl teşvik edilir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.7092438913432779
+    },
+    {
+      "id": 54,
+      "question": "Risale-i Nur’da doğa olayları (deprem, tufan vb.) ne şekilde yorumlanmıştır?",
+      "hit": false,
+      "top_result": "Unknown",
+      "top_score": 0.5893635701493697
+    },
+    {
+      "id": 55,
+      "question": "Risale-i Nur’da umut ve umutsuzluk arasındaki fark nasıl ele alınır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.5970472444589281
+    },
+    {
+      "id": 56,
+      "question": "Risale-i Nur’a göre gerçek adalet nasıl sağlanır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.5812607272198689
+    },
+    {
+      "id": 57,
+      "question": "Risale-i Nur’da insanın imtihandaki rolü nasıl açıklanır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.7091095235531095
+    },
+    {
+      "id": 58,
+      "question": "Risale-i Nur’da toplumsal dayanışmanın önemi nasıl vurgulanmıştır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.6751695467273721
+    },
+    {
+      "id": 59,
+      "question": "Risale-i Nur’da Allah’ın af ve rahmeti metinlerden hareketle nasıl yorumlanabilir?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.783991106587282
+    },
+    {
+      "id": 60,
+      "question": "Risale-i Nur’da “dünya hayatının gerçek değeri” nedir ve nasıl anlaşılır?",
+      "hit": true,
+      "top_result": "Unknown",
+      "top_score": 0.6341545956708077
+    }
+  ]
+}

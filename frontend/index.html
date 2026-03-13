@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NurZek - Risale-i Nur AI Platform</title>
+  <meta name="description"
+    content="Risale-i Nur Külliyatı üzerine yapay zeka destekli tefekkür, soru-cevap ve araştırma platformu">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Amiri:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <link rel="stylesheet" href="src/style.css?v=8">
+  <link rel="stylesheet" href="src/extra.css">
+  <link rel="stylesheet" href="src/ui-overrides.css?v=9">
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+</head>
+
+<body>
+  <!-- Auth Modal -->
+  <!-- About Modal -->
+  <div id="about-modal" class="modal hidden">
+    <div class="modal-overlay" onclick="closeModal('about-modal')"></div>
+    <div class="modal-content about-modal-content glass-card">
+      <button class="modal-close" onclick="closeModal('about-modal')">✕</button>
+      <div class="about-header">
+        <div class="about-logo-row">
+          <span class="about-logo-text">NurZek</span>
+          <span class="logo-badge">AI</span>
+        </div>
+        <span class="about-version-badge">Public Alpha</span>
+      </div>
+      <div class="about-body">
+        <p class="about-desc">NurZek, Risale-i Nur külliyatını daha derinlikli okumak, anlamak ve analiz etmek amacıyla geliştirilen deneysel bir yapay zekâ destekli araştırma platformudur.</p>
+        <div class="about-notice">
+          <p class="about-notice-title">Bu sürüm bir Public Alpha aşamasıdır. Sistem aktif olarak geliştirilmektedir.</p>
+          <ul>
+            <li>Zaman zaman hatalar oluşabilir</li>
+            <li>Yanıtlar eksik veya bağlam dışı olabilir</li>
+            <li>Performans dalgalanmaları yaşanabilir</li>
+            <li>Özellikler değişebilir veya kaldırılabilir</li>
+          </ul>
+        </div>
+        <p class="about-mission">Amacımız; metni sadeleştirmek değil, anlam katmanlarını görünür kılmaktır.</p>
+        <p class="about-feedback">Geri bildirimleriniz gelişim süreci için kıymetlidir.</p>
+      </div>
+      <div class="about-footer">
+        <span>Versiyon: Alpha</span>
+        <span>·</span>
+        <span>Güncelleme: Şubat 2026</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="auth-modal" class="modal hidden">
+    <div class="modal-overlay" onclick="closeModal('auth-modal')"></div>
+    <div class="modal-content glass-card">
+      <button class="modal-close" onclick="closeModal('auth-modal')">✕</button>
+      <div class="auth-tabs">
+        <button class="auth-tab active" data-tab="login" onclick="switchAuthTab('login')">Giriş Yap</button>
+        <button class="auth-tab" data-tab="register" onclick="switchAuthTab('register')">Kayıt Ol</button>
+      </div>
+      <!-- Login Form -->
+      <form id="login-form" class="auth-form" onsubmit="handleLogin(event)">
+        <div class="form-group">
+          <label>E-posta</label>
+          <input type="email" id="login-email" required placeholder="mail@ornek.com">
+        </div>
+        <div class="form-group">
+          <label>Şifre</label>
+          <input type="password" id="login-password" required placeholder="••••••">
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Giriş Yap</button>
+        <div id="login-error" class="form-error hidden"></div>
+        <div class="divider"><span>veya</span></div>
+        <div id="google-btn-container" class="google-btn-container"></div>
+      </form>
+      <!-- Register Form -->
+      <form id="register-form" class="auth-form hidden" onsubmit="handleRegister(event)">
+        <div class="form-group">
+          <label>Ad Soyad</label>
+          <input type="text" id="register-name" required placeholder="Adınız Soyadınız">
+        </div>
+        <div class="form-group">
+          <label>E-posta</label>
+          <input type="email" id="register-email" required placeholder="mail@ornek.com">
+        </div>
+        <div class="form-group">
+          <label>Şifre</label>
+          <input type="password" id="register-password" required minlength="6" placeholder="En az 6 karakter">
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Kayıt Ol</button>
+        <div id="register-error" class="form-error hidden"></div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Note Modal -->
+  <div id="note-modal" class="modal hidden">
+    <div class="modal-overlay" onclick="closeModal('note-modal')"></div>
+    <div class="modal-content glass-card modal-large">
+      <button class="modal-close" onclick="closeModal('note-modal')">✕</button>
+      <h2>📝 Not Kaydet</h2>
+      <form id="note-form">
+        <div class="form-group">
+          <label>Başlık</label>
+          <input type="text" id="note-title" placeholder="Notun başlığı...">
+        </div>
+        <div id="note-ai-response-container" class="form-group hidden">
+          <label>Yapay Zeka Cevabı</label>
+          <div id="note-ai-response-display" class="note-box ai-box"
+            style="max-height: 200px; overflow-y: auto; background: var(--bg-secondary); padding: 10px; border-radius: 6px; font-size: 0.9em; border-left: 4px solid var(--primary-color);">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Düşünceleriniz</label>
+          <textarea id="note-content" rows="6" placeholder="Kendi notunuzu buraya yazın..."></textarea>
+        </div>
+        <div class="form-group">
+          <label>Vurgu Rengi</label>
+          <div class="color-options">
+            <label class="color-option">
+              <input type="radio" name="note-color" value="yellow" checked>
+              <span class="color-circle yellow" title="Sarı"></span>
+            </label>
+            <label class="color-option">
+              <input type="radio" name="note-color" value="green">
+              <span class="color-circle green" title="Yeşil"></span>
+            </label>
+            <label class="color-option">
+              <input type="radio" name="note-color" value="blue">
+              <span class="color-circle blue" title="Mavi"></span>
+            </label>
+            <label class="color-option">
+              <input type="radio" name="note-color" value="red">
+              <span class="color-circle red" title="Kırmızı"></span>
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Etiketler (virgülle ayırın)</label>
+          <input type="text" id="note-tags" placeholder="iman, tefekkür, haşir">
+        </div>
+        <input type="hidden" id="note-id">
+        <input type="hidden" id="note-source-text">
+        <input type="hidden" id="note-ai-response">
+        <div class="form-actions">
+          <button type="button" class="btn btn-ghost" onclick="closeModal('note-modal')">İptal</button>
+          <button type="button" class="btn btn-primary" onclick="handleSaveNote(event)">Kaydet</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Note View Modal -->
+  <div id="note-view-modal" class="modal hidden">
+    <div class="modal-overlay" onclick="closeModal('note-view-modal')"></div>
+    <div class="modal-content glass-card modal-large">
+      <button class="modal-close" onclick="closeModal('note-view-modal')">✕</button>
+      <div class="note-view-header">
+        <h2 id="view-note-title">Not Başlığı</h2>
+        <div id="view-note-date" class="note-date"></div>
+      </div>
+      <div class="note-view-body">
+        <div class="note-view-section">
+          <label>📝 İçerik</label>
+          <div id="view-note-content" class="note-box"></div>
+        </div>
+        <div id="view-note-ai-section" class="note-view-section hidden">
+          <label>🧠 Yapay Zeka Cevabı</label>
+          <div id="view-note-ai-response" class="note-box ai-box"></div>
+        </div>
+        <div id="view-note-source-section" class="note-view-section hidden">
+          <label>📖 Kaynak Metin</label>
+          <div id="view-note-source-text" class="note-box source-box"></div>
+        </div>
+      </div>
+      <div class="form-actions">
+        <button id="go-to-source-btn" class="btn btn-amber hidden">📖 Kaynağa Git</button>
+        <button class="btn btn-ghost" onclick="closeModal('note-view-modal')">Kapat</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Reference View Modal -->
+  <!-- Conversation View Modal -->
+  <div id="conv-view-modal" class="modal hidden">
+    <div class="modal-overlay" onclick="closeModal('conv-view-modal')"></div>
+    <div class="modal-content glass-card modal-large">
+      <button class="modal-close" onclick="closeModal('conv-view-modal')">✕</button>
+      <div class="note-view-header">
+        <h2 id="conv-view-title"></h2>
+      </div>
+      <div id="conv-view-messages" class="conv-view-messages"></div>
+      <div class="form-actions">
+        <button class="btn btn-outline" onclick="copyConvToClipboard()">📋 Kopyala</button>
+        <button class="btn btn-outline" onclick="shareConv()">🔗 Paylaş</button>
+        <button class="btn btn-ghost" onclick="closeModal('conv-view-modal')">Kapat</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="reference-view-modal" class="modal hidden">
+    <div class="modal-overlay" onclick="closeModal('reference-view-modal')"></div>
+    <div class="modal-content glass-card modal-large">
+      <button class="modal-close" onclick="closeModal('reference-view-modal')">✕</button>
+      <div class="note-view-header">
+        <h2 id="view-ref-title">Atıf Başlığı</h2>
+        <div id="view-ref-book" class="note-date"></div>
+      </div>
+      <div class="note-view-body">
+        <div class="note-view-section">
+          <div id="view-ref-content" class="reader-content ottoman-text" style="max-height: 60vh; overflow-y: auto;">
+          </div>
+        </div>
+      </div>
+      <div class="form-actions">
+        <button id="go-to-ref-source-btn" class="btn btn-amber">📖 Tamamına Git</button>
+        <button class="btn btn-ghost" onclick="closeModal('reference-view-modal')">Kapat</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notes Panel (Sidebar) -->
+  <div id="notes-panel" class="side-panel hidden">
+    <div class="panel-header">
+      <h2>📒 Notlarım</h2>
+      <button class="btn btn-ghost btn-sm" onclick="togglePanel('notes-panel')">✕</button>
+    </div>
+    <div id="notes-list" class="notes-list">
+      <div class="empty-state">Henüz not yok</div>
+    </div>
+  </div>
+
+  <!-- Insight Panel (Right Sidebar for AI Analysis) -->
+  <!-- Workspace Panel (Right Sidebar) -->
+  <div id="insight-panel" class="side-panel hidden side-panel-right">
+    <div class="resize-handle"></div>
+    <div class="panel-header">
+      <h2>🛠️ Atölye</h2>
+      <button class="btn btn-ghost btn-sm" onclick="togglePanel('insight-panel')">✕</button>
+    </div>
+
+    <!-- Mobile specific left-side close toggle (Mirrors the right side tab) -->
+    <div id="mobile-insight-close" class="mobile-side-tab-close hidden" onclick="togglePanel('insight-panel')">
+      <span>🛠️ Atölye</span>
+    </div>
+
+    <!-- Workspace Tabs -->
+    <div class="workspace-tabs">
+      <!-- <button class="ws-tab active" onclick="switchWorkspaceTab('references')">Atıflar</button> -->
+      <button class="ws-tab active" onclick="switchWorkspaceTab('analysis')">Analiz</button>
+      <button class="ws-tab" onclick="switchWorkspaceTab('bookmarks')">Ayraçlar</button>
+      <button class="ws-tab" onclick="switchWorkspaceTab('gecmis')">Geçmiş</button>
+      <button class="ws-tab" onclick="switchWorkspaceTab('notes')">Notlar</button>
+      <button class="ws-tab" onclick="switchWorkspaceTab('map')">Harita</button>
+    </div>
+
+    <!-- 0. References Tab (Disabled) -->
+    <!--
+    <div id="ws-references" class="ws-content active">
+      <div class="references-header">
+        <button class="btn btn-sm btn-outline" onclick="triggerReferenceAnalysis()">🔄 Analiz Et</button>
+      </div>
+      <div id="workspace-references-list" class="workspace-list">
+        <div class="empty-state-sm">
+          <div class="loader-sm"></div>
+          <p>Otomatik atıf taranıyor...</p>
+        </div>
+      </div>
+    </div>
+    -->
+
+    <!-- 1. Live Analysis Tab -->
+    <div id="ws-analysis" class="ws-content active">
+      <div id="insight-content" class="insight-content">
+        <div class="empty-state">
+          <div class="empty-icon">🔍</div>
+          <p>Analiz etmek istediğiniz bir kelimeyi veya cümleyi seçin</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. History (Geçmiş) Tab -->
+    <div id="ws-gecmis" class="ws-content hidden">
+      <div class="gecmis-header">
+        <span class="gecmis-title">Konuşmalar</span>
+      </div>
+      <div class="gecmis-filter-bar">
+        <input id="gecmis-search" type="text" placeholder="Ara..." oninput="onGecmisSearch(this.value)">
+        <select id="gecmis-sort" onchange="onGecmisSort(this.value)">
+          <option value="date-desc">Yeniden Eskiye</option>
+          <option value="date-asc">Eskiden Yeniye</option>
+          <option value="name-asc">A-Z</option>
+        </select>
+      </div>
+      <div id="gecmis-listesi" class="workspace-list scrolling-list"
+           ondragover="onUncatDragOver(event)"
+           ondragleave="onUncatDragLeave(event)"
+           ondrop="onUncatDrop(event)">
+        <div class="gecmis-empty">
+          Henüz konuşma yok.<br>
+          Bir soru sorarak başla.
+        </div>
+      </div>
+      <div class="gecmis-footer">
+        <button class="gecmis-add-cat-btn" onclick="createCategory()">+ Kategori Oluştur</button>
+      </div>
+    </div>
+
+    <!-- 3. Notes Tab -->
+    <div id="ws-notes" class="ws-content hidden">
+      <div id="workspace-notes-list" class="workspace-list">
+        <div class="empty-state-sm">Bu bölüme ait not yok.</div>
+      </div>
+      <button class="btn btn-outline btn-sm btn-full" onclick="openModal('note-modal')">+ Yeni Not Ekle</button>
+    </div>
+
+    <!-- 4. Map Tab -->
+    <div id="ws-map" class="ws-content hidden">
+      <div class="map-controls">
+        <input type="text" id="concept-map-input" placeholder="Merkez kavram yazın..."
+          onkeydown="if(event.key==='Enter')loadConceptMap(this.value)"
+          style="width: 100%; padding: 8px; border: 1px solid var(--border-color); border-radius: 6px; margin-bottom: 10px;">
+        <button class="btn btn-primary btn-sm btn-full"
+          onclick="loadConceptMap(document.getElementById('concept-map-input').value)">Haritayı Çiz</button>
+      </div>
+      <div id="concept-map-container"
+        style="width: 100%; height: 350px; background: rgba(var(--primary-rgb), 0.02); border-radius: 8px; margin-top: 10px; border: 1px dashed var(--border-color);">
+        <div class="empty-state-sm">Harita oluşturmak için bir kavram arayın veya analizden tetikleyin.</div>
+      </div>
+    </div>
+
+    <!-- 4. Bookmarks Tab -->
+    <div id="ws-bookmarks" class="ws-content hidden">
+      <div id="workspace-bookmarks-list" class="workspace-list">
+        <div class="empty-state-sm">Henüz eklenmiş ayraç yok.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ottoman Tooltip -->
+  <div id="ottoman-tooltip" class="ottoman-tooltip hidden">
+    <span class="tooltip-term"></span>
+    <span class="tooltip-meaning"></span>
+  </div>
+
+  <!-- Text Selection Popup -->
+  <div id="text-select-popup" class="hidden">
+    <button onclick="analyzeSelection()">🔍 Analiz</button>
+    <button onclick="getWordMeaning(event)">📖 Mana</button>
+    <button onclick="askSelection()">🤖 Sor</button>
+    <button onclick="highlightSelection()">🖍️ Çiz</button>
+    <button onclick="saveSelectionAsNote()">📝 Not</button>
+    <button onclick="copySelection()">📋</button>
+  </div>
+
+  <!-- Main App -->
+  <div id="app" class="app">
+    <!-- Header -->
+    <header class="header glass-bar">
+      <div class="header-left">
+        <button class="hamburger" onclick="toggleSidebar()" aria-label="Menü">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="logo"
+          onclick="switchView('chat'); if(window.innerWidth<=768){closeSidebarOnMobile();togglePanel('');}"
+          style="cursor: pointer;">
+          <div class="logo-text">NurZek</div>
+          <span class="logo-badge">AI</span>
+        </div>
+        <span class="logo-alpha">Public Alpha</span>
+        <div class="header-search">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="header-search-input" placeholder="Hızlı Erişim..."
+            onkeydown="if(event.key==='Enter')performHeaderSearch()">
+        </div>
+      </div>
+      <div class="header-center">
+        <nav class="main-nav">
+          <button class="nav-item active" data-view="chat" onclick="switchView('chat')">
+            <span class="nav-icon">💬</span> Soru Sor
+          </button>
+          <button class="nav-item" data-view="reader" onclick="switchView('reader')">
+            <span class="nav-icon">📖</span> Külliyat
+          </button>
+          <button class="nav-item" data-view="search" onclick="switchView('search')">
+            <span class="nav-icon">🔍</span> Ara
+          </button>
+        </nav>
+      </div>
+      <div class="header-right">
+        <button class="btn-about" onclick="openModal('about-modal')">Hakkında</button>
+        <button class="btn btn-ghost btn-icon" onclick="togglePanel('insight-panel')"
+          title="Atölye / Analiz">🛠️</button>
+        <button class="btn btn-ghost btn-icon" onclick="togglePanel('notes-panel')" title="Notlarım">📒</button>
+        <div id="user-area">
+          <button id="auth-btn" class="btn btn-amber" onclick="openModal('auth-modal')">Giriş Yap</button>
+          <div id="user-info" class="user-info hidden">
+            <span id="user-name" class="user-name"></span>
+            <button class="btn btn-ghost btn-sm" onclick="handleLogout()">Çıkış</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Insight Toggle (Side Tab) -->
+    <div id="mobile-insight-toggle" class="mobile-side-tab hidden" onclick="togglePanel('insight-panel')">
+      <span>🛠️ Atölye</span>
+    </div>
+
+    <!-- Sidebar -->
+    <aside id="sidebar" class="sidebar">
+      <div class="sidebar-section">
+        <h3>📚 Külliyat</h3>
+        <ul class="sidebar-list" id="book-list">
+          <li data-book="sozler">Sözler</li>
+          <li data-book="mektubat">Mektubat</li>
+          <li data-book="lemalar">Lem'alar</li>
+          <li data-book="sualar">Şuâlar</li>
+          <li data-book="tarihce-i-hayat">Tarihçe-i Hayat</li>
+          <li data-book="mesnevi-i-nuriye">Mesnevî-i Nuriye</li>
+          <li data-book="isaratul-icaz">İşaratü'l-İ'caz</li>
+          <li data-book="sikke-i-tasdik-i-gaybi">Sikke-i Tasdik-i Gaybî</li>
+          <li data-book="barla-lahikasi">Barla Lâhikası</li>
+          <li data-book="kastamonu-lahikasi">Kastamonu Lâhikası</li>
+          <li data-book="emirdag-lahikasi-i">Emirdağ Lâhikası I</li>
+          <li data-book="emirdag-lahikasi-ii">Emirdağ Lâhikası II</li>
+          <li data-book="asa-yi-musa">Asâ-yı Musa</li>
+          <li data-book="muhakemat">Muhakemat</li>
+          <li data-book="hutbe-i-samiye">Hutbe-i Şâmiye</li>
+          <li data-book="munazarat">Münâzarat</li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Chat View -->
+      <div id="view-chat" class="view active">
+        <div class="chat-container">
+          <!-- Welcome -->
+          <div id="chat-welcome" class="chat-welcome">
+            <!-- Günün Tefekkürü (Daily Quote) -->
+            <div id="daily-quote-container" class="daily-quote glass-card hidden"
+              style="margin-bottom: 30px; padding: 20px; text-align: left;">
+              <h3 style="margin: 0 0 10px 0; font-size: 1.1em; color: var(--primary);">✨ Günün Tefekkürü</h3>
+              <p id="daily-quote-text"
+                style="font-size: 1.05em; line-height: 1.6; margin-bottom: 15px; font-style: italic;"></p>
+              <div class="daily-quote-meta"
+                style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--border-color); padding-top: 10px;">
+                <span id="daily-quote-source"
+                  style="font-size: 0.85em; font-weight: 500; color: var(--text-secondary);"></span>
+                <div class="daily-quote-actions" style="display: flex; gap: 8px;">
+                  <button class="btn btn-ghost btn-sm" onclick="shareDailyQuote()" title="Bu pasajı kopyala ve paylaş"
+                    style="font-size: 0.85em;">🔗 Paylaş</button>
+                  <button class="btn btn-amber btn-sm" onclick="askAboutDailyQuote()" title="Bu pasaj hakkında soru sor"
+                    style="font-size: 0.85em;">💬 Soru Sor</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="welcome-icon">🕌</div>
+            <h2>NurZek'e Hoş Geldiniz</h2>
+            <p>NurZek, Risale-i Nur bilgi tabanından cevaplar üretir</p>
+            <div id="suggestion-chips" class="suggestion-chips"></div>
+          </div>
+
+          <!-- Chat Messages -->
+          <div id="chat-messages" class="chat-messages"></div>
+
+          <!-- Sources Panel -->
+          <div id="sources-panel" class="sources-panel hidden">
+            <div class="sources-header">
+              <h3>📑 Kaynak Metinler</h3>
+              <button class="btn btn-ghost btn-sm" onclick="toggleSources()">✕</button>
+            </div>
+            <div id="sources-list" class="sources-list"></div>
+          </div>
+        </div>
+
+        <!-- Chat Input -->
+        <div class="chat-input-area glass-bar">
+          <div class="input-wrapper">
+            <textarea id="chat-input" placeholder="Risale-i Nur hakkında bir soru sorun..." rows="1"
+              onkeydown="handleChatKeydown(event)" oninput="autoResize(this)"></textarea>
+            <button id="save-conv-btn" class="save-conv-btn" onclick="saveCurrentConversation()" title="Tüm konuşmayı kaydet">+</button>
+            <button id="send-btn" onclick="sendMessage()" title="Gönder">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="19" x2="12" y2="5"/>
+                <polyline points="5 12 12 5 19 12"/>
+              </svg>
+            </button>
+          </div>
+          <div class="input-footer">
+            <span class="input-hint">NurZek, Risale-i Nur bilgi tabanından cevaplar üretir.</span>
+            <span class="developer-credit">geliştiren: <a href="https://x.com/akinaysan"
+                target="_blank">moonface</a></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Reader View -->
+      <div id="view-reader" class="view hidden">
+          <div class="reader-nav-header">
+            <div class="reader-toolbar">
+              <!-- Left: Breadcrumbs -->
+              <div id="reader-breadcrumbs" class="breadcrumbs"></div>
+
+              <!-- Center: Tabs -->
+              <div id="reader-tabs" class="reader-tabs">
+                <!-- Dynamic Tabs Inject Here -->
+              </div>
+
+              <!-- Right: Navigation & Controls -->
+              <div class="reader-actions" style="position: relative;">
+                <button class="btn btn-ghost btn-sm" onclick="toggleReaderSettings()" title="Okuma Ayarları">⚙️</button>
+                <div id="reader-settings-dropdown" class="settings-dropdown hidden glass-card"
+                  style="position: absolute; right: 0; top: 100%; margin-top: 10px; width: 250px; z-index: 1000; padding: 15px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                  <div class="setting-group" style="margin-bottom: 15px;">
+                    <label
+                      style="display: block; font-size: 0.85em; font-weight: 500; margin-bottom: 8px; color: var(--text-secondary);">Yazı
+                      Boyutu</label>
+                    <div style="display: flex; gap: 10px;">
+                      <button class="btn btn-outline btn-sm" style="flex: 1;" onclick="changeFontSize(-1)">A-</button>
+                      <button class="btn btn-outline btn-sm" style="flex: 1;" onclick="changeFontSize(1)">A+</button>
+                    </div>
+                  </div>
+                  <div class="setting-group" style="margin-bottom: 15px;">
+                    <label
+                      style="display: block; font-size: 0.85em; font-weight: 500; margin-bottom: 8px; color: var(--text-secondary);">Satır
+                      Aralığı</label>
+                    <div style="display: flex; gap: 10px;">
+                      <button class="btn btn-outline btn-sm" style="flex: 1;"
+                        onclick="changeLineSpacing(-0.1)">-</button>
+                      <button class="btn btn-outline btn-sm" style="flex: 1;"
+                        onclick="changeLineSpacing(0.1)">+</button>
+                    </div>
+                  </div>
+                  <div class="setting-group">
+                    <label
+                      style="display: block; font-size: 0.85em; font-weight: 500; margin-bottom: 8px; color: var(--text-secondary);">Tema</label>
+                    <div style="display: flex; gap: 5px;">
+                      <button class="btn btn-outline btn-sm" style="flex: 1; background: #ffffff; color: #333;"
+                        onclick="changeTheme('light')">Açık</button>
+                      <button class="btn btn-outline btn-sm" style="flex: 1; background: #f4ecd8; color: #5c4b37;"
+                        onclick="changeTheme('sepia')">Sepya</button>
+                      <button class="btn btn-outline btn-sm" style="flex: 1; background: #1a1a1a; color: #fff;"
+                        onclick="changeTheme('dark')">Koyu</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="reader-nav-sticky">
+                  <button class="nav-prev btn btn-ghost btn-sm" onclick="navigateChapter(-1)">←</button>
+                  <div id="sticky-chapter-title" class="sticky-nav-title"></div>
+                  <button class="nav-next btn btn-ghost btn-sm" onclick="navigateChapter(1)">→</button>
+                </div>
+                <button id="bookmark-toggle" class="btn btn-ghost btn-icon" onclick="toggleBookmark()"
+                  title="Ayraç Ekle/Kaldır">🔖</button>
+              </div>
+            </div>
+          </div>
+        <div class="reader-container">
+          <div class="reader-header hidden">
+            <h2 id="reader-title">📖 Külliyat Okuyucu</h2>
+            <p id="reader-subtitle">Soldan bir kitap veya bölüm seçin</p>
+          </div>
+          <div id="reader-content" class="reader-content ottoman-text">
+            <div class="empty-state">
+              <div class="empty-icon">📚</div>
+              <p>Okumak istediğiniz kitabı sol menüden seçin</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Search View -->
+      <div id="view-search" class="view hidden">
+        <div class="search-container">
+          <div class="search-box">
+            <input type="text" id="search-input" placeholder="Külliyat'ta ara..."
+              onkeydown="if(event.key==='Enter')performSearch()">
+            <button class="btn btn-amber" onclick="performSearch()">🔍 Ara</button>
+          </div>
+          <div id="search-results" class="search-results"></div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Toast Notifications Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <script src="src/main.js?v=22"></script>
+</body>
+
+</html>

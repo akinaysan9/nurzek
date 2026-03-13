@@ -1,0 +1,600 @@
+/* Extra overrides for user preferences */
+.reader-container {
+    max-width: 1400px !important;
+    width: 95% !important;
+    transition: max-width 0.3s ease, width 0.3s ease;
+}
+
+/* Ensure responsiveness on smaller screens */
+@media (max-width: 1450px) {
+    .reader-container {
+        max-width: 95% !important;
+    }
+}
+
+/* Panel Docking */
+/* Panel Docking - Uses dynamic width from resizer */
+body.insight-panel-open .main-content {
+    margin-right: var(--insight-width);
+    width: calc(100% - var(--sidebar-w) - var(--insight-width));
+}
+
+/* Z-Index Hierarchy */
+:root {
+    --z-modal: 1050;
+    --z-panel: 1040;
+    /* Sidebars */
+    --z-header: 1030;
+    --z-content: 1000;
+}
+
+.header {
+    z-index: var(--z-header);
+}
+
+.side-panel,
+.sidebar {
+    z-index: var(--z-panel);
+}
+
+.modal {
+    z-index: var(--z-modal);
+}
+
+/* Mobile Overrides for Panels */
+@media (max-width: 768px) {
+
+    .side-panel,
+    .sidebar {
+        z-index: 1045 !important;
+        /* Higher than header on mobile */
+        top: 0 !important;
+        height: 100vh !important;
+        padding-top: 60px;
+        /* Space for internal header if needed, or adjust */
+    }
+
+    /* Ensure close buttons are visible and accessible */
+    .panel-header {
+        position: sticky;
+        top: 0;
+        background: var(--bg-primary);
+        /* Ensure opaque background */
+        z-index: 1050;
+        padding: 10px 15px;
+    }
+}
+
+
+body.insight-panel-open .side-panel-right {
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    border-left: 1px solid var(--border-color);
+}
+
+/* Reader Container Adjustments */
+body.insight-panel-open .reader-container {
+    max-width: 100%;
+}
+
+/* Highlight Colors */
+.highlight-yellow {
+    background-color: rgba(255, 235, 59, 0.4);
+    border-bottom: 2px solid #fbc02d;
+}
+
+.highlight-green {
+    background-color: rgba(76, 175, 80, 0.3);
+    border-bottom: 2px solid #43a047;
+}
+
+.highlight-blue {
+    background-color: rgba(33, 150, 243, 0.3);
+    border-bottom: 2px solid #1e88e5;
+}
+
+.highlight-red {
+    background-color: rgba(244, 67, 54, 0.3);
+    border-bottom: 2px solid #e53935;
+}
+
+/* ═══ Boxed Note Styles (User Request: Complete Fill) ═══ */
+/* Increased opacity for "fill" effect, removed border for cleaner look or kept it subtle */
+.highlight-note-yellow {
+    background-color: rgba(255, 235, 59, 0.5);
+    /* Stronger fill */
+    border-radius: 4px;
+    padding: 2px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    color: #000;
+    /* Ensure text is readable */
+}
+
+.highlight-note-green {
+    background-color: rgba(76, 175, 80, 0.4);
+    border-radius: 4px;
+    padding: 2px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    color: #000;
+}
+
+.highlight-note-blue {
+    background-color: rgba(33, 150, 243, 0.4);
+    border-radius: 4px;
+    padding: 2px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    color: #000;
+}
+
+.highlight-note-red {
+    background-color: rgba(244, 67, 54, 0.4);
+    border-radius: 4px;
+    padding: 2px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    color: #000;
+}
+
+/* Color Picker UI */
+.color-options {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.color-option {
+    cursor: pointer;
+    position: relative;
+}
+
+.color-option input {
+    display: none;
+}
+
+.color-circle {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.color-option input:checked+.color-circle {
+    transform: scale(1.2);
+    border-color: var(--text-color);
+}
+
+.color-circle.yellow {
+    background-color: #ffeb3b;
+}
+
+.color-circle.green {
+    background-color: #4caf50;
+}
+
+.color-circle.blue {
+    background-color: #2196f3;
+}
+
+.color-circle.red {
+    background-color: #f44336;
+}
+
+
+/* Definition Popup (Quick Meaning) */
+.definition-popup {
+    position: fixed;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    padding: 12px;
+    max-width: 300px;
+    z-index: 1000;
+    font-size: 0.95em;
+    animation: fadeIn 0.2s ease-out;
+}
+
+.def-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 4px;
+}
+
+.def-header strong {
+    color: var(--accent-color);
+}
+
+.def-header button {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: var(--text-secondary);
+    padding: 0 4px;
+}
+
+.def-content {
+    line-height: 1.5;
+    color: var(--text-primary);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* References Styling */
+.reference-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-left: 3px solid transparent;
+}
+
+.reference-card.active,
+.reference-card:hover {
+    border-color: var(--amber);
+    border-left-color: var(--amber);
+    box-shadow: var(--shadow);
+    background: var(--bg-tertiary);
+}
+
+.ref-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+    font-size: 0.85rem;
+}
+
+.ref-book {
+    font-weight: 600;
+    color: var(--amber-dark);
+}
+
+.ref-score {
+    background: var(--bg-tertiary);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.ref-section {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-bottom: 6px;
+}
+
+.ref-excerpt {
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    line-height: 1.4;
+    display: -webkit-box;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.references-header {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Highlight fix */
+.search-result-text mark {
+    background-color: var(--amber) !important;
+    color: #fff !important;
+}
+
+/* ═══ Reader Settings (Step 5) ═══ */
+:root {
+    --reader-font-size: 17px;
+    --reader-line-height: 1.8;
+    /* Colors managed via theme */
+}
+
+/* Force override style.css hardcoded values */
+body .reader-content,
+body[data-theme="light"] .reader-content,
+body[data-theme="dark"] .reader-content,
+body[data-theme="sepia"] .reader-content {
+    font-size: var(--reader-font-size) !important;
+    line-height: var(--reader-line-height) !important;
+    color: var(--text-color) !important;
+    transition: all 0.2s ease;
+}
+
+body[data-theme="dark"] .reader-content h1,
+body[data-theme="dark"] .reader-content h2,
+body[data-theme="dark"] .reader-content h3,
+body[data-theme="sepia"] .reader-content h1,
+body[data-theme="sepia"] .reader-content h2,
+body[data-theme="sepia"] .reader-content h3 {
+    color: var(--primary) !important;
+}
+
+body .reader-content p {
+    color: var(--text-color) !important;
+}
+
+/* User Request: Center and enlarge reading area by 40% */
+.reader-content {
+    max-width: 1200px !important;
+    width: 90% !important;
+    margin: 0 auto !important;
+}
+
+
+.reader-body {
+    max-width: 100% !important;
+    text-align: left !important;
+    line-height: 1.8;
+}
+
+
+
+/* Simplified Mode Styles */
+.simplified-mode {
+    font-family: 'Inter', system-ui, sans-serif !important;
+    line-height: 1.8 !important;
+    color: var(--text-primary);
+}
+
+.simplified-mode p {
+    margin-bottom: 24px;
+}
+
+/* Ensure tabs container doesn't break layout */
+#reader-tabs-container {
+    display: flex;
+    align-items: center;
+}
+
+.loading-state .spinner {
+    margin: 0 auto 15px;
+}
+
+/* Modal Content Styles */
+#view-ref-content p {
+    margin-bottom: 1em;
+    line-height: 1.8;
+}
+
+.highlight-ref {
+    background-color: rgba(255, 193, 7, 0.2);
+    border-bottom: 2px solid var(--amber);
+}
+
+/* Text Selection Popup - Fixed Position Override */
+#text-select-popup {
+    position: fixed !important;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 6px;
+    z-index: 9999;
+    display: flex;
+    gap: 8px;
+    transition: opacity 0.2s;
+}
+
+#text-select-popup.hidden {
+    display: none !important;
+}
+
+#text-select-popup button {
+    background: transparent;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--text-primary);
+    font-size: 0.9em;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+#text-select-popup button:hover {
+    background: var(--bg-tertiary);
+}
+
+/* ═══ NEW: Arabic & Footnote Styling ═══ */
+
+/* Arabic Text Styling (Red, Large, Readable) */
+.arabic-text {
+    color: #d32f2f;
+    /* Material Red 700 - Distinct & Readable */
+    font-size: 1.6em;
+    line-height: 2.0;
+    font-family: 'Scheherazade New', 'Amiri', 'Traditional Arabic', serif;
+    direction: rtl;
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 8px 0;
+    font-weight: 500;
+}
+
+/* Dark Mode Adjustment for Arabic */
+@media (prefers-color-scheme: dark) {
+    .arabic-text {
+        color: #ef5350;
+        /* Light Red for Dark Mode */
+    }
+}
+
+/* Footnote Link Styling */
+.hasiye-link {
+    color: var(--amber);
+    font-weight: bold;
+    font-size: 0.8em;
+    vertical-align: super;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0 2px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.hasiye-link:hover {
+    background: rgba(255, 193, 7, 0.2);
+    text-decoration: underline;
+}
+
+/* Footnote Popup Styling */
+.footnote-popup {
+    position: absolute;
+    /* Changed from fixed to absolute to scroll with content if needed */
+    background: var(--bg-secondary);
+    border: 1px solid var(--amber);
+    border-left: 4px solid var(--amber);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 12px 16px;
+    max-width: 350px;
+    z-index: 1000;
+    font-size: 0.9em;
+    line-height: 1.5;
+    animation: slideUp 0.2s ease-out;
+}
+
+.footnote-popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: var(--amber-dark);
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.footnote-popup-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: var(--text-secondary);
+    padding: 0 4px;
+}
+
+.footnote-content {
+    color: var(--text-primary);
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ═══ MOBILE OVERRIDES (extra.css) ═══ */
+@media (max-width: 768px) {
+
+    /* Override !important rules for mobile */
+    .reader-container {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    .reader-content {
+        max-width: 100% !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    body.insight-panel-open .main-content {
+        margin-right: 0 !important;
+        width: 100% !important;
+    }
+
+    .footnote-popup {
+        max-width: 85vw;
+        left: 5vw !important;
+        right: 5vw !important;
+    }
+
+    .definition-popup {
+        max-width: 85vw;
+    }
+
+    .arabic-text {
+        font-size: 1.3em;
+    }
+
+    /* Fixed Chat Input for Mobile */
+    .chat-input-area {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1020;
+        background: var(--bg-secondary);
+        padding: 10px;
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 0;
+    }
+
+    .chat-container {
+        padding-bottom: 90px;
+        /* Space for fixed input */
+    }
+
+    /* Bottom Drawer for Atölye (Right Panel) */
+    .side-panel-right {
+        top: auto !important;
+        bottom: -100% !important;
+        right: 0 !important;
+        width: 100% !important;
+        height: 80vh !important;
+        border-radius: 24px 24px 0 0;
+        transition: bottom 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: 0 -5px 25px rgba(0, 0, 0, 0.15) !important;
+        z-index: 1060 !important;
+        /* Give priority to drawer */
+    }
+
+    body.insight-panel-open .side-panel-right {
+        bottom: 0 !important;
+        transform: none !important;
+        /* Cancel horizontally slide if style.css has it */
+    }
+}

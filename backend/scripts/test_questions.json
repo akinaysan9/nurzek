@@ -1,0 +1,312 @@
+[
+    {
+        "id": 1,
+        "question": "30. Lema’da geçen “Ene” kelimesinin metafizik anlamı nedir?",
+        "type": "concept",
+        "expected_canonical": "Lem'alar / 30. Lem'a"
+    },
+    {
+        "id": 2,
+        "question": "Risale-i Nur’a göre insan nefsinin temel eğilimleri nelerdir ve bu eğilimler nasıl kontrol edilir?",
+        "type": "concept"
+    },
+    {
+        "id": 3,
+        "question": "Bediüzzaman’a göre “tesadüf” kavramı hangi bağlamda reddedilmiştir?",
+        "type": "concept",
+        "expected_canonical": "23. Lem'a"
+    },
+    {
+        "id": 4,
+        "question": "Risale-i Nur’da “Vahdet-i Vücut” ile tevhid inancı arasındaki fark nasıl vurgulanır?",
+        "type": "concept",
+        "expected_canonical": "Mektubat / 18. Mektup"
+    },
+    {
+        "id": 5,
+        "question": "Nursi’nin eserlerinde Allah’ın isim ve sıfatlarının tecellisi kavramı nasıl açıklanır?",
+        "type": "concept"
+    },
+    {
+        "id": 6,
+        "question": "Risale-i Nur’a göre insanın yaradılıştaki en önemli görevi nedir?",
+        "type": "concept"
+    },
+    {
+        "id": 7,
+        "question": "Nefs’in emmare, levvame ve mutmainne mertebeleri Risale-i Nur’da nasıl tanımlanır?",
+        "type": "concept"
+    },
+    {
+        "id": 8,
+        "question": "Risale-i Nur’da “hikmet-i ilahiye” (ilahi hikmet) kavramının önemi nedir?",
+        "type": "concept"
+    },
+    {
+        "id": 9,
+        "question": "Risale-i Nur’da “kuvve-i muhitte” kavramı ne anlama gelir?",
+        "type": "concept"
+    },
+    {
+        "id": 10,
+        "question": "Risale-i Nur’daki farklı âlemler tasavvuru (örneğin ruhani ve cismani âlem farkı) nasıl açıklanır?",
+        "type": "concept"
+    },
+    {
+        "id": 11,
+        "question": "Risale-i Nur’da “marifetullah” (Allah’ı bilme/ilim) nedir ve nasıl anlatılır?",
+        "type": "concept"
+    },
+    {
+        "id": 12,
+        "question": "Nursi’nin eserlerinde insanın var oluş gayesi (yaşam amacı) nasıl açıklanır?",
+        "type": "concept"
+    },
+    {
+        "id": 13,
+        "question": "Risale-i Nur’a göre her musibette saklı bir hayır olduğunu nasıl kanıtlar?",
+        "type": "concept"
+    },
+    {
+        "id": 14,
+        "question": "Risale-i Nur’da merhamet nasıl tanımlanır ve Allah’ın bu sıfatı nasıl açıklanır?",
+        "type": "concept"
+    },
+    {
+        "id": 15,
+        "question": "Risale-i Nur’da “iman kuvveti” ne demektir ve nasıl oluşur?",
+        "type": "concept"
+    },
+    {
+        "id": 16,
+        "question": "Risale-i Nur’un en temel evrensel mesajlarından biri nedir?",
+        "type": "concept"
+    },
+    {
+        "id": 17,
+        "question": "Risale-i Nur’da “hudûd-i ilahiye” (Allah’ın koyduğu sınırlar) nasıl belirtilmiştir?",
+        "type": "concept"
+    },
+    {
+        "id": 18,
+        "question": "Risale-i Nur metinlerinde mucize kavramı nasıl tanımlanmıştır?",
+        "type": "concept",
+        "expected_canonical": "Mektubat / 19. Mektup"
+    },
+    {
+        "id": 19,
+        "question": "Risale-i Nur’a göre evrendeki düzen ve intizamın arkasında ne vardır?",
+        "type": "concept"
+    },
+    {
+        "id": 20,
+        "question": "Risale-i Nur’da insanın akıl ve kalp ilişkisi nasıl değerlendirilir?",
+        "type": "concept"
+    },
+    {
+        "id": 21,
+        "question": "Sözler ve Mektubat’ta “zerre” (atom) metaforu nasıl ele alınmıştır?",
+        "type": "cross_ref",
+        "expected_canonical": "Sözler / 30. Söz"
+    },
+    {
+        "id": 22,
+        "question": "Mektubat ve Şualar’da tevazu (alçak gönüllülük) teması nasıl işlenmiştir?",
+        "type": "cross_ref"
+    },
+    {
+        "id": 23,
+        "question": "Sözler ve Şualar’da insanın nefs eğitimiyle ilgili hangi benzetmeler kullanılmıştır?",
+        "type": "cross_ref"
+    },
+    {
+        "id": 24,
+        "question": "Mektubat ve Mesnevî-i Nuriye’de mucize ve deliller nasıl karşılaştırılmıştır?",
+        "type": "cross_ref"
+    },
+    {
+        "id": 25,
+        "question": "Sözler ve “Asa’yı Musa” eserinde insanın akıl-kalp ilişkisi nasıl açıklanır?",
+        "type": "cross_ref"
+    },
+    {
+        "id": 26,
+        "question": "Şualar ve Sözler’de ümit (umut) ve dua teması nasıl yansıtılmıştır?",
+        "type": "cross_ref"
+    },
+    {
+        "id": 27,
+        "question": "Mektubat ve Sözler’de Hz. Musa kıssasından alınan ibretler nasıldır?",
+        "type": "cross_ref"
+    },
+    {
+        "id": 28,
+        "question": "Sözler ve Mesnevî-i Nuriye’de dünyevî saadetin gerçek anlamı nasıl açıklanır?",
+        "type": "cross_ref"
+    },
+    {
+        "id": 29,
+        "question": "Mesnevî-i Nuriye ve Sözler’de bir musibet karşısında sabrın anlamı nasıl vurgulanır?",
+        "type": "cross_ref",
+        "expected_canonical": "Lem'alar / 2. Lem'a"
+    },
+    {
+        "id": 30,
+        "question": "Şualar ve Mektubat’ta “yaratılış amacı” nasıl açıklanır?",
+        "type": "cross_ref"
+    },
+    {
+        "id": 31,
+        "question": "Sözler ve Mektubat’ta imanın toplumsal hayata etkisi nasıl ele alınmıştır?",
+        "type": "cross_ref"
+    },
+    {
+        "id": 32,
+        "question": "Sözler ve Mesnevî’de kainattaki hikmetlere işaret eden örnekler nelerdir?",
+        "type": "cross_ref"
+    },
+    {
+        "id": 33,
+        "question": "“Asa’yı Musa” ve Mektubat’ta Hz. Musa olayından ne gibi dersler çıkarılır?",
+        "type": "cross_ref"
+    },
+    {
+        "id": 34,
+        "question": "Şualar ve Sözler’de delillerin gücü ve insanın şükür yükümlülüğü nasıl işlenir?",
+        "type": "cross_ref"
+    },
+    {
+        "id": 35,
+        "question": "Mektubat ve Mesnevî’de insanın kâmil hâle gelme süreci nasıl tarif edilir?",
+        "type": "cross_ref"
+    },
+    {
+        "id": 36,
+        "question": "Şualar ve Sözler’de insanın zayıflıkları ile ilahi yardım teması nasıl birleştirilmiştir?",
+        "type": "cross_ref"
+    },
+    {
+        "id": 37,
+        "question": "Mesnevî-i Nuriye ve “Asa’yı Musa”da imtihan konusundaki yaklaşımlar nelerdir?",
+        "type": "cross_ref"
+    },
+    {
+        "id": 38,
+        "question": "Sözler ve Mektubat’ta kıyamet alametlerinden örnekler nasıl anlatılır?",
+        "type": "cross_ref",
+        "expected_canonical": "Şualar / 5. Şua"
+    },
+    {
+        "id": 39,
+        "question": "Mektubat ve Şualar’da dua ve Rab ile yakınlık ilişkisi nasıl açıklanır?",
+        "type": "cross_ref"
+    },
+    {
+        "id": 40,
+        "question": "Sözler ve Sikke-i Tasdik-i Gaybi’de manevi yükseliş yolları nasıl tarif edilmiştir?",
+        "type": "cross_ref"
+    },
+    {
+        "id": 41,
+        "question": "Risale-i Nur’da insan özgür iradesinin sınırları nasıl tanımlanır?",
+        "type": "inference",
+        "expected_canonical": "Sözler / 26. Söz"
+    },
+    {
+        "id": 42,
+        "question": "Risale-i Nur metinlerine göre Allah’a olan güven (tevekkül) insan hayatını nasıl etkiler?",
+        "type": "inference"
+    },
+    {
+        "id": 43,
+        "question": "Risale-i Nur’da gerçek huzur ve mutluluk nasıl tarif edilir?",
+        "type": "inference"
+    },
+    {
+        "id": 44,
+        "question": "Risale-i Nur’da sıkıntıların ve imtihanların ilahi hikmeti nasıl açıklanmıştır?",
+        "type": "inference"
+    },
+    {
+        "id": 45,
+        "question": "Risale-i Nur’a göre imanın güçlenme yolları nelerdir?",
+        "type": "inference"
+    },
+    {
+        "id": 46,
+        "question": "Risale-i Nur’un temel mesajlarından biri olan “çok bilmek ile çok inanmak arasındaki ilişki” nasıl ifade edilir?",
+        "type": "inference"
+    },
+    {
+        "id": 47,
+        "question": "Risale-i Nur’da dünyevi hayatın geçiciliği ve ahiret hayatının önemi nasıl vurgulanır?",
+        "type": "inference"
+    },
+    {
+        "id": 48,
+        "question": "Risale-i Nur’da insanın acizliği ve Allah’ın kudreti ilişkisi nasıl anlatılır?",
+        "type": "inference"
+    },
+    {
+        "id": 49,
+        "question": "Risale-i Nur’da dünyadaki zorlukların ardından gelecek rahmet ve kerem nasıl anlatılabilir?",
+        "type": "inference"
+    },
+    {
+        "id": 50,
+        "question": "Risale-i Nur metinlerine göre insanın gerçek değeri neye göre belirlenir?",
+        "type": "inference",
+        "expected_canonical": "Sözler / 23. Söz"
+    },
+    {
+        "id": 51,
+        "question": "Risale-i Nur’dan alınacak derslerle bir kimsenin yaşam felsefesi nasıl şekillendirilebilir?",
+        "type": "inference"
+    },
+    {
+        "id": 52,
+        "question": "Risale-i Nur’a göre toplumsal sorunlara karşı bireyin tutumu nasıl olmalıdır?",
+        "type": "inference"
+    },
+    {
+        "id": 53,
+        "question": "Risale-i Nur’da insanın kendini bilmesi nasıl teşvik edilir?",
+        "type": "inference"
+    },
+    {
+        "id": 54,
+        "question": "Risale-i Nur’da doğa olayları (deprem, tufan vb.) ne şekilde yorumlanmıştır?",
+        "type": "inference",
+        "expected_canonical": "Sözler / 14. Söz"
+    },
+    {
+        "id": 55,
+        "question": "Risale-i Nur’da umut ve umutsuzluk arasındaki fark nasıl ele alınır?",
+        "type": "inference"
+    },
+    {
+        "id": 56,
+        "question": "Risale-i Nur’a göre gerçek adalet nasıl sağlanır?",
+        "type": "inference"
+    },
+    {
+        "id": 57,
+        "question": "Risale-i Nur’da insanın imtihandaki rolü nasıl açıklanır?",
+        "type": "inference"
+    },
+    {
+        "id": 58,
+        "question": "Risale-i Nur’da toplumsal dayanışmanın önemi nasıl vurgulanmıştır?",
+        "type": "inference"
+    },
+    {
+        "id": 59,
+        "question": "Risale-i Nur’da Allah’ın af ve rahmeti metinlerden hareketle nasıl yorumlanabilir?",
+        "type": "inference"
+    },
+    {
+        "id": 60,
+        "question": "Risale-i Nur’da “dünya hayatının gerçek değeri” nedir ve nasıl anlaşılır?",
+        "type": "inference"
+    }
+]

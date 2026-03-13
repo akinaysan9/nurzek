@@ -1,0 +1,9 @@
+node_modules/
+venv/
+.env
+.db
+.faiss
+.pkl
+*.db
+*.faiss
+*.pkl

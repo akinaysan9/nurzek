@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"C:\\\\Users\\\\aysan\\\\Desktop\\\\risale-nur-ai\\\\backend\\\\db\"\" 2>&1 || echo \"Directory not found \")",
+      "Bash(test:*)",
+      "Bash(powershell -Command:*)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\aysan\\Desktop\\production_build\\app\\backend",
+      "C:\\Users\\aysan\\Desktop\\production_build\\app\\rag_service"
+    ]
+  }
+}

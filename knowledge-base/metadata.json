@@ -1,0 +1,2255 @@
+{
+  "kulliyat": [
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Birinci Söz",
+      "filePath": "kulliyat/sozler/001-birinci-soz.md",
+      "charCount": 18580
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "İkinci Söz",
+      "filePath": "kulliyat/sozler/002-ikinci-soz-2.md",
+      "charCount": 3441
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Üçüncü Söz",
+      "filePath": "kulliyat/sozler/003-ucuncu-soz-2.md",
+      "charCount": 3743
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Dördüncü Söz",
+      "filePath": "kulliyat/sozler/004-dorduncu-soz.md",
+      "charCount": 2691
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Beşinci Söz",
+      "filePath": "kulliyat/sozler/005-besinci-soz.md",
+      "charCount": 3654
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Altıncı Söz",
+      "filePath": "kulliyat/sozler/006-altinci-soz.md",
+      "charCount": 7442
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Yedinci Söz",
+      "filePath": "kulliyat/sozler/007-yedinci-soz.md",
+      "charCount": 6905
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Sekizinci Söz",
+      "filePath": "kulliyat/sozler/008-sekizinci-soz.md",
+      "charCount": 11390
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Dokuzuncu Söz",
+      "filePath": "kulliyat/sozler/009-dokuzuncu-soz.md",
+      "charCount": 13880
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Onuncu Söz",
+      "filePath": "kulliyat/sozler/010-onuncu-soz.md",
+      "charCount": 137011
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "On Birinci Söz",
+      "filePath": "kulliyat/sozler/011-on-birinci-soz.md",
+      "charCount": 18250
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "On İkinci Söz",
+      "filePath": "kulliyat/sozler/012-on-ikinci-soz.md",
+      "charCount": 11854
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "On Üçüncü Söz",
+      "filePath": "kulliyat/sozler/013-on-ucuncu-soz.md",
+      "charCount": 45056
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "On Dördüncü Söz",
+      "filePath": "kulliyat/sozler/014-on-dorduncu-soz.md",
+      "charCount": 22084
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "On Beşinci Söz",
+      "filePath": "kulliyat/sozler/015-on-besinci-soz.md",
+      "charCount": 30991
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "On Altıncı Söz",
+      "filePath": "kulliyat/sozler/016-on-altinci-soz.md",
+      "charCount": 15614
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "On Yedinci Söz",
+      "filePath": "kulliyat/sozler/017-on-yedinci-soz.md",
+      "charCount": 34578
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "On Sekizinci Söz",
+      "filePath": "kulliyat/sozler/018-on-sekizinci-soz.md",
+      "charCount": 7153
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "On Dokuzuncu Söz",
+      "filePath": "kulliyat/sozler/019-on-dokuzuncu-soz.md",
+      "charCount": 18878
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Yirminci Söz",
+      "filePath": "kulliyat/sozler/020-yirminci-soz.md",
+      "charCount": 43450
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Yirmi Birinci Söz",
+      "filePath": "kulliyat/sozler/021-yirmi-birinci-soz.md",
+      "charCount": 19231
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Yirmi İkinci Söz",
+      "filePath": "kulliyat/sozler/022-yirmi-ikinci-soz.md",
+      "charCount": 62810
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Yirmi Üçüncü Söz",
+      "filePath": "kulliyat/sozler/023-yirmi-ucuncu-soz.md",
+      "charCount": 40231
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Yirmi Dördüncü Söz",
+      "filePath": "kulliyat/sozler/024-yirmi-dorduncu-soz.md",
+      "charCount": 66531
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Yirmi Beşinci Söz",
+      "filePath": "kulliyat/sozler/025-yirmi-besinci-soz-2.md",
+      "charCount": 186170
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Yirmi Altıncı Söz",
+      "filePath": "kulliyat/sozler/026-yirmi-altinci-soz.md",
+      "charCount": 30715
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Yirmi Yedinci Söz",
+      "filePath": "kulliyat/sozler/027-yirmi-yedinci-soz.md",
+      "charCount": 32803
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Yirmi Sekizinci Söz",
+      "filePath": "kulliyat/sozler/028-yirmi-sekizinci-soz.md",
+      "charCount": 13328
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Yirmi Dokuzuncu Söz",
+      "filePath": "kulliyat/sozler/029-yirmi-dokuzuncu-soz.md",
+      "charCount": 63361
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Otuzuncu Söz",
+      "filePath": "kulliyat/sozler/030-otuzuncu-soz.md",
+      "charCount": 47932
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Otuz Birinci Söz",
+      "filePath": "kulliyat/sozler/031-otuz-birinci-soz.md",
+      "charCount": 60407
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Otuz İkinci Söz",
+      "filePath": "kulliyat/sozler/032-otuz-ikinci-soz.md",
+      "charCount": 117774
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Otuz Üçüncü Söz",
+      "filePath": "kulliyat/sozler/033-otuz-ucuncu-soz.md",
+      "charCount": 69414
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Lemeat",
+      "filePath": "kulliyat/sozler/034-lemaat.md",
+      "charCount": 79001
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Konferans",
+      "filePath": "kulliyat/sozler/035-konferans-sozler.md",
+      "charCount": 49806
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sözler",
+      "bookSlug": "sozler",
+      "section": "Fihrist",
+      "filePath": "kulliyat/sozler/036-fihrist-sozler.md",
+      "charCount": 23082
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Birinci Mektup",
+      "filePath": "kulliyat/mektubat/001-birinci-mektup.md",
+      "charCount": 14055
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "İkinci Mektup",
+      "filePath": "kulliyat/mektubat/002-ikinci-mektup.md",
+      "charCount": 3028
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Üçüncü Mektup",
+      "filePath": "kulliyat/mektubat/003-ucuncu-mektup.md",
+      "charCount": 6383
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Dördüncü Mektup",
+      "filePath": "kulliyat/mektubat/004-dorduncu-mektup.md",
+      "charCount": 3243
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Beşinci Mektup",
+      "filePath": "kulliyat/mektubat/005-besinci-mektup.md",
+      "charCount": 2519
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Altıncı Mektup",
+      "filePath": "kulliyat/mektubat/006-altinci-mektup.md",
+      "charCount": 3862
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Yedinci Mektup",
+      "filePath": "kulliyat/mektubat/007-yedinci-mektup.md",
+      "charCount": 3716
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Sekizinci Mektup",
+      "filePath": "kulliyat/mektubat/008-sekizinci-mektup.md",
+      "charCount": 2849
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Dokuzuncu Mektup",
+      "filePath": "kulliyat/mektubat/009-dokuzuncu-mektup.md",
+      "charCount": 6834
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Onuncu Mektup",
+      "filePath": "kulliyat/mektubat/010-onuncu-mektup.md",
+      "charCount": 4734
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "On Birinci Mektup",
+      "filePath": "kulliyat/mektubat/011-on-birinci-mektup.md",
+      "charCount": 4082
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "On İkinci Mektup",
+      "filePath": "kulliyat/mektubat/012-on-ikinci-mektup.md",
+      "charCount": 8211
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "On Üçüncü Mektup",
+      "filePath": "kulliyat/mektubat/013-on-ucuncu-mektup.md",
+      "charCount": 7415
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "On Beşinci Mektup",
+      "filePath": "kulliyat/mektubat/015-on-besinci-mektup.md",
+      "charCount": 19501
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "On Altıncı Mektup",
+      "filePath": "kulliyat/mektubat/016-on-altinci-mektup.md",
+      "charCount": 29333
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "On Yedinci Mektup",
+      "filePath": "kulliyat/mektubat/017-on-yedinci-mektup.md",
+      "charCount": 5573
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "On Sekizinci Mektup",
+      "filePath": "kulliyat/mektubat/018-on-sekizinci-mektup.md",
+      "charCount": 12804
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "On Dokuzuncu Mektup",
+      "filePath": "kulliyat/mektubat/019-on-dokuzuncu-mektup.md",
+      "charCount": 250224
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Yirminci Mektup",
+      "filePath": "kulliyat/mektubat/020-yirminci-mektup.md",
+      "charCount": 71184
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Yirmi Birinci Mektup",
+      "filePath": "kulliyat/mektubat/021-yirmi-birinci-mektup.md",
+      "charCount": 4887
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Yirmi İkinci Mektup",
+      "filePath": "kulliyat/mektubat/022-yirmi-ikinci-mektup.md",
+      "charCount": 26019
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Yirmi Üçüncü Mektup",
+      "filePath": "kulliyat/mektubat/023-yirmi-ucuncu-mektup.md",
+      "charCount": 9819
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Yirmi Dördüncü Mektup",
+      "filePath": "kulliyat/mektubat/024-yirmi-dorduncu-mektup.md",
+      "charCount": 45243
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Yirmi Altıncı Mektup",
+      "filePath": "kulliyat/mektubat/026-yirmi-altinci-mektup.md",
+      "charCount": 65000
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Yirmi Yedinci Mektup",
+      "filePath": "kulliyat/mektubat/027-yirmi-yedinci-mektup.md",
+      "charCount": 407
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Yirmi Sekizinci Mektup",
+      "filePath": "kulliyat/mektubat/028-yirmi-sekizinci-mektup.md",
+      "charCount": 78723
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Yirmi Dokuzuncu Mektup",
+      "filePath": "kulliyat/mektubat/029-yirmi-dokuzuncu-mektup.md",
+      "charCount": 141526
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Otuz İkinci Mektup",
+      "filePath": "kulliyat/mektubat/032-otuz-ikinci-mektup.md",
+      "charCount": 146
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Otuz Üçüncü Mektup",
+      "filePath": "kulliyat/mektubat/033-otuz-ucuncu-mektup.md",
+      "charCount": 166
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "İşarat-ı Gaybiye Hakkında Bir Takriz",
+      "filePath": "kulliyat/mektubat/034-isarat-i-gaybiye-hakkinda-bir-takriz.md",
+      "charCount": 11162
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Hakikat Çekirdekleri",
+      "filePath": "kulliyat/mektubat/035-hakikat-cekirdekleri.md",
+      "charCount": 18715
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Gönüller Fatihi Büyük Üstada",
+      "filePath": "kulliyat/mektubat/036-gonuller-fatihi-buyuk-ustada.md",
+      "charCount": 3501
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Fihriste-i Mektubat",
+      "filePath": "kulliyat/mektubat/037-fihriste-i-mektubat.md",
+      "charCount": 51680
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Hakikat Işıkları",
+      "filePath": "kulliyat/mektubat/038-hakikat-isiklari.md",
+      "charCount": 1504
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mektubat",
+      "bookSlug": "mektubat",
+      "section": "Dua",
+      "filePath": "kulliyat/mektubat/039-dua-mektubat.md",
+      "charCount": 742
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Birinci Lem'a",
+      "filePath": "kulliyat/lemalar/001-birinci-lema.md",
+      "charCount": 5162
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "İkinci Lem'a",
+      "filePath": "kulliyat/lemalar/002-ikinci-lema.md",
+      "charCount": 12676
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Üçüncü Lem'a",
+      "filePath": "kulliyat/lemalar/003-ucuncu-lema.md",
+      "charCount": 9155
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Dördüncü Lem'a",
+      "filePath": "kulliyat/lemalar/004-dorduncu-lema.md",
+      "charCount": 15880
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Beşinci Lem'a",
+      "filePath": "kulliyat/lemalar/005-besinci-lema.md",
+      "charCount": 677
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Altıncı Lem'a",
+      "filePath": "kulliyat/lemalar/006-altinci-lema.md",
+      "charCount": 648
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Yedinci Lem'a",
+      "filePath": "kulliyat/lemalar/007-yedinci-lema.md",
+      "charCount": 18327
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Sekizinci Lem'a",
+      "filePath": "kulliyat/lemalar/008-sekizinci-lema.md",
+      "charCount": 129
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Onuncu Lem'a",
+      "filePath": "kulliyat/lemalar/010-onuncu-lema.md",
+      "charCount": 17363
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "On Birinci Lem'a",
+      "filePath": "kulliyat/lemalar/011-on-birinci-lema.md",
+      "charCount": 24010
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "On İkinci Lem'a",
+      "filePath": "kulliyat/lemalar/012-on-ikinci-lema.md",
+      "charCount": 16029
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "On Üçüncü Lem'a",
+      "filePath": "kulliyat/lemalar/013-on-ucuncu-lema.md",
+      "charCount": 41415
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "On Dördüncü Lem'a",
+      "filePath": "kulliyat/lemalar/014-on-dorduncu-lema.md",
+      "charCount": 24386
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "On Beşinci Lem'a",
+      "filePath": "kulliyat/lemalar/015-on-besinci-lema.md",
+      "charCount": 294
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "On Altıncı Lem'a",
+      "filePath": "kulliyat/lemalar/016-on-altinci-lema.md",
+      "charCount": 19858
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "On Yedinci Lem'a",
+      "filePath": "kulliyat/lemalar/017-on-yedinci-lema.md",
+      "charCount": 56274
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "On Sekizinci Lem'a",
+      "filePath": "kulliyat/lemalar/018-on-sekizinci-lema.md",
+      "charCount": 91
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "On Dokuzuncu Lem'a",
+      "filePath": "kulliyat/lemalar/019-on-dokuzuncu-lema.md",
+      "charCount": 18219
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Yirminci Lem'a",
+      "filePath": "kulliyat/lemalar/020-yirminci-lema.md",
+      "charCount": 22741
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Yirmi Birinci Lem'a",
+      "filePath": "kulliyat/lemalar/021-yirmi-birinci-lema.md",
+      "charCount": 18357
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Yirmi İkinci Lem'a",
+      "filePath": "kulliyat/lemalar/022-yirmi-ikinci-lema.md",
+      "charCount": 15635
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Yirmi Üçüncü Lem'a",
+      "filePath": "kulliyat/lemalar/023-yirmi-ucuncu-lema.md",
+      "charCount": 39496
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Yirmi Dördüncü Lem'a",
+      "filePath": "kulliyat/lemalar/024-yirmi-dorduncu-lema.md",
+      "charCount": 19491
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Yirmi Beşinci Lem'a",
+      "filePath": "kulliyat/lemalar/025-yirmi-besinci-lema.md",
+      "charCount": 34875
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Yirmi Altıncı Lem'a",
+      "filePath": "kulliyat/lemalar/026-yirmi-altinci-lema.md",
+      "charCount": 99694
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Yirmi Yedinci Lem'a",
+      "filePath": "kulliyat/lemalar/027-yirmi-yedinci-lema.md",
+      "charCount": 126
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Yirmi Sekizinci Lem'a",
+      "filePath": "kulliyat/lemalar/028-yirmi-sekizinci-lema.md",
+      "charCount": 27795
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Yirmi Dokuzuncu Lem'a",
+      "filePath": "kulliyat/lemalar/029-yirmi-dokuzuncu-lema.md",
+      "charCount": 29763
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Otuzuncu Lem'a",
+      "filePath": "kulliyat/lemalar/030-otuzuncu-lema.md",
+      "charCount": 113915
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Otuz Birinci Lem'a",
+      "filePath": "kulliyat/lemalar/031-otuz-birinci-lema.md",
+      "charCount": 347
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Otuz İkinci Lem'a",
+      "filePath": "kulliyat/lemalar/032-otuz-ikinci-lema.md",
+      "charCount": 149
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Otuz Üçüncü Lem'a",
+      "filePath": "kulliyat/lemalar/033-otuz-ucuncu-lema.md",
+      "charCount": 239
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Münâcat",
+      "filePath": "kulliyat/lemalar/034-munacat-lemalar.md",
+      "charCount": 31533
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Fihrist",
+      "filePath": "kulliyat/lemalar/035-fihrist-lemalar.md",
+      "charCount": 112429
+    },
+    {
+      "type": "kulliyat",
+      "book": "Lem'alar",
+      "bookSlug": "lemalar",
+      "section": "Dua",
+      "filePath": "kulliyat/lemalar/036-dua-lemalar.md",
+      "charCount": 745
+    },
+    {
+      "type": "kulliyat",
+      "book": "Şuâlar",
+      "bookSlug": "sualar",
+      "section": "Birinci Şuâ",
+      "filePath": "kulliyat/sualar/001-birinci-sua.md",
+      "charCount": 63930
+    },
+    {
+      "type": "kulliyat",
+      "book": "Şuâlar",
+      "bookSlug": "sualar",
+      "section": "İkinci Şuâ",
+      "filePath": "kulliyat/sualar/002-ikinci-sua.md",
+      "charCount": 62831
+    },
+    {
+      "type": "kulliyat",
+      "book": "Şuâlar",
+      "bookSlug": "sualar",
+      "section": "Üçüncü Şuâ",
+      "filePath": "kulliyat/sualar/003-ucuncu-sua.md",
+      "charCount": 32433
+    },
+    {
+      "type": "kulliyat",
+      "book": "Şuâlar",
+      "bookSlug": "sualar",
+      "section": "Dördüncü Şuâ",
+      "filePath": "kulliyat/sualar/004-dorduncu-sua.md",
+      "charCount": 50922
+    },
+    {
+      "type": "kulliyat",
+      "book": "Şuâlar",
+      "bookSlug": "sualar",
+      "section": "Beşinci Şuâ",
+      "filePath": "kulliyat/sualar/005-besinci-sua.md",
+      "charCount": 30653
+    },
+    {
+      "type": "kulliyat",
+      "book": "Şuâlar",
+      "bookSlug": "sualar",
+      "section": "Altıncı Şuâ",
+      "filePath": "kulliyat/sualar/006-altinci-sua.md",
+      "charCount": 7719
+    },
+    {
+      "type": "kulliyat",
+      "book": "Şuâlar",
+      "bookSlug": "sualar",
+      "section": "Yedinci Şuâ",
+      "filePath": "kulliyat/sualar/007-yedinci-sua.md",
+      "charCount": 140472
+    },
+    {
+      "type": "kulliyat",
+      "book": "Şuâlar",
+      "bookSlug": "sualar",
+      "section": "Sekizinci Şuâ",
+      "filePath": "kulliyat/sualar/008-sekizinci-sua.md",
+      "charCount": 40142
+    },
+    {
+      "type": "kulliyat",
+      "book": "Şuâlar",
+      "bookSlug": "sualar",
+      "section": "Dokuzuncu Şuâ",
+      "filePath": "kulliyat/sualar/009-dokuzuncu-sua.md",
+      "charCount": 21391
+    },
+    {
+      "type": "kulliyat",
+      "book": "Şuâlar",
+      "bookSlug": "sualar",
+      "section": "On Birinci Şuâ",
+      "filePath": "kulliyat/sualar/010-on-birinci-sua.md",
+      "charCount": 147035
+    },
+    {
+      "type": "kulliyat",
+      "book": "Şuâlar",
+      "bookSlug": "sualar",
+      "section": "On İkinci Şuâ",
+      "filePath": "kulliyat/sualar/011-on-ikinci-sua.md",
+      "charCount": 35216
+    },
+    {
+      "type": "kulliyat",
+      "book": "Şuâlar",
+      "bookSlug": "sualar",
+      "section": "On Üçüncü Şuâ",
+      "filePath": "kulliyat/sualar/012-on-ucuncu-sua.md",
+      "charCount": 88955
+    },
+    {
+      "type": "kulliyat",
+      "book": "Şuâlar",
+      "bookSlug": "sualar",
+      "section": "On Dördüncü Şuâ",
+      "filePath": "kulliyat/sualar/013-on-dorduncu-sua.md",
+      "charCount": 188031
+    },
+    {
+      "type": "kulliyat",
+      "book": "Şuâlar",
+      "bookSlug": "sualar",
+      "section": "On Beşinci Şuâ",
+      "filePath": "kulliyat/sualar/014-on-besinci-sua.md",
+      "charCount": 144467
+    },
+    {
+      "type": "kulliyat",
+      "book": "Şuâlar",
+      "bookSlug": "sualar",
+      "section": "Yirmi Dokuzuncu Lem'a'dan İkinci Bab",
+      "filePath": "kulliyat/sualar/015-yirmi-dokuzuncu-lemadan-ikinci-bab.md",
+      "charCount": 12779
+    },
+    {
+      "type": "kulliyat",
+      "book": "Şuâlar",
+      "bookSlug": "sualar",
+      "section": "Eddâî",
+      "filePath": "kulliyat/sualar/016-eddai.md",
+      "charCount": 619
+    },
+    {
+      "type": "kulliyat",
+      "book": "Şuâlar",
+      "bookSlug": "sualar",
+      "section": "Dua",
+      "filePath": "kulliyat/sualar/017-dua-sualar.md",
+      "charCount": 711
+    },
+    {
+      "type": "kulliyat",
+      "book": "Şuâlar",
+      "bookSlug": "sualar",
+      "section": "İçindekiler",
+      "filePath": "kulliyat/sualar/018-icindekiler-sualar.md",
+      "charCount": 1348
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mesnevî-i Nuriye",
+      "bookSlug": "mesnevi-i-nuriye",
+      "section": "İ'tizar",
+      "filePath": "kulliyat/mesnevi-i-nuriye/001-itizar.md",
+      "charCount": 1016
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mesnevî-i Nuriye",
+      "bookSlug": "mesnevi-i-nuriye",
+      "section": "Mukaddime",
+      "filePath": "kulliyat/mesnevi-i-nuriye/002-mukaddime.md",
+      "charCount": 4031
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mesnevî-i Nuriye",
+      "bookSlug": "mesnevi-i-nuriye",
+      "section": "Lem'alar Risalesi",
+      "filePath": "kulliyat/mesnevi-i-nuriye/003-lemalar-risalesi.md",
+      "charCount": 19008
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mesnevî-i Nuriye",
+      "bookSlug": "mesnevi-i-nuriye",
+      "section": "Reşhalar",
+      "filePath": "kulliyat/mesnevi-i-nuriye/004-reshalar.md",
+      "charCount": 19676
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mesnevî-i Nuriye",
+      "bookSlug": "mesnevi-i-nuriye",
+      "section": "Lâsiyyemalar",
+      "filePath": "kulliyat/mesnevi-i-nuriye/005-lasiyyemalar.md",
+      "charCount": 29280
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mesnevî-i Nuriye",
+      "bookSlug": "mesnevi-i-nuriye",
+      "section": "Katre",
+      "filePath": "kulliyat/mesnevi-i-nuriye/006-katre.md",
+      "charCount": 49848
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mesnevî-i Nuriye",
+      "bookSlug": "mesnevi-i-nuriye",
+      "section": "Hubab",
+      "filePath": "kulliyat/mesnevi-i-nuriye/007-hubab.md",
+      "charCount": 53728
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mesnevî-i Nuriye",
+      "bookSlug": "mesnevi-i-nuriye",
+      "section": "Habbe",
+      "filePath": "kulliyat/mesnevi-i-nuriye/008-habbe.md",
+      "charCount": 51465
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mesnevî-i Nuriye",
+      "bookSlug": "mesnevi-i-nuriye",
+      "section": "Zühre",
+      "filePath": "kulliyat/mesnevi-i-nuriye/009-zuhre.md",
+      "charCount": 56626
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mesnevî-i Nuriye",
+      "bookSlug": "mesnevi-i-nuriye",
+      "section": "Zerre",
+      "filePath": "kulliyat/mesnevi-i-nuriye/010-zerre.md",
+      "charCount": 19975
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mesnevî-i Nuriye",
+      "bookSlug": "mesnevi-i-nuriye",
+      "section": "Şemme Risalesi",
+      "filePath": "kulliyat/mesnevi-i-nuriye/011-semme-risalesi.md",
+      "charCount": 20143
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mesnevî-i Nuriye",
+      "bookSlug": "mesnevi-i-nuriye",
+      "section": "Onuncu Risale",
+      "filePath": "kulliyat/mesnevi-i-nuriye/012-onuncu-risale.md",
+      "charCount": 52648
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mesnevî-i Nuriye",
+      "bookSlug": "mesnevi-i-nuriye",
+      "section": "Şule",
+      "filePath": "kulliyat/mesnevi-i-nuriye/013-sule.md",
+      "charCount": 13265
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mesnevî-i Nuriye",
+      "bookSlug": "mesnevi-i-nuriye",
+      "section": "Nokta",
+      "filePath": "kulliyat/mesnevi-i-nuriye/014-nokta.md",
+      "charCount": 22557
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mesnevî-i Nuriye",
+      "bookSlug": "mesnevi-i-nuriye",
+      "section": "Münderecat Hakkında",
+      "filePath": "kulliyat/mesnevi-i-nuriye/015-munderecat-hakkinda.md",
+      "charCount": 1288
+    },
+    {
+      "type": "kulliyat",
+      "book": "Mesnevî-i Nuriye",
+      "bookSlug": "mesnevi-i-nuriye",
+      "section": "Fihrist",
+      "filePath": "kulliyat/mesnevi-i-nuriye/016-fihrist-mesnevi.md",
+      "charCount": 16548
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Tenbih",
+      "filePath": "kulliyat/isaratul-icaz/001-tenbih.md",
+      "charCount": 6671
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "İfadetü'l-Meram",
+      "filePath": "kulliyat/isaratul-icaz/002-ifadetul-meram.md",
+      "charCount": 3728
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Kur'an'ın Tarifi",
+      "filePath": "kulliyat/isaratul-icaz/003-kuranin-tarifi.md",
+      "charCount": 2993
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Fatiha Suresi",
+      "filePath": "kulliyat/isaratul-icaz/004-fatiha-suresi.md",
+      "charCount": 27600
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Bakara Suresi 1-2-3. âyetler",
+      "filePath": "kulliyat/isaratul-icaz/005-bakara-suresi-1-2-3-ayetler.md",
+      "charCount": 25247
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Bakara Suresi 4-5. âyetler",
+      "filePath": "kulliyat/isaratul-icaz/006-bakara-suresi-4-5-ayetler.md",
+      "charCount": 28209
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Bakara Suresi 6. âyet",
+      "filePath": "kulliyat/isaratul-icaz/007-bakara-suresi-6-ayet.md",
+      "charCount": 12113
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Bakara Suresi 7. âyet",
+      "filePath": "kulliyat/isaratul-icaz/008-bakara-suresi-7-ayet.md",
+      "charCount": 17257
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Bakara Suresi 8. âyet",
+      "filePath": "kulliyat/isaratul-icaz/009-bakara-suresi-8-ayet.md",
+      "charCount": 6150
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Bakara Suresi 9-10. âyetler",
+      "filePath": "kulliyat/isaratul-icaz/010-bakara-suresi-9-10-ayetler.md",
+      "charCount": 11384
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Bakara Suresi 11-12. âyetler",
+      "filePath": "kulliyat/isaratul-icaz/011-bakara-suresi-11-12-ayetler.md",
+      "charCount": 6684
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Bakara Suresi 13. âyet",
+      "filePath": "kulliyat/isaratul-icaz/012-bakara-suresi-13-ayet.md",
+      "charCount": 7067
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Bakara Suresi 14-15. âyetler",
+      "filePath": "kulliyat/isaratul-icaz/013-bakara-suresi-14-15-ayetler.md",
+      "charCount": 10932
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Bakara Suresi 16. âyet",
+      "filePath": "kulliyat/isaratul-icaz/014-bakara-suresi-16-ayet.md",
+      "charCount": 4416
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Bakara Suresi 17-18-19-20. âyetler",
+      "filePath": "kulliyat/isaratul-icaz/015-bakara-suresi-17-18-19-20-ayetler.md",
+      "charCount": 45155
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Bakara Suresi 21-22. âyetler",
+      "filePath": "kulliyat/isaratul-icaz/016-bakara-suresi-21-22-ayetler.md",
+      "charCount": 37476
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Bakara Suresi 23-24. âyetler",
+      "filePath": "kulliyat/isaratul-icaz/017-bakara-suresi-23-24-ayetler.md",
+      "charCount": 61245
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Bakara Suresi 25. âyet",
+      "filePath": "kulliyat/isaratul-icaz/018-bakara-suresi-25-ayet.md",
+      "charCount": 24378
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Bakara Suresi 26-27. âyetler",
+      "filePath": "kulliyat/isaratul-icaz/019-bakara-suresi-26-27-ayetler.md",
+      "charCount": 36472
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Bakara Suresi 28. âyet",
+      "filePath": "kulliyat/isaratul-icaz/020-bakara-suresi-28-ayet.md",
+      "charCount": 13475
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Bakara Suresi 29. âyet",
+      "filePath": "kulliyat/isaratul-icaz/021-bakara-suresi-29-ayet.md",
+      "charCount": 16690
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Bakara Suresi 30. âyet",
+      "filePath": "kulliyat/isaratul-icaz/022-bakara-suresi-30-ayet.md",
+      "charCount": 15231
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Bakara Suresi 31-32-33. âyetler",
+      "filePath": "kulliyat/isaratul-icaz/023-bakara-suresi-31-32-33-ayetler.md",
+      "charCount": 10740
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Ecnebi Feylesofların Beyanatları",
+      "filePath": "kulliyat/isaratul-icaz/024-ecnebi-feylesoflarin-kuran-hakkindaki-beyanatlari.md",
+      "charCount": 19414
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Mehmed Kayalar'ın Müdafaası",
+      "filePath": "kulliyat/isaratul-icaz/025-mehmed-kayalarin-bir-mudafaasi.md",
+      "charCount": 11529
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Dua",
+      "filePath": "kulliyat/isaratul-icaz/026-dua-isaratul-icaz.md",
+      "charCount": 769
+    },
+    {
+      "type": "kulliyat",
+      "book": "İşaratü'l-İ'caz",
+      "bookSlug": "isaratul-icaz",
+      "section": "Fihrist",
+      "filePath": "kulliyat/isaratul-icaz/027-fihrist-isaratul-icaz.md",
+      "charCount": 784
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sikke-i Tasdik-i Gaybî",
+      "bookSlug": "sikke-i-tasdik-i-gaybi",
+      "section": "Parlak Fıkralar ve Güzel Mektuplar 1",
+      "filePath": "kulliyat/sikke-i-tasdik-i-gaybi/001-parlak-fikralar-ve-guzel-mektuplar-1.md",
+      "charCount": 106505
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sikke-i Tasdik-i Gaybî",
+      "bookSlug": "sikke-i-tasdik-i-gaybi",
+      "section": "Birinci Şuâ",
+      "filePath": "kulliyat/sikke-i-tasdik-i-gaybi/002-birinci-sua-2.md",
+      "charCount": 63921
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sikke-i Tasdik-i Gaybî",
+      "bookSlug": "sikke-i-tasdik-i-gaybi",
+      "section": "Sekizinci Şuâ",
+      "filePath": "kulliyat/sikke-i-tasdik-i-gaybi/003-sekizinci-sua-2.md",
+      "charCount": 43088
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sikke-i Tasdik-i Gaybî",
+      "bookSlug": "sikke-i-tasdik-i-gaybi",
+      "section": "On Sekizinci Lem'a",
+      "filePath": "kulliyat/sikke-i-tasdik-i-gaybi/004-on-sekizinci-lema-2.md",
+      "charCount": 163
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sikke-i Tasdik-i Gaybî",
+      "bookSlug": "sikke-i-tasdik-i-gaybi",
+      "section": "Yirmi Sekizinci Lem'a",
+      "filePath": "kulliyat/sikke-i-tasdik-i-gaybi/005-yirmi-sekizinci-lema-2.md",
+      "charCount": 203
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sikke-i Tasdik-i Gaybî",
+      "bookSlug": "sikke-i-tasdik-i-gaybi",
+      "section": "Sekizinci Lem'a",
+      "filePath": "kulliyat/sikke-i-tasdik-i-gaybi/006-sekizinci-lema-2.md",
+      "charCount": 38644
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sikke-i Tasdik-i Gaybî",
+      "bookSlug": "sikke-i-tasdik-i-gaybi",
+      "section": "Parlak Fıkralar ve Güzel Mektuplar 2",
+      "filePath": "kulliyat/sikke-i-tasdik-i-gaybi/007-parlak-fikralar-ve-guzel-mektuplar-2.md",
+      "charCount": 158601
+    },
+    {
+      "type": "kulliyat",
+      "book": "Sikke-i Tasdik-i Gaybî",
+      "bookSlug": "sikke-i-tasdik-i-gaybi",
+      "section": "Dua",
+      "filePath": "kulliyat/sikke-i-tasdik-i-gaybi/008-dua-sikke-i-tasdik-i-gaybi.md",
+      "charCount": 711
+    },
+    {
+      "type": "kulliyat",
+      "book": "Tarihçe-i Hayat",
+      "bookSlug": "tarihce-i-hayat",
+      "section": "Ön Söz",
+      "filePath": "kulliyat/tarihce-i-hayat/001-on-soz.md",
+      "charCount": 25748
+    },
+    {
+      "type": "kulliyat",
+      "book": "Tarihçe-i Hayat",
+      "bookSlug": "tarihce-i-hayat",
+      "section": "Giriş",
+      "filePath": "kulliyat/tarihce-i-hayat/002-giris.md",
+      "charCount": 206
+    },
+    {
+      "type": "kulliyat",
+      "book": "Tarihçe-i Hayat",
+      "bookSlug": "tarihce-i-hayat",
+      "section": "İlk Hayatı",
+      "filePath": "kulliyat/tarihce-i-hayat/003-573-2.md",
+      "charCount": 194244
+    },
+    {
+      "type": "kulliyat",
+      "book": "Tarihçe-i Hayat",
+      "bookSlug": "tarihce-i-hayat",
+      "section": "Barla Hayatı",
+      "filePath": "kulliyat/tarihce-i-hayat/004-barla-hayati.md",
+      "charCount": 101751
+    },
+    {
+      "type": "kulliyat",
+      "book": "Tarihçe-i Hayat",
+      "bookSlug": "tarihce-i-hayat",
+      "section": "Eskişehir Hayatı",
+      "filePath": "kulliyat/tarihce-i-hayat/005-eskisehir-hayati.md",
+      "charCount": 118012
+    },
+    {
+      "type": "kulliyat",
+      "book": "Tarihçe-i Hayat",
+      "bookSlug": "tarihce-i-hayat",
+      "section": "Kastamonu Hayatı",
+      "filePath": "kulliyat/tarihce-i-hayat/006-kastamonu-hayati.md",
+      "charCount": 190541
+    },
+    {
+      "type": "kulliyat",
+      "book": "Tarihçe-i Hayat",
+      "bookSlug": "tarihce-i-hayat",
+      "section": "Denizli Hayatı",
+      "filePath": "kulliyat/tarihce-i-hayat/007-denizli-hayati.md",
+      "charCount": 91796
+    },
+    {
+      "type": "kulliyat",
+      "book": "Tarihçe-i Hayat",
+      "bookSlug": "tarihce-i-hayat",
+      "section": "Emirdağ Hayatı",
+      "filePath": "kulliyat/tarihce-i-hayat/008-emirdag-hayati.md",
+      "charCount": 145362
+    },
+    {
+      "type": "kulliyat",
+      "book": "Tarihçe-i Hayat",
+      "bookSlug": "tarihce-i-hayat",
+      "section": "Afyon Hayatı",
+      "filePath": "kulliyat/tarihce-i-hayat/009-601-2.md",
+      "charCount": 120154
+    },
+    {
+      "type": "kulliyat",
+      "book": "Tarihçe-i Hayat",
+      "bookSlug": "tarihce-i-hayat",
+      "section": "Isparta Hayatı",
+      "filePath": "kulliyat/tarihce-i-hayat/010-isparta-hayati.md",
+      "charCount": 107371
+    },
+    {
+      "type": "kulliyat",
+      "book": "Tarihçe-i Hayat",
+      "bookSlug": "tarihce-i-hayat",
+      "section": "Hariç Memleketler",
+      "filePath": "kulliyat/tarihce-i-hayat/011-haric-memleketler.md",
+      "charCount": 41717
+    },
+    {
+      "type": "kulliyat",
+      "book": "Tarihçe-i Hayat",
+      "bookSlug": "tarihce-i-hayat",
+      "section": "Bedîüzzaman ve Risale-i Nur",
+      "filePath": "kulliyat/tarihce-i-hayat/012-bediuzzaman-ve-risale-i-nur.md",
+      "charCount": 38793
+    },
+    {
+      "type": "kulliyat",
+      "book": "Tarihçe-i Hayat",
+      "bookSlug": "tarihce-i-hayat",
+      "section": "Dua",
+      "filePath": "kulliyat/tarihce-i-hayat/013-dua-tarihce-i-hayati.md",
+      "charCount": 730
+    },
+    {
+      "type": "kulliyat",
+      "book": "Tarihçe-i Hayat",
+      "bookSlug": "tarihce-i-hayat",
+      "section": "İçindekiler",
+      "filePath": "kulliyat/tarihce-i-hayat/014-icindekiler.md",
+      "charCount": 163
+    },
+    {
+      "type": "kulliyat",
+      "book": "Barla Lâhikası",
+      "bookSlug": "barla-lahikasi",
+      "section": "Takdim",
+      "filePath": "kulliyat/barla-lahikasi/001-barla-lahikasi-takdim.md",
+      "charCount": 10176
+    },
+    {
+      "type": "kulliyat",
+      "book": "Barla Lâhikası",
+      "bookSlug": "barla-lahikasi",
+      "section": "Yedinci Risale",
+      "filePath": "kulliyat/barla-lahikasi/002-barla-lahikasi-s-5-20.md",
+      "charCount": 18931
+    },
+    {
+      "type": "kulliyat",
+      "book": "Barla Lâhikası",
+      "bookSlug": "barla-lahikasi",
+      "section": "s.21-39",
+      "filePath": "kulliyat/barla-lahikasi/003-barla-lahikasi-s-21-39.md",
+      "charCount": 28192
+    },
+    {
+      "type": "kulliyat",
+      "book": "Barla Lâhikası",
+      "bookSlug": "barla-lahikasi",
+      "section": "s.40-58",
+      "filePath": "kulliyat/barla-lahikasi/004-barla-lahikasi-s-40-58.md",
+      "charCount": 28458
+    },
+    {
+      "type": "kulliyat",
+      "book": "Barla Lâhikası",
+      "bookSlug": "barla-lahikasi",
+      "section": "s.59-80",
+      "filePath": "kulliyat/barla-lahikasi/005-barla-lahikasi-s-59-80.md",
+      "charCount": 35506
+    },
+    {
+      "type": "kulliyat",
+      "book": "Barla Lâhikası",
+      "bookSlug": "barla-lahikasi",
+      "section": "s.80-102",
+      "filePath": "kulliyat/barla-lahikasi/006-barla-lahikasi-s-80-102.md",
+      "charCount": 36386
+    },
+    {
+      "type": "kulliyat",
+      "book": "Barla Lâhikası",
+      "bookSlug": "barla-lahikasi",
+      "section": "s.103-121",
+      "filePath": "kulliyat/barla-lahikasi/007-barla-lahikasi-s-103-121.md",
+      "charCount": 29542
+    },
+    {
+      "type": "kulliyat",
+      "book": "Barla Lâhikası",
+      "bookSlug": "barla-lahikasi",
+      "section": "s.121-146",
+      "filePath": "kulliyat/barla-lahikasi/008-barla-lahikasi-s-121-146.md",
+      "charCount": 44611
+    },
+    {
+      "type": "kulliyat",
+      "book": "Barla Lâhikası",
+      "bookSlug": "barla-lahikasi",
+      "section": "s.146-159",
+      "filePath": "kulliyat/barla-lahikasi/009-barla-lahikasi-s-146-159.md",
+      "charCount": 22679
+    },
+    {
+      "type": "kulliyat",
+      "book": "Barla Lâhikası",
+      "bookSlug": "barla-lahikasi",
+      "section": "s.160-180",
+      "filePath": "kulliyat/barla-lahikasi/010-barla-lahikasi-s-160-180.md",
+      "charCount": 34835
+    },
+    {
+      "type": "kulliyat",
+      "book": "Barla Lâhikası",
+      "bookSlug": "barla-lahikasi",
+      "section": "s.181-201",
+      "filePath": "kulliyat/barla-lahikasi/011-barla-lahikasi-s-181-201.md",
+      "charCount": 34401
+    },
+    {
+      "type": "kulliyat",
+      "book": "Barla Lâhikası",
+      "bookSlug": "barla-lahikasi",
+      "section": "s.202-221",
+      "filePath": "kulliyat/barla-lahikasi/012-barla-lahikasi-s-202-221.md",
+      "charCount": 32128
+    },
+    {
+      "type": "kulliyat",
+      "book": "Barla Lâhikası",
+      "bookSlug": "barla-lahikasi",
+      "section": "s.221-240",
+      "filePath": "kulliyat/barla-lahikasi/013-barla-lahikasi-s-221-240.md",
+      "charCount": 30939
+    },
+    {
+      "type": "kulliyat",
+      "book": "Barla Lâhikası",
+      "bookSlug": "barla-lahikasi",
+      "section": "s.241-261",
+      "filePath": "kulliyat/barla-lahikasi/014-barla-lahikasi-s-241-261.md",
+      "charCount": 33742
+    },
+    {
+      "type": "kulliyat",
+      "book": "Barla Lâhikası",
+      "bookSlug": "barla-lahikasi",
+      "section": "s.262-280",
+      "filePath": "kulliyat/barla-lahikasi/015-barla-lahikasi-s-262-280.md",
+      "charCount": 28471
+    },
+    {
+      "type": "kulliyat",
+      "book": "Barla Lâhikası",
+      "bookSlug": "barla-lahikasi",
+      "section": "s.280-299",
+      "filePath": "kulliyat/barla-lahikasi/016-barla-lahikasi-s-280-299.md",
+      "charCount": 31375
+    },
+    {
+      "type": "kulliyat",
+      "book": "Barla Lâhikası",
+      "bookSlug": "barla-lahikasi",
+      "section": "s.300-321",
+      "filePath": "kulliyat/barla-lahikasi/017-barla-lahikasi-s-300-321.md",
+      "charCount": 36046
+    },
+    {
+      "type": "kulliyat",
+      "book": "Barla Lâhikası",
+      "bookSlug": "barla-lahikasi",
+      "section": "s.321-340",
+      "filePath": "kulliyat/barla-lahikasi/018-barla-lahikasi-s-321-340.md",
+      "charCount": 28303
+    },
+    {
+      "type": "kulliyat",
+      "book": "Barla Lâhikası",
+      "bookSlug": "barla-lahikasi",
+      "section": "s.340-362",
+      "filePath": "kulliyat/barla-lahikasi/019-barla-lahikasi-s-340-362.md",
+      "charCount": 34760
+    },
+    {
+      "type": "kulliyat",
+      "book": "Barla Lâhikası",
+      "bookSlug": "barla-lahikasi",
+      "section": "s.363-392",
+      "filePath": "kulliyat/barla-lahikasi/020-barla-lahikasi-s-363-392.md",
+      "charCount": 48072
+    },
+    {
+      "type": "kulliyat",
+      "book": "Kastamonu Lâhikası",
+      "bookSlug": "kastamonu-lahikasi",
+      "section": "Takdim",
+      "filePath": "kulliyat/kastamonu-lahikasi/001-kastamonu-lahikasi-takdim.md",
+      "charCount": 8681
+    },
+    {
+      "type": "kulliyat",
+      "book": "Kastamonu Lâhikası",
+      "bookSlug": "kastamonu-lahikasi",
+      "section": "s.10-30",
+      "filePath": "kulliyat/kastamonu-lahikasi/002-kastamonu-lahikasi-s-10-30.md",
+      "charCount": 33077
+    },
+    {
+      "type": "kulliyat",
+      "book": "Kastamonu Lâhikası",
+      "bookSlug": "kastamonu-lahikasi",
+      "section": "s.30-51",
+      "filePath": "kulliyat/kastamonu-lahikasi/003-kastamonu-lahikasi-s-30-51.md",
+      "charCount": 34004
+    },
+    {
+      "type": "kulliyat",
+      "book": "Kastamonu Lâhikası",
+      "bookSlug": "kastamonu-lahikasi",
+      "section": "s.52-69",
+      "filePath": "kulliyat/kastamonu-lahikasi/004-kastamonu-lahikasi-s-52-69.md",
+      "charCount": 29594
+    },
+    {
+      "type": "kulliyat",
+      "book": "Kastamonu Lâhikası",
+      "bookSlug": "kastamonu-lahikasi",
+      "section": "s.70-91",
+      "filePath": "kulliyat/kastamonu-lahikasi/005-kastamonu-lahikasi-s-70-91.md",
+      "charCount": 34750
+    },
+    {
+      "type": "kulliyat",
+      "book": "Kastamonu Lâhikası",
+      "bookSlug": "kastamonu-lahikasi",
+      "section": "s.91-109",
+      "filePath": "kulliyat/kastamonu-lahikasi/006-kastamonu-lahikasi-s-91-109.md",
+      "charCount": 31243
+    },
+    {
+      "type": "kulliyat",
+      "book": "Kastamonu Lâhikası",
+      "bookSlug": "kastamonu-lahikasi",
+      "section": "s.110-129",
+      "filePath": "kulliyat/kastamonu-lahikasi/007-kastamonu-lahikasi-s-110-129.md",
+      "charCount": 33802
+    },
+    {
+      "type": "kulliyat",
+      "book": "Kastamonu Lâhikası",
+      "bookSlug": "kastamonu-lahikasi",
+      "section": "s.130-149",
+      "filePath": "kulliyat/kastamonu-lahikasi/008-kastamonu-lahikasi-s-130-149.md",
+      "charCount": 34198
+    },
+    {
+      "type": "kulliyat",
+      "book": "Kastamonu Lâhikası",
+      "bookSlug": "kastamonu-lahikasi",
+      "section": "s.150-166 (Lemaat'tan)",
+      "filePath": "kulliyat/kastamonu-lahikasi/009-kastamonu-lahikasi-s-150-166-lemaattan.md",
+      "charCount": 24125
+    },
+    {
+      "type": "kulliyat",
+      "book": "Kastamonu Lâhikası",
+      "bookSlug": "kastamonu-lahikasi",
+      "section": "s.167-189",
+      "filePath": "kulliyat/kastamonu-lahikasi/010-kastamonu-lahikasi-s-167-189.md",
+      "charCount": 35940
+    },
+    {
+      "type": "kulliyat",
+      "book": "Kastamonu Lâhikası",
+      "bookSlug": "kastamonu-lahikasi",
+      "section": "s.190-210",
+      "filePath": "kulliyat/kastamonu-lahikasi/011-kastamonu-lahikasi-s-190-210.md",
+      "charCount": 35382
+    },
+    {
+      "type": "kulliyat",
+      "book": "Kastamonu Lâhikası",
+      "bookSlug": "kastamonu-lahikasi",
+      "section": "s.211-230",
+      "filePath": "kulliyat/kastamonu-lahikasi/012-kastamonu-lahikasi-s-211-230.md",
+      "charCount": 33844
+    },
+    {
+      "type": "kulliyat",
+      "book": "Kastamonu Lâhikası",
+      "bookSlug": "kastamonu-lahikasi",
+      "section": "s.231-255",
+      "filePath": "kulliyat/kastamonu-lahikasi/013-kastamonu-lahikasi-s-231-255.md",
+      "charCount": 44605
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası I",
+      "bookSlug": "emirdag-lahikasi-i",
+      "section": "Takdim",
+      "filePath": "kulliyat/emirdag-lahikasi-i/001-emirdag-lahikasi-i-takdim.md",
+      "charCount": 8675
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası I",
+      "bookSlug": "emirdag-lahikasi-i",
+      "section": "s.10-31",
+      "filePath": "kulliyat/emirdag-lahikasi-i/002-emirdag-lahikasi-i-s-10-31.md",
+      "charCount": 38924
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası I",
+      "bookSlug": "emirdag-lahikasi-i",
+      "section": "s.31-50",
+      "filePath": "kulliyat/emirdag-lahikasi-i/003-emirdag-lahikasi-i-s-31-50.md",
+      "charCount": 33596
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası I",
+      "bookSlug": "emirdag-lahikasi-i",
+      "section": "s.50-69",
+      "filePath": "kulliyat/emirdag-lahikasi-i/004-emirdag-lahikasi-i-s-50-69.md",
+      "charCount": 34837
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası I",
+      "bookSlug": "emirdag-lahikasi-i",
+      "section": "s.70-90",
+      "filePath": "kulliyat/emirdag-lahikasi-i/005-emirdag-lahikasi-i-s-70-90.md",
+      "charCount": 35984
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası I",
+      "bookSlug": "emirdag-lahikasi-i",
+      "section": "s.90-110",
+      "filePath": "kulliyat/emirdag-lahikasi-i/006-emirdag-lahikasi-i-s-90.md",
+      "charCount": 34098
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası I",
+      "bookSlug": "emirdag-lahikasi-i",
+      "section": "s.110-130",
+      "filePath": "kulliyat/emirdag-lahikasi-i/007-emirdag-lahikasi-i-s-110-130.md",
+      "charCount": 28020
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası I",
+      "bookSlug": "emirdag-lahikasi-i",
+      "section": "s.131-150",
+      "filePath": "kulliyat/emirdag-lahikasi-i/008-emirdag-lahikasi-i-s-131-150.md",
+      "charCount": 32815
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası I",
+      "bookSlug": "emirdag-lahikasi-i",
+      "section": "s.150-170",
+      "filePath": "kulliyat/emirdag-lahikasi-i/009-emirdag-lahikasi-i-s-150-170.md",
+      "charCount": 33575
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası I",
+      "bookSlug": "emirdag-lahikasi-i",
+      "section": "s.170-190",
+      "filePath": "kulliyat/emirdag-lahikasi-i/010-emirdag-lahikasi-i-s-170-190.md",
+      "charCount": 36628
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası I",
+      "bookSlug": "emirdag-lahikasi-i",
+      "section": "s.190-211",
+      "filePath": "kulliyat/emirdag-lahikasi-i/011-emirdag-lahikasi-i-s-190-211.md",
+      "charCount": 39763
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası I",
+      "bookSlug": "emirdag-lahikasi-i",
+      "section": "s.212-230",
+      "filePath": "kulliyat/emirdag-lahikasi-i/012-emirdag-lahikasi-i-s-212-230.md",
+      "charCount": 33548
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası I",
+      "bookSlug": "emirdag-lahikasi-i",
+      "section": "s.230-251",
+      "filePath": "kulliyat/emirdag-lahikasi-i/013-emirdag-lahikasi-i-s-230-251.md",
+      "charCount": 37022
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası I",
+      "bookSlug": "emirdag-lahikasi-i",
+      "section": "s.251-270",
+      "filePath": "kulliyat/emirdag-lahikasi-i/014-emirdag-lahikasi-i-s-251-270.md",
+      "charCount": 35081
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası I",
+      "bookSlug": "emirdag-lahikasi-i",
+      "section": "s.271-288",
+      "filePath": "kulliyat/emirdag-lahikasi-i/015-emirdag-lahikasi-i-s-271-288.md",
+      "charCount": 32279
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası II",
+      "bookSlug": "emirdag-lahikasi-ii",
+      "section": "s.6-26",
+      "filePath": "kulliyat/emirdag-lahikasi-ii/001-emirdag-lahikasi-ii-s-6-26.md",
+      "charCount": 35024
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası II",
+      "bookSlug": "emirdag-lahikasi-ii",
+      "section": "s.27-50",
+      "filePath": "kulliyat/emirdag-lahikasi-ii/002-emirdag-lahikasi-ii-s-27-50.md",
+      "charCount": 41202
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası II",
+      "bookSlug": "emirdag-lahikasi-ii",
+      "section": "s.51-70",
+      "filePath": "kulliyat/emirdag-lahikasi-ii/003-emirdag-lahikasi-ii-s-51-70.md",
+      "charCount": 34264
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası II",
+      "bookSlug": "emirdag-lahikasi-ii",
+      "section": "s.70-90",
+      "filePath": "kulliyat/emirdag-lahikasi-ii/004-emirdag-lahikasi-ii-s-70-90.md",
+      "charCount": 36063
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası II",
+      "bookSlug": "emirdag-lahikasi-ii",
+      "section": "s.91-109",
+      "filePath": "kulliyat/emirdag-lahikasi-ii/005-emirdag-lahikasi-ii-s-91-109.md",
+      "charCount": 30527
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası II",
+      "bookSlug": "emirdag-lahikasi-ii",
+      "section": "s.110-128",
+      "filePath": "kulliyat/emirdag-lahikasi-ii/006-emirdag-lahikasi-ii-s-110-128.md",
+      "charCount": 31863
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası II",
+      "bookSlug": "emirdag-lahikasi-ii",
+      "section": "s.129-148",
+      "filePath": "kulliyat/emirdag-lahikasi-ii/007-emirdag-lahikasi-ii-s-129-148.md",
+      "charCount": 36270
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası II",
+      "bookSlug": "emirdag-lahikasi-ii",
+      "section": "s.149-170",
+      "filePath": "kulliyat/emirdag-lahikasi-ii/008-emirdag-lahikasi-ii-s-149-170.md",
+      "charCount": 36246
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası II",
+      "bookSlug": "emirdag-lahikasi-ii",
+      "section": "s.171-189",
+      "filePath": "kulliyat/emirdag-lahikasi-ii/009-emirdag-lahikasi-ii-s-171-189.md",
+      "charCount": 30716
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası II",
+      "bookSlug": "emirdag-lahikasi-ii",
+      "section": "s.190-210",
+      "filePath": "kulliyat/emirdag-lahikasi-ii/010-emirdag-lahikasi-ii-s-190-210.md",
+      "charCount": 36679
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası II",
+      "bookSlug": "emirdag-lahikasi-ii",
+      "section": "s.210-229",
+      "filePath": "kulliyat/emirdag-lahikasi-ii/011-emirdag-lahikasi-ii-s-210-229.md",
+      "charCount": 33215
+    },
+    {
+      "type": "kulliyat",
+      "book": "Emirdağ Lâhikası II",
+      "bookSlug": "emirdag-lahikasi-ii",
+      "section": "s.230-247",
+      "filePath": "kulliyat/emirdag-lahikasi-ii/012-emirdag-lahikasi-ii-s-230-247.md",
+      "charCount": 31195
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "Birinci Kısım",
+      "filePath": "kulliyat/asa-yi-musa/001-asa-yi-musadan-birinci-kisim.md",
+      "charCount": 283
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "Birinci Mesele",
+      "filePath": "kulliyat/asa-yi-musa/002-birinci-mesele.md",
+      "charCount": 2299
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "İkinci Mesele",
+      "filePath": "kulliyat/asa-yi-musa/003-ikinci-mesele.md",
+      "charCount": 5823
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "Üçüncü Mesele",
+      "filePath": "kulliyat/asa-yi-musa/004-ucuncu-mesele.md",
+      "charCount": 6584
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "Dördüncü Mesele",
+      "filePath": "kulliyat/asa-yi-musa/005-dorduncu-mesele.md",
+      "charCount": 3651
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "Beşinci Mesele",
+      "filePath": "kulliyat/asa-yi-musa/006-besinci-mesele.md",
+      "charCount": 1733
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "Altıncı Mesele",
+      "filePath": "kulliyat/asa-yi-musa/007-altinci-mesele.md",
+      "charCount": 7403
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "Yedinci Mesele",
+      "filePath": "kulliyat/asa-yi-musa/008-yedinci-mesele.md",
+      "charCount": 23190
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "Sekizinci Mesele",
+      "filePath": "kulliyat/asa-yi-musa/009-sekizinci-mesele.md",
+      "charCount": 26417
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "Dokuzuncu Mesele",
+      "filePath": "kulliyat/asa-yi-musa/010-dokuzuncu-mesele.md",
+      "charCount": 10777
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "Onuncu Mesele",
+      "filePath": "kulliyat/asa-yi-musa/011-onuncu-mesele.md",
+      "charCount": 25283
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "On Birinci Mesele",
+      "filePath": "kulliyat/asa-yi-musa/012-on-birinci-mesele.md",
+      "charCount": 33667
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "İkinci Kısım",
+      "filePath": "kulliyat/asa-yi-musa/013-asa-yi-musadan-ikinci-kisim.md",
+      "charCount": 266
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "Birinci Hüccet-i İmaniye",
+      "filePath": "kulliyat/asa-yi-musa/014-birinci-huccet-i-imaniye.md",
+      "charCount": 79037
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "İkinci Hüccet-i İmaniye",
+      "filePath": "kulliyat/asa-yi-musa/015-ikinci-huccet-i-imaniye.md",
+      "charCount": 23597
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "Üçüncü Hüccet-i İmaniye",
+      "filePath": "kulliyat/asa-yi-musa/016-ucuncu-huccet-i-imaniye.md",
+      "charCount": 39429
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "Dördüncü Hüccet-i İmaniye",
+      "filePath": "kulliyat/asa-yi-musa/017-dorduncu-huccet-i-imaniye.md",
+      "charCount": 6213
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "Beşinci Hüccet-i İmaniye",
+      "filePath": "kulliyat/asa-yi-musa/018-besinci-huccet-i-imaniye.md",
+      "charCount": 15436
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "Altıncı Hüccet-i İmaniye",
+      "filePath": "kulliyat/asa-yi-musa/019-altinci-huccet-i-imaniye.md",
+      "charCount": 6710
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "Yedinci Hüccet-i İmaniye",
+      "filePath": "kulliyat/asa-yi-musa/020-yedinci-huccet-i-imaniye.md",
+      "charCount": 3235
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "Sekizinci Hüccet-i İmaniye",
+      "filePath": "kulliyat/asa-yi-musa/021-sekizinci-huccet-i-imaniye.md",
+      "charCount": 32438
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "Dokuzuncu Hüccet-i İmaniye",
+      "filePath": "kulliyat/asa-yi-musa/022-dokuzuncu-huccet-i-imaniye.md",
+      "charCount": 21851
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "Onuncu Hüccet-i İmaniye",
+      "filePath": "kulliyat/asa-yi-musa/023-onuncu-huccet-i-imaniye.md",
+      "charCount": 12772
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "On Birinci Hüccet-i İmaniye",
+      "filePath": "kulliyat/asa-yi-musa/024-on-birinci-huccet-i-imaniye.md",
+      "charCount": 24818
+    },
+    {
+      "type": "kulliyat",
+      "book": "Asâ-yı Musa",
+      "bookSlug": "asa-yi-musa",
+      "section": "Fihrist",
+      "filePath": "kulliyat/asa-yi-musa/025-fihrist-asa-yi-musa.md",
+      "charCount": 956
+    },
+    {
+      "type": "kulliyat",
+      "book": "Muhakemat",
+      "bookSlug": "muhakemat",
+      "section": "Birinci Makale",
+      "filePath": "kulliyat/muhakemat/001-birinci-makale.md",
+      "charCount": 92330
+    },
+    {
+      "type": "kulliyat",
+      "book": "Muhakemat",
+      "bookSlug": "muhakemat",
+      "section": "İkinci Makale",
+      "filePath": "kulliyat/muhakemat/002-ikinci-makale.md",
+      "charCount": 32670
+    },
+    {
+      "type": "kulliyat",
+      "book": "Muhakemat",
+      "bookSlug": "muhakemat",
+      "section": "Üçüncü Makale",
+      "filePath": "kulliyat/muhakemat/003-ucuncu-makale.md",
+      "charCount": 67723
+    },
+    {
+      "type": "kulliyat",
+      "book": "Muhakemat",
+      "bookSlug": "muhakemat",
+      "section": "Fihrist",
+      "filePath": "kulliyat/muhakemat/004-fihrist-muhakemat.md",
+      "charCount": 2696
+    },
+    {
+      "type": "kulliyat",
+      "book": "Muhakemat",
+      "bookSlug": "muhakemat",
+      "section": "Takriz",
+      "filePath": "kulliyat/muhakemat/005-takriz.md",
+      "charCount": 2274
+    },
+    {
+      "type": "kulliyat",
+      "book": "Hutbe-i Şâmiye",
+      "bookSlug": "hutbe-i-samiye",
+      "section": "Hutbe-i Şâmiye",
+      "filePath": "kulliyat/hutbe-i-samiye/001-hutbe-i-samiye.md",
+      "charCount": 123853
+    },
+    {
+      "type": "kulliyat",
+      "book": "Münâzarat",
+      "bookSlug": "munazarat",
+      "section": "Münâzarat",
+      "filePath": "kulliyat/munazarat/001-munazarat.md",
+      "charCount": 94747
+    }
+  ],
+  "lastUpdated": "2026-02-15T17:46:37.962Z",
+  "source": "risaleinur.hizmetvakfi.org",
+  "totalBooks": 16
+}

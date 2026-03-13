@@ -1,0 +1,9 @@
+﻿NURZEKA - SUNUCUDA TEK KOMUTLA KURULUM
+======================================
+
+Zip'i sunucuya yukledikten sonra (ornegin /var/www veya /home/kullanici):
+
+  unzip -o nurzeka_deploy.zip && cd risale-nur-ai && chmod +x deploy.sh && ./deploy.sh
+
+Bu komut zip'i acar, kurulumu calistirir. .env.production kullandiysaniz API key ve PORT zaten zip'te, ekstra islem gerekmez.
+
