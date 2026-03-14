@@ -1,8 +1,11 @@
 import os
 import glob
+import json
+import re
 from typing import List, Dict, Any
 from langchain_text_splitters import MarkdownHeaderTextSplitter, RecursiveCharacterTextSplitter
 from sentence_transformers import SentenceTransformer
+from rank_bm25 import BM25Okapi
 import faiss
 import numpy as np
 import pickle
@@ -15,7 +18,10 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "knowledge-base", "kulliyat")
 INDEX_FILE = os.path.join(os.path.dirname(__file__), "risale_index.faiss")
 METADATA_FILE = os.path.join(os.path.dirname(__file__), "risale_metadata.pkl")
-EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+BM25_FILE = os.path.join(os.path.dirname(__file__), "bm25_index.pkl")
+CITATION_GRAPH_FILE = os.path.join(os.path.dirname(__file__), "citation_graph.json")
+# Keep this in sync with rag_service/app.py so the runtime uses the same embedding model as the index.
+EMBEDDING_MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 CHUNK_SIZE_TOKENS = 800  # Target ~750-900
 CHUNK_OVERLAP_TOKENS = 125 # Target ~100-150
 # Estimating 1 token ~= 4 chars for a rough cut, but we'll try to respect sentence boundaries
@@ -23,7 +29,34 @@ CHUNK_OVERLAP_TOKENS = 125 # Target ~100-150
 CHUNK_SIZE_CHARS = 3000
 CHUNK_OVERLAP_CHARS = 500
 
-def load_and_chunk_md_files(directory: str) -> List[Dict[str, Any]]:
+FRONTMATTER_RE = re.compile(r"^---\s*\n([\s\S]*?)\n---\s*", flags=re.MULTILINE)
+KV_RE = re.compile(r"^\s*([^:#\n]+)\s*:\s*(.*?)\s*$")
+
+def parse_frontmatter_book_chapter(text: str) -> tuple[str, str]:
+    """Extract kitap/bölüm from markdown frontmatter and map to book/chapter."""
+    fm_match = FRONTMATTER_RE.match(text or "")
+    if not fm_match:
+        return "", ""
+
+    frontmatter = fm_match.group(1)
+    values = {}
+    for line in frontmatter.splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        kv_match = KV_RE.match(line)
+        if not kv_match:
+            continue
+        key = kv_match.group(1).strip().casefold()
+        raw_val = kv_match.group(2).strip().strip('"').strip("'")
+        values[key] = raw_val
+
+    # Accept both Turkish and ASCII variants for robustness.
+    book = values.get("kitap") or values.get("book") or ""
+    chapter = values.get("bölüm") or values.get("bolum") or values.get("chapter") or ""
+    return book, chapter
+
+def load_and_chunk_md_files(directory: str, citation_by_section: dict = None) -> List[Dict[str, Any]]:
     headers_to_split_on = [
         ("#", "book"),
         ("##", "chapter"),
@@ -54,6 +87,8 @@ def load_and_chunk_md_files(directory: str) -> List[Dict[str, Any]]:
         logging.info(f"Processing {filepath}...")
         with open(filepath, 'r', encoding='utf-8') as f:
             text = f.read()
+
+        fm_book, fm_chapter = parse_frontmatter_book_chapter(text)
             
         # 1. Split by Markdown Headers to get structural context
         md_docs = markdown_splitter.split_text(text)
@@ -67,11 +102,32 @@ def load_and_chunk_md_files(directory: str) -> List[Dict[str, Any]]:
                 metadata = doc.metadata.copy()
                 metadata['original_order_index'] = global_index
                 metadata['source'] = os.path.basename(filepath)
-                
-                # Ensure all keys exist
-                if 'book' not in metadata: metadata['book'] = "Unknown"
-                if 'chapter' not in metadata: metadata['chapter'] = "Unknown"
+
+                # Prefer explicit frontmatter mapping: kitap -> book, bölüm -> chapter
+                if fm_book:
+                    metadata['book'] = fm_book
+                elif 'book' not in metadata or not metadata.get('book'):
+                    metadata['book'] = "Unknown"
+
+                if fm_chapter:
+                    metadata['chapter'] = fm_chapter
+                elif 'chapter' not in metadata or not metadata.get('chapter'):
+                    metadata['chapter'] = "Unknown"
+
                 if 'sub_chapter' not in metadata: metadata['sub_chapter'] = "General"
+
+                # Enrich with citation graph data
+                section_key = metadata.get('chapter', 'Unknown')
+                if section_key == 'Unknown':
+                    section_key = metadata.get('book', 'Unknown')
+
+                if citation_by_section and section_key != 'Unknown':
+                    graph_entry = citation_by_section.get(section_key, {})
+                    metadata['cites'] = graph_entry.get('verdigii_atiflar', [])
+                    metadata['cited_by'] = graph_entry.get('bu_bolume_atif_yapanlar', [])
+                else:
+                    metadata['cites'] = []
+                    metadata['cited_by'] = []
 
                 all_chunks.append({
                     "text": chunk_text,
@@ -100,7 +156,16 @@ def create_vector_db(chunks: List[Dict[str, Any]]):
     logging.info(f"Index created with {index.ntotal} vectors.")
     return index
 
-def save_system(index, chunks, index_path, metadata_path):
+def tokenize_for_bm25(text: str) -> list[str]:
+    return re.findall(r"[A-Za-zÇĞİÖŞÜçğıöşüÂâÎîÛû0-9']+", (text or "").lower())
+
+def create_bm25_index(chunks: List[Dict[str, Any]]):
+    tokenized_corpus = [tokenize_for_bm25(chunk.get('text', '')) for chunk in chunks]
+    bm25 = BM25Okapi(tokenized_corpus)
+    logging.info(f"BM25 index created with {len(tokenized_corpus)} documents.")
+    return bm25
+
+def save_system(index, chunks, bm25_index, index_path, metadata_path, bm25_path):
     logging.info(f"Saving index to {index_path}...")
     faiss.write_index(index, index_path)
     
@@ -108,15 +173,30 @@ def save_system(index, chunks, index_path, metadata_path):
     with open(metadata_path, 'wb') as f:
         pickle.dump(chunks, f)
 
+    logging.info(f"Saving BM25 index to {bm25_path}...")
+    with open(bm25_path, 'wb') as f:
+        pickle.dump(bm25_index, f)
+
 if __name__ == "__main__":
     if not os.path.exists(DATA_DIR):
         os.makedirs(DATA_DIR)
         logging.warning(f"Created {DATA_DIR}. Please add .md files there and run again.")
     else:
-        chunks = load_and_chunk_md_files(DATA_DIR)
+        # Load citation graph for metadata enrichment
+        citation_by_section = {}
+        if os.path.exists(CITATION_GRAPH_FILE):
+            with open(CITATION_GRAPH_FILE, 'r', encoding='utf-8') as f:
+                cg = json.load(f)
+            citation_by_section = cg.get('by_section', {})
+            logging.info(f"Citation graph loaded: {len(citation_by_section)} sections")
+        else:
+            logging.warning("citation_graph.json not found — skipping citation metadata enrichment")
+
+        chunks = load_and_chunk_md_files(DATA_DIR, citation_by_section=citation_by_section)
         if chunks:
             index = create_vector_db(chunks)
-            save_system(index, chunks, INDEX_FILE, METADATA_FILE)
+            bm25_index = create_bm25_index(chunks)
+            save_system(index, chunks, bm25_index, INDEX_FILE, METADATA_FILE, BM25_FILE)
             logging.info("Ingestion complete!")
         else:
             logging.warning("No chunks generated. Check if data folder has valid .md files.")

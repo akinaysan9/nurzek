@@ -544,6 +544,119 @@ function toggleSources() {
     document.getElementById('sources-panel').classList.toggle('hidden');
 }
 
+function buildSourceHref(source) {
+    const bookSlug = source.book_slug || source.bookSlug || '';
+    const chapterSlug = source.chapter_slug || source.chapterSlug || '';
+    if (!bookSlug || !chapterSlug) return '';
+    return `/kulliyat/${encodeURIComponent(bookSlug)}/${encodeURIComponent(chapterSlug)}`;
+}
+
+if (!window._sourceRegistry) window._sourceRegistry = {};
+
+function registerSource(source) {
+    const sourceId = 'src_' + Date.now() + '_' + Math.random().toString(36).slice(2, 7);
+    window._sourceRegistry[sourceId] = source;
+    return sourceId;
+}
+
+function getSourceScrollText(source) {
+    const text = (source.pasaj || source.excerpt || '').replace(/\.\.\.$/, '').trim();
+    return text.length >= 20 ? text : '';
+}
+
+function sanitizeSourceSection(value, fallbackSlug = '') {
+    const normalized = String(value || '').trim();
+    const lower = normalized.toLowerCase();
+    if (!normalized || ['unknown', 'none', 'null', 'n/a', 'belirtilmemiş'].includes(lower)) {
+        if (fallbackSlug) {
+            return fallbackSlug
+                .replace(/^\d+[-_]/, '')
+                .replace(/[-_]+/g, ' ')
+                .replace(/\b\w/g, c => c.toUpperCase())
+                .trim() || 'Belirtilmemiş';
+        }
+        return 'Belirtilmemiş';
+    }
+    return normalized;
+}
+
+function deriveSlug(value = '') {
+    return String(value)
+        .toLowerCase()
+        .replace(/ğ/g, 'g').replace(/ü/g, 'u').replace(/ş/g, 's')
+        .replace(/ı/g, 'i').replace(/ö/g, 'o').replace(/ç/g, 'c')
+        .replace(/â/g, 'a').replace(/î/g, 'i').replace(/û/g, 'u')
+        .replace(/[^a-z0-9\s-]/g, '')
+        .replace(/\s+/g, '-')
+        .replace(/-+/g, '-')
+        .replace(/^-|-$/g, '');
+}
+
+async function openSourceInReader(sourceId) {
+    const source = window._sourceRegistry[sourceId];
+    if (!source) return;
+
+    const bookSlug = source.book_slug || source.bookSlug || deriveSlug(source.kitap || source.book || '');
+    const chapterSlug = source.chapter_slug || source.chapterSlug || deriveSlug(source.bolum_adi || source.section || '');
+    const scrollText = getSourceScrollText(source);
+
+    if (!bookSlug || !chapterSlug) {
+        if (source.book && source.section) {
+            goToReference(source.book, source.section, scrollText);
+        }
+        return;
+    }
+
+    if (typeof switchView === 'function') switchView('reader');
+
+    try {
+        await loadChapter(bookSlug, chapterSlug, true, scrollText || null);
+
+        const readerContent = document.getElementById('reader-content');
+        if (readerContent && typeof findAndScrollToText === 'function' && scrollText) {
+            findAndScrollToText(readerContent, scrollText);
+        }
+
+        if (source.chunk_id) {
+            if (readerContent && typeof findAndScrollToText === 'function') {
+                findAndScrollToText(readerContent, String(source.chunk_id));
+            }
+        }
+    } catch (err) {
+        console.error('Source navigation error:', err);
+    }
+}
+
+window.openSourceInReader = openSourceInReader;
+
+function renderSourceCard(source, extraClass = '') {
+    const book = escapeHtml(source.kitap || source.book || 'Bilinmiyor');
+    const chapterSlug = source.chapter_slug || source.chapterSlug || '';
+    const section = escapeHtml(sanitizeSourceSection(source.bolum_adi || source.section, chapterSlug));
+    const excerpt = escapeHtml(source.pasaj || source.excerpt || '');
+    const href = buildSourceHref(source);
+    const className = `source-card ${extraClass}`.trim();
+    const sourceId = registerSource(source);
+
+    return `
+        <button type="button" class="${className}" onclick="openSourceInReader('${sourceId}')" ${href ? `data-href="${href}"` : ''}>
+            <div class="source-meta">📖 ${book}</div>
+            <div class="source-section">${section}</div>
+            ${excerpt ? `<div class="source-excerpt">${excerpt}</div>` : ''}
+        </button>
+    `;
+}
+
+function renderInlineSources(sources) {
+    if (!sources || sources.length === 0) return '';
+
+    return `
+        <div class="message-inline-sources">
+            ${sources.map(source => renderSourceCard(source, 'source-card-inline')).join('')}
+        </div>
+    `;
+}
+
 // ═══ Insight / AI Dictionary (Moved to top) ═══
 // (analyzeConcept function is now defined at the top of the file)
 
@@ -594,6 +707,7 @@ async function sendMessage() {
         }
 
         const data = await res.json();
+        console.log('Chat response sources count:', Array.isArray(data.sources) ? data.sources.length : 'no-sources-field');
 
         // Add AI response
         addMessage('assistant', data.answer, data.sources, question);
@@ -646,6 +760,7 @@ function addMessage(role, content, sources = [], userQuestion = '') {
     <div class="message-avatar">${avatar}</div>
     <div class="message-body">
       ${formattedContent}
+            ${role === 'assistant' ? renderInlineSources(sources) : ''}
       ${role === 'assistant' ? `
         <div class="message-actions">
           <button data-copy-id="${copyId}">📋 Kopyala</button>
@@ -698,14 +813,7 @@ function showSources(sources) {
     const panel = document.getElementById('sources-panel');
     const list = document.getElementById('sources-list');
 
-    list.innerHTML = sources.map(s => `
-    <div class="source-card" onclick="goToReference('${s.book}', '${s.section}', '${escapeHtml(s.excerpt || '')}')" style="cursor:pointer; transition:all 0.2s; border:1px solid #eee;">
-      <div class="source-meta">📖 ${s.book || 'Bilinmiyor'} / ${s.section || ''}</div>
-      <div class="source-excerpt">${s.excerpt || ''}</div>
-      <div class="source-score">Benzerlik: ${(s.score * 100).toFixed(0)}%</div>
-      <div style="font-size:0.8em; color:var(--amber); margin-top:4px;">↗ Yeni Sekmede Aç</div>
-    </div>
-  `).join('');
+    list.innerHTML = sources.map(s => renderSourceCard(s)).join('');
 
     panel.classList.remove('hidden');
 }
@@ -2336,8 +2444,16 @@ function findAndScrollToText(container, text) {
             // Found it! Scroll parent into view
             const parent = node.parentElement;
             parent.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            parent.classList.add('highlight-flash'); // Add CSS class for flash effect
-            setTimeout(() => parent.classList.remove('highlight-flash'), 2000);
+
+            // Temporary yellow highlight for 3 seconds
+            const previousBg = parent.style.backgroundColor;
+            const previousTransition = parent.style.transition;
+            parent.style.transition = 'background-color 180ms ease';
+            parent.style.backgroundColor = 'rgba(255, 235, 59, 0.65)';
+            setTimeout(() => {
+                parent.style.backgroundColor = previousBg;
+                parent.style.transition = previousTransition;
+            }, 3000);
             return true;
         }
     }
@@ -3916,11 +4032,10 @@ async function executeSearch(query, resultsId, jumpOnly = false) {
             if (data.sources && data.sources.length > 0) {
                 data.sources.forEach(s => {
                     results.innerHTML += `
-            <div class="search-result-card" onclick="goToReference('${s.book}', '${s.section}', '${escapeHtml(s.excerpt || '')}')" style="cursor:pointer">
-              <div class="result-meta">📖 ${s.book || 'Bilinmiyor'} / ${s.section || ''}</div>
-              <div class="result-text">${s.excerpt || ''}</div>
-            </div>
-          `;
+                        <div class="search-result-card">
+                            ${renderSourceCard(s)}
+                        </div>
+                    `;
                 });
             }
 

@@ -11,7 +11,7 @@ const PYTHON_SERVICE_URL = 'http://localhost:8000/api/search';
 const RAG_TIMEOUT_MS = 300000;
 
 export async function queryNurZeka(question, onToken, onDone, onError, options = {}) {
-    const { conversationId, userId, book_hint, chapter_hint } = options;
+    const { conversationId, userId, book_hint, chapter_hint, onSources } = options;
     console.log('NurZeka V2 Query:', question, 'Conv:', conversationId, 'User:', userId, 'Book:', book_hint, 'Chapter:', chapter_hint);
 
     const controller = new AbortController();
@@ -57,6 +57,10 @@ export async function queryNurZeka(question, onToken, onDone, onError, options =
                     if (parsed.token) {
                         onToken(parsed.token);
                     }
+                    if (parsed.sources && Array.isArray(parsed.sources)) {
+                        console.log('NurZeka SSE sources received:', parsed.sources.length);
+                        onSources?.(parsed.sources);
+                    }
                     if (parsed.error) {
                         onError(parsed.error);
                     }
@@ -91,18 +95,25 @@ export async function queryNurZeka(question, onToken, onDone, onError, options =
 
 export async function ragQuery(question, options = {}) {
     let fullAnswer = '';
+    let sources = [];
     return new Promise((resolve, reject) => {
         queryNurZeka(
             question,
             (token) => { fullAnswer += token; },
             () => resolve({
                 answer: fullAnswer,
-                sources: [],
+                sources,
                 model: 'NurZeka V2',
                 noContext: false
             }),
             (err) => reject(new Error(err)),
-            options
+            {
+                ...options,
+                onSources: (incomingSources) => {
+                    console.log('NurZeka ragQuery sources updated:', incomingSources.length);
+                    sources = incomingSources;
+                }
+            }
         );
     });
 }
