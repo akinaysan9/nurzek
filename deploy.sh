@@ -7,6 +7,11 @@ cd "$(dirname "$0")"
 PROJECT_ROOT="$(pwd)"
 BACKEND_DIR="$PROJECT_ROOT/backend"
 RAG_DIR="$PROJECT_ROOT/rag_service"
+PY_VENV_DIR="$PROJECT_ROOT/venv"
+
+if [ ! -d "$PY_VENV_DIR" ]; then
+    PY_VENV_DIR="$RAG_DIR/venv"
+fi
 
 echo "=============================================="
 echo "  NurZeka - Otomatik Deploy"
@@ -83,19 +88,25 @@ echo ""
 if [ -d "$RAG_DIR" ] && [ -f "$RAG_DIR/requirements.txt" ]; then
     echo ">>> Python RAG servisi kontrol ediliyor..."
     if command -v python3 &>/dev/null; then
-        cd "$RAG_DIR"
-        if [ ! -d "venv" ]; then
+        if [ ! -d "$PY_VENV_DIR" ]; then
             echo "    venv oluşturuluyor..."
-            python3 -m venv venv
+            python3 -m venv "$PY_VENV_DIR"
         fi
-        source venv/bin/activate
+        cd "$RAG_DIR"
+        # Prefer a root-level venv when the project shares one across services.
+        source "$PY_VENV_DIR/bin/activate"
         pip install -q -r requirements.txt
-        if pm2 describe nurzeka-python &>/dev/null; then
+        if pm2 describe nurzeka-rag &>/dev/null; then
+            pm2 restart nurzeka-rag
+            PM2_RAG_NAME="nurzeka-rag"
+        elif pm2 describe nurzeka-python &>/dev/null; then
             pm2 restart nurzeka-python
+            PM2_RAG_NAME="nurzeka-python"
         else
-            pm2 start "venv/bin/uvicorn app:app --host 0.0.0.0 --port 8000" --name nurzeka-python --cwd "$RAG_DIR"
+            pm2 start "$PY_VENV_DIR/bin/uvicorn app:app --host 0.0.0.0 --port 8000" --name nurzeka-rag --cwd "$RAG_DIR"
+            PM2_RAG_NAME="nurzeka-rag"
         fi
-        echo "[OK] Python RAG servisi (nurzeka-python) çalışıyor"
+        echo "[OK] Python RAG servisi ($PM2_RAG_NAME) çalışıyor"
         deactivate 2>/dev/null || true
     else
         echo "[ATLA] python3 yok - RAG servisi başlatılmadı (isteğe bağlı)"
