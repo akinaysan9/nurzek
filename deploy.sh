@@ -122,14 +122,52 @@ if ! pm2 startup 2>/dev/null | grep -q "already"; then
     pm2 startup 2>/dev/null || true
 fi
 
+# ── Postgres v2 / Outbox (isteğe bağlı — PG_DATABASE_URL gerektirir) ─────────
+echo ""
+echo ">>> Postgres v2 katmanı kontrol ediliyor..."
+if grep -qE '^PG_DATABASE_URL=.+' "$BACKEND_DIR/.env" 2>/dev/null; then
+    echo "[OK] PG_DATABASE_URL ayarli — v2 endpoint'leri aktif olacak."
+
+    # Check Postgres connectivity before running migration
+    PG_URL=$(grep '^PG_DATABASE_URL=' "$BACKEND_DIR/.env" | cut -d= -f2-)
+    if psql "$PG_URL" -c "SELECT 1" > /dev/null 2>&1; then
+        echo ">>> Migration çalıştırılıyor (backup + rollback destekli)..."
+        bash "$BACKEND_DIR/db/migrate.sh"
+        echo "[OK] Migration tamamlandı."
+
+        # Start outbox worker if not already running
+        if pm2 describe nurzeka-outbox &>/dev/null; then
+            pm2 restart nurzeka-outbox
+        else
+            cd "$BACKEND_DIR"
+            pm2 start scripts/outbox_worker.js --name nurzeka-outbox \
+                --max-memory-restart 100M --restart-delay 5000
+        fi
+        echo "[OK] Outbox worker (nurzeka-outbox) çalışıyor"
+    else
+        echo "[UYARI] Postgres'e bağlanılamadı. Migration ve outbox worker atlanıyor."
+        echo "        PostgreSQL kurulu ve çalışıyor mu kontrol edin."
+    fi
+else
+    echo "[BILGI] PG_DATABASE_URL ayarli degil."
+    echo "        v2 endpoint'leri 503 dönecek (v1 SQLite etkilenmez)."
+    echo "        Kurulum: backend/.env dosyasina PG_DATABASE_URL ekleyin."
+fi
+
+# Ecosystem config ile tüm process'leri yönetmek isterseniz:
+# pm2 start /www/wwwroot/nurzek/ecosystem.config.cjs
+# (nurzeka-backend + nurzeka-outbox'ı tek komutla başlatır)
+
 echo ""
 echo "=============================================="
 echo "  Deploy tamamlandı."
 echo "  Backend: http://localhost:3001"
 echo "  Durum:  pm2 status"
 echo "  Loglar: pm2 logs nurzeka-backend"
+echo "  Outbox: pm2 logs nurzeka-outbox"
 echo "=============================================="
 echo ""
 echo "Kurulum tamam. Uygulama calisiyor."
 echo "Google giris veya DeepSeek API kullanacaksaniz backend/.env duzenleyip: pm2 restart nurzeka-backend"
 echo ""
+

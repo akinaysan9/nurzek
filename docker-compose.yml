@@ -5,12 +5,16 @@ services:
     image: postgres:15
     container_name: nurzek-postgres
     restart: unless-stopped
+    # POSTGRES_* vars are for the Postgres daemon only.
+    # The app connects via PG_DATABASE_URL (not DATABASE_URL) to prevent
+    # any accidental v1/v2 cross-wiring.
     environment:
-      POSTGRES_DB: nurzek
-      POSTGRES_USER: nurzek
-      POSTGRES_PASSWORD: nurzek
+      POSTGRES_DB: ${POSTGRES_DB:-nurzek}
+      POSTGRES_USER: ${POSTGRES_USER:-nurzek}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-nurzek}
     ports:
       - '5432:5432'
+    mem_limit: 512m
     healthcheck:
       test: ['CMD-SHELL', 'pg_isready -U nurzek -d nurzek']
       interval: 10s
@@ -26,6 +30,7 @@ services:
     restart: unless-stopped
     ports:
       - '6379:6379'
+    mem_limit: 128m
     healthcheck:
       test: ['CMD', 'redis-cli', 'ping']
       interval: 10s

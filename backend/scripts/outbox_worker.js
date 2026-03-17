@@ -1,10 +1,13 @@
 import { getPgPool, isPostgresConfigured } from '../db/pg.js';
 
 const BATCH_SIZE = Number(process.env.OUTBOX_BATCH_SIZE || 50);
+const POLL_INTERVAL_MS = Number(process.env.OUTBOX_POLL_INTERVAL_MS || 5000);
+// After this many consecutive failures, alert and back off.
+const MAX_CONSECUTIVE_ERRORS = Number(process.env.OUTBOX_MAX_CONSECUTIVE_ERRORS || 5);
 
 async function processPendingOutbox() {
     if (!isPostgresConfigured) {
-        throw new Error('Postgres is not configured. Set DATABASE_URL.');
+        throw new Error('Postgres is not configured. Set PG_DATABASE_URL.');
     }
 
     const pool = getPgPool();
@@ -70,12 +73,56 @@ async function processPendingOutbox() {
     }
 }
 
-processPendingOutbox()
-    .then((result) => {
-        console.log(`outbox worker finished: processed=${result.processed} scanned=${result.scanned}`);
-        process.exit(0);
-    })
-    .catch((error) => {
-        console.error('outbox worker failed:', error.message);
-        process.exit(1);
-    });
+// ── Main loop ────────────────────────────────────────────────────────────────
+// Run as a long-lived daemon (managed by PM2 with restart: always).
+// On consecutive failures it backs off exponentially so PM2 doesn't spin-loop.
+
+if (!isPostgresConfigured) {
+    console.error('[outbox] PG_DATABASE_URL not set — exiting.');
+    process.exit(1);
+}
+
+let consecutiveErrors = 0;
+
+async function tick() {
+    try {
+        const result = await processPendingOutbox();
+        if (result.processed > 0) {
+            console.log(`[outbox] processed=${result.processed} scanned=${result.scanned}`);
+        }
+        consecutiveErrors = 0;
+    } catch (err) {
+        consecutiveErrors += 1;
+        const backoffMs = Math.min(60_000, POLL_INTERVAL_MS * Math.pow(2, consecutiveErrors));
+        console.error(`[outbox] error #${consecutiveErrors}: ${err.message}`);
+
+        if (consecutiveErrors >= MAX_CONSECUTIVE_ERRORS) {
+            // Surface for PM2 log alerts / external monitoring.
+            console.error(
+                `[outbox] ALERT: ${consecutiveErrors} consecutive failures. ` +
+                `audit_outbox may be accumulating. Check Postgres connectivity.`
+            );
+        }
+        // Let PM2 see the process stayed alive; just slow down.
+        await new Promise((r) => setTimeout(r, backoffMs));
+        return;
+    }
+    setTimeout(tick, POLL_INTERVAL_MS);
+}
+
+// Graceful shutdown — let the current batch finish before exiting.
+let shuttingDown = false;
+process.on('SIGTERM', () => { shuttingDown = true; });
+process.on('SIGINT',  () => { shuttingDown = true; });
+
+(async function start() {
+    console.log('[outbox] worker started, polling every', POLL_INTERVAL_MS, 'ms');
+    while (!shuttingDown) {
+        await tick();
+        if (!shuttingDown) {
+            await new Promise((r) => setTimeout(r, POLL_INTERVAL_MS));
+        }
+    }
+    console.log('[outbox] graceful shutdown complete');
+    process.exit(0);
+})();

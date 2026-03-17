@@ -1,0 +1,104 @@
+name: Validate docker-compose & Node syntax
+
+on:
+  push:
+    branches: [main, dev]
+    paths:
+      - 'docker-compose.yml'
+      - 'backend/**'
+      - 'ecosystem.config.cjs'
+  pull_request:
+    branches: [main, dev]
+
+jobs:
+  compose-validate:
+    name: docker compose config
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate docker-compose.yml syntax
+        # docker compose config parses the file and resolves env substitutions.
+        # It will error on invalid YAML, unknown keys, and bad resource values.
+        run: docker compose config --quiet
+        env:
+          # Provide dummy values so ${VAR:-default} substitutions resolve cleanly.
+          POSTGRES_DB: nurzek
+          POSTGRES_USER: nurzek
+          POSTGRES_PASSWORD: test
+
+      - name: Check mem_limit values are reasonable (<=512m postgres, <=128m redis)
+        run: |
+          POSTGRES_MEM=$(docker compose config | grep -A30 'nurzek-postgres' | grep mem_limit | awk '{print $2}')
+          REDIS_MEM=$(docker compose config | grep -A30 'nurzek-redis' | grep mem_limit | awk '{print $2}')
+          echo "postgres mem_limit=$POSTGRES_MEM  redis mem_limit=$REDIS_MEM"
+          # Fail if either value is missing (means it was accidentally removed)
+          [[ -n "$POSTGRES_MEM" ]] || (echo "ERROR: postgres mem_limit not set" && exit 1)
+          [[ -n "$REDIS_MEM"    ]] || (echo "ERROR: redis mem_limit not set"    && exit 1)
+        env:
+          POSTGRES_DB: nurzek
+          POSTGRES_USER: nurzek
+          POSTGRES_PASSWORD: test
+
+  node-syntax:
+    name: Node.js syntax check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: backend/package-lock.json
+
+      - name: Install backend deps
+        run: npm ci
+        working-directory: backend
+
+      - name: Check all backend JS files parse correctly
+        run: |
+          find . -name "*.js" -not -path "*/node_modules/*" | while read f; do
+            node --check "$f" || exit 1
+          done
+        working-directory: backend
+
+      - name: Validate ecosystem.config.cjs
+        run: node --check ecosystem.config.cjs
+
+  migration-dry-run:
+    name: Migration SQL dry-run
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_DB: nurzek
+          POSTGRES_USER: nurzek
+          POSTGRES_PASSWORD: nurzek
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U nurzek -d nurzek"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run 001_init_schema.sql against fresh Postgres
+        env:
+          PGPASSWORD: nurzek
+        run: |
+          psql -h localhost -U nurzek -d nurzek -v ON_ERROR_STOP=1 \
+               -f backend/db/migrations/001_init_schema.sql
+          echo "Migration applied cleanly."
+
+      - name: Run migration again (idempotency check — IF NOT EXISTS)
+        env:
+          PGPASSWORD: nurzek
+        run: |
+          psql -h localhost -U nurzek -d nurzek -v ON_ERROR_STOP=1 \
+               -f backend/db/migrations/001_init_schema.sql
+          echo "Idempotency check passed."

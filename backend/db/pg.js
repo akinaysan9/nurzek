@@ -2,7 +2,9 @@ import pg from 'pg';
 
 const { Pool } = pg;
 
-const databaseUrl = process.env.DATABASE_URL;
+// PG_DATABASE_URL is intentionally separate from any legacy DATABASE_URL that
+// SQLite-based v1 routes might reference, preventing cross-adapter contamination.
+const databaseUrl = process.env.PG_DATABASE_URL;
 
 export const isPostgresConfigured = Boolean(databaseUrl);
 
@@ -24,7 +26,7 @@ if (isPostgresConfigured) {
 
 export function getPgPool() {
     if (!pool) {
-        throw new Error('Postgres is not configured. Set DATABASE_URL first.');
+        throw new Error('Postgres is not configured. Set PG_DATABASE_URL first.');
     }
     return pool;
 }
