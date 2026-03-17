@@ -12,3 +12,4 @@ pydantic==2.5.3
 zeyrek
 keybert
 networkx
+psycopg[binary]

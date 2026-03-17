@@ -32,6 +32,8 @@ import referenceRoutes from './routes/references.js';
 import userDataRoutes from './routes/user_data.js';
 import quotesRoutes from './routes/quotes.js';
 import conceptSearchRoutes from './routes/concept_search.js';
+import conceptOccurrencesV2Routes from './routes/concept_occurrences_v2.js';
+import governanceV2Routes from './routes/governance_v2.js';
 import { buildIndex } from './services/rag.js'; // AI Dependent (Disabled/Unused for startup to prevent crash)
 import { VectorStore } from './services/vector_store.js';
 // import { buildIndex } from './services/search_engine.js'; // Pure Local Engine
@@ -57,6 +59,8 @@ app.use('/api/user', userRoutes);
 app.use('/api/user-data', userDataRoutes); // Bookmarks & Highlights
 app.use('/api/concepts', conceptRoutes);
 app.use('/api/concept-search', conceptSearchRoutes);
+app.use('/api/concept-occurrences', conceptOccurrencesV2Routes);
+app.use('/api', governanceV2Routes);
 app.use('/api/references', referenceRoutes);
 app.use('/api/quotes', quotesRoutes);
 

@@ -4,7 +4,7 @@ import time
 import logging
 import json
 import re
-from typing import List, Optional, AsyncGenerator
+from typing import List, Optional, AsyncGenerator, Any, Dict
 from rank_bm25 import BM25Okapi
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import JSONResponse, StreamingResponse
@@ -2466,6 +2466,102 @@ Bağlam: {context[:500]}
         "explanation": explanation,
         "count":       len(results),
         "occurrences": results
+    }
+
+
+class ReplayRequest(BaseModel):
+    mode: Optional[str] = "strict"
+
+
+@app.post("/api/replay/{event_id}")
+async def replay_event(event_id: str, request: ReplayRequest):
+    mode = (request.mode or "strict").strip().lower()
+    if mode not in {"strict", "compat"}:
+        raise HTTPException(status_code=400, detail="mode must be strict or compat")
+
+    database_url = os.getenv("DATABASE_URL")
+    if not database_url:
+        raise HTTPException(status_code=503, detail="DATABASE_URL is not configured")
+
+    try:
+        import psycopg
+        from psycopg.rows import dict_row
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"psycopg import failed: {exc}")
+
+    try:
+        with psycopg.connect(database_url, row_factory=dict_row) as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    SELECT
+                        event_id,
+                        concept_name,
+                        mention_type,
+                        confidence,
+                        source_refs,
+                        decision_trace,
+                        rule_snapshot_hash,
+                        ontology_snapshot_hash,
+                        engine_build_id,
+                        feature_schema_version,
+                        lane,
+                        status,
+                        created_at
+                    FROM occurrence_events_core
+                    WHERE event_id = %s
+                    """,
+                    [event_id]
+                )
+                event_row = cur.fetchone()
+                if not event_row:
+                    raise HTTPException(status_code=404, detail="event_id not found")
+
+                has_full_trace = bool(
+                    event_row.get("rule_snapshot_hash")
+                    and event_row.get("ontology_snapshot_hash")
+                    and event_row.get("engine_build_id")
+                )
+
+                replay_result: Dict[str, Any] = {
+                    "mode": mode,
+                    "event_id": str(event_row.get("event_id")),
+                    "trace_ok": has_full_trace,
+                    "lane": event_row.get("lane"),
+                    "status": event_row.get("status"),
+                    "feature_schema_version": event_row.get("feature_schema_version"),
+                    "decision_trace": event_row.get("decision_trace") or {},
+                    "source_refs": event_row.get("source_refs") or []
+                }
+
+                if mode == "strict" and not has_full_trace:
+                    replay_result["replay_status"] = "rejected"
+                    replay_result["reason"] = "missing trace fields for strict replay"
+                else:
+                    replay_result["replay_status"] = "accepted"
+                    replay_result["reason"] = "compat mode" if mode == "compat" else "strict trace checks passed"
+
+                cur.execute(
+                    """
+                    INSERT INTO replay_runs (event_id, mode, result)
+                    VALUES (%s, %s, %s::jsonb)
+                    RETURNING run_id, created_at
+                    """,
+                    [event_id, mode, json.dumps(replay_result)]
+                )
+                run_row = cur.fetchone()
+
+            conn.commit()
+
+    except HTTPException:
+        raise
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"replay failed: {exc}")
+
+    return {
+        "run_id": str(run_row.get("run_id")),
+        "created_at": str(run_row.get("created_at")),
+        "result": replay_result
     }
 
 if __name__ == "__main__":

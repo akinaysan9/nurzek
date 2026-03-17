@@ -9,7 +9,8 @@
     "dev": "node --watch server.js",
     "scrape": "node scraper/main-scraper.js",
     "scrape:test": "node scraper/main-scraper.js --test",
-    "scrape:hizmet": "node scraper/hizmet-scraper.js"
+    "scrape:hizmet": "node scraper/hizmet-scraper.js",
+    "outbox:worker": "node scripts/outbox_worker.js"
   },
   "dependencies": {
     "@xenova/transformers": "^2.17.2",
@@ -24,6 +25,7 @@
     "marked": "^11.1.0",
     "node-cron": "^3.0.3",
     "node-fetch": "^3.3.2",
+    "pg": "^8.13.1",
     "puppeteer": "^24.37.5",
     "sql.js": "^1.10.2",
     "uuid": "^9.0.0"

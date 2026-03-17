@@ -26,6 +26,38 @@ npm start
 npm run scrape
 ```
 
+## 🐘 Postgres + Redis (V2 Governance)
+
+Bu katman mevcut SQLite sistemi bozmadan paralel çalışır.
+
+```bash
+# 1. Altyapıyı başlat
+docker compose up -d postgres redis
+
+# 2. Backend ortam değişkenlerini doldur
+# backend/.env içine DATABASE_URL ve REDIS_URL ekleyin
+
+# 3. Backend'i çalıştır
+cd backend
+npm install
+npm start
+```
+
+Varsayılan migration dosyası: `backend/db/migrations/001_init_schema.sql`
+
+Yeni endpointler:
+- `POST /api/concept-occurrences/v2`
+- `GET /api/refinement-jobs/:id`
+- `POST /api/rules/canary/promote`
+- `POST /api/replay/:event_id` (Python servis)
+
+Outbox worker:
+
+```bash
+cd backend
+npm run outbox:worker
+```
+
 ## 🏗️ Özellikler
 
 | Özellik | Açıklama |
