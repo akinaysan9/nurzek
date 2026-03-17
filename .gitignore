@@ -7,3 +7,8 @@ venv/
 *.db
 *.faiss
 *.pkl
+__pycache__/
+*.pyc
+*.log
+*.bak
+rag_service/nano_graphrag_cache/

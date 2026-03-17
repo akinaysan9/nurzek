@@ -2,39 +2,100 @@ import express from 'express';
 import { getAIResponseStream } from '../services/rag.js';
 
 const router = express.Router();
+const PYTHON_ANALYZE_CONTEXT_URL = process.env.PYTHON_ANALYZE_CONTEXT_URL || 'http://127.0.0.1:8000/api/analyze/context';
+
+function buildAnalysisSourceDossier(sources = []) {
+    if (!Array.isArray(sources) || sources.length === 0) {
+        return 'Doğrulanmış kaynak bulunamadı.';
+    }
+
+    return sources.map((source, index) => {
+        const book = source.kitap || source.book || 'Kaynak';
+        const section = source.bolum_adi || source.section || 'Bölüm';
+        const excerpt = source.pasaj || source.excerpt || '';
+        return `${index + 1}. [[${book}: ${section}]]\nPasaj: "${excerpt}"`;
+    }).join('\n\n');
+}
 
 /**
  * @route   POST /api/analyze/concept
  * @desc    Deep AI analysis of a concept/word from Risale-i Nur (Streaming)
  */
 router.post('/concept', async (req, res) => {
-    const { text, context } = req.body;
+    const { text, context, book_hint, chapter_hint } = req.body;
 
     if (!text) {
         return res.status(400).json({ error: 'Analyz edilecek metin bulunamadı.' });
     }
-
-    const prompt = `
-Aşağıdaki kavram veya ifadeyi Risale-i Nur perspektifinden derinlemesine analiz et. 
-Lütfen şu başlıklar altında yapılandırılmış bir yanıt ver (Markdown formatında):
-
-1. **Lügat Manası**: Kelimenin sözlükteki temel anlamı.
-2. **Etimoloji ve Dil Bilgisi**: Kelimenin kökeni (Arapça/Farsça/Osmanlıca), kök anlamı ve dil bilgisi yapısı.
-3. **Risale-i Nur'daki Istılahî Derinliği**: Bu kavram Risale-i Nur'da nasıl bir anlam derinliği kazanır? Bediüzzaman bu kavramı hangi hakikatleri açıklamak için kullanır?
-4. **Bağlamsal Analiz**: (Eğer bağlam verilmişse) Bu ifade şu an geçtiği metinde neye işaret ediyor?
-5. **İlgili Atıflar**: Bu kavramın yoğun işlendiği diğer Risale-i Nur bölümlerine kısa atıflar.
-
-Analiz edilecek kavram: "${text}"
-${context ? `Bağlam (Bulunduğu paragraf): "${context}"` : ''}
-
-Lütfen çok derinlikli, ilmi ve Risale-i Nur terminolojisine sadık bir dil kullan.
-`;
 
     try {
         console.log(`🔍 Concept Analysis Request (Streaming): "${text}"`);
 
         // Set up node-fetch
         const fetch = (await import('node-fetch')).default;
+        let grounding = {
+            grounded: false,
+            retrieval_stage: 'unavailable',
+            retrieval_is_relevant: false,
+            sources: [],
+            context_block: ''
+        };
+
+        try {
+            const groundingResponse = await fetch(PYTHON_ANALYZE_CONTEXT_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    text,
+                    context: context || '',
+                    book_hint: book_hint || null,
+                    chapter_hint: chapter_hint || null
+                })
+            });
+
+            if (!groundingResponse.ok) {
+                throw new Error(`Grounding HTTP ${groundingResponse.status}`);
+            }
+
+            grounding = await groundingResponse.json();
+        } catch (groundingError) {
+            console.error('Analysis grounding error:', groundingError);
+        }
+
+        const sourceDossier = buildAnalysisSourceDossier(grounding.sources);
+        const contextBlock = grounding.context_block || 'Doğrulanmış kaynak metin bulunamadı.';
+        const prompt = `
+Aşağıdaki kavram veya ifadeyi Risale-i Nur perspektifinden derinlemesine analiz et.
+Lütfen şu başlıklar altında yapılandırılmış bir yanıt ver (Markdown formatında):
+
+1. **Lügat Manası**: Kelimenin sözlükteki temel anlamı.
+2. **Etimoloji ve Dil Bilgisi**: Kelimenin kökeni (Arapça/Farsça/Osmanlıca), kök anlamı ve dil bilgisi yapısı.
+3. **Risale-i Nur'daki Istılahî Derinliği**: Bu kavram Risale-i Nur'da nasıl bir anlam derinliği kazanır? Bediüzzaman bu kavramı hangi hakikatleri açıklamak için kullanır?
+4. **Bağlamsal Analiz**: Bu ifade şu an geçtiği metinde neye işaret ediyor?
+5. **İlgili Atıflar**: Bu kavramın işlendiği diğer Risale-i Nur bölümlerine kısa atıflar.
+
+KRİTİK KURALLAR:
+- 1, 2 ve 3. başlıklarda Risale-i Nur terminolojisine sadık kalarak derin analiz yapabilirsin.
+- 4 ve 5. başlıklarda SADECE aşağıdaki doğrulanmış bağlama ve kaynaklara dayan.
+- Doğrulanmış kaynaklarda geçmeyen bir risale, bölüm veya pasaj adı uydurma.
+- Bağlamsal Analiz için destek yoksa açıkça "Bu seçim için doğrulanmış bağlam yeterli değil." de.
+- İlgili Atıflar için destek yoksa açıkça "Bu seçim için doğrulanmış ek atıf bulunamadı." de.
+- Kaynaklardan söz ederken sadece bu formatı kullan: [[Kitap: Bölüm]]
+- Verilen pasajlara dayanmayan kesin hüküm veya atıf yazma.
+
+Analiz edilecek kavram: "${text}"
+${context ? `Bulunduğu paragraf: "${context}"` : 'Bulunduğu paragraf: [verilmedi]'}
+${book_hint ? `Açık kitap ipucu: ${book_hint}` : ''}
+${chapter_hint ? `Açık bölüm ipucu: ${chapter_hint}` : ''}
+
+Doğrulanmış Kaynaklar:
+${sourceDossier}
+
+Doğrulanmış Bağlam Metinleri:
+${contextBlock}
+
+Lütfen çok derinlikli, ilmi ve Risale-i Nur terminolojisine sadık bir dil kullan. Ama 4 ve 5. başlıklarda yalnızca doğrulanmış kaynaklarla konuş.
+`;
 
         const aiResponse = await fetch('https://api.deepseek.com/v1/chat/completions', {
             method: 'POST',
@@ -45,6 +106,7 @@ Lütfen çok derinlikli, ilmi ve Risale-i Nur terminolojisine sadık bir dil kul
             body: JSON.stringify({
                 model: 'deepseek-chat',
                 messages: [{ role: 'user', content: prompt }],
+                temperature: 0.2,
                 stream: false
             })
         });
@@ -56,7 +118,11 @@ Lütfen çok derinlikli, ilmi ve Risale-i Nur terminolojisine sadık bir dil kul
         const data = await aiResponse.json();
 
         if (data.choices && data.choices.length > 0) {
-            res.json({ result: data.choices[0].message.content });
+            res.json({
+                result: data.choices[0].message.content,
+                sources: grounding.sources || [],
+                grounded: Boolean(grounding.grounded)
+            });
         } else {
             res.status(500).json({ error: 'AI boş yanıt döndürdü.', details: data });
         }

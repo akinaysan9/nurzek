@@ -1,0 +1,4781 @@
+{
+  "meta": {
+    "source": "Nurpedia Mefhum",
+    "category_url": "https://nurpedia.org/wiki/Kategori:Mefhum",
+    "concept_count": 91,
+    "fetched_count": 91
+  },
+  "alias_to_concepts": {
+    "adalet": [
+      "adalet"
+    ],
+    "allah (cc)": [
+      "allah-cc"
+    ],
+    "arefe": [
+      "arefe"
+    ],
+    "başlangıç": [
+      "baslangic"
+    ],
+    "bedevi": [
+      "bedevi"
+    ],
+    "bediüzzaman'ın gittiği şehirler, kaldığı yerler ve ziyaretgahlar": [
+      "bediuzzaman-in-gittigi-sehirler-kaldigi-yerler-ve-ziyaretgahlar"
+    ],
+    "bediüzzaman'ın i̇simleri": [
+      "bediuzzaman-in-isimleri"
+    ],
+    "bediüzzaman'ın vasiyetleri": [
+      "bediuzzaman-in-vasiyetleri"
+    ],
+    "berat gecesi": [
+      "berat-gecesi"
+    ],
+    "berk": [
+      "berk"
+    ],
+    "bürhan": [
+      "burhan"
+    ],
+    "cennet bahçesi": [
+      "cennet-bahcesi"
+    ],
+    "cuma namazı": [
+      "cuma-namazi"
+    ],
+    "cumhuriyet": [
+      "cumhuriyet"
+    ],
+    "derviş": [
+      "dervis"
+    ],
+    "dua": [
+      "dua"
+    ],
+    "en'am (hizb)": [
+      "en-am-hizb"
+    ],
+    "ensest": [
+      "ensest"
+    ],
+    "erkan-ı sitte (i̇man)": [
+      "erkan-i-sitte-iman"
+    ],
+    "eski, yeni ve üçüncü said": [
+      "eski-yeni-ve-ucuncu-said"
+    ],
+    "fikret": [
+      "fikret"
+    ],
+    "gök gürültüsü": [
+      "gok-gurultusu"
+    ],
+    "güneş lekesi": [
+      "gunes-lekesi"
+    ],
+    "hacı": [
+      "haci"
+    ],
+    "hadis": [
+      "hadis"
+    ],
+    "hads": [
+      "hads"
+    ],
+    "harama nazar": [
+      "harama-nazar"
+    ],
+    "heyula": [
+      "heyula"
+    ],
+    "hizb": [
+      "hizb"
+    ],
+    "hortlak": [
+      "hortlak"
+    ],
+    "huruf-u mukattaa": [
+      "huruf-u-mukattaa"
+    ],
+    "husuf ve kusuf namazları": [
+      "husuf-ve-kusuf-namazlari"
+    ],
+    "hutbe": [
+      "hutbe"
+    ],
+    "i̇hlas": [
+      "ihlas"
+    ],
+    "i̇kileme": [
+      "ikileme"
+    ],
+    "i̇mam-ı mübin ve kitab-ı mübin": [
+      "imam-i-mubin-ve-kitab-i-mubin"
+    ],
+    "i̇man": [
+      "iman"
+    ],
+    "i̇man hizmeti": [
+      "iman-hizmeti"
+    ],
+    "i̇ntegral": [
+      "integral"
+    ],
+    "i̇slam": [
+      "islam"
+    ],
+    "i̇sm-i azam": [
+      "ism-i-azam"
+    ],
+    "i̇spirtizma": [
+      "ispirtizma"
+    ],
+    "i̇zdivaç": [
+      "izdivac"
+    ],
+    "kahin": [
+      "kahin"
+    ],
+    "kaza-yı şehvet": [
+      "kaza-yi-sehvet"
+    ],
+    "kazurat": [
+      "kazurat"
+    ],
+    "kur'an ve tevafuk": [
+      "kur-an-ve-tevafuk"
+    ],
+    "kurban": [
+      "kurban"
+    ],
+    "kurban bayramı": [
+      "kurban-bayrami"
+    ],
+    "kün feyekun": [
+      "kun-feyekun"
+    ],
+    "leyali-i aşere": [
+      "leyali-i-asere"
+    ],
+    "malum günah": [
+      "malum-gunah"
+    ],
+    "mecelle": [
+      "mecelle"
+    ],
+    "medyum": [
+      "medyum"
+    ],
+    "menopoz": [
+      "menopoz"
+    ],
+    "merdümgirizlik": [
+      "merdumgirizlik"
+    ],
+    "muhabbet": [
+      "muhabbet"
+    ],
+    "musibet": [
+      "musibet"
+    ],
+    "namaz": [
+      "namaz"
+    ],
+    "nazar": [
+      "nazar"
+    ],
+    "nazar değmesi": [
+      "nazar-degmesi"
+    ],
+    "nebi": [
+      "nebi"
+    ],
+    "nekrofili": [
+      "nekrofili"
+    ],
+    "nevruz": [
+      "nevruz"
+    ],
+    "nikbinlik ve bedbinlik": [
+      "nikbinlik-ve-bedbinlik"
+    ],
+    "pareto i̇lkesi": [
+      "pareto-ilkesi"
+    ],
+    "paşa": [
+      "pasa"
+    ],
+    "peygamberimizin i̇simleri": [
+      "peygamberimizin-isimleri"
+    ],
+    "rezzakıyet": [
+      "rezzakiyet"
+    ],
+    "ruzname": [
+      "ruzname"
+    ],
+    "sadakat": [
+      "sadakat"
+    ],
+    "said nursi'nin ailesi": [
+      "said-nursi-nin-ailesi"
+    ],
+    "said nursi'nin kabri": [
+      "said-nursi-nin-kabri"
+    ],
+    "said nursi'nin seyyidliği": [
+      "said-nursi-nin-seyyidligi"
+    ],
+    "satranç": [
+      "satranc"
+    ],
+    "sigara": [
+      "sigara"
+    ],
+    "silsilename": [
+      "silsilename"
+    ],
+    "sindaktili": [
+      "sindaktili"
+    ],
+    "sudur": [
+      "sudur"
+    ],
+    "takiyye": [
+      "takiyye"
+    ],
+    "takvim": [
+      "takvim"
+    ],
+    "tavla (oyun)": [
+      "tavla-oyun"
+    ],
+    "tevafuk": [
+      "tevafuk"
+    ],
+    "tevfik": [
+      "tevfik"
+    ],
+    "teşrik tekbiri": [
+      "tesrik-tekbiri"
+    ],
+    "yamyamlık": [
+      "yamyamlik"
+    ],
+    "zühd": [
+      "zuhd"
+    ],
+    "çocuk": [
+      "cocuk"
+    ],
+    "ölüm": [
+      "olum"
+    ],
+    "örnek madde (mefhum)": [
+      "ornek-madde-mefhum"
+    ],
+    "örnek madde (şuunat)": [
+      "ornek-madde-suunat"
+    ]
+  },
+  "concepts": {
+    "adalet": {
+      "display": "Adalet",
+      "aliases": [
+        "adalet"
+      ],
+      "related_labels": [
+        "Âdil",
+        "Adl",
+        "Müsavât"
+      ],
+      "related_concepts": [
+        "adil",
+        "adl",
+        "musavat"
+      ],
+      "ranked_references": [
+        {
+          "book": "Sözler",
+          "section": "10. Söz",
+          "count": 4,
+          "score": 24.0
+        },
+        {
+          "book": "Lemeat_(S%C3%B6zler)",
+          "section": "Lemeat_(S%C3%B6zler)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "13._Lem%27a",
+          "section": "13._Lem%27a",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "%C4%B0kinci_K%C4%B1s%C4%B1m_Mektuplar_(Emirda%C4%9F-2)",
+          "section": "%C4%B0kinci_K%C4%B1s%C4%B1m_Mektuplar_(Emirda%C4%9F-2)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "30._Lem%27a",
+          "section": "30._Lem%27a",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Lem'alar",
+          "section": "30. Lem'a",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Bakara_Suresi_4-5._%C3%A2yetler",
+          "section": "Bakara_Suresi_4-5._%C3%A2yetler",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "15._Mektup",
+          "section": "15._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "22._Mektup",
+          "section": "22._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Hakikat_%C3%87ekirdekleri_(Mektubat)",
+          "section": "Hakikat_%C3%87ekirdekleri_(Mektubat)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "allah-cc": {
+      "display": "Allah (cc)",
+      "aliases": [
+        "allah (cc)"
+      ],
+      "related_labels": [
+        "İman",
+        "İslam",
+        "Hz. Muhammed (sav)",
+        "Tevhid",
+        "Kur'an",
+        "Ahiret",
+        "Esma",
+        "Allah'a İman",
+        "Vahidiyet ve Ehadiyet",
+        "Sıfat",
+        "Şuunat",
+        "İsm-i Azam",
+        "Esma-ül Hüsna",
+        "Vacib-ül Vücud",
+        "Vahdet-ül Vücud ve Vahdet-üş Şuhud",
+        "Kelime-i Tevhid",
+        "Kelime-i Şehadet",
+        "Allah'ın Varlığı",
+        "Vahdet",
+        "Allah'ın Varlığının Delilleri",
+        "Tezahür-ü Rububiyet",
+        "Tebarüz-ü Uluhiyet"
+      ],
+      "related_concepts": [
+        "iman",
+        "islam",
+        "hz-muhammed-sav",
+        "tevhid",
+        "kur-an",
+        "ahiret",
+        "esma",
+        "allah-a-iman",
+        "vahidiyet-ve-ehadiyet",
+        "sifat",
+        "suunat",
+        "ism-i-azam",
+        "esma-ul-husna",
+        "vacib-ul-vucud",
+        "vahdet-ul-vucud-ve-vahdet-us-suhud",
+        "kelime-i-tevhid",
+        "kelime-i-sehadet",
+        "allah-in-varligi",
+        "vahdet",
+        "allah-in-varliginin-delilleri",
+        "tezahur-u-rububiyet",
+        "tebaruz-u-uluhiyet"
+      ],
+      "ranked_references": [
+        {
+          "book": "20._Mektup",
+          "section": "20._Mektup",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "23._Söz",
+          "section": "23._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "33._Söz",
+          "section": "33._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Şule",
+          "section": "Şule",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "5._Şuâ",
+          "section": "5._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "32._Söz",
+          "section": "32._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "30._Lem%27a",
+          "section": "30._Lem%27a",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "16._Söz",
+          "section": "16._Söz",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "arefe": {
+      "display": "Arefe",
+      "aliases": [
+        "arefe"
+      ],
+      "related_labels": [
+        "Teşrik Tekbiri",
+        "Kurban Bayramı",
+        "Arafat",
+        "İhlas Suresi",
+        "Fecr 2",
+        "Arefe",
+        "Mina",
+        "Leyali-i Aşere",
+        "Ramazan Bayramı",
+        "Bayram",
+        "Şeytan Taşlama",
+        "Hacı",
+        "İbrahim (as)",
+        "Zemzem",
+        "Kurban",
+        "Hac"
+      ],
+      "related_concepts": [
+        "tesrik-tekbiri",
+        "kurban-bayrami",
+        "arafat",
+        "ihlas-suresi",
+        "fecr-2",
+        "mina",
+        "leyali-i-asere",
+        "ramazan-bayrami",
+        "bayram",
+        "seytan-taslama",
+        "haci",
+        "ibrahim-as",
+        "zemzem",
+        "kurban",
+        "hac"
+      ],
+      "ranked_references": [
+        {
+          "book": "26._Mektup",
+          "section": "26._Mektup",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "26._Lem%27a",
+          "section": "26._Lem%27a",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "13._Şuâ",
+          "section": "13._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Mektubat%27ın_Üçüncü_Kısmı_(2)_(Barla)",
+          "section": "Mektubat%27ın_Üçüncü_Kısmı_(2)_(Barla)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "İfadetü’l-Meram_(İşarat-ül İ'caz)",
+          "section": "İfadetü’l-Meram_(İşarat-ül İ'caz)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "İkinci_Kısım_Mektuplar_(Emirdağ-2)",
+          "section": "İkinci_Kısım_Mektuplar_(Emirdağ-2)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "baslangic": {
+      "display": "Başlangıç",
+      "aliases": [
+        "başlangıç"
+      ],
+      "related_labels": [
+        "Fatiha Suresi",
+        "Son",
+        "Mebde",
+        "Evvel",
+        "Çekirdek",
+        "Huruf-u Mukattaa",
+        "İşaratül İ'caz",
+        "Kenzül Arş Duası",
+        "Yasin 79"
+      ],
+      "related_concepts": [
+        "fatiha-suresi",
+        "son",
+        "mebde",
+        "evvel",
+        "cekirdek",
+        "huruf-u-mukattaa",
+        "isaratul-i-caz",
+        "kenzul-ars-duasi",
+        "yasin-79"
+      ],
+      "ranked_references": [
+        {
+          "book": "İşarat-ül İ'caz (Ayet-Hadis Mealleri)",
+          "section": "İşarat-ül İ'caz (Ayet-Hadis Mealleri)",
+          "count": 4,
+          "score": 24.0
+        },
+        {
+          "book": "25._Söz",
+          "section": "25._Söz",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "24._Söz",
+          "section": "24._Söz",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "11._Şuâ",
+          "section": "11._Şuâ",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "20._Mektup",
+          "section": "20._Mektup",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "25. Söz (Ayet-Hadis Mealleri)",
+          "section": "25. Söz (Ayet-Hadis Mealleri)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Bakara_Suresi_28._âyet",
+          "section": "Bakara_Suresi_28._âyet",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Fatiha_Suresi_(İşarat-ül_İ%27caz)",
+          "section": "Fatiha_Suresi_(İşarat-ül_İ%27caz)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "29._Mektubun_8._Kısmı_(Rumuzat-ı_Semaniye)",
+          "section": "29._Mektubun_8._Kısmı_(Rumuzat-ı_Semaniye)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "1._Şuâ",
+          "section": "1._Şuâ",
+          "count": 2,
+          "score": 12.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "bedevi": {
+      "display": "Bedevi",
+      "aliases": [
+        "bedevi"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "bediuzzaman-in-gittigi-sehirler-kaldigi-yerler-ve-ziyaretgahlar": {
+      "display": "Bediüzzaman'ın Gittiği Şehirler, Kaldığı Yerler ve Ziyaretgahlar",
+      "aliases": [
+        "bediüzzaman'ın gittiği şehirler, kaldığı yerler ve ziyaretgahlar"
+      ],
+      "related_labels": [
+        "Bediüzzaman Said Nursi"
+      ],
+      "related_concepts": [
+        "bediuzzaman-said-nursi"
+      ],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "bediuzzaman-in-vasiyetleri": {
+      "display": "Bediüzzaman'ın Vasiyetleri",
+      "aliases": [
+        "bediüzzaman'ın vasiyetleri"
+      ],
+      "related_labels": [
+        "Bediüzzaman Said Nursi",
+        "Vasiyet",
+        "Said Nursi'nin Kabri",
+        "Varis"
+      ],
+      "related_concepts": [
+        "bediuzzaman-said-nursi",
+        "vasiyet",
+        "said-nursi-nin-kabri",
+        "varis"
+      ],
+      "ranked_references": [
+        {
+          "book": "Üçüncü Kısım Mektuplar (Emirdağ-2)",
+          "section": "Üçüncü Kısım Mektuplar (Emirdağ-2)",
+          "count": 6,
+          "score": 36.0
+        },
+        {
+          "book": "İkinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "İkinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "İkinci_Kısım_Mektuplar_(Emirdağ-2)",
+          "section": "İkinci_Kısım_Mektuplar_(Emirdağ-2)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "bediuzzaman-in-isimleri": {
+      "display": "Bediüzzaman'ın İsimleri",
+      "aliases": [
+        "bediüzzaman'ın i̇simleri"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "berat-gecesi": {
+      "display": "Berat Gecesi",
+      "aliases": [
+        "berat gecesi"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [
+        {
+          "book": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "count": 5,
+          "score": 30.0
+        },
+        {
+          "book": "14._Şuâ",
+          "section": "14._Şuâ",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "8. Şua (Ayet-Hadis Mealleri)",
+          "section": "8. Şua (Ayet-Hadis Mealleri)",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "8._Şuâ",
+          "section": "8._Şuâ",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "section": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "İkinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "İkinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "24._Söz",
+          "section": "24._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Hanımlar_Rehberi",
+          "section": "Hanımlar_Rehberi",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Şualar",
+          "section": "Şualar%27ın_Fihristi_(Fihrist_Risalesi)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Kastamonu Lahikası",
+          "section": "Kastamonu Lahikası (Ayet-Hadis Mealleri)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "berk": {
+      "display": "Berk",
+      "aliases": [
+        "berk"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "burhan": {
+      "display": "Bürhan",
+      "aliases": [
+        "bürhan"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "cennet-bahcesi": {
+      "display": "Cennet Bahçesi",
+      "aliases": [
+        "cennet bahçesi"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "cuma-namazi": {
+      "display": "Cuma Namazı",
+      "aliases": [
+        "cuma namazı"
+      ],
+      "related_labels": [
+        "Namaz",
+        "Hutbe",
+        "Cuma",
+        "Cuma Suresi",
+        "Cumua 9",
+        "Cumua 10",
+        "Nahl 90",
+        "Ak Cami"
+      ],
+      "related_concepts": [
+        "namaz",
+        "hutbe",
+        "cuma",
+        "cuma-suresi",
+        "cumua-9",
+        "cumua-10",
+        "nahl-90",
+        "ak-cami"
+      ],
+      "ranked_references": [
+        {
+          "book": "17._Lem%27a",
+          "section": "17._Lem%27a",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Lemeat%27tan_Sonraki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Sonraki_Mektuplar_(Kastamonu)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Birinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "Birinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Üçüncü_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "Üçüncü_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Bedîüzzaman_ve_Risale-i_Nur",
+          "section": "Bedîüzzaman_ve_Risale-i_Nur",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "section": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "27. Söz (Ayet-Hadis Mealleri)",
+          "section": "27. Söz (Ayet-Hadis Mealleri)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "27._Söz",
+          "section": "27._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Lemeat_(Sözler)",
+          "section": "Lemeat_(Sözler)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Hakikat_Çekirdekleri_(Mektubat)",
+          "section": "Hakikat_Çekirdekleri_(Mektubat)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "cumhuriyet": {
+      "display": "Cumhuriyet",
+      "aliases": [
+        "cumhuriyet"
+      ],
+      "related_labels": [
+        "Cumhur",
+        "Laiklik",
+        "Hürriyet-i Vicdan",
+        "Cumhuriyet Gazetesi",
+        "Demokrasi"
+      ],
+      "related_concepts": [
+        "cumhur",
+        "laiklik",
+        "hurriyet-i-vicdan",
+        "cumhuriyet-gazetesi",
+        "demokrasi"
+      ],
+      "ranked_references": [
+        {
+          "book": "Eskişehir_Hayatı",
+          "section": "Eskişehir_Hayatı",
+          "count": 7,
+          "score": 42.0
+        },
+        {
+          "book": "12._Şuâ",
+          "section": "12._Şuâ",
+          "count": 6,
+          "score": 36.0
+        },
+        {
+          "book": "İlk_Hayatı",
+          "section": "İlk_Hayatı",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "Birinci_Kısım_Mektuplar_(Emirdağ-2)",
+          "section": "Birinci_Kısım_Mektuplar_(Emirdağ-2)",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "12. Şua (Ayet-Hadis Mealleri)",
+          "section": "12. Şua (Ayet-Hadis Mealleri)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "section": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "1. Şua (Ayet-Hadis Mealleri)",
+          "section": "1. Şua (Ayet-Hadis Mealleri)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "11._Şuâ",
+          "section": "11._Şuâ",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Divan-ı_Harb-i_Örfî",
+          "section": "Divan-ı_Harb-i_Örfî",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Lem'alar",
+          "section": "22. Lem'a",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "dervis": {
+      "display": "Derviş",
+      "aliases": [
+        "derviş"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "dua": {
+      "display": "Dua",
+      "aliases": [
+        "dua"
+      ],
+      "related_labels": [
+        "Mucib",
+        "Eddai (Risale)",
+        "Dai (Sebep)",
+        "Davet",
+        "Tevekkül",
+        "Esbab",
+        "Dunhimmet",
+        "Beddua",
+        "Vird",
+        "Salavat",
+        "Hatim Duası",
+        "Cevşen-ül Kebir",
+        "Münacat",
+        "Nida",
+        "Al-i Aba",
+        "Yağmur Duası",
+        "Dua Ayetleri",
+        "Evrad Listesi"
+      ],
+      "related_concepts": [
+        "mucib",
+        "eddai-risale",
+        "dai-sebep",
+        "davet",
+        "tevekkul",
+        "esbab",
+        "dunhimmet",
+        "beddua",
+        "vird",
+        "salavat",
+        "hatim-duasi",
+        "cevsen-ul-kebir",
+        "munacat",
+        "nida",
+        "al-i-aba",
+        "yagmur-duasi",
+        "dua-ayetleri",
+        "evrad-listesi"
+      ],
+      "ranked_references": [
+        {
+          "book": "Lem'alar",
+          "section": "8. Lem'a",
+          "count": 5,
+          "score": 30.0
+        },
+        {
+          "book": "23._Söz",
+          "section": "23._Söz",
+          "count": 4,
+          "score": 24.0
+        },
+        {
+          "book": "24. Mektup (Ayet-Hadis Mealleri)",
+          "section": "24. Mektup (Ayet-Hadis Mealleri)",
+          "count": 4,
+          "score": 24.0
+        },
+        {
+          "book": "24._Mektup",
+          "section": "24._Mektup",
+          "count": 4,
+          "score": 24.0
+        },
+        {
+          "book": "7._Şuâ",
+          "section": "7._Şuâ",
+          "count": 4,
+          "score": 24.0
+        },
+        {
+          "book": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "count": 4,
+          "score": 24.0
+        },
+        {
+          "book": "13. Şua (Ayet-Hadis Mealleri)",
+          "section": "13. Şua (Ayet-Hadis Mealleri)",
+          "count": 4,
+          "score": 24.0
+        },
+        {
+          "book": "19._Mektup",
+          "section": "19._Mektup",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "10. Söz (Ayet-Hadis Mealleri)",
+          "section": "10. Söz (Ayet-Hadis Mealleri)",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "25._Lem%27a",
+          "section": "25._Lem%27a",
+          "count": 3,
+          "score": 18.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "en-am-hizb": {
+      "display": "En'am (Hizb)",
+      "aliases": [
+        "en'am (hizb)"
+      ],
+      "related_labels": [
+        "Hizb-ül Kur'an",
+        "En'am Suresi"
+      ],
+      "related_concepts": [
+        "hizb-ul-kur-an",
+        "en-am-suresi"
+      ],
+      "ranked_references": [
+        {
+          "book": "Denizli_Hayatı",
+          "section": "Denizli_Hayatı",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "ensest": {
+      "display": "Ensest",
+      "aliases": [
+        "ensest"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [
+        {
+          "book": "24._Lem%27a",
+          "section": "24._Lem%27a",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "erkan-i-sitte-iman": {
+      "display": "Erkan-ı Sitte (İman)",
+      "aliases": [
+        "erkan-ı sitte (i̇man)"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "eski-yeni-ve-ucuncu-said": {
+      "display": "Eski, Yeni ve Üçüncü Said",
+      "aliases": [
+        "eski, yeni ve üçüncü said"
+      ],
+      "related_labels": [
+        "Eski Said",
+        "Yeni Said"
+      ],
+      "related_concepts": [
+        "eski-said",
+        "yeni-said"
+      ],
+      "ranked_references": [
+        {
+          "book": "Şualar",
+          "section": "14. Şua",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Isparta Hayatı",
+          "section": "Isparta Hayatı",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "fikret": {
+      "display": "Fikret",
+      "aliases": [
+        "fikret"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [
+        {
+          "book": "İşarat-ül İ'caz (Ayet-Hadis Mealleri)",
+          "section": "İşarat-ül İ'caz (Ayet-Hadis Mealleri)",
+          "count": 4,
+          "score": 24.0
+        },
+        {
+          "book": "Lemeat_(Sözler)",
+          "section": "Lemeat_(Sözler)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Hakikat_Çekirdekleri_(Mektubat)",
+          "section": "Hakikat_Çekirdekleri_(Mektubat)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Bakara_Suresi_6._âyet",
+          "section": "Bakara_Suresi_6._âyet",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "gok-gurultusu": {
+      "display": "Gök Gürültüsü",
+      "aliases": [
+        "gök gürültüsü"
+      ],
+      "related_labels": [
+        "Ra'd Suresi",
+        "Melek-i Ra'd",
+        "Ra'd 13",
+        "Bakara 19"
+      ],
+      "related_concepts": [
+        "ra-d-suresi",
+        "melek-i-ra-d",
+        "ra-d-13",
+        "bakara-19"
+      ],
+      "ranked_references": [
+        {
+          "book": "İşarat-ül İ'caz (Ayet-Hadis Mealleri)",
+          "section": "İşarat-ül İ'caz (Ayet-Hadis Mealleri)",
+          "count": 41,
+          "score": 246.0
+        },
+        {
+          "book": "7._Şuâ",
+          "section": "7._Şuâ",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "13. Söz (Ayet-Hadis Mealleri)",
+          "section": "13. Söz (Ayet-Hadis Mealleri)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "25._Söz",
+          "section": "25._Söz",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Şule_(Mesnevi_Badıllı)",
+          "section": "Şule_(Mesnevi_Badıllı)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "11._Şuâ",
+          "section": "11._Şuâ",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Nur%27un_İlk_Kapısı",
+          "section": "Nur%27un_İlk_Kapısı",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Birinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "Birinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "3._Şuâ",
+          "section": "3._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "13._Söz",
+          "section": "13._Söz",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "gunes-lekesi": {
+      "display": "Güneş Lekesi",
+      "aliases": [
+        "güneş lekesi"
+      ],
+      "related_labels": [
+        "Güneş",
+        "Güneş Fırtınası (1921)"
+      ],
+      "related_concepts": [
+        "gunes",
+        "gunes-firtinasi-1921"
+      ],
+      "ranked_references": [
+        {
+          "book": "25._Söz",
+          "section": "25._Söz",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "haci": {
+      "display": "Hacı",
+      "aliases": [
+        "hacı"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "hadis": {
+      "display": "Hadis",
+      "aliases": [
+        "hadis"
+      ],
+      "related_labels": [
+        "Hz. Muhammed (sav)",
+        "Hadis-i Kudsi",
+        "Sünnet",
+        "Sünen",
+        "Müstedrek",
+        "Müsned",
+        "Muvatta",
+        "Ravi",
+        "Sahih",
+        "Sahiheyn",
+        "Muhaddis",
+        "Hafız",
+        "Mütevatir",
+        "Mevzu Hadis",
+        "Ahadi Hadis",
+        "Kütüb-ü Sitte",
+        "Sahih-i Buhari",
+        "İmam-ı Buhari",
+        "Sahih-i Müslim",
+        "İmam-ı Müslim",
+        "Sahih-i Tirmizi",
+        "İmam-ı Tirmizi",
+        "Sünen-i Nesai",
+        "İmam-ı Nesai",
+        "Sünen-i Ebu Davud",
+        "İmam-ı Ebu Davud",
+        "Sünen-i İbn-i Mace",
+        "İmam-ı İbn-i Mace",
+        "Senet",
+        "İsrailiyat",
+        "33 Hadis",
+        "Risalelerde Geçen Kudsi Hadisler",
+        "Risalelerde Geçen Hadisler"
+      ],
+      "related_concepts": [
+        "hz-muhammed-sav",
+        "hadis-i-kudsi",
+        "sunnet",
+        "sunen",
+        "mustedrek",
+        "musned",
+        "muvatta",
+        "ravi",
+        "sahih",
+        "sahiheyn",
+        "muhaddis",
+        "hafiz",
+        "mutevatir",
+        "mevzu-hadis",
+        "ahadi-hadis",
+        "kutub-u-sitte",
+        "sahih-i-buhari",
+        "imam-i-buhari",
+        "sahih-i-muslim",
+        "imam-i-muslim",
+        "sahih-i-tirmizi",
+        "imam-i-tirmizi",
+        "sunen-i-nesai",
+        "imam-i-nesai",
+        "sunen-i-ebu-davud",
+        "imam-i-ebu-davud",
+        "sunen-i-ibn-i-mace",
+        "imam-i-ibn-i-mace",
+        "senet",
+        "israiliyat",
+        "33-hadis",
+        "risalelerde-gecen-kudsi-hadisler",
+        "risalelerde-gecen-hadisler"
+      ],
+      "ranked_references": [
+        {
+          "book": "19._Mektup",
+          "section": "19._Mektup",
+          "count": 36,
+          "score": 216.0
+        },
+        {
+          "book": "24._Söz",
+          "section": "24._Söz",
+          "count": 13,
+          "score": 78.0
+        },
+        {
+          "book": "24. Söz (Ayet-Hadis Mealleri)",
+          "section": "24. Söz (Ayet-Hadis Mealleri)",
+          "count": 11,
+          "score": 66.0
+        },
+        {
+          "book": "5._Şuâ",
+          "section": "5._Şuâ",
+          "count": 9,
+          "score": 54.0
+        },
+        {
+          "book": "19. Mektup (Ayet-Hadis Mealleri)",
+          "section": "19. Mektup (Ayet-Hadis Mealleri)",
+          "count": 7,
+          "score": 42.0
+        },
+        {
+          "book": "Birinci_Makale_(Muhakemat)",
+          "section": "Birinci_Makale_(Muhakemat)",
+          "count": 6,
+          "score": 36.0
+        },
+        {
+          "book": "Lem'alar",
+          "section": "14. Lem'a",
+          "count": 4,
+          "score": 24.0
+        },
+        {
+          "book": "14._Lem%27a",
+          "section": "14._Lem%27a",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "11._Lem%27a",
+          "section": "11._Lem%27a",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "13._Şuâ",
+          "section": "13._Şuâ",
+          "count": 3,
+          "score": 18.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "hads": {
+      "display": "Hads",
+      "aliases": [
+        "hads"
+      ],
+      "related_labels": [
+        "İlham",
+        "Sünuhat",
+        "Keşf",
+        "İz'an",
+        "Tuluat",
+        "Vicdan",
+        "His",
+        "İstikra",
+        "Müşahede",
+        "Vahiy"
+      ],
+      "related_concepts": [
+        "ilham",
+        "sunuhat",
+        "kesf",
+        "iz-an",
+        "tuluat",
+        "vicdan",
+        "his",
+        "istikra",
+        "musahede",
+        "vahiy"
+      ],
+      "ranked_references": [
+        {
+          "book": "Katre_(Mesnevi_Badıllı)",
+          "section": "Katre_(Mesnevi_Badıllı)",
+          "count": 12,
+          "score": 72.0
+        },
+        {
+          "book": "Nokta_(Asar-ı_Bediiyye)",
+          "section": "Nokta_(Asar-ı_Bediiyye)",
+          "count": 8,
+          "score": 48.0
+        },
+        {
+          "book": "Şemme_(Mesnevi_Badıllı)",
+          "section": "Şemme_(Mesnevi_Badıllı)",
+          "count": 6,
+          "score": 36.0
+        },
+        {
+          "book": "29._Söz",
+          "section": "29._Söz",
+          "count": 6,
+          "score": 36.0
+        },
+        {
+          "book": "Rumuz_(Asar-ı_Bediiyye)",
+          "section": "Rumuz_(Asar-ı_Bediiyye)",
+          "count": 4,
+          "score": 24.0
+        },
+        {
+          "book": "Nokta_(Mesnevi)",
+          "section": "Nokta_(Mesnevi)",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "Zerre_(Mesnevi_Badıllı)",
+          "section": "Zerre_(Mesnevi_Badıllı)",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "Bakara_Suresi_25._âyet",
+          "section": "Bakara_Suresi_25._âyet",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Zehrenin_Zeyli_(Mesnevi_Badıllı)",
+          "section": "Zehrenin_Zeyli_(Mesnevi_Badıllı)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "32._Söz",
+          "section": "32._Söz",
+          "count": 2,
+          "score": 12.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "harama-nazar": {
+      "display": "Harama Nazar",
+      "aliases": [
+        "harama nazar"
+      ],
+      "related_labels": [
+        "Suret",
+        "Tesettür",
+        "Açık-Saçıklık",
+        "Nur 30",
+        "Nur 31",
+        "Unutkanlık",
+        "Namahrem",
+        "Kavvad"
+      ],
+      "related_concepts": [
+        "suret",
+        "tesettur",
+        "acik-saciklik",
+        "nur-30",
+        "nur-31",
+        "unutkanlik",
+        "namahrem",
+        "kavvad"
+      ],
+      "ranked_references": [
+        {
+          "book": "24._Lem%27a",
+          "section": "24._Lem%27a",
+          "count": 4,
+          "score": 24.0
+        },
+        {
+          "book": "Gençlik_Rehberi",
+          "section": "Gençlik_Rehberi",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Lem'alar",
+          "section": "24. Lem'a",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "section": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Lemeat%27tan_Sonraki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Sonraki_Mektuplar_(Kastamonu)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Kastamonu Lahikası",
+          "section": "Kastamonu Lahikası (Ayet-Hadis Mealleri)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "25._Söz",
+          "section": "25._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "7._Söz",
+          "section": "7._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Lemeat (Sözler) (Ayet-Hadis Mealleri)",
+          "section": "Lemeat (Sözler) (Ayet-Hadis Mealleri)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "heyula": {
+      "display": "Heyula",
+      "aliases": [
+        "heyula"
+      ],
+      "related_labels": [
+        "Esir",
+        "Madde"
+      ],
+      "related_concepts": [
+        "esir",
+        "madde"
+      ],
+      "ranked_references": [
+        {
+          "book": "Lem'alar",
+          "section": "30. Lem'a",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "hizb": {
+      "display": "Hizb",
+      "aliases": [
+        "hizb"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "hortlak": {
+      "display": "Hortlak",
+      "aliases": [
+        "hortlak"
+      ],
+      "related_labels": [
+        "Ruh",
+        "Tenasüh",
+        "Tiyatro"
+      ],
+      "related_concepts": [
+        "ruh",
+        "tenasuh",
+        "tiyatro"
+      ],
+      "ranked_references": [
+        {
+          "book": "Lemeat_(Sözler)",
+          "section": "Lemeat_(Sözler)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "huruf-u-mukattaa": {
+      "display": "Huruf-u Mukattaa",
+      "aliases": [
+        "huruf-u mukattaa"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [
+        {
+          "book": "İşarat-ül İ'caz (Ayet-Hadis Mealleri)",
+          "section": "İşarat-ül İ'caz (Ayet-Hadis Mealleri)",
+          "count": 5,
+          "score": 30.0
+        },
+        {
+          "book": "29._Mektubun_8._Kısmı_(Rumuzat-ı_Semaniye)",
+          "section": "29._Mektubun_8._Kısmı_(Rumuzat-ı_Semaniye)",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "Bakara_Suresi_1-3._âyetler",
+          "section": "Bakara_Suresi_1-3._âyetler",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "25._Söz",
+          "section": "25._Söz",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "28._Mektup",
+          "section": "28._Mektup",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Rumuzat-ı_Semaniye_Fihristi",
+          "section": "Rumuzat-ı_Semaniye_Fihristi",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Latif_Nükteler",
+          "section": "Latif_Nükteler",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "1._Şuâ",
+          "section": "1._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "12._Söz",
+          "section": "12._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "29._Mektup",
+          "section": "29._Mektup",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "husuf-ve-kusuf-namazlari": {
+      "display": "Husuf ve Kusuf Namazları",
+      "aliases": [
+        "husuf ve kusuf namazları"
+      ],
+      "related_labels": [
+        "Husuf ve Küsuf"
+      ],
+      "related_concepts": [
+        "husuf-ve-kusuf"
+      ],
+      "ranked_references": [
+        {
+          "book": "16._Söz",
+          "section": "16._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "23._Söz",
+          "section": "23._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "24._Mektup",
+          "section": "24._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Birinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "Birinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Nur%27un_İlk_Kapısı",
+          "section": "Nur%27un_İlk_Kapısı",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Onuncu_Risale",
+          "section": "Onuncu_Risale",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "hutbe": {
+      "display": "Hutbe",
+      "aliases": [
+        "hutbe"
+      ],
+      "related_labels": [
+        "Kur'an",
+        "Hz. Muhammed (sav)",
+        "Cuma Namazı",
+        "Şeair-i İslamiye",
+        "Rifat Börekçi",
+        "Hanin-i Ciz",
+        "Hutbe-i Şamiye",
+        "Katip Osman'ın Rüyası",
+        "Şuayb (as)"
+      ],
+      "related_concepts": [
+        "kur-an",
+        "hz-muhammed-sav",
+        "cuma-namazi",
+        "seair-i-islamiye",
+        "rifat-borekci",
+        "hanin-i-ciz",
+        "hutbe-i-samiye",
+        "katip-osman-in-ruyasi",
+        "suayb-as"
+      ],
+      "ranked_references": [
+        {
+          "book": "Reşhalar_(Mesnevi)",
+          "section": "Reşhalar_(Mesnevi)",
+          "count": 5,
+          "score": 30.0
+        },
+        {
+          "book": "25._Söz",
+          "section": "25._Söz",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Mesnevi-i Nuriye",
+          "section": "Mesnevi-i Nuriye (Ayet-Hadis Mealleri)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "19. Mektup (Ayet-Hadis Mealleri)",
+          "section": "19. Mektup (Ayet-Hadis Mealleri)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "19._Mektup",
+          "section": "19._Mektup",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "27. Söz (Ayet-Hadis Mealleri)",
+          "section": "27. Söz (Ayet-Hadis Mealleri)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "27._Söz",
+          "section": "27._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Lemeat_(Sözler)",
+          "section": "Lemeat_(Sözler)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Hakikat_Çekirdekleri_(Mektubat)",
+          "section": "Hakikat_Çekirdekleri_(Mektubat)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Barla Lahikası",
+          "section": "Barla Lahikası (Ayet-Hadis Mealleri)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "kahin": {
+      "display": "Kahin",
+      "aliases": [
+        "kahin"
+      ],
+      "related_labels": [
+        "Cin",
+        "Medyum",
+        "Gayb",
+        "Kulak Hırsızlığı",
+        "Arif"
+      ],
+      "related_concepts": [
+        "cin",
+        "medyum",
+        "gayb",
+        "kulak-hirsizligi",
+        "arif"
+      ],
+      "ranked_references": [
+        {
+          "book": "19._Mektup",
+          "section": "19._Mektup",
+          "count": 5,
+          "score": 30.0
+        },
+        {
+          "book": "19. Mektup (Ayet-Hadis Mealleri)",
+          "section": "19. Mektup (Ayet-Hadis Mealleri)",
+          "count": 4,
+          "score": 24.0
+        },
+        {
+          "book": "25._Söz",
+          "section": "25._Söz",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "19._Söz",
+          "section": "19._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "31._Söz",
+          "section": "31._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "15._Şuâ",
+          "section": "15._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Nur%27un_İlk_Kapısı",
+          "section": "Nur%27un_İlk_Kapısı",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Reşhalar_(Mesnevi_Badıllı)",
+          "section": "Reşhalar_(Mesnevi_Badıllı)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "section": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "28._Lem%27a",
+          "section": "28._Lem%27a",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "kaza-yi-sehvet": {
+      "display": "Kaza-yı Şehvet",
+      "aliases": [
+        "kaza-yı şehvet"
+      ],
+      "related_labels": [
+        "İstimna"
+      ],
+      "related_concepts": [
+        "istimna"
+      ],
+      "ranked_references": [
+        {
+          "book": "25._Söz",
+          "section": "25._Söz",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Lemeat%27tan_Sonraki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Sonraki_Mektuplar_(Kastamonu)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "24._Lem%27a",
+          "section": "24._Lem%27a",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "14._Reşha_(Mesnevi_Badıllı)",
+          "section": "14._Reşha_(Mesnevi_Badıllı)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Lemeat_(Asar-ı_Bediiyye)",
+          "section": "Lemeat_(Asar-ı_Bediiyye)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "28._Söz",
+          "section": "28._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "30._Söz",
+          "section": "30._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Bakara_Suresi_25._âyet",
+          "section": "Bakara_Suresi_25._âyet",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "kazurat": {
+      "display": "Kazurat",
+      "aliases": [
+        "kazurat"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [
+        {
+          "book": "28._Söz",
+          "section": "28._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "26._Mektup",
+          "section": "26._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Habbe",
+          "section": "Habbe",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Bakara_19-20:_Münafıklar_Hakkında_Yağmur_Temsili_(İ.İ._Badıllı)",
+          "section": "Bakara_19-20:_Münafıklar_Hakkında_Yağmur_Temsili_(İ.İ._Badıllı)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Bakara_26-27:_Temsil_Bahsi_(İ.İ._Badıllı)",
+          "section": "Bakara_26-27:_Temsil_Bahsi_(İ.İ._Badıllı)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "8._Lem%27a_(Sikke)",
+          "section": "8._Lem%27a_(Sikke)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "kur-an-ve-tevafuk": {
+      "display": "Kur'an ve Tevafuk",
+      "aliases": [
+        "kur'an ve tevafuk"
+      ],
+      "related_labels": [
+        "Kur'an",
+        "Kur'an'ın Mucizeleri",
+        "Tevafuk",
+        "Ahmed Hüsrev Altınbaşak",
+        "Kayışzade Hattat Hafız Osman Nuri"
+      ],
+      "related_concepts": [
+        "kur-an",
+        "kur-an-in-mucizeleri",
+        "tevafuk",
+        "ahmed-husrev-altinbasak",
+        "kayiszade-hattat-hafiz-osman-nuri"
+      ],
+      "ranked_references": [
+        {
+          "book": "Mektubat%27ın_Üçüncü_Kısmı_(2)_(Barla)",
+          "section": "Mektubat%27ın_Üçüncü_Kısmı_(2)_(Barla)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "19._Mektup",
+          "section": "19._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "29._Mektup",
+          "section": "29._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "7._Lem%27a",
+          "section": "7._Lem%27a",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "section": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "kurban": {
+      "display": "Kurban",
+      "aliases": [
+        "kurban"
+      ],
+      "related_labels": [
+        "Kurban Bayramı",
+        "Fedakarlık",
+        "Kevser 2",
+        "Hacc 37",
+        "Mina",
+        "Ramazan Bayramı",
+        "Teşrik Tekbiri",
+        "Leyali-i Aşere",
+        "Bayram",
+        "Şeytan Taşlama",
+        "Hacı",
+        "İbrahim (as)",
+        "Zemzem",
+        "Arefe",
+        "Kurban",
+        "Arafat",
+        "Hac"
+      ],
+      "related_concepts": [
+        "kurban-bayrami",
+        "fedakarlik",
+        "kevser-2",
+        "hacc-37",
+        "mina",
+        "ramazan-bayrami",
+        "tesrik-tekbiri",
+        "leyali-i-asere",
+        "bayram",
+        "seytan-taslama",
+        "haci",
+        "ibrahim-as",
+        "zemzem",
+        "arefe",
+        "arafat",
+        "hac"
+      ],
+      "ranked_references": [
+        {
+          "book": "19. Mektup (Ayet-Hadis Mealleri)",
+          "section": "19. Mektup (Ayet-Hadis Mealleri)",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "İkinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "İkinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "İkinci_Kısım_Mektuplar_(Emirdağ-2)",
+          "section": "İkinci_Kısım_Mektuplar_(Emirdağ-2)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Konferans_(Küçük_Kitap)",
+          "section": "Konferans_(Küçük_Kitap)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "17._Söz",
+          "section": "17._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "11._Şuâ",
+          "section": "11._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Lemeat_(Sözler)",
+          "section": "Lemeat_(Sözler)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "19._Mektup",
+          "section": "19._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "15._Şuâ",
+          "section": "15._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Yirmi_Yedinci_Mektup%27un_Üçüncü_Kısmı_ve_Üçüncü_Zeylin_Nihayetidir_(Barla)",
+          "section": "Yirmi_Yedinci_Mektup%27un_Üçüncü_Kısmı_ve_Üçüncü_Zeylin_Nihayetidir_(Barla)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "kurban-bayrami": {
+      "display": "Kurban Bayramı",
+      "aliases": [
+        "kurban bayramı"
+      ],
+      "related_labels": [
+        "Ramazan Bayramı",
+        "Teşrik Tekbiri",
+        "Leyali-i Aşere",
+        "İbrahim (as)",
+        "Arefe",
+        "Kurban",
+        "Bayram",
+        "Mina",
+        "Şeytan Taşlama",
+        "Hacı",
+        "Zemzem",
+        "Arafat",
+        "Hac"
+      ],
+      "related_concepts": [
+        "ramazan-bayrami",
+        "tesrik-tekbiri",
+        "leyali-i-asere",
+        "ibrahim-as",
+        "arefe",
+        "kurban",
+        "bayram",
+        "mina",
+        "seytan-taslama",
+        "haci",
+        "zemzem",
+        "arafat",
+        "hac"
+      ],
+      "ranked_references": [
+        {
+          "book": "11. Şua (Ayet-Hadis Mealleri)",
+          "section": "11. Şua (Ayet-Hadis Mealleri)",
+          "count": 23,
+          "score": 138.0
+        },
+        {
+          "book": "Mektubat%27ın_Üçüncü_Kısmı_(2)_(Barla)",
+          "section": "Mektubat%27ın_Üçüncü_Kısmı_(2)_(Barla)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Konferans_(Küçük_Kitap)",
+          "section": "Konferans_(Küçük_Kitap)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "11._Şuâ",
+          "section": "11._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "16._Lem%27a",
+          "section": "16._Lem%27a",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "26._Lem%27a",
+          "section": "26._Lem%27a",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Lemeat%27tan_Sonraki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Sonraki_Mektuplar_(Kastamonu)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "kun-feyekun": {
+      "display": "Kün Feyekun",
+      "aliases": [
+        "kün feyekun"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [
+        {
+          "book": "25._Söz",
+          "section": "25._Söz",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "26._Lem%27a",
+          "section": "26._Lem%27a",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "Hubab",
+          "section": "Hubab",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "10._Söz",
+          "section": "10._Söz",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "30._Lem%27a",
+          "section": "30._Lem%27a",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Mektubat%27ın_Üçüncü_Kısmı_(1)_(Barla)",
+          "section": "Mektubat%27ın_Üçüncü_Kısmı_(1)_(Barla)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Nur%27un_İlk_Kapısı",
+          "section": "Nur%27un_İlk_Kapısı",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Zerre_(Mesnevi)",
+          "section": "Zerre_(Mesnevi)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Şule_(Mesnevi_Badıllı)",
+          "section": "Şule_(Mesnevi_Badıllı)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Barla Lahikası",
+          "section": "Barla Lahikası (Ayet-Hadis Mealleri)",
+          "count": 2,
+          "score": 12.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "leyali-i-asere": {
+      "display": "Leyali-i Aşere",
+      "aliases": [
+        "leyali-i aşere"
+      ],
+      "related_labels": [
+        "Fecr 2",
+        "Arefe",
+        "Kurban Bayramı",
+        "Mina",
+        "Teşrik Tekbiri",
+        "Leyali-i Aşere",
+        "Ramazan Bayramı",
+        "Bayram",
+        "Şeytan Taşlama",
+        "Hacı",
+        "İbrahim (as)",
+        "Zemzem",
+        "Kurban",
+        "Arafat",
+        "Hac"
+      ],
+      "related_concepts": [
+        "fecr-2",
+        "arefe",
+        "kurban-bayrami",
+        "mina",
+        "tesrik-tekbiri",
+        "ramazan-bayrami",
+        "bayram",
+        "seytan-taslama",
+        "haci",
+        "ibrahim-as",
+        "zemzem",
+        "kurban",
+        "arafat",
+        "hac"
+      ],
+      "ranked_references": [
+        {
+          "book": "Üçüncü_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "Üçüncü_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "Lemeat%27tan_Sonraki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Sonraki_Mektuplar_(Kastamonu)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "13._Şuâ",
+          "section": "13._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Birinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "Birinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "malum-gunah": {
+      "display": "Malum Günah",
+      "aliases": [
+        "malum günah"
+      ],
+      "related_labels": [
+        "Âdem",
+        "Havva"
+      ],
+      "related_concepts": [
+        "adem",
+        "havva"
+      ],
+      "ranked_references": [
+        {
+          "book": "12._Mektup",
+          "section": "12._Mektup",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "mecelle": {
+      "display": "Mecelle",
+      "aliases": [
+        "mecelle"
+      ],
+      "related_labels": [
+        "Mecelle-i Ahkam-ı Adliyye"
+      ],
+      "related_concepts": [
+        "mecelle-i-ahkam-i-adliyye"
+      ],
+      "ranked_references": [
+        {
+          "book": "Ecnebi_Feylesofların_Kur’an_Hakkındaki_Beyanatları",
+          "section": "Ecnebi_Feylesofların_Kur’an_Hakkındaki_Beyanatları",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "section": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "medyum": {
+      "display": "Medyum",
+      "aliases": [
+        "medyum"
+      ],
+      "related_labels": [
+        "Cin",
+        "Ruh",
+        "İspirtizma",
+        "Gayb",
+        "Kahin"
+      ],
+      "related_concepts": [
+        "cin",
+        "ruh",
+        "ispirtizma",
+        "gayb",
+        "kahin"
+      ],
+      "ranked_references": [
+        {
+          "book": "Emirdağ Lahikası",
+          "section": "Emirdağ Lahikası 2 (Ayet-Hadis Mealleri)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "19._Mektup",
+          "section": "19._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "section": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "menopoz": {
+      "display": "Menopoz",
+      "aliases": [
+        "menopoz"
+      ],
+      "related_labels": [
+        "Taaddüd-ü Ezvac"
+      ],
+      "related_concepts": [
+        "taaddud-u-ezvac"
+      ],
+      "ranked_references": [
+        {
+          "book": "25._Söz",
+          "section": "25._Söz",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "merdumgirizlik": {
+      "display": "Merdümgirizlik",
+      "aliases": [
+        "merdümgirizlik"
+      ],
+      "related_labels": [
+        "İnziva"
+      ],
+      "related_concepts": [
+        "inziva"
+      ],
+      "ranked_references": [
+        {
+          "book": "İkinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "İkinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "Birinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "Birinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Eskişehir_Hayatı",
+          "section": "Eskişehir_Hayatı",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Üçüncü_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "Üçüncü_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "section": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "muhabbet": {
+      "display": "Muhabbet",
+      "aliases": [
+        "muhabbet"
+      ],
+      "related_labels": [
+        "Vedud",
+        "Habibullah",
+        "Habib",
+        "Buğz",
+        "Havf",
+        "Adavet",
+        "Nefret",
+        "Husumet",
+        "Kalp"
+      ],
+      "related_concepts": [
+        "vedud",
+        "habibullah",
+        "habib",
+        "bugz",
+        "havf",
+        "adavet",
+        "nefret",
+        "husumet",
+        "kalp"
+      ],
+      "ranked_references": [
+        {
+          "book": "32. Söz (Ayet-Hadis Mealleri)",
+          "section": "32. Söz (Ayet-Hadis Mealleri)",
+          "count": 14,
+          "score": 84.0
+        },
+        {
+          "book": "Lem'alar",
+          "section": "3. Lem'a",
+          "count": 12,
+          "score": 72.0
+        },
+        {
+          "book": "32._Söz",
+          "section": "32._Söz",
+          "count": 10,
+          "score": 60.0
+        },
+        {
+          "book": "29._Mektup",
+          "section": "29._Mektup",
+          "count": 4,
+          "score": 24.0
+        },
+        {
+          "book": "10._Söz",
+          "section": "10._Söz",
+          "count": 4,
+          "score": 24.0
+        },
+        {
+          "book": "24._Söz",
+          "section": "24._Söz",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "Onuncu_Risale",
+          "section": "Onuncu_Risale",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "Lem'alar",
+          "section": "28. Lem'a",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "17._Lem%27a",
+          "section": "17._Lem%27a",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "11._Lem%27a",
+          "section": "11._Lem%27a",
+          "count": 2,
+          "score": 12.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "musibet": {
+      "display": "Musibet",
+      "aliases": [
+        "musibet"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [
+        {
+          "book": "25._Lem%27a",
+          "section": "25._Lem%27a",
+          "count": 20,
+          "score": 120.0
+        },
+        {
+          "book": "13._Şuâ",
+          "section": "13._Şuâ",
+          "count": 14,
+          "score": 84.0
+        },
+        {
+          "book": "2._Lem%27a",
+          "section": "2._Lem%27a",
+          "count": 12,
+          "score": 72.0
+        },
+        {
+          "book": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "count": 10,
+          "score": 60.0
+        },
+        {
+          "book": "26._Söz",
+          "section": "26._Söz",
+          "count": 6,
+          "score": 36.0
+        },
+        {
+          "book": "11._Şuâ",
+          "section": "11._Şuâ",
+          "count": 6,
+          "score": 36.0
+        },
+        {
+          "book": "Lemeat%27tan_Sonraki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Sonraki_Mektuplar_(Kastamonu)",
+          "count": 5,
+          "score": 30.0
+        },
+        {
+          "book": "14._Söz",
+          "section": "14._Söz",
+          "count": 5,
+          "score": 30.0
+        },
+        {
+          "book": "İkinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "İkinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 5,
+          "score": 30.0
+        },
+        {
+          "book": "2._Şuâ",
+          "section": "2._Şuâ",
+          "count": 4,
+          "score": 24.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "namaz": {
+      "display": "Namaz",
+      "aliases": [
+        "namaz"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [
+        {
+          "book": "9._Söz",
+          "section": "9._Söz",
+          "count": 10,
+          "score": 60.0
+        },
+        {
+          "book": "19._Mektup",
+          "section": "19._Mektup",
+          "count": 9,
+          "score": 54.0
+        },
+        {
+          "book": "11. Söz (Ayet-Hadis Mealleri)",
+          "section": "11. Söz (Ayet-Hadis Mealleri)",
+          "count": 8,
+          "score": 48.0
+        },
+        {
+          "book": "11. Şua (Ayet-Hadis Mealleri)",
+          "section": "11. Şua (Ayet-Hadis Mealleri)",
+          "count": 8,
+          "score": 48.0
+        },
+        {
+          "book": "21._Söz",
+          "section": "21._Söz",
+          "count": 6,
+          "score": 36.0
+        },
+        {
+          "book": "29._Mektup",
+          "section": "29._Mektup",
+          "count": 6,
+          "score": 36.0
+        },
+        {
+          "book": "Hubab",
+          "section": "Hubab",
+          "count": 6,
+          "score": 36.0
+        },
+        {
+          "book": "İlk_Hayatı",
+          "section": "İlk_Hayatı",
+          "count": 6,
+          "score": 36.0
+        },
+        {
+          "book": "İşarat-ül İ'caz (Ayet-Hadis Mealleri)",
+          "section": "İşarat-ül İ'caz (Ayet-Hadis Mealleri)",
+          "count": 5,
+          "score": 30.0
+        },
+        {
+          "book": "Mesnevi-i Nuriye",
+          "section": "Mesnevi-i Nuriye (Ayet-Hadis Mealleri)",
+          "count": 5,
+          "score": 30.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "nazar": {
+      "display": "Nazar",
+      "aliases": [
+        "nazar"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "nazar-degmesi": {
+      "display": "Nazar Değmesi",
+      "aliases": [
+        "nazar değmesi"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [
+        {
+          "book": "Emirdağ Lahikası",
+          "section": "Emirdağ Lahikası 2 (Ayet-Hadis Mealleri)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "13. Şua (Ayet-Hadis Mealleri)",
+          "section": "13. Şua (Ayet-Hadis Mealleri)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "13._Şuâ",
+          "section": "13._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "section": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "nebi": {
+      "display": "Nebi",
+      "aliases": [
+        "nebi"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "nekrofili": {
+      "display": "Nekrofili",
+      "aliases": [
+        "nekrofili"
+      ],
+      "related_labels": [
+        "Harama Nazar"
+      ],
+      "related_concepts": [
+        "harama-nazar"
+      ],
+      "ranked_references": [
+        {
+          "book": "25._Söz",
+          "section": "25._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Lemeat (Sözler) (Ayet-Hadis Mealleri)",
+          "section": "Lemeat (Sözler) (Ayet-Hadis Mealleri)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Lemeat_(Sözler)",
+          "section": "Lemeat_(Sözler)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Hakikat_Çekirdekleri_(Mektubat)",
+          "section": "Hakikat_Çekirdekleri_(Mektubat)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "nevruz": {
+      "display": "Nevruz",
+      "aliases": [
+        "nevruz"
+      ],
+      "related_labels": [
+        "Bahar"
+      ],
+      "related_concepts": [
+        "bahar"
+      ],
+      "ranked_references": [
+        {
+          "book": "10._Söz",
+          "section": "10._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Üçüncü_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "Üçüncü_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Parlak_Fıkralar_ve_Güzel_Mektuplar-1",
+          "section": "Parlak_Fıkralar_ve_Güzel_Mektuplar-1",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Asar-ı Bediiyye (Ayet-Hadis Mealleri)",
+          "section": "Asar-ı Bediiyye (Ayet-Hadis Mealleri)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Münazarat",
+          "section": "Münazarat_(Asar-ı_Bediiyye)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Mektubat%27ın_Üçüncü_Kısmı_(1)_(Barla)",
+          "section": "Mektubat%27ın_Üçüncü_Kısmı_(1)_(Barla)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "nikbinlik-ve-bedbinlik": {
+      "display": "Nikbinlik ve Bedbinlik",
+      "aliases": [
+        "nikbinlik ve bedbinlik"
+      ],
+      "related_labels": [
+        "Şükür",
+        "Şekva",
+        "Yeis",
+        "Ümit",
+        "Cerbeze",
+        "Küfran-ı Nimet",
+        "Ebu’l-Ala-i Maarri",
+        "Ömer Hayyam"
+      ],
+      "related_concepts": [
+        "sukur",
+        "sekva",
+        "yeis",
+        "umit",
+        "cerbeze",
+        "kufran-i-nimet",
+        "ebul-ala-i-maarri",
+        "omer-hayyam"
+      ],
+      "ranked_references": [
+        {
+          "book": "Lemeat_(Sözler)",
+          "section": "Lemeat_(Sözler)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "8. Söz (Ayet-Hadis Mealleri)",
+          "section": "8. Söz (Ayet-Hadis Mealleri)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "8._Söz",
+          "section": "8._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "2._Söz",
+          "section": "2._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Tuluat_(Asar-ı_Bediiyye)",
+          "section": "Tuluat_(Asar-ı_Bediiyye)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Hakikat_Çekirdekleri_(Mektubat)",
+          "section": "Hakikat_Çekirdekleri_(Mektubat)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Münazarat",
+          "section": "Münazarat_(Asar-ı_Bediiyye)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Gençlik_Rehberi",
+          "section": "Gençlik_Rehberi",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "30._Söz",
+          "section": "30._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Yirmi_Yedinci_Mektup%27un_Üçüncü_Zeyli_(Barla)",
+          "section": "Yirmi_Yedinci_Mektup%27un_Üçüncü_Zeyli_(Barla)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "pareto-ilkesi": {
+      "display": "Pareto İlkesi",
+      "aliases": [
+        "pareto i̇lkesi"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [
+        {
+          "book": "Birinci_Kısım_Mektuplar_(Emirdağ-2)",
+          "section": "Birinci_Kısım_Mektuplar_(Emirdağ-2)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "13._Mektup",
+          "section": "13._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "12._Mektup",
+          "section": "12._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "25._Söz",
+          "section": "25._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Bakara_Suresi_26-27._âyetler",
+          "section": "Bakara_Suresi_26-27._âyetler",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Lemeat_(Asar-ı_Bediiyye)",
+          "section": "Lemeat_(Asar-ı_Bediiyye)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "9._Şuâ",
+          "section": "9._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "24._Mektup",
+          "section": "24._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "11._Şuâ",
+          "section": "11._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "28._Mektup",
+          "section": "28._Mektup",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "pasa": {
+      "display": "Paşa",
+      "aliases": [
+        "paşa"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [
+        {
+          "book": "Asar-ı Bediiyye (Ayet-Hadis Mealleri)",
+          "section": "Asar-ı Bediiyye (Ayet-Hadis Mealleri)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "28._Mektup",
+          "section": "28._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "24._Lem%27a",
+          "section": "24._Lem%27a",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Hata-Savab_Cedveli",
+          "section": "Hata-Savab_Cedveli",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Onuncu_Risale",
+          "section": "Onuncu_Risale",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Birinci_Makale_(Muhakemat)",
+          "section": "Birinci_Makale_(Muhakemat)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Münazarat",
+          "section": "Münazarat_(Asar-ı_Bediiyye)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "peygamberimizin-isimleri": {
+      "display": "Peygamberimizin İsimleri",
+      "aliases": [
+        "peygamberimizin i̇simleri"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "rezzakiyet": {
+      "display": "Rezzakıyet",
+      "aliases": [
+        "rezzakıyet"
+      ],
+      "related_labels": [
+        "Rezzak",
+        "Rızk"
+      ],
+      "related_concepts": [
+        "rezzak",
+        "rizk"
+      ],
+      "ranked_references": [
+        {
+          "book": "7. Şua (Ayet-Hadis Mealleri)",
+          "section": "7. Şua (Ayet-Hadis Mealleri)",
+          "count": 4,
+          "score": 24.0
+        },
+        {
+          "book": "33._Söz",
+          "section": "33._Söz",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "7._Şuâ",
+          "section": "7._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "24._Söz",
+          "section": "24._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "23._Lem%27a",
+          "section": "23._Lem%27a",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "11. Şua (Ayet-Hadis Mealleri)",
+          "section": "11. Şua (Ayet-Hadis Mealleri)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "11._Şuâ",
+          "section": "11._Şuâ",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "ruzname": {
+      "display": "Ruzname",
+      "aliases": [
+        "ruzname"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [
+        {
+          "book": "4. Şua (Ayet-Hadis Mealleri)",
+          "section": "4. Şua (Ayet-Hadis Mealleri)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "30._Söz",
+          "section": "30._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "4._Şuâ",
+          "section": "4._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "7._Şuâ",
+          "section": "7._Şuâ",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "sadakat": {
+      "display": "Sadakat",
+      "aliases": [
+        "sadakat"
+      ],
+      "related_labels": [
+        "Sıdk",
+        "Vefa",
+        "İhanet",
+        "Sadaka"
+      ],
+      "related_concepts": [
+        "sidk",
+        "vefa",
+        "ihanet",
+        "sadaka"
+      ],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "said-nursi-nin-ailesi": {
+      "display": "Said Nursi'nin Ailesi",
+      "aliases": [
+        "said nursi'nin ailesi"
+      ],
+      "related_labels": [
+        "Bediüzzaman Said Nursi",
+        "Said Nursi'nin Seyyidliği",
+        "Mirza",
+        "Nuriye",
+        "Hânım",
+        "Abdullah",
+        "Mehmed (Bediüzzaman'ın Kardeşi)",
+        "Abdülmecid Nursi"
+      ],
+      "related_concepts": [
+        "bediuzzaman-said-nursi",
+        "said-nursi-nin-seyyidligi",
+        "mirza",
+        "nuriye",
+        "hanim",
+        "abdullah",
+        "mehmed-bediuzzaman-in-kardesi",
+        "abdulmecid-nursi"
+      ],
+      "ranked_references": [
+        {
+          "book": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "section": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "said-nursi-nin-kabri": {
+      "display": "Said Nursi'nin Kabri",
+      "aliases": [
+        "said nursi'nin kabri"
+      ],
+      "related_labels": [
+        "Bediüzzaman Said Nursi",
+        "Kabir",
+        "Bediüzzaman'ın Vasiyetleri",
+        "Şanlıurfa"
+      ],
+      "related_concepts": [
+        "bediuzzaman-said-nursi",
+        "kabir",
+        "bediuzzaman-in-vasiyetleri",
+        "sanliurfa"
+      ],
+      "ranked_references": [
+        {
+          "book": "Üçüncü Kısım Mektuplar (Emirdağ-2)",
+          "section": "Üçüncü Kısım Mektuplar (Emirdağ-2)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "İkinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "İkinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 2,
+          "score": 12.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "said-nursi-nin-seyyidligi": {
+      "display": "Said Nursi'nin Seyyidliği",
+      "aliases": [
+        "said nursi'nin seyyidliği"
+      ],
+      "related_labels": [
+        "Ehl-i Beyt",
+        "Bediüzzaman Said Nursi",
+        "Abdülkadir-i Geylani",
+        "Muhammed Mehdi",
+        "Seyyid (Tavzih)",
+        "Şerif (Tavzih)"
+      ],
+      "related_concepts": [
+        "ehl-i-beyt",
+        "bediuzzaman-said-nursi",
+        "abdulkadir-i-geylani",
+        "muhammed-mehdi",
+        "seyyid-tavzih",
+        "serif-tavzih"
+      ],
+      "ranked_references": [
+        {
+          "book": "Birinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "Birinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "14._Şuâ",
+          "section": "14._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Üçüncü_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "Üçüncü_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Hata-Savab_Cedveli",
+          "section": "Hata-Savab_Cedveli",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Muhakemat",
+          "section": "Muhakemat_(Asar-ı_Bediiyye)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "26._Mektup",
+          "section": "26._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Kastamonu_ve_Emirdağ%27da_Yazılan_Mektuplar_(Barla)",
+          "section": "Kastamonu_ve_Emirdağ%27da_Yazılan_Mektuplar_(Barla)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "15._Şuâ",
+          "section": "15._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Yirmi_Yedinci_Mektup%27un_Üçüncü_Kısmı_ve_Üçüncü_Zeylin_Nihayetidir_(Barla)",
+          "section": "Yirmi_Yedinci_Mektup%27un_Üçüncü_Kısmı_ve_Üçüncü_Zeylin_Nihayetidir_(Barla)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "satranc": {
+      "display": "Satranç",
+      "aliases": [
+        "satranç"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [
+        {
+          "book": "Kastamonu Lahikası",
+          "section": "Kastamonu Lahikası (Ayet-Hadis Mealleri)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Üstad_Hz.%27nin_Hulusi_Ağabeye_Gönderdiği_Mektuplar",
+          "section": "Üstad_Hz.%27nin_Hulusi_Ağabeye_Gönderdiği_Mektuplar",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Divan-ı_Harb-i_Örfi_(Asar-ı_Bediiyye)",
+          "section": "Divan-ı_Harb-i_Örfi_(Asar-ı_Bediiyye)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "sigara": {
+      "display": "Sigara",
+      "aliases": [
+        "sigara"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [
+        {
+          "book": "19._Mektup",
+          "section": "19._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "1._Söz",
+          "section": "1._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "16._Mektup",
+          "section": "16._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Divan-ı_Harb-i_Örfi_(Asar-ı_Bediiyye)",
+          "section": "Divan-ı_Harb-i_Örfi_(Asar-ı_Bediiyye)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "silsilename": {
+      "display": "Silsilename",
+      "aliases": [
+        "silsilename"
+      ],
+      "related_labels": [
+        "Mustafa Güvenç",
+        "Ahmed Hüsrev Altınbaşak",
+        "Ali Ergün",
+        "Mehmed Sözer"
+      ],
+      "related_concepts": [
+        "mustafa-guvenc",
+        "ahmed-husrev-altinbasak",
+        "ali-ergun",
+        "mehmed-sozer"
+      ],
+      "ranked_references": [
+        {
+          "book": "Mektubat%27ın_Üçüncü_Kısmı_(2)_(Barla)",
+          "section": "Mektubat%27ın_Üçüncü_Kısmı_(2)_(Barla)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "sindaktili": {
+      "display": "Sindaktili",
+      "aliases": [
+        "sindaktili"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [
+        {
+          "book": "Mukaddime_(Barla)",
+          "section": "Mukaddime_(Barla)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "sudur": {
+      "display": "Sudur",
+      "aliases": [
+        "sudur"
+      ],
+      "related_labels": [
+        "İbn-i Sina",
+        "Farabi",
+        "İmam-ı Gazali"
+      ],
+      "related_concepts": [
+        "ibn-i-sina",
+        "farabi",
+        "imam-i-gazali"
+      ],
+      "ranked_references": [
+        {
+          "book": "30._Söz",
+          "section": "30._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "25._Söz",
+          "section": "25._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "20._Mektup",
+          "section": "20._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "23._Lem%27a",
+          "section": "23._Lem%27a",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "takiyye": {
+      "display": "Takiyye",
+      "aliases": [
+        "takiyye"
+      ],
+      "related_labels": [
+        "Şia",
+        "Hz. Ali (ra)",
+        "Mümaşat"
+      ],
+      "related_concepts": [
+        "sia",
+        "hz-ali-ra",
+        "mumasat"
+      ],
+      "ranked_references": [
+        {
+          "book": "4._Lem%27a",
+          "section": "4._Lem%27a",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "takvim": {
+      "display": "Takvim",
+      "aliases": [
+        "takvim"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [
+        {
+          "book": "4. Şua (Ayet-Hadis Mealleri)",
+          "section": "4. Şua (Ayet-Hadis Mealleri)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "30._Söz",
+          "section": "30._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "4._Şuâ",
+          "section": "4._Şuâ",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "tavla-oyun": {
+      "display": "Tavla (Oyun)",
+      "aliases": [
+        "tavla (oyun)"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [
+        {
+          "book": "25._Lem%27a",
+          "section": "25._Lem%27a",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "tevafuk": {
+      "display": "Tevafuk",
+      "aliases": [
+        "tevafuk"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "tevfik": {
+      "display": "Tevfik",
+      "aliases": [
+        "tevfik"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "tesrik-tekbiri": {
+      "display": "Teşrik Tekbiri",
+      "aliases": [
+        "teşrik tekbiri"
+      ],
+      "related_labels": [
+        "Kurban Bayramı",
+        "Arefe",
+        "Tekbir",
+        "Mina",
+        "Teşrik Tekbiri",
+        "Leyali-i Aşere",
+        "Ramazan Bayramı",
+        "Bayram",
+        "Şeytan Taşlama",
+        "Hacı",
+        "İbrahim (as)",
+        "Zemzem",
+        "Kurban",
+        "Arafat",
+        "Hac"
+      ],
+      "related_concepts": [
+        "kurban-bayrami",
+        "arefe",
+        "tekbir",
+        "mina",
+        "leyali-i-asere",
+        "ramazan-bayrami",
+        "bayram",
+        "seytan-taslama",
+        "haci",
+        "ibrahim-as",
+        "zemzem",
+        "kurban",
+        "arafat",
+        "hac"
+      ],
+      "ranked_references": [
+        {
+          "book": "11. Şua (Ayet-Hadis Mealleri)",
+          "section": "11. Şua (Ayet-Hadis Mealleri)",
+          "count": 23,
+          "score": 138.0
+        },
+        {
+          "book": "11._Şuâ",
+          "section": "11._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "17._Lem%27a",
+          "section": "17._Lem%27a",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "yamyamlik": {
+      "display": "Yamyamlık",
+      "aliases": [
+        "yamyamlık"
+      ],
+      "related_labels": [
+        "Gıybet"
+      ],
+      "related_concepts": [
+        "giybet"
+      ],
+      "ranked_references": [
+        {
+          "book": "22. Mektup (Ayet-Hadis Mealleri)",
+          "section": "22. Mektup (Ayet-Hadis Mealleri)",
+          "count": 9,
+          "score": 54.0
+        },
+        {
+          "book": "İşarat-ül İ'caz (Ayet-Hadis Mealleri)",
+          "section": "İşarat-ül İ'caz (Ayet-Hadis Mealleri)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Bakara_Suresi_29._âyet",
+          "section": "Bakara_Suresi_29._âyet",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "29._Mektup",
+          "section": "29._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "22._Mektup",
+          "section": "22._Mektup",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "zuhd": {
+      "display": "Zühd",
+      "aliases": [
+        "zühd"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "cocuk": {
+      "display": "Çocuk",
+      "aliases": [
+        "çocuk"
+      ],
+      "related_labels": [
+        "İzdivac",
+        "17. Mektup"
+      ],
+      "related_concepts": [
+        "izdivac",
+        "17-mektup"
+      ],
+      "ranked_references": [
+        {
+          "book": "32._Söz",
+          "section": "32._Söz",
+          "count": 9,
+          "score": 54.0
+        },
+        {
+          "book": "Birinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "Birinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 6,
+          "score": 36.0
+        },
+        {
+          "book": "24._Lem%27a",
+          "section": "24._Lem%27a",
+          "count": 4,
+          "score": 24.0
+        },
+        {
+          "book": "17._Mektup",
+          "section": "17._Mektup",
+          "count": 4,
+          "score": 24.0
+        },
+        {
+          "book": "11._Şuâ",
+          "section": "11._Şuâ",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "25._Söz",
+          "section": "25._Söz",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "25._Lem%27a",
+          "section": "25._Lem%27a",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "İkinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "İkinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "Lemeat%27tan_Sonraki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Sonraki_Mektuplar_(Kastamonu)",
+          "count": 3,
+          "score": 18.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "olum": {
+      "display": "Ölüm",
+      "aliases": [
+        "ölüm"
+      ],
+      "related_labels": [
+        "Ahiret",
+        "Haşir",
+        "Cennet",
+        "Cehennem",
+        "Kabir",
+        "Berzah",
+        "Hayat",
+        "Şehit",
+        "Musibet",
+        "Kıyamet",
+        "Ecel",
+        "Azrail",
+        "Vefat",
+        "Firak",
+        "Uyku",
+        "İntihar",
+        "Katl",
+        "Meyyit",
+        "Ömür",
+        "İspirtizma"
+      ],
+      "related_concepts": [
+        "ahiret",
+        "hasir",
+        "cennet",
+        "cehennem",
+        "kabir",
+        "berzah",
+        "hayat",
+        "sehit",
+        "musibet",
+        "kiyamet",
+        "ecel",
+        "azrail",
+        "vefat",
+        "firak",
+        "uyku",
+        "intihar",
+        "katl",
+        "meyyit",
+        "omur",
+        "ispirtizma"
+      ],
+      "ranked_references": [
+        {
+          "book": "17. Mektup (Ayet-Hadis Mealleri)",
+          "section": "17. Mektup (Ayet-Hadis Mealleri)",
+          "count": 4,
+          "score": 24.0
+        },
+        {
+          "book": "20. Mektup (Ayet-Hadis Mealleri)",
+          "section": "20. Mektup (Ayet-Hadis Mealleri)",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "20._Mektup",
+          "section": "20._Mektup",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "29._Mektup",
+          "section": "29._Mektup",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "26._Lem%27a",
+          "section": "26._Lem%27a",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "17._Söz",
+          "section": "17._Söz",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "33._Söz",
+          "section": "33._Söz",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Bakara_Suresi_28._âyet",
+          "section": "Bakara_Suresi_28._âyet",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "13._Lem%27a",
+          "section": "13._Lem%27a",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "25._Lem%27a",
+          "section": "25._Lem%27a",
+          "count": 2,
+          "score": 12.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "ornek-madde-mefhum": {
+      "display": "Örnek Madde (Mefhum)",
+      "aliases": [
+        "örnek madde (mefhum)"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "ornek-madde-suunat": {
+      "display": "Örnek Madde (Şuunat)",
+      "aliases": [
+        "örnek madde (şuunat)"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "ihlas": {
+      "display": "İhlas",
+      "aliases": [
+        "i̇hlas"
+      ],
+      "related_labels": [
+        "Hasbi",
+        "İhlas Suresi",
+        "21. Lem'a",
+        "20. Lem'a",
+        "İhlas Risalesi (Küçük Kitap)"
+      ],
+      "related_concepts": [
+        "hasbi",
+        "ihlas-suresi",
+        "21-lem-a",
+        "20-lem-a",
+        "ihlas-risalesi-kucuk-kitap"
+      ],
+      "ranked_references": [
+        {
+          "book": "20._Lem%27a",
+          "section": "20._Lem%27a",
+          "count": 7,
+          "score": 42.0
+        },
+        {
+          "book": "21._Lem%27a",
+          "section": "21._Lem%27a",
+          "count": 6,
+          "score": 36.0
+        },
+        {
+          "book": "Birinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "Birinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 4,
+          "score": 24.0
+        },
+        {
+          "book": "17._Lem%27a",
+          "section": "17._Lem%27a",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "Lem'alar",
+          "section": "21. Lem'a",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Lem'alar",
+          "section": "17. Lem'a",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Birinci_Kısım_Mektuplar_(Emirdağ-2)",
+          "section": "Birinci_Kısım_Mektuplar_(Emirdağ-2)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "29._Mektup",
+          "section": "29._Mektup",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Onuncu_Risale",
+          "section": "Onuncu_Risale",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "count": 2,
+          "score": 12.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "ikileme": {
+      "display": "İkileme",
+      "aliases": [
+        "i̇kileme"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "imam-i-mubin-ve-kitab-i-mubin": {
+      "display": "İmam-ı Mübin ve Kitab-ı Mübin",
+      "aliases": [
+        "i̇mam-ı mübin ve kitab-ı mübin"
+      ],
+      "related_labels": [
+        "Kader",
+        "Levh-i Mahv-İspat",
+        "İlim",
+        "Emir",
+        "Kudret",
+        "İrade",
+        "Levh-i Mahfuz",
+        "Zaman",
+        "Kur'an"
+      ],
+      "related_concepts": [
+        "kader",
+        "levh-i-mahv-ispat",
+        "ilim",
+        "emir",
+        "kudret",
+        "irade",
+        "levh-i-mahfuz",
+        "zaman",
+        "kur-an"
+      ],
+      "ranked_references": [],
+      "category_hint": "Mefhum"
+    },
+    "iman": {
+      "display": "İman",
+      "aliases": [
+        "i̇man"
+      ],
+      "related_labels": [
+        "Allah (cc)",
+        "Kur'an",
+        "Hz. Muhammed (sav)",
+        "Ahiret",
+        "İslam",
+        "Tevhid",
+        "Taklidi ve Tahkiki İman",
+        "İman Hizmeti",
+        "İlmelyakin, Aynelyakin ve Hakkalyakin"
+      ],
+      "related_concepts": [
+        "allah-cc",
+        "kur-an",
+        "hz-muhammed-sav",
+        "ahiret",
+        "islam",
+        "tevhid",
+        "taklidi-ve-tahkiki-iman",
+        "iman-hizmeti",
+        "ilmelyakin-aynelyakin-ve-hakkalyakin"
+      ],
+      "ranked_references": [
+        {
+          "book": "Bakara_Suresi_1-3._âyetler",
+          "section": "Bakara_Suresi_1-3._âyetler",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Birinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "Birinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "2._Söz",
+          "section": "2._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "11._Şuâ",
+          "section": "11._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "9._Mektup",
+          "section": "9._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "23._Söz",
+          "section": "23._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "5._Mektup",
+          "section": "5._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "33._Söz",
+          "section": "33._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "2._Şuâ",
+          "section": "2._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "iman-hizmeti": {
+      "display": "İman Hizmeti",
+      "aliases": [
+        "i̇man hizmeti"
+      ],
+      "related_labels": [
+        "İman"
+      ],
+      "related_concepts": [
+        "iman"
+      ],
+      "ranked_references": [
+        {
+          "book": "Birinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "Birinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "Lemeat%27tan_Sonraki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Sonraki_Mektuplar_(Kastamonu)",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "Konferans_(Sözler)",
+          "section": "Konferans_(Sözler)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Mektubat%27ın_Üçüncü_Kısmı_(1)_(Barla)",
+          "section": "Mektubat%27ın_Üçüncü_Kısmı_(1)_(Barla)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "13._Şuâ",
+          "section": "13._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "5._Mektup",
+          "section": "5._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Emirdağ Lahikası",
+          "section": "Emirdağ Lahikası 1 (Ayet-Hadis Mealleri)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "İşarat-ı_Gaybiye_Hakkında_Bir_Takriz",
+          "section": "İşarat-ı_Gaybiye_Hakkında_Bir_Takriz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "İkinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "section": "İkinci_Kısım_Mektuplar_(Emirdağ-1)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "integral": {
+      "display": "İntegral",
+      "aliases": [
+        "i̇ntegral"
+      ],
+      "related_labels": [],
+      "related_concepts": [],
+      "ranked_references": [
+        {
+          "book": "26._Söz",
+          "section": "26._Söz",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "islam": {
+      "display": "İslam",
+      "aliases": [
+        "i̇slam"
+      ],
+      "related_labels": [
+        "Allah (cc)",
+        "İman",
+        "Tevhid",
+        "Kur'an",
+        "Hz. Muhammed (sav)",
+        "Ahiret",
+        "Müslüman"
+      ],
+      "related_concepts": [
+        "allah-cc",
+        "iman",
+        "tevhid",
+        "kur-an",
+        "hz-muhammed-sav",
+        "ahiret",
+        "musluman"
+      ],
+      "ranked_references": [
+        {
+          "book": "9._Mektup",
+          "section": "9._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Hakikat_Çekirdekleri_(Mektubat)",
+          "section": "Hakikat_Çekirdekleri_(Mektubat)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "28._Mektup",
+          "section": "28._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "15._Mektup",
+          "section": "15._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Hutbe-i_Şamiye",
+          "section": "Hutbe-i_Şamiye",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "24._Söz",
+          "section": "24._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "1._Şuâ",
+          "section": "1._Şuâ",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "5._Mektup",
+          "section": "5._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Lemeat%27tan_Sonraki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Sonraki_Mektuplar_(Kastamonu)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "section": "Lemeat%27tan_Önceki_Mektuplar_(Kastamonu)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "ism-i-azam": {
+      "display": "İsm-i Azam",
+      "aliases": [
+        "i̇sm-i azam"
+      ],
+      "related_labels": [
+        "Sekine",
+        "30. Lem'a",
+        "Allah",
+        "Ferd",
+        "Hay",
+        "Kayyum",
+        "Hakem",
+        "Adl",
+        "Kuddüs",
+        "Ehad",
+        "Ercuze",
+        "Dua-i İsm-i A'zam",
+        "Dua-i Tercüman-ı İsm-i A'zam",
+        "Sekine (Uzun)",
+        "Sekine (Kısa)"
+      ],
+      "related_concepts": [
+        "sekine",
+        "30-lem-a",
+        "allah",
+        "ferd",
+        "hay",
+        "kayyum",
+        "hakem",
+        "adl",
+        "kuddus",
+        "ehad",
+        "ercuze",
+        "dua-i-ism-i-a-zam",
+        "dua-i-tercuman-i-ism-i-a-zam",
+        "sekine-uzun",
+        "sekine-kisa"
+      ],
+      "ranked_references": [
+        {
+          "book": "Lem'alar",
+          "section": "28. Lem'a",
+          "count": 27,
+          "score": 162.0
+        },
+        {
+          "book": "24._Söz",
+          "section": "24._Söz",
+          "count": 6,
+          "score": 36.0
+        },
+        {
+          "book": "Lem'alar",
+          "section": "30. Lem'a",
+          "count": 5,
+          "score": 30.0
+        },
+        {
+          "book": "Mektubat%27ın_Üçüncü_Kısmı_(2)_(Barla)",
+          "section": "Mektubat%27ın_Üçüncü_Kısmı_(2)_(Barla)",
+          "count": 5,
+          "score": 30.0
+        },
+        {
+          "book": "8. Şua (Ayet-Hadis Mealleri)",
+          "section": "8. Şua (Ayet-Hadis Mealleri)",
+          "count": 5,
+          "score": 30.0
+        },
+        {
+          "book": "25._Söz",
+          "section": "25._Söz",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "22._Söz",
+          "section": "22._Söz",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "8._Şuâ",
+          "section": "8._Şuâ",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "30._Lem%27a",
+          "section": "30._Lem%27a",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "2._Şuâ",
+          "section": "2._Şuâ",
+          "count": 2,
+          "score": 12.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "ispirtizma": {
+      "display": "İspirtizma",
+      "aliases": [
+        "i̇spirtizma"
+      ],
+      "related_labels": [
+        "Cin",
+        "Huddam",
+        "Ruh",
+        "Medyum",
+        "Deccal",
+        "Manyetizma",
+        "Telepati",
+        "Süleyman (as)",
+        "Gayb",
+        "Kulak Hırsızlığı"
+      ],
+      "related_concepts": [
+        "cin",
+        "huddam",
+        "ruh",
+        "medyum",
+        "deccal",
+        "manyetizma",
+        "telepati",
+        "suleyman-as",
+        "gayb",
+        "kulak-hirsizligi"
+      ],
+      "ranked_references": [
+        {
+          "book": "5._Şuâ",
+          "section": "5._Şuâ",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "13. Şua (Ayet-Hadis Mealleri)",
+          "section": "13. Şua (Ayet-Hadis Mealleri)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Emirdağ Lahikası",
+          "section": "Emirdağ Lahikası 2 (Ayet-Hadis Mealleri)",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "15._Mektup",
+          "section": "15._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "25._Söz",
+          "section": "25._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Lem'alar",
+          "section": "28. Lem'a",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "28._Lem%27a",
+          "section": "28._Lem%27a",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "19._Mektup",
+          "section": "19._Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "20._Söz",
+          "section": "20._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "13._Şuâ",
+          "section": "13._Şuâ",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    },
+    "izdivac": {
+      "display": "İzdivaç",
+      "aliases": [
+        "i̇zdivaç"
+      ],
+      "related_labels": [
+        "Kadın",
+        "Erkek",
+        "Anne",
+        "Baba",
+        "Çocuk",
+        "Tesettür",
+        "Taaddüd-ü Ezvac",
+        "Miras",
+        "Aile",
+        "Boşanma"
+      ],
+      "related_concepts": [
+        "kadin",
+        "erkek",
+        "anne",
+        "baba",
+        "cocuk",
+        "tesettur",
+        "taaddud-u-ezvac",
+        "miras",
+        "aile",
+        "bosanma"
+      ],
+      "ranked_references": [
+        {
+          "book": "24._Lem%27a",
+          "section": "24._Lem%27a",
+          "count": 6,
+          "score": 36.0
+        },
+        {
+          "book": "7. Mektup (Ayet-Hadis Mealleri)",
+          "section": "7. Mektup (Ayet-Hadis Mealleri)",
+          "count": 3,
+          "score": 18.0
+        },
+        {
+          "book": "19._Mektup",
+          "section": "19._Mektup",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "Lem'alar",
+          "section": "24. Lem'a",
+          "count": 2,
+          "score": 12.0
+        },
+        {
+          "book": "İşarat (Asar-ı Bediiyye)",
+          "section": "İşarat (Asar-ı Bediiyye)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Münazarat",
+          "section": "Münazarat_(Asar-ı_Bediiyye)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Mektubat",
+          "section": "7. Mektup",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "25._Söz",
+          "section": "25._Söz",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Birinci_Kısım_Mektuplar_(Emirdağ-2)",
+          "section": "Birinci_Kısım_Mektuplar_(Emirdağ-2)",
+          "count": 1,
+          "score": 6.0
+        },
+        {
+          "book": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "section": "Üçüncü_Kısım_Mektuplar_(Emirdağ-2)",
+          "count": 1,
+          "score": 6.0
+        }
+      ],
+      "category_hint": "Mefhum"
+    }
+  }
+}

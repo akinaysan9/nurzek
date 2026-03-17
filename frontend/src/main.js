@@ -74,7 +74,9 @@ async function analyzeConcept(text) {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
                 text,
-                context: state.lastSelectionContext || ''
+                context: state.lastSelectionContext || '',
+                book_hint: state.currentBook || '',
+                chapter_hint: state.currentChapter || ''
             })
         });
 
@@ -630,6 +632,8 @@ async function openSourceInReader(sourceId) {
 window.openSourceInReader = openSourceInReader;
 
 function renderSourceCard(source, extraClass = '') {
+    const citationId = escapeHtml(source.citation_id || source.citationId || '');
+    const citationLabel = escapeHtml(source.citation_label || source.citationLabel || '');
     const book = escapeHtml(source.kitap || source.book || 'Bilinmiyor');
     const chapterSlug = source.chapter_slug || source.chapterSlug || '';
     const section = escapeHtml(sanitizeSourceSection(source.bolum_adi || source.section, chapterSlug));
@@ -637,10 +641,11 @@ function renderSourceCard(source, extraClass = '') {
     const href = buildSourceHref(source);
     const className = `source-card ${extraClass}`.trim();
     const sourceId = registerSource(source);
+    const showCitationBadge = citationId && !/^Kaynak\s+\d+$/i.test(citationId) && citationId !== citationLabel;
 
     return `
         <button type="button" class="${className}" onclick="openSourceInReader('${sourceId}')" ${href ? `data-href="${href}"` : ''}>
-            <div class="source-meta">📖 ${book}</div>
+            <div class="source-meta">📖 ${book}${showCitationBadge ? ` <span class="source-citation-id">${citationId}</span>` : ''}</div>
             <div class="source-section">${section}</div>
             ${excerpt ? `<div class="source-excerpt">${excerpt}</div>` : ''}
         </button>
@@ -1002,8 +1007,44 @@ function parseCitationLinks(text) {
     const regex = /\[\[\s*(.*?)\s*:\s*(.*?)\s*\]\]/g;
     return text.replace(regex, (match, book, section) => {
         const fullCitation = `${book.trim()}: ${section.trim()}`;
-        return `<button class="citation-link" onclick="handleCitationLink('${fullCitation.replace(/'/g, "\\'")}')">${fullCitation}</button>`;
+        return `<button type="button" class="citation-link" onclick="handleCitationLink('${fullCitation.replace(/'/g, "\\'")}')">${fullCitation}</button>`;
     });
+}
+
+
+function normalizeCitationLookupText(value = '') {
+    return String(value)
+        .toLowerCase()
+        .replace(/[’']/g, '')
+        .replace(/[^\wığüşöçİĞÜŞÖÇ]+/g, '');
+}
+
+
+async function resolveCitationSource(bookName, sectionName) {
+    const bookSlug = bookSlugMap[bookName] || deriveSlug(bookName);
+    const searchTitle = normalizeCitationLookupText(sectionName);
+    const fallbackSlug = deriveSlug(sectionName);
+
+    const res = await fetch(`${API_URL}/knowledge/kulliyat/${bookSlug}`);
+    if (!res.ok) {
+        throw new Error(`Book not found: ${bookSlug}`);
+    }
+
+    const data = await res.json();
+    const chapters = Array.isArray(data.chapters) ? data.chapters : [];
+    const chapter = chapters.find(c => {
+        const chapterTitle = normalizeCitationLookupText(c.title || '');
+        return chapterTitle === searchTitle || chapterTitle.includes(searchTitle) || searchTitle.includes(chapterTitle);
+    });
+
+    return {
+        kitap: bookName,
+        bolum_adi: sectionName,
+        book: bookName,
+        section: sectionName,
+        book_slug: bookSlug,
+        chapter_slug: chapter?.slug || fallbackSlug
+    };
 }
 
 async function handleCitationLink(citationText) {
@@ -1013,42 +1054,10 @@ async function handleCitationLink(citationText) {
 
     const bookName = parts[0].trim();
     const sectionName = parts[1].trim();
-
-    // 1. Find Book Slug
-    let bookSlug = bookSlugMap[bookName] || bookName.toLowerCase().replace(/\s+/g, '-');
-
-    // 2. Try to find chapter slug
     try {
-        const res = await fetch(`${API_URL}/knowledge/kulliyat/${bookSlug}`);
-        if (!res.ok) {
-            alert(`Kitap bulunamadı: ${bookName}`);
-            throw new Error(`Book not found: ${bookSlug}`);
-        }
-        const data = await res.json();
-
-        if (data.chapters) {
-            // Find best matching chapter slug
-            const searchTitle = sectionName.toLowerCase().replace(/[^\wığüşöçİĞÜŞÖÇ]/g, '');
-            const chapter = data.chapters.find(c => {
-                const chapterTitle = c.title.toLowerCase().replace(/[^\wığüşöçİĞÜŞÖÇ]/g, '');
-                return chapterTitle === searchTitle || chapterTitle.includes(searchTitle) || searchTitle.includes(chapterTitle);
-            });
-
-            if (chapter) {
-                console.log(`✅ Found matching chapter: ${chapter.slug}. Opening in new tab.`);
-                // Open in NEW tab as requested
-                addNewTab();
-                loadChapter(bookSlug, chapter.slug, true);
-            } else {
-                console.warn(`❌ Chapter not found for title "${sectionName}" in book ${bookSlug}.`);
-                alert(`Bölüm bulunamadı: ${sectionName} (${bookName} içinde)`);
-                // Fallback: try simple slugify and open in NEW tab
-                const fallbackSlug = sectionName.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '');
-                console.log(`⚠️ Falling back to URL-guess: ${fallbackSlug}`);
-                addNewTab();
-                loadChapter(bookSlug, fallbackSlug, true);
-            }
-        }
+        const source = await resolveCitationSource(bookName, sectionName);
+        const sourceId = registerSource(source);
+        await openSourceInReader(sourceId);
     } catch (err) {
         console.error('🛑 Citation navigation error:', err);
         alert(`Atıf yükleme hatası: ${err.message}`);
@@ -5183,7 +5192,11 @@ window.drawConceptMap = async function (conceptName) {
         const canvasContainer = document.getElementById('concept-map-canvas');
 
         const nodes = new vis.DataSet(data.nodes);
-        const edges = new vis.DataSet(data.edges);
+        const enrichedEdges = (data.edges || []).map(e => ({
+            ...e,
+            title: e.weight ? `Bağ gücü: ${e.weight}` : undefined
+        }));
+        const edges = new vis.DataSet(enrichedEdges);
 
         const options = {
             nodes: {
@@ -5266,6 +5279,9 @@ window.showConceptCard = async function (conceptName) {
             });
         }
 
+        const relatedTerms = Array.isArray(data.related_terms) ? data.related_terms : [];
+        const topBooks = data.stats && Array.isArray(data.stats.top_books) ? data.stats.top_books : [];
+
         const listHTML = Object.entries(grouped).map(([kitap, items]) => `
             <div class="occurrence-group">
                 <div class="occurrence-group-header">
@@ -5282,6 +5298,18 @@ window.showConceptCard = async function (conceptName) {
             </div>
         `).join('');
 
+        const relatedHTML = relatedTerms.length > 0
+            ? relatedTerms.slice(0, 10).map(t => {
+                const term = typeof t === 'string' ? t : (t.term || '');
+                const weight = typeof t === 'object' ? (t.weight || 0) : 0;
+                return `<span class="concept-chip" title="Bağ gücü: ${weight}">${term}</span>`;
+            }).join('')
+            : '<div class="empty-state-sm">İlişkili kavram bulunamadı.</div>';
+
+        const topBooksHTML = topBooks.length > 0
+            ? topBooks.slice(0, 6).map(b => `<span class="concept-chip">${b.kitap} (${b.count})</span>`).join('')
+            : '<div class="empty-state-sm">Dağılım verisi yok.</div>';
+
         card.innerHTML = `
             <div class="concept-card-inner">
                 <div class="concept-card-header">
@@ -5291,6 +5319,16 @@ window.showConceptCard = async function (conceptName) {
                 
                 <div class="concept-explanation">
                     ${data.explanation.replace(/\n/g, '<br>')}
+                </div>
+
+                <div class="concept-footer" style="padding-top: 10px; border-top: 1px solid #eee; margin-top:10px;">
+                    <div style="font-weight:600;font-size:13px;color:#8b6914;margin-bottom:8px;">🔗 İlişkili Kavramlar</div>
+                    <div class="occurrence-list-inline" style="display:flex;gap:6px;flex-wrap:wrap;max-height:120px;overflow-y:auto;">${relatedHTML}</div>
+                </div>
+
+                <div class="concept-footer" style="padding-top: 10px; border-top: 1px solid #eee; margin-top:10px;">
+                    <div style="font-weight:600;font-size:13px;color:#8b6914;margin-bottom:8px;">📚 Kitap Dağılımı</div>
+                    <div class="occurrence-list-inline" style="display:flex;gap:6px;flex-wrap:wrap;max-height:120px;overflow-y:auto;">${topBooksHTML}</div>
                 </div>
                 
                 <div class="concept-footer" style="padding-top: 10px; border-top: 1px solid #eee; margin-top:10px;">

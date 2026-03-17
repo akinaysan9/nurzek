@@ -379,6 +379,31 @@ body .reader-content p {
     align-items: center;
 }
 
+/* Concept detail chips */
+.concept-chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 10px;
+    border-radius: 999px;
+    border: 1px solid rgba(166, 124, 56, 0.25);
+    background: rgba(197, 157, 95, 0.12);
+    color: #6f5322;
+    font-size: 0.78rem;
+    line-height: 1.2;
+    white-space: nowrap;
+}
+
+.concept-chip:hover {
+    background: rgba(197, 157, 95, 0.2);
+    border-color: rgba(166, 124, 56, 0.35);
+}
+
+.empty-state-sm {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    opacity: 0.9;
+}
+
 .loading-state .spinner {
     margin: 0 auto 15px;
 }

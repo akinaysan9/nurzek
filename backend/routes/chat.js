@@ -18,7 +18,8 @@ router.post('/', optionalAuth, async (req, res) => {
             conversationId,
             userId: req.user ? req.user.id : null,
             book_hint,
-            chapter_hint
+            chapter_hint,
+            conversationHistory: Array.isArray(conversationHistory) ? conversationHistory.slice(-10) : []
         }); // Uses V2 Blocking Adapter
 
         // Save History (Legacy sync, the new message system is handled by Python/Search)

@@ -7,11 +7,11 @@ import fetch from 'node-fetch';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const PYTHON_SERVICE_URL = 'http://localhost:8000/api/search';
+const PYTHON_SERVICE_URL = 'http://127.0.0.1:8000/api/search';
 const RAG_TIMEOUT_MS = 300000;
 
 export async function queryNurZeka(question, onToken, onDone, onError, options = {}) {
-    const { conversationId, userId, book_hint, chapter_hint, onSources } = options;
+    const { conversationId, userId, book_hint, chapter_hint, onSources, conversationHistory } = options;
     console.log('NurZeka V2 Query:', question, 'Conv:', conversationId, 'User:', userId, 'Book:', book_hint, 'Chapter:', chapter_hint);
 
     const controller = new AbortController();
@@ -29,7 +29,8 @@ export async function queryNurZeka(question, onToken, onDone, onError, options =
                 conversation_id: conversationId,
                 user_id: userId,
                 book_hint: book_hint || null,
-                chapter_hint: chapter_hint || null
+                chapter_hint: chapter_hint || null,
+                conversation_history: Array.isArray(conversationHistory) ? conversationHistory : []
             }),
             signal: controller.signal
         });
@@ -41,34 +42,40 @@ export async function queryNurZeka(question, onToken, onDone, onError, options =
         const stream = response.body;
         let buffer = '';
 
+        const processSSELine = (line) => {
+            if (!line.startsWith('data: ')) return;
+
+            const raw = line.slice(6).trim();
+            if (raw === '[DONE]') return;
+
+            try {
+                const parsed = JSON.parse(raw);
+                if (parsed.token) {
+                    onToken(parsed.token);
+                }
+                if (parsed.sources && Array.isArray(parsed.sources)) {
+                    console.log('NurZeka SSE sources received:', parsed.sources.length);
+                    onSources?.(parsed.sources);
+                }
+                if (parsed.error) {
+                    onError(parsed.error);
+                }
+            } catch (e) {}
+        };
+
         stream.on('data', (chunk) => {
             buffer += chunk.toString();
             const lines = buffer.split('\n');
             buffer = lines.pop();
 
-            for (const line of lines) {
-                if (!line.startsWith('data: ')) continue;
-
-                const raw = line.slice(6).trim();
-                if (raw === '[DONE]') continue;
-
-                try {
-                    const parsed = JSON.parse(raw);
-                    if (parsed.token) {
-                        onToken(parsed.token);
-                    }
-                    if (parsed.sources && Array.isArray(parsed.sources)) {
-                        console.log('NurZeka SSE sources received:', parsed.sources.length);
-                        onSources?.(parsed.sources);
-                    }
-                    if (parsed.error) {
-                        onError(parsed.error);
-                    }
-                } catch (e) {}
-            }
+            for (const line of lines) processSSELine(line);
         });
 
         stream.on('end', () => {
+            // Process a possible final partial line that does not end with '\n'.
+            if (buffer && buffer.trim()) {
+                processSSELine(buffer.trim());
+            }
             clearTimeout(timeoutId);
             onDone();
         });
