@@ -1,0 +1,3 @@
+Şimdi /C:/Users/aysan/Desktop/risale-nur-ai/rag_service/ingest.py içine genişletilebilir regex tabanlı çapraz-atıf taramasını ekleyip, çıktıyı hem risale_sozluk.json alias’larına yansıtacağım hem de cross_references.json olarak üreteceğim.
+Regex kalıplarını genişletilebilir tutup ingest içine entegre ediyorum: önce çapraz-atıf tespit yardımcıları, sonra sözlük üretimi içinde alias zenginleştirme ve cross_references.json üretimi ekleniyor.
+Şimdi düzenlemeleri tek seferde uyguluyorum: yeni regex tabanlı çapraz-atıf katmanı, cross_references.json üretimi ve risale_sozluk.json alias genişletmesi eklenecek.

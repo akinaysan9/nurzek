@@ -1,0 +1,24 @@
+[[Kategori:Matematik]]
+[[Kategori:Mefhum]]
+'''İntegral''' bir eğrinin altındaki alanı bulmak veya hız bilgisinden yararlanarak yer değiştirmeyi belirlemek gibi çok çeşitli bilimsel alanlarda kullanılan bir yöntemdir. Bir eğrinin altındaki alan hesaplanırken bu alanın yatay eksene dik sonsuz sayıda çizgiden/doğru parçasından (dikdörtgenden) oluştuğu kabul edildiğinde tek bir dikdörtgenin alanı sıfırdır ama tüm yani sonsuz sayıdaki dikdörtgenlerin alanlarının toplamı eğrinin altındaki alanı verir.<ref>https://tr.wikipedia.org/wiki/%C4%B0ntegral</ref>
+Bediüzzaman hayat zannedilen hallerin yalnız bulunulan an-ı seyyaleden (gelip geçici andan) ibaret olduğunu, o andan önceki bütün zamanın ve o zaman içindeki dünyevi şeylerin o anda ölü olduğunu, o andan sonra bütün zamanın ve onun içindekilerin o anda hiç olduğunu, (an-ı seyyale sıfır zamana karşılık geldiği için) bazı ehl-i velayetin dünyanın dünya cihetiyle ademine hükmettiklerini ve buna binaen hayat-ı maddiye-i nefsiyeyi bırakıp kalp ve ruh ve sırrın derece-i hayatlarına çıkmak gerektiğini söyler. An ve ömür arasındaki ilişki, integraldeki tek bir çizginin (an-ı seyyale) alanının sıfır olmasına ama sonsuz toplamların (ömür) sonucu vermesine benzer.
+
+==Risale-i Nur'da Nerede ve Nasıl Bahsedildiği==
+
+Dördüncü Fıkra: Hakikat ilmini, hakiki hikmeti istersen Cenab-ı Hakk’ın marifetini kazan. Çünkü bütün hakaik-i mevcudat, ism-i Hakk’ın şuâatı ve esmasının tezahüratı ve sıfâtının tecelliyatıdırlar. Maddî ve manevî, cevherî, arazî her bir şeyin, her bir insanın hakikati, birer ismin nuruna dayanır ve hakikatine istinad eder. Yoksa hakikatsiz, ehemmiyetsiz bir surettir. Yirminci Söz’ün âhirinde, şu sırra dair bir nebze bahsi geçmiştir.
+
+Ey nefis! Eğer şu dünya hayatına müştaksan, mevtten kaçarsan kat’iyen bil ki: Hayat zannettiğin hâlât, yalnız bulunduğun dakikadır. O dakikadan evvel bütün zamanın ve o zaman içindeki eşya-i dünyeviye, o dakikada meyyittir, ölmüştür. O dakikadan sonra bütün zamanın ve onun mazrufu, [[İntegral|o dakikada ademdir, hiçtir]]. Demek, güvendiğin hayat-ı maddiye, yalnız bir dakikadır. Hattâ bir kısım ehl-i tetkik “Bir âşiredir belki bir ân-ı seyyaledir.” demişler. İşte şu sırdandır ki bazı ehl-i velayet, dünyanın dünya cihetiyle ademine hükmetmişler.
+
+Madem böyledir, hayat-ı maddiye-i nefsiyeyi bırak. Kalp ve ruh ve sırrın derece-i hayatlarına çık, bak; ne kadar geniş bir daire-i hayatları var. Senin için meyyit olan mazi, müstakbel; onlar için haydır, hayattar ve mevcuddur. Ey nefsim! Madem öyledir, sen dahi kalbim gibi ağla ve bağır ve de ki:
+
+“Fâniyim, fâni olanı istemem. Âcizim, âciz olanı istemem. Ruhumu Rahman’a teslim eyledim, gayr istemem. İsterim fakat bir yâr-ı bâki isterim. Zerreyim fakat bir şems-i sermed isterim. Hiç-ender hiçim fakat bu mevcudatı birden isterim.”
+
+([[Risale:26._Söz#Hâtime#27._Par.C3.A7a|26. Söz]])
+
+==Risale-i Nur'daki Diğer Alakalı Yerler==
+
+==İlgili Resimler/Fotoğraflar==
+
+==İlgili Maddeler==
+
+==Kaynakça==

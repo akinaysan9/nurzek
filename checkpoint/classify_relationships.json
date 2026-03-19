@@ -1,0 +1,1006 @@
+{
+  "last_index": 100,
+  "classified": [
+    {
+      "concept1": "nur",
+      "concept2": "risale",
+      "strength": 6742,
+      "pmi_score": 1.105739,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "'Risale' (mektup, yazı) 'Nur'u (aydınlatıcı hakikat) taşıyan ve açıklayan araçtır; kavramlar bir bütünün ayrılmaz parçaları olarak birbirini tamamlar.",
+      "needs_review": false
+    },
+    {
+      "concept1": "nur",
+      "concept2": "risale i nur",
+      "strength": 5571,
+      "pmi_score": 1.693476,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "'Risale-i Nur', 'nur' kavramı üzerine kurulu bir eserler bütünüdür. 'Nur' genel ve temel bir kavram iken, 'Risale-i Nur' bu kavramın özel bir tezahürü ve adlandırılmış bir yapıtıdır. Bu, genel-özel veya kapsayıcı-alt ilişkisini gösterir.",
+      "needs_review": false
+    },
+    {
+      "concept1": "risale",
+      "concept2": "risale i nur",
+      "strength": 5571,
+      "pmi_score": 1.619882,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "'Risale', genel olarak mektup veya kitapçık anlamına gelen bir türü ifade eder. 'Risale-i Nur' ise, Bediüzzaman Said Nursi'nin eserlerinden oluşan belirli ve özel bir külliyatın adıdır. Bu bağlamda, 'Risale-i Nur', bir 'risale' türünün somu",
+      "needs_review": false
+    },
+    {
+      "concept1": "nur'un",
+      "concept2": "risale",
+      "strength": 5321,
+      "pmi_score": 1.434308,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "'Risale' (mektup/eser) kavramı, 'nur' (aydınlık/ilim) kavramının taşıyıcısı ve tezahür alanıdır; birlikte eserin adını ve temel niteliğini oluştururlar.",
+      "needs_review": false
+    },
+    {
+      "concept1": "nur'un",
+      "concept2": "risale i nur'un",
+      "strength": 4933,
+      "pmi_score": 2.258741,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "'Risale-i Nur', 'nur' kavramının bir tezahürü, somutlaşmış bir örneği ve onun üzerine inşa edilmiş bir eserler bütünüdür. 'Nur' genel ve kuşatıcı bir kavram iken, 'Risale-i Nur' bu nurun belirli bir yazılı tefsir ve izahıdır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "risale",
+      "concept2": "risale i nur'un",
+      "strength": 4933,
+      "pmi_score": 1.619882,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "'Risale', genel olarak mektup veya kitapçık anlamına gelirken, 'Risale-i Nur' bu genel kategorinin içinde özel ve somut bir külliyatı (Nur Risaleleri koleksiyonunu) ifade eder. Yüksek PMI değeri, 'risale'nin çoğunlukla bu özel koleksiyon ba",
+      "needs_review": false
+    },
+    {
+      "concept1": "belki",
+      "concept2": "değil",
+      "strength": 3692,
+      "pmi_score": 1.262643,
+      "relationship_type": "zıt",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "'Belki' ihtimal ve şüpheyi, 'değil' ise kesin red ve olumsuzlamayı ifade eder. Risale-i Nur'da bu ikilinin sık kullanımı, hakikat arayışında şüphe (belki) ile kesin hüküm (değil) arasındaki zıt ilişkiyi vurgulamak içindir.",
+      "needs_review": false
+    },
+    {
+      "concept1": "bin",
+      "concept2": "yüz",
+      "strength": 3332,
+      "pmi_score": 1.521234,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "Risale-i Nur'da 'bin' ve 'yüz' sayıları, genellikle vurguyu artırmak ve nispi önemi/çokluğu ifade etmek için birlikte kullanılan retorik bir tamamlayıcı ikili oluşturur.",
+      "needs_review": false
+    },
+    {
+      "concept1": "iki",
+      "concept2": "risale",
+      "strength": 2854,
+      "pmi_score": 0.238945,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "'Risale', 'Risale-i Nur' adlı eserler bütününün genel adıdır. 'İki' ise bu eserler içinde özel bir vurguya sahip bir sayı veya kavram olarak (örneğin İkinci Şua, iki dünya, iki hayat gibi) 'Risale' bağlamında sıkça ele alınan bir alt unsurd",
+      "needs_review": false
+    },
+    {
+      "concept1": "nursi",
+      "concept2": "said",
+      "strength": 2845,
+      "pmi_score": 2.595036,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "'Said', Bediüzzaman Said Nursi'nin özel ismidir; 'Nursi' ise onun memleketi 'Nur' köyüne nispetle soyadı/şöhretidir. Bu, bir kişinin özel adı ile o adın ait olduğu daha genel bir soyadı/şöhreti arasındaki ilişkidir.",
+      "needs_review": false
+    },
+    {
+      "concept1": "nur",
+      "concept2": "nur'un",
+      "strength": 2815,
+      "pmi_score": 0.871204,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'nur', hem metnin adı hem de ilahi hakikat ve hidayet sembolüdür; 'nur'un' ise bu nurun sahibi, kaynağı veya onunla ilişkili olanı belirtir. Bu iki kavram, bir bütünün (nur) ve onun aidiyet/ilişki halinin (nur'un) birbirini ",
+      "needs_review": false
+    },
+    {
+      "concept1": "cenab",
+      "concept2": "hak",
+      "strength": 2258,
+      "pmi_score": 1.738693,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur'da 'Cenab' (Yüce Sahip) ve 'Hak' (Gerçek, Allah'ın ismi) sıklıkla Allah'ın sıfat ve isimlerini birlikte vurgulamak için kullanılır; biri yücelik ve rububiyeti, diğeri mutlak gerçeklik ve varlığı ifade ederek birbirini tamamlar.",
+      "needs_review": false
+    },
+    {
+      "concept1": "aziz",
+      "concept2": "kardeşlerim",
+      "strength": 2104,
+      "pmi_score": 2.374074,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur'da 'aziz', sevgili ve değerli anlamında bir hitap şekli olup, 'kardeşlerim' ile birlikte manevi bir bağı, samimiyeti ve ortak gaye etrafındaki birlikteliği ifade eder. Bu iki kavram birbirini tamamlayarak daha kuvvetli bir anla",
+      "needs_review": false
+    },
+    {
+      "concept1": "cenab ı hak",
+      "concept2": "hak",
+      "strength": 2084,
+      "pmi_score": 2.583203,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur'da 'Hak', genellikle Allah'ın bir ismi veya sıfatı olarak kullanılır. 'Cenab-ı Hak' tamlaması, 'Hak' kavramını içeren ve O'nu yücelterek ifade eden bir üst başlık/ünvan gibidir. Bu nedenle 'Cenab-ı Hak', 'Hak' kavramını kapsaya",
+      "needs_review": false
+    },
+    {
+      "concept1": "cenab",
+      "concept2": "cenab ı hak",
+      "strength": 2084,
+      "pmi_score": 2.456986,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "'Cenab' bir saygı ve yücelik unvanı iken, 'Cenab-ı Hak' bu unvanın Allah için özelleşmiş ve tamamlanmış halidir. Terimler arasında genel bir sıfat ile özel ve tek bir varlığı niteleyen tamlama ilişkisi vardır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "nur",
+      "concept2": "risale i nur'un",
+      "strength": 2084,
+      "pmi_score": 0.831818,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur, 'nur' kavramını açıklayan ve ondan türeyen bir eserler bütünüdür; 'nur' genel ve kuşatıcı bir kavram iken, 'Risale-i Nur' onun somut bir tezahürü ve alt kümesidir.",
+      "needs_review": false
+    },
+    {
+      "concept1": "karşı",
+      "concept2": "risale",
+      "strength": 2056,
+      "pmi_score": 0.201873,
+      "relationship_type": "zıt",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "Risale-i Nur'da 'karşı' kelimesi genellikle hakikat-batıl, iman-küfür, nur-zulmet gibi zıt kavramların karşıtlığını ifade etmek için kullanılır. 'Risale' ise bu mücadeledeki hakikat tarafını temsil eder.",
+      "needs_review": false
+    },
+    {
+      "concept1": "nur'a",
+      "concept2": "risale",
+      "strength": 2055,
+      "pmi_score": 1.467192,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "'Nur', eserlerin içeriğini ve amacını; 'Risale' ise bu içeriğin kitap/risale formundaki tezahürünü ifade eder. Birlikte, bütünsel bir kavramı (Nur Külliyatı'nı) oluştururlar.",
+      "needs_review": false
+    },
+    {
+      "concept1": "aziz",
+      "concept2": "sıddık",
+      "strength": 2042,
+      "pmi_score": 2.638068,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'aziz' (değerli, güçlü) ve 'sıddık' (çok sadık, doğrulayan) kavramları, iman hizmetindeki ideal bir mü'minin birbirini tamamlayan iki önemli vasfını temsil eder. Sık birlikte kullanılmaları, bu iki niteliğin bir arada bulunm",
+      "needs_review": false
+    },
+    {
+      "concept1": "kur'an",
+      "concept2": "risale",
+      "strength": 1982,
+      "pmi_score": 0.217075,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur, Kur'an'ın bir tefsiri ve çağdaş bir izahı olarak tanımlanır; bu, birincil kaynak (Kur'an) ile onun açıklayıcı bir türevi (Risale) arasında hiyerarşik bir alt-üst ilişkisi kurar.",
+      "needs_review": false
+    },
+    {
+      "concept1": "büyük",
+      "concept2": "pek",
+      "strength": 1979,
+      "pmi_score": 0.449843,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'büyük' sıfatını pekiştirmek ve niteliği vurgulamak için 'pek' zarfi sıklıkla birlikte kullanılır ('pek büyük'). Bu, anlamsal bir güçlendirme ve tamamlama ilişkisidir.",
+      "needs_review": false
+    },
+    {
+      "concept1": "kur'an",
+      "concept2": "nur",
+      "strength": 1932,
+      "pmi_score": 0.265119,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur'da 'Kur'an' kaynak ve esas, 'Nur' ise onun açıklayıcı, yansıtıcı tefsiri ve mânevî ışığı olarak birbirini tamamlayan iki kavramdır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "risale",
+      "concept2": "yüz",
+      "strength": 1932,
+      "pmi_score": 0.241251,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "Risale, bir eser veya mektup türünü; 'yüz' ise bu eserlerin bir parçası olan bölüm veya sayfa anlamını taşır. 'Risale-i Nur' ana eser, 'yüz' ise onun içinde bir alt birimdir.",
+      "needs_review": false
+    },
+    {
+      "concept1": "iki",
+      "concept2": "yüz",
+      "strength": 1916,
+      "pmi_score": 0.299371,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "Risale-i Nur'da 'iki' ve 'yüz' genellikle bir bütünün iki yönünü (zahir-batın, dünya-ahiret, maddi-manevi) ifade etmek için birlikte kullanılır; birbirlerini anlam ve işlev bakımından tamamlarlar.",
+      "needs_review": false
+    },
+    {
+      "concept1": "bütün",
+      "concept2": "hadsiz",
+      "strength": 1910,
+      "pmi_score": 0.373851,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'bütün' ve 'hadsiz' kavramları, Allah'ın varlığının ve yaratılışın sınırsız bütünlüğünü ifade etmek için birbirini güçlendirici şekilde kullanılır; 'bütün' kapsayıcılığı, 'hadsiz' ise bu bütünün sınırsız boyutunu vurgular.",
+      "needs_review": false
+    },
+    {
+      "concept1": "nur'a",
+      "concept2": "risale i nur'a",
+      "strength": 1888,
+      "pmi_score": 3.24301,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "'Risale-i Nur', 'nur' kavramı üzerine kurulu ve ondan türeyen bir eserler bütünüdür; 'nur' genel ve kuşatıcı bir kavram iken, 'Risale-i Nur' onun somut bir tezahürü ve alt kümesidir.",
+      "needs_review": false
+    },
+    {
+      "concept1": "risale",
+      "concept2": "risale i nur'a",
+      "strength": 1888,
+      "pmi_score": 1.619882,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "'Risale', genel olarak mektup veya kitapçık anlamına gelirken, 'Risale-i Nur' bu genel kategorinin içinde özel ve tanımlanmış bir külliyatın adıdır. Bu, genel bir terim ile onun özel bir örneği/alt kümesi arasındaki ilişkidir.",
+      "needs_review": false
+    },
+    {
+      "concept1": "risale",
+      "concept2": "yirmi",
+      "strength": 1874,
+      "pmi_score": 0.510302,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "'Risale', bir eserler toplamının genel adı; 'Yirmi' ise bu toplam içindeki belirli bir bölümü (Yirmi Mektup, Yirmi Üçüncü Söz, Yirmi Dokuzuncu Mektup gibi) ifade eder. Bu, bütün-parça ilişkisidir.",
+      "needs_review": false
+    },
+    {
+      "concept1": "birinci",
+      "concept2": "ikinci",
+      "strength": 1861,
+      "pmi_score": 1.234168,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'birinci' ve 'ikinci' kavramları, genellikle bir bütünün sıralı ve birbirini tamamlayan parçaları veya mertebeleri olarak (birinci şua/ikinci şua, birinci makam/ikinci makam gibi) kullanılır. Zıtlık değil, ardışık ve tamamla",
+      "needs_review": false
+    },
+    {
+      "concept1": "kardeşlerim",
+      "concept2": "sıddık",
+      "strength": 1843,
+      "pmi_score": 2.782485,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur'da 'sıddık', imanda en yüksek dereceyi temsil eder; 'kardeşlerim' ise bu yolda birlikte ilerleyen talebeleri ifade eder. 'Sıddık' olma hedefi, 'kardeşler' arasındaki manevi bağın ve ortak gayretin nihai yönünü gösterir, bu nede",
+      "needs_review": false
+    },
+    {
+      "concept1": "benim",
+      "concept2": "risale",
+      "strength": 1820,
+      "pmi_score": 0.524572,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur, yazarı Bediüzzaman Said Nursi'nin eseridir. 'Benim' ifadesi müellifin eseriyle olan sahiplik ve aidiyet bağını gösterir. Bu, bir bütünün (Risale-i Nur) onu meydana getiren veya sahibi olan özneye ('ben') bağlı olduğu hiyerarşi",
+      "needs_review": false
+    },
+    {
+      "concept1": "nur",
+      "concept2": "yüz",
+      "strength": 1801,
+      "pmi_score": 0.244632,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'nur' (aydınlatıcı hakikat) ve 'yüz' (öz, hakikat yüzü) kavramları, bir hakikatin aydınlatıcı ilkesi ile onun tezahür ettiği mahal/cihet olarak birbirini tamamlayıcı bir ilişki içindedir.",
+      "needs_review": false
+    },
+    {
+      "concept1": "bütün",
+      "concept2": "hiçbir",
+      "strength": 1797,
+      "pmi_score": 0.206225,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'bütün' ve 'hiçbir', varlık ve yokluk, iman ve inkâr, küllî ve cüz'î gibi tezatları değil, birbirini bütünleyen bir bütünlük ve istisnasızlık ifadesi için sıkça birlikte kullanılır. Örneğin 'bütün kâinat' ve 'hiçbir şey' gib",
+      "needs_review": false
+    },
+    {
+      "concept1": "ekrem",
+      "concept2": "resul",
+      "strength": 1767,
+      "pmi_score": 3.404663,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur'da 'ekrem' (en cömert, en şerefli) sıfatı, 'resul' (peygamber) kavramının özellikle Hz. Muhammed'in (s.a.v.) bir niteliği olarak sıklıkla birlikte kullanılır. Bu, bir unvan veya sıfat ile o unvanın taşıyıcısı arasındaki tamamla",
+      "needs_review": false
+    },
+    {
+      "concept1": "ekrem",
+      "concept2": "resul i ekrem",
+      "strength": 1730,
+      "pmi_score": 3.497552,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "'Ekrem' (en cömert, en şerefli) bir sıfat, 'Resul-i Ekrem' ise bu sıfatla nitelenen bir özel isim (Hz. Muhammed) olduğu için genel sıfat-özel isim ilişkisi vardır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "resul",
+      "concept2": "resul i ekrem",
+      "strength": 1730,
+      "pmi_score": 3.453803,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "'Resul' genel peygamberlik kavramını, 'Resul-i Ekrem' ise onun 'en şerefli, en üstün' anlamıyla özel ve en yüce bir formunu ifade eder. Bu, genel bir kategori ile o kategorinin en mükemmel örneği/tezahürü arasındaki hiyerarşik ilişkidir.",
+      "needs_review": false
+    },
+    {
+      "concept1": "iki",
+      "concept2": "ikinci",
+      "strength": 1727,
+      "pmi_score": 0.383619,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "Risale-i Nur'da 'iki' ve 'ikinci' kavramları, genellikle bir bütünün parçalarını (iki kısım, iki cihet) ve bu parçaların sıralı ilişkisini ifade etmek için birlikte kullanılır. Birbirini tamamlayan bir yapı ve sıra bildirirler.",
+      "needs_review": false
+    },
+    {
+      "concept1": "risale",
+      "concept2": "said",
+      "strength": 1702,
+      "pmi_score": 0.651616,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "'Risale', Said Nursi'nin yazdığı eserlerin genel adıdır; 'Said' ise bu eserlerin müellifidir. Bu, bir bütün (Risale-i Nur külliyatı) ile onu oluşturan/ona ait olan bir özne (Said) arasındaki hiyerarşik ilişkidir.",
+      "needs_review": false
+    },
+    {
+      "concept1": "iman",
+      "concept2": "nur",
+      "strength": 1699,
+      "pmi_score": 0.492038,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur'da 'iman' ve 'nur' birbirini tanımlayan ve tamamlayan temel kavramlardır; iman kalbin nuru, nur ise imanın tezahürü ve bilgisidir.",
+      "needs_review": false
+    },
+    {
+      "concept1": "diye",
+      "concept2": "risale",
+      "strength": 1692,
+      "pmi_score": 0.369147,
+      "relationship_type": "örnek-özellik",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "'Risale' bir eser/külliyat adı, 'diye' ise onu tanımlayan veya atıfta bulunan bir ifade edatıdır. 'Risale-i Nur diye' kalıbı, eserin ismini veya niteliğini belirtmek için kullanılır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "nur'un",
+      "concept2": "risale i nur",
+      "strength": 1685,
+      "pmi_score": 1.062932,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "'Risale-i Nur', 'nur' kavramının bir tezahürü, somutlaşmış halidir; 'nur' genel ve kuşatıcı bir kavram iken, 'Risale-i Nur' onun belirli bir eser/tefsir şeklindeki özel bir alt formudur.",
+      "needs_review": false
+    },
+    {
+      "concept1": "belki",
+      "concept2": "ehl",
+      "strength": 1676,
+      "pmi_score": 0.225259,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "'Belki', Risale-i Nur'da ihtimal veya tevazu ifadesi olarak sıkça kullanılır; 'ehl' ise bir grubu, meslek veya anlayış sahiplerini niteler. Bu bağlamda 'belki', 'ehl' kavramını tahmin, ihtimal veya tevazu ile nitelendirerek tamamlayıcı bir ",
+      "needs_review": false
+    },
+    {
+      "concept1": "manevi",
+      "concept2": "risale",
+      "strength": 1666,
+      "pmi_score": 0.372277,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale, manevi kavramların açıklandığı eserin adıdır; manevi ise bu eserin konu ve muhtevasını oluşturur. Birlikte anılmaları, birinin (Risale) diğerinin (manevi) taşıyıcısı ve açıklayıcısı olmasından kaynaklanan tamamlayıcı bir ilişkiyi gö",
+      "needs_review": false
+    },
+    {
+      "concept1": "ehl",
+      "concept2": "karşı",
+      "strength": 1664,
+      "pmi_score": 0.336995,
+      "relationship_type": "zıt",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'ehl' (hak dine, imana ve sünnete mensup olanlar) ile 'karşı' (onun zıddı, muhalifleri, düşman cephe) kavramları, genellikle iman-küfür, hidayet-dalalet, hak-batıl gibi birbirine karşıt iki cepheyi temsil eder.",
+      "needs_review": false
+    },
+    {
+      "concept1": "ayrı",
+      "concept2": "ayrı ayrı",
+      "strength": 1646,
+      "pmi_score": 3.35517,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'ayrı' ve 'ayrı ayrı' sıklıkla birlikte kullanılarak, bir şeyin hem farklılığını hem de çokluğunu/çeşitliliğini vurgulayan tamamlayıcı bir anlam ilişkisi kurar.",
+      "needs_review": false
+    },
+    {
+      "concept1": "iman",
+      "concept2": "risale",
+      "strength": 1644,
+      "pmi_score": 0.385536,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur, imanı açıklayan, güçlendiren ve muhafaza eden bir eser olarak tanımlanır; bu nedenle 'risale' (bu bağlamda eser) ile 'iman' kavramı birbirini tamamlayıcı bir ilişki içindedir.",
+      "needs_review": false
+    },
+    {
+      "concept1": "iki",
+      "concept2": "yirmi",
+      "strength": 1637,
+      "pmi_score": 0.441527,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'iki' (akıl ve kalp, madde ve mana gibi ikili yapılar) ve 'yirmi' (yirmi söz, yirmi mektup gibi temel eser yapıları) kavramları, bütüncül bir öğreti sisteminin birbirini tamamlayan sayısal ve yapısal unsurları olarak sıkça b",
+      "needs_review": false
+    },
+    {
+      "concept1": "manevi",
+      "concept2": "nur",
+      "strength": 1617,
+      "pmi_score": 0.416019,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur'da 'nur', ilahi hakikat ve hidayet sembolü; 'manevi' ise bu hakikatlerin mahiyetini tanımlar. Nur, manevi alemin temel vasıtası ve özüdür; birlikte kullanımları birbirini tamamlayan bir bütünlük oluşturur.",
+      "needs_review": false
+    },
+    {
+      "concept1": "iki",
+      "concept2": "nur'un",
+      "strength": 1611,
+      "pmi_score": 0.305937,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'iki' genellikle ikili yapıları (mesela iman ve küfür, nur ve zulmet) ifade ederken, 'nur' bu ikilikler içindeki temel olumlu ve aydınlatıcı ilkeyi temsil eder. Kavramlar birbirini tanımlayan ve tamamlayan bir bütünlük içind",
+      "needs_review": false
+    },
+    {
+      "concept1": "cenab",
+      "concept2": "hakk'ın",
+      "strength": 1610,
+      "pmi_score": 2.402004,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur'da 'Cenab' genellikle 'Cenab-ı Hak' şeklinde, 'Hakk'ın' ise 'Hak Teâlâ' şeklinde kullanılır. Her iki terim de Allah'ın isim/sıfatları olup, 'Cenab' saygı ve yücelik ifade eden bir hitap, 'Hakk' ise O'nun mutlak gerçek ve varlığ",
+      "needs_review": false
+    },
+    {
+      "concept1": "iki",
+      "concept2": "sene",
+      "strength": 1581,
+      "pmi_score": 0.594899,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "'İki' sayısı ile 'sene' zaman birimi, Risale-i Nur'da sıklıkla birlikte kullanılarak belirli bir süreyi ('iki sene' şeklinde) ifade eder. Bu, bir sayı ile bir zaman ölçüsünün anlamsal olarak birbirini tamamladığı standart bir dilsel yapıdır",
+      "needs_review": false
+    },
+    {
+      "concept1": "aleyhissalatü vesselam",
+      "concept2": "vesselam",
+      "strength": 1545,
+      "pmi_score": 3.65413,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "'aleyhissalatü vesselam' ifadesi, Hz. Muhammed'e (s.a.v.) yapılan salat ve selamı içeren tam bir hürmet formülüdür. 'Vesselam' ise bu ifadenin kısaltılmış veya devamında kullanılan bir parçasıdır. Birlikte kullanımları, birbirini tamamlayan",
+      "needs_review": false
+    },
+    {
+      "concept1": "bütün",
+      "concept2": "tek",
+      "strength": 1524,
+      "pmi_score": 0.445561,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'bütün' ve 'tek', varlığın birliği (tevhid) ve kainattaki düzenin parçalarının bütünle ilişkisini açıklamak için birbirini tamamlayan kavramlardır. 'Tek' olan Allah'ın isim ve sıfatlarının, 'bütün' kainatta tecelli etmesi il",
+      "needs_review": false
+    },
+    {
+      "concept1": "büyük",
+      "concept2": "küçük",
+      "strength": 1481,
+      "pmi_score": 0.814866,
+      "relationship_type": "zıt",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur'da 'büyük' ve 'küçük' genellikle karşılaştırmalı ve zıt anlamlı olarak, kainattaki tezahürleri, olayların önem dereceleri veya mertebe farklarını ifade etmek için kullanılır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "nur",
+      "concept2": "said",
+      "strength": 1479,
+      "pmi_score": 0.584773,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Said, Risale-i Nur'un müellifi; Nur ise eserin adı ve temel kavramıdır. Birlikte anılmaları, eser ile yazar arasındaki ayrılmaz ve birbirini tanımlayıcı ilişkiyi gösterir.",
+      "needs_review": false
+    },
+    {
+      "concept1": "risale i nur",
+      "concept2": "risale i nur'un",
+      "strength": 1471,
+      "pmi_score": 1.188396,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "'Risale-i Nur' bir eserler bütününün genel adı iken, 'Risale-i Nur'un' bu bütünün sahiplik/aitlik ilişkisini gösterir; biri genel isim, diğeri onun tamamlayıcı bir gramer formudur.",
+      "needs_review": false
+    },
+    {
+      "concept1": "bana",
+      "concept2": "benim",
+      "strength": 1466,
+      "pmi_score": 1.216561,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'ben' (özne/merkez) ile 'bana/benim' (ona ait olan veya ona yönelik olan) arasında kurulan ilişki, bir bütünün parçası veya bir merkeze bağlı aidiyet ilişkisini gösterir. Bu, genel-özel veya bütün-parça (alt-üst) ilişkisi ka",
+      "needs_review": false
+    },
+    {
+      "concept1": "bütün",
+      "concept2": "zat",
+      "strength": 1459,
+      "pmi_score": 0.252262,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'bütün' ve 'zat' kavramları, bir varlığın (zat) tüm özellikleri, tecellileri ve anlamlarıyla bir bütün olarak kavranması ilişkisini ifade eder. Zat, bütünlüğün merkezi ve taşıyıcısı; bütün ise zatın kapsamı ve tamamlanmış ha",
+      "needs_review": false
+    },
+    {
+      "concept1": "kuvvetli",
+      "concept2": "risale",
+      "strength": 1453,
+      "pmi_score": 0.641292,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "Risale-i Nur'da 'kuvvetli' sıfatı, 'risale' kavramının taşıdığı delillerin, izahların veya iman hakikatlerinin niteliğini belirtmek için sıklıkla kullanılır; birbirini tanımlayan ve bütünleyen bir ilişki vardır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "birinci",
+      "concept2": "iki",
+      "strength": 1430,
+      "pmi_score": 0.390154,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "Risale-i Nur'da 'birinci' ve 'iki' sıklıkla bir bütünün parçaları veya sıralı bir düzeni (birinci ve ikinci şeklinde) ifade etmek için birlikte kullanılır; birbirini tamamlayan kavramlardır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "kur'an",
+      "concept2": "kur'an'ın",
+      "strength": 1418,
+      "pmi_score": 0.936817,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur, Kur'an'ın bir tefsiri ve izahı olarak konumlandırıldığı için, 'Kur'an'ın' kavramı üst/ana metni, 'Kur'an' ise onun bir tezahürü veya ondan türeyen bir çalışma bağlamında alt/bağımlı bir kavramı işaret eder.",
+      "needs_review": false
+    },
+    {
+      "concept1": "nur",
+      "concept2": "yirmi",
+      "strength": 1412,
+      "pmi_score": 0.300828,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'nur' temel bir kavram, 'yirmi' ise bu nurun tezahürlerini (Yirmi Üçüncü Söz, Yirmi Dokuzuncu Mektup gibi) düzenleyen ve yapılandıran bir sayısal çerçevedir. Birlikte, eserin bütünsel yapısını ve mesajını oluştururlar.",
+      "needs_review": false
+    },
+    {
+      "concept1": "bin",
+      "concept2": "iki",
+      "strength": 1412,
+      "pmi_score": 0.270196,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "Risale-i Nur'da 'bin' (çokluk) ve 'iki' (ikilik) kavramları, genellikle varlığın tezahürlerini (çokluk) birliğe (örneğin Allah'ın birliği) bağlayan ikili yapıları veya katmanları açıklamak için birlikte kullanılır. Bu, çokluğun içindeki bir",
+      "needs_review": false
+    },
+    {
+      "concept1": "diye",
+      "concept2": "nur",
+      "strength": 1404,
+      "pmi_score": 0.256156,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "'Diye' bağlacı, 'nur' kavramını açıklayan, tanımlayan veya ona atıf yapan cümleler kurar; biri diğerinin ifade edilme aracıdır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "ispat",
+      "concept2": "risale",
+      "strength": 1393,
+      "pmi_score": 0.344507,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "'Risale' eserin adı, 'ispat' ise bu eserin temel metodolojik işlevidir; birlikte anılmaları bir bütünün (eser ve onun ana amacının) tamamlayıcı parçalarını oluşturur.",
+      "needs_review": false
+    },
+    {
+      "concept1": "ehl",
+      "concept2": "iman",
+      "strength": 1391,
+      "pmi_score": 0.565086,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'ehl' (sahiplik, mensubiyet) ve 'iman' kavramları, 'iman ehli', 'ehl-i iman' gibi tamamlayıcı bir bütün oluşturacak şekilde sıkça birlikte kullanılır. Birinin varlığı diğerini tanımlar ve anlamlandırır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "beyan",
+      "concept2": "risale",
+      "strength": 1391,
+      "pmi_score": 0.285221,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'beyan' (açıklama, ifade tarzı) ile 'risale' (mektup, mesaj) kavramları, eserin içeriğini ve üslubunu oluşturan birbirini tamamlayıcı iki temel unsurdur. Beyan, risalelerin anlatım metodunu; risale ise bu beyanın somutlaştığ",
+      "needs_review": false
+    },
+    {
+      "concept1": "risale",
+      "concept2": "sene",
+      "strength": 1376,
+      "pmi_score": 0.389587,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "Risale-i Nur'da 'risale' (mektup/bölüm) belirli bir eseri, 'sene' ise onun yazıldığı veya ait olduğu zaman dilimini belirtir. 'Sene', 'risale'nin bir özelliği veya onu sınıflandıran bir üst veri gibi işlev görür.",
+      "needs_review": false
+    },
+    {
+      "concept1": "kardeşlerim",
+      "concept2": "risale",
+      "strength": 1359,
+      "pmi_score": 0.807236,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "'Kardeşlerim' Risale-i Nur talebelerini, 'Risale' ise onların ortak kaynağını ve bağını temsil eder. Birbirini tamamlayan iki temel kavramdır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "risale",
+      "concept2": "ziyade",
+      "strength": 1359,
+      "pmi_score": 0.357182,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale (mektup/eser) kavramı, Ziyade (artma, çoğalma) kavramıyla birlikte, eserlerin ve manevi kazanımların bereketlenerek çoğalmasını ifade eden tamamlayıcı bir bütün oluşturur.",
+      "needs_review": false
+    },
+    {
+      "concept1": "yirmi",
+      "concept2": "yüz",
+      "strength": 1347,
+      "pmi_score": 0.639014,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "Risale-i Nur'da 'yirmi' ve 'yüz' genellikle sayısal örnekler veya mukayeseler olarak birlikte kullanılır; biri diğerini açıklamak veya tamamlamak için değil, ancak aynı kavramsal yapı (sayısal temsil, nisbet, ölçü) içinde eş zamanlı ve birb",
+      "needs_review": false
+    },
+    {
+      "concept1": "belki",
+      "concept2": "eğer",
+      "strength": 1330,
+      "pmi_score": 0.309282,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "Risale-i Nur'da 'belki' ve 'eğer', genellikle şart ve ihtimali birlikte ifade ederek, ince manaları ve tefekkürü güçlendiren bir dil yapısı oluşturur.",
+      "needs_review": false
+    },
+    {
+      "concept1": "hizmet",
+      "concept2": "risale",
+      "strength": 1321,
+      "pmi_score": 0.604366,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur'da 'Risale' metinleri, 'hizmet' ise bu metinlerin anlaşılması, yayılması ve yaşanması faaliyetidir. Birbirini tamamlayan iki temel kavram olarak sıkça birlikte kullanılır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "sene",
+      "concept2": "yirmi",
+      "strength": 1319,
+      "pmi_score": 1.105719,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'sene' ve 'yirmi', özellikle Bediüzzaman'ın sürgün ve eser telif dönemlerini (örn. 'Yirmi Üç Sene', 'Yirmi Sekiz Sene') ifade eden sabit ve anlamlı bir zaman ifadesi olarak birlikte kullanılır; birbirini tamamlayarak özel bi",
+      "needs_review": false
+    },
+    {
+      "concept1": "bin",
+      "concept2": "nur",
+      "strength": 1318,
+      "pmi_score": 0.208463,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'nur' ana tema, 'bin' ise onun çokluk, kuvvet ve tezahür derecelerini ifade eden tamamlayıcı bir kavramdır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "risale",
+      "concept2": "zamanda",
+      "strength": 1314,
+      "pmi_score": 0.498943,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'risale' (eser) ile 'zamanda' kavramları, eserlerin zamanın ihtiyaçlarına cevap vermesi, zamanın şartlarında okunması ve anlaşılması gibi birbirini tamamlayıcı bir ilişki içinde sıkça kullanılır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "benim",
+      "concept2": "nur",
+      "strength": 1312,
+      "pmi_score": 0.270882,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur'da 'benim' ifadesi, genellikle müellif Bediüzzaman'ın 'Nur' olarak tanımladığı eserlerine veya tefsirine aidiyet ve sahiplik bildirir. Bu, bir bütün (Nur) ile onun sahibi/merkezi bir parçası (ben) arasındaki hiyerarşik ilişkiyi",
+      "needs_review": false
+    },
+    {
+      "concept1": "dört",
+      "concept2": "yüz",
+      "strength": 1307,
+      "pmi_score": 0.962482,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "Risale-i Nur'da 'dört' (unsur, anasır-ı erbaa) ve 'yüz' (yön, cihet) kavramları, varlığın ve yaratılışın bütüncül açıklamasında birbirini tamamlayan temel kategoriler olarak sıkça birlikte kullanılır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "bana",
+      "concept2": "risale",
+      "strength": 1301,
+      "pmi_score": 0.295209,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "'Risale' (eser) ile 'bana' (müellif) arasında kurucu ve ayrılmaz bir bütünlük ilişkisi vardır; eser, müellifinin kimliği ve misyonuyla tamamlanır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "bütün",
+      "concept2": "kemal",
+      "strength": 1301,
+      "pmi_score": 0.216836,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'bütün', eksiksiz ve tam olanı; 'kemal' ise bu bütünlüğün mükemmellik, olgunluk ve hedefine ulaşma halini ifade eder. Birlikte kullanımları, bir şeyin ancak bütün olduğunda gerçek kemale erebileceğini gösteren tamamlayıcı bi",
+      "needs_review": false
+    },
+    {
+      "concept1": "aziz",
+      "concept2": "risale",
+      "strength": 1299,
+      "pmi_score": 0.51513,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "'Risale', eserlerin genel adı; 'Aziz', bu eserlerin müellifi Said Nursi'nin bir sıfatı ve hitabıdır. Kavramlar bir bütünün (Risale-i Nur külliyatı ve onun merkezindeki şahsiyet) ayrılmaz parçalarını oluşturur.",
+      "needs_review": false
+    },
+    {
+      "concept1": "benim",
+      "concept2": "iki",
+      "strength": 1292,
+      "pmi_score": 0.248362,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "Risale-i Nur'da 'benim' (sahiplik/özgünlük) ve 'iki' (ikilik/çift) kavramları, genellikle tevhid ve vahdeti açıklamak için kullanılan karşıtlıkları (örneğin dünya-ahiret, madde-mana) ifade eder. Bu ikilikler, bir bütünün tamamlayıcı parçala",
+      "needs_review": false
+    },
+    {
+      "concept1": "beş",
+      "concept2": "iki",
+      "strength": 1289,
+      "pmi_score": 0.458352,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "Risale-i Nur'da 'beş' (duyular) ve 'iki' (göz ve kulak gibi önemli çiftler) sıklıkla insanın bilgi edinme araçları olarak birlikte ele alınır; biri diğerini tamamlayan bir bütünün parçalarıdır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "büyük",
+      "concept2": "nur'un",
+      "strength": 1274,
+      "pmi_score": 0.2222,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'büyük', 'nur' kavramının sıfatı veya nitelendiricisi olarak (Büyük Nur, Büyük Sözler gibi) sıkça kullanılır; birbirini tanımlayan ve güçlendiren bir bütünlük oluştururlar.",
+      "needs_review": false
+    },
+    {
+      "concept1": "sene",
+      "concept2": "yüz",
+      "strength": 1271,
+      "pmi_score": 0.769118,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "Risale-i Nur'da 'sene' (yıl) ve 'yüz' sayısı, genellikle mucizevi bir işaret veya tevafuk olarak (örneğin, bir olayın yılı ile ayet numarası gibi) birlikte kullanılır; birbirlerini anlam bütünlüğü açısından tamamlarlar.",
+      "needs_review": false
+    },
+    {
+      "concept1": "beyan",
+      "concept2": "kur'an",
+      "strength": 1260,
+      "pmi_score": 0.59549,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'beyan', Kur'an'ın açıklayıcısı ve tefsiri olarak konumlandırılır; birbirini tamamlayan iki kavramdır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "beş",
+      "concept2": "yirmi",
+      "strength": 1257,
+      "pmi_score": 1.125217,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'beş' (hisseler, duyular) ve 'yirmi' (hakikatler, mertebeler) sıklıkla bir bütünün tamamlayıcı parçaları veya katları olarak, özellikle iman ve varlık delillerinin izahında birlikte kullanılır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "değil",
+      "concept2": "ehl",
+      "strength": 1256,
+      "pmi_score": 0.292665,
+      "relationship_type": "zıt",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur'da 'değil' ve 'ehl' (sahiplik, mensubiyet) kavramları, genellikle bir şeyin veya bir grubun özelliğini olumsuzlayarak karşıt bir tanım yapmak için kullanılır (ör. 'ehl-i dalalet değil', 'ehl-i iman değil').",
+      "needs_review": false
+    },
+    {
+      "concept1": "bütün",
+      "concept2": "kainatın",
+      "strength": 1253,
+      "pmi_score": 0.492716,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur'da 'bütün', 'kainatın' kavramını kapsayan ve onu bir sistem/tüm olarak ifade eden üst bir kavramdır. Kainat, bu bütünün somut tezahürü/parçasıdır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "derece",
+      "concept2": "yüz",
+      "strength": 1250,
+      "pmi_score": 0.546492,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'derece' ve 'yüz' genellikle hiyerarşik bir yapıyı (örneğin, yüz derece, yüz mertebe) ifade eder; 'yüz' çokluk veya üst sınırı, 'derece' ise bu çokluk içindeki basamakları temsil eder.",
+      "needs_review": false
+    },
+    {
+      "concept1": "ikinci",
+      "concept2": "üçüncü",
+      "strength": 1249,
+      "pmi_score": 1.203589,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "Risale-i Nur'da 'ikinci' ve 'üçüncü' genellikle ardışık sıralı açıklamalar, deliller veya mertebeler olarak birbirini tamamlayan bir bütünün parçalarıdır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "beyan",
+      "concept2": "iki",
+      "strength": 1243,
+      "pmi_score": 0.239162,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "Risale-i Nur'da 'beyan' (açıklama, ifade) genellikle 'iki' sayısıyla (iki parça, iki cihet, iki yön gibi) birlikte kullanılarak bir konunun ikili yapısını veya karşılaştırmalı izahını ifade eder. Bu, kavramların birbirini tamamlayıcı bir il",
+      "needs_review": false
+    },
+    {
+      "concept1": "kur'an'ın",
+      "concept2": "risale",
+      "strength": 1241,
+      "pmi_score": 0.394307,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur, Kur'an'ın tefsiri ve çağdaş bir izahı olarak sunulur; birbirini tamamlayan iki metin ilişkisi vardır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "ehl",
+      "concept2": "hakikat",
+      "strength": 1234,
+      "pmi_score": 0.384044,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'ehl' (sahip, mensup) ve 'hakikat' (gerçek, doğru) kavramları, birbirini tamamlayan bir bütünlük oluşturur. 'Ehl-i hakikat' ifadesinde olduğu gibi, hakikate mensup olanlar veya hakikati temsil edenler anlamında iç içe ve bir",
+      "needs_review": false
+    },
+    {
+      "concept1": "nursi",
+      "concept2": "risale",
+      "strength": 1232,
+      "pmi_score": 0.762087,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "'Nursi' yazarın adı, 'Risale' ise eserinin adıdır. Birbirini tamamlayan ve ayrılmaz bir bütün oluşturan iki kavramdır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "dört",
+      "concept2": "iki",
+      "strength": 1223,
+      "pmi_score": 0.503582,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale-i Nur'da 'dört' (unsurlar, anasır-ı erbaa) ve 'iki' (zıt çiftler) kavramları, varlığın ve yaratılışın bütüncül açıklamasında birbirini tamamlayan temel kategoriler olarak sıkça birlikte kullanılır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "iki",
+      "concept2": "risale i nur'un",
+      "strength": 1223,
+      "pmi_score": 0.291677,
+      "relationship_type": "alt-üst",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "'İki', Risale-i Nur'da sıkça kullanılan temel bir kavram veya analiz birimidir; 'Risale-i Nur' ise bu kavramın içinde geçtiği, onu kullanan ve açıklayan üst metin/bütün eserler külliyatıdır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "bütün",
+      "concept2": "insan",
+      "strength": 1222,
+      "pmi_score": 0.222288,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.85,
+      "llm_reason_short": "Risale-i Nur'da 'insan', kainatın bir özeti ve en mükemmel meyvesi olarak 'bütün'ün (kainat) tamamlayıcı bir parçası ve maksadı şeklinde ele alınır.",
+      "needs_review": false
+    },
+    {
+      "concept1": "beş",
+      "concept2": "risale",
+      "strength": 1214,
+      "pmi_score": 0.331971,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.9,
+      "llm_reason_short": "Risale, beş sayısıyla sıkça kullanılan bir kavramı (örneğin 'Beş Risale' gibi bir bütünü veya beş temel eser grubunu) ifade eder; birlikte anlamlı bir bütün oluştururlar.",
+      "needs_review": false
+    },
+    {
+      "concept1": "aziz",
+      "concept2": "said",
+      "strength": 1210,
+      "pmi_score": 1.44018,
+      "relationship_type": "tamamlayıcı",
+      "llm_confidence": 0.95,
+      "llm_reason_short": "Risale-i Nur'da 'Aziz' ve 'Said' sıfatları, müellifin iki farklı veçhesini (Allah'ın aziz kulu ve mutlu/kutlu Said) tanımlayan, birbirini bütünleyen ve sıklıkla birlikte kullanılan kavramlardır.",
+      "needs_review": false
+    }
+  ],
+  "review_queue": []
+}

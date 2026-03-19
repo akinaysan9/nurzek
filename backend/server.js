@@ -47,6 +47,17 @@ const PORT = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json({ limit: '10mb' }));
 
+// IP Logger
+const ACCESS_LOG = path.join(__dirname, 'access.log');
+app.use((req, res, next) => {
+    if (req.path.startsWith('/api/')) {
+        const ip = req.headers['x-forwarded-for']?.split(',')[0]?.trim() || req.socket.remoteAddress || '-';
+        const line = `${new Date().toISOString()} ${ip} ${req.method} ${req.path}\n`;
+        fs.appendFile(ACCESS_LOG, line, () => {});
+    }
+    next();
+});
+
 // Serve frontend static files
 app.use(express.static(path.join(__dirname, '..', 'frontend')));
 

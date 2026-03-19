@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "name": "faz3-quality-set-v1",
+    "description": "Regression checks for root anchoring and bridge behavior",
+    "version": 1
+  },
+  "cases": [
+    {
+      "id": "ihlas_dort_dustur",
+      "question": "Ihlas Risalesinin dort dusturu nelerdir?",
+      "expected_primary_slug": "yirmi-birinci-lema",
+      "must_include_main_slugs": ["yirmi-birinci-lema"],
+      "min_main": 3
+    },
+    {
+      "id": "uhuvvet_esas",
+      "question": "Uhuvvet Risalesi neyi esas alir?",
+      "expected_primary_slug": "yirmi-ikinci-mektup",
+      "must_include_main_slugs": ["yirmi-ikinci-mektup"],
+      "min_main": 2
+    },
+    {
+      "id": "hasir_tanim",
+      "question": "Hasir nedir?",
+      "expected_primary_slug": "onuncu-soz",
+      "must_include_main_slugs": ["onuncu-soz"],
+      "min_main": 2
+    },
+    {
+      "id": "ene_tanim",
+      "question": "Ene nedir?",
+      "must_include_main_slugs": ["otuzuncu-soz"],
+      "min_main": 2
+    },
+    {
+      "id": "kader_tanim",
+      "question": "Kader nedir?",
+      "expected_primary_slug": "yirmi-altinci-soz",
+      "must_include_any_slugs": ["yirmi-altinci-soz", "yirmi-altinci-soz-hakkinda-iki-mebahistir"],
+      "min_main": 2
+    },
+    {
+      "id": "iman_hizmeti",
+      "question": "Iman hizmeti nasil tarif edilir?",
+      "min_main": 2,
+      "require_bridge_or_secondary": true
+    },
+    {
+      "id": "adalet_genel",
+      "question": "Adalet hakkinda Risale-i Nur ne diyor?",
+      "min_main": 2,
+      "require_bridge_or_secondary": true
+    },
+    {
+      "id": "ihlas_ve_uhuvvet",
+      "question": "Ihlas ile uhuvvet arasindaki iliski nasil kurulur?",
+      "must_include_any_slugs": ["yirmi-birinci-lema", "yirmi-ikinci-mektup"],
+      "min_main": 2,
+      "require_bridge_or_secondary": true
+    },
+    {
+      "id": "riya_ve_ihlas",
+      "question": "Riya ihlasi nasil bozar?",
+      "must_include_any_slugs": ["yirmi-birinci-lema", "yirminci-lema"],
+      "min_main": 2,
+      "require_bridge_or_secondary": true
+    },
+    {
+      "id": "tesanud_ve_tesanub",
+      "question": "Tesanud ve tesanub farki neye dayanir?",
+      "min_main": 2,
+      "require_bridge_or_secondary": true
+    }
+  ]
+}
