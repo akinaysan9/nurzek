@@ -1,0 +1,8015 @@
+{
+  "hakikat": {
+    "aliases": [
+      "hakikatin",
+      "hakikate",
+      "hakikati",
+      "hakikatle",
+      "gerçek",
+      "öz",
+      "asıl"
+    ],
+    "co_occurring": [
+      "nur",
+      "kâinat",
+      "hak",
+      "beyan",
+      "âlem",
+      "iman"
+    ],
+    "antonyms": [
+      "mecaz",
+      "vehim",
+      "dalâlet",
+      "batıl",
+      "hurafe"
+    ],
+    "related": [
+      "suret",
+      "hal",
+      "hayat",
+      "hikmet",
+      "işaret",
+      "zaman"
+    ],
+    "kok_risale": "sualar/yedinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 3128,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "hayat": {
+    "aliases": [
+      "hayatın",
+      "hayata",
+      "hayatı",
+      "hayatla",
+      "can",
+      "dirilik",
+      "heyat"
+    ],
+    "co_occurring": [
+      "nur",
+      "kâinat",
+      "âlem",
+      "iman",
+      "insan",
+      "hakikat"
+    ],
+    "antonyms": [
+      "mevt",
+      "ölüm",
+      "cansızlık",
+      "cemat"
+    ],
+    "related": [
+      "vücud",
+      "hal",
+      "suret",
+      "mevt",
+      "ruh",
+      "hizmet"
+    ],
+    "kok_risale": "lemalar/otuzuncu-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 2636,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "âlem": {
+    "aliases": [
+      "âlemin",
+      "âleme",
+      "âlemi",
+      "dünya",
+      "varlık",
+      "mülk",
+      "şu kâinat"
+    ],
+    "co_occurring": [
+      "nur",
+      "kâinat",
+      "rahmet",
+      "hayat",
+      "hakikat",
+      "şehadet"
+    ],
+    "antonyms": [
+      "adem",
+      "yokluk"
+    ],
+    "related": [
+      "insan",
+      "vücud",
+      "arz",
+      "hikmet",
+      "gayb",
+      "iman"
+    ],
+    "kok_risale": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-2",
+    "word_boundary": true,
+    "_toplam_gecis": 2598,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "kâinat": {
+    "aliases": [
+      "kâinatın",
+      "kâinata",
+      "kâinatı",
+      "evren",
+      "âfak",
+      "varlık bütünü",
+      "kozmos"
+    ],
+    "co_occurring": [
+      "âlem",
+      "hayat",
+      "hakikat",
+      "insan",
+      "hikmet",
+      "mevcudat"
+    ],
+    "antonyms": [
+      "yokluk",
+      "adem",
+      "hiçlik"
+    ],
+    "related": [
+      "nur",
+      "arz",
+      "vücud",
+      "kudret",
+      "şehadet",
+      "kemal"
+    ],
+    "kok_risale": "lemalar/otuzuncu-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 2420,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "iman": {
+    "aliases": [
+      "imanın",
+      "imanî",
+      "imanla",
+      "imana",
+      "imanı",
+      "iman-ı tahkikî",
+      "iman-ı hakikî",
+      "iman-ı kâmil",
+      "inanç",
+      "akide"
+    ],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "hayat",
+      "ima",
+      "kâinat",
+      "âlem"
+    ],
+    "antonyms": [
+      "küfür",
+      "inkâr",
+      "şirk",
+      "nifak",
+      "dalâlet"
+    ],
+    "related": [
+      "insan",
+      "hal",
+      "hizmet",
+      "âhiret",
+      "ders",
+      "beyan"
+    ],
+    "kok_risale": "sozler/onuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 1973,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "hikmet": {
+    "aliases": [
+      "hikmetin",
+      "hikmete",
+      "hikmeti",
+      "hikmetle",
+      "ilahi gaye",
+      "maslahat",
+      "özlü bilgelik"
+    ],
+    "co_occurring": [
+      "kâinat",
+      "kudret",
+      "hakikat",
+      "rahmet",
+      "âlem",
+      "kemal"
+    ],
+    "antonyms": [
+      "abes",
+      "anlamsızlık",
+      "tesadüf",
+      "hikmetsizlik"
+    ],
+    "related": [
+      "nur",
+      "hayat",
+      "inayet",
+      "suret",
+      "adalet",
+      "insan"
+    ],
+    "kok_risale": "sozler/onuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 1612,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "rahmet": {
+    "aliases": [
+      "rahmetin",
+      "rahmete",
+      "rahmeti",
+      "rahmetle",
+      "rahim",
+      "merhamet",
+      "şefkat-i ilahi"
+    ],
+    "co_occurring": [
+      "nur",
+      "âlem",
+      "hikmet",
+      "kâinat",
+      "hakikat",
+      "nimet"
+    ],
+    "antonyms": [
+      "gazap",
+      "kahır",
+      "azap"
+    ],
+    "related": [
+      "risalet",
+      "inayet",
+      "hayat",
+      "insan",
+      "şefkat",
+      "kemal"
+    ],
+    "kok_risale": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-2",
+    "word_boundary": true,
+    "_toplam_gecis": 1238,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "kudret": {
+    "aliases": [
+      "kudretin",
+      "kudrete",
+      "kudreti",
+      "kudretle",
+      "kuvvet",
+      "güç",
+      "tasarruf"
+    ],
+    "co_occurring": [
+      "hikmet",
+      "kâinat",
+      "vücud",
+      "âlem",
+      "zerre",
+      "esbab"
+    ],
+    "antonyms": [
+      "acz",
+      "acizlik",
+      "güçsüzlük"
+    ],
+    "related": [
+      "hayat",
+      "hakikat",
+      "kemal",
+      "ilim",
+      "kader",
+      "nur"
+    ],
+    "kok_risale": "sozler/otuz-ikinci-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 1039,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "dua": {
+    "aliases": [
+      "duanın",
+      "duaya",
+      "duası",
+      "niyaz",
+      "münâcât",
+      "yakarış"
+    ],
+    "co_occurring": [
+      "nur",
+      "hak",
+      "rahmet",
+      "arz",
+      "suret",
+      "ibadet"
+    ],
+    "antonyms": [
+      "gaflet",
+      "istiğna",
+      "gurur"
+    ],
+    "related": [
+      "niyaz",
+      "hal",
+      "beyan",
+      "hizmet",
+      "âlem",
+      "hakikat"
+    ],
+    "kok_risale": "mektubat/on-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 880,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "nazar": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "âlem",
+      "mana",
+      "hayat",
+      "hal"
+    ],
+    "antonyms": [],
+    "related": [
+      "kâinat",
+      "beyan",
+      "işaret",
+      "hikmet",
+      "insan",
+      "zaman"
+    ],
+    "kok_risale": "muhakemat/ucuncu-makale",
+    "word_boundary": true,
+    "_toplam_gecis": 852,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "ruh": {
+    "aliases": [
+      "ruhun",
+      "ruha",
+      "ruhu",
+      "ruhla",
+      "can",
+      "nefes-i rahmani"
+    ],
+    "co_occurring": [
+      "nur",
+      "hayat",
+      "âlem",
+      "vücud",
+      "kalp",
+      "insan"
+    ],
+    "antonyms": [
+      "ceset",
+      "madde",
+      "cemat"
+    ],
+    "related": [
+      "hakikat",
+      "iman",
+      "akıl",
+      "zaman",
+      "beşer",
+      "kudret"
+    ],
+    "kok_risale": "sozler/yirmi-dokuzuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 767,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "âhiret": {
+    "aliases": [
+      "âhiretin",
+      "âhirete",
+      "öte dünya",
+      "dar-ı beka",
+      "mahşer",
+      "ebedî hayat"
+    ],
+    "co_occurring": [
+      "âlem",
+      "iman",
+      "nur",
+      "kâinat",
+      "hakikat",
+      "hayat"
+    ],
+    "antonyms": [
+      "dünya",
+      "fani hayat",
+      "dünyaperestlik"
+    ],
+    "related": [
+      "hal",
+      "cennet",
+      "hikmet",
+      "şehadet",
+      "insan",
+      "rahmet"
+    ],
+    "kok_risale": "sualar/on-birinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 740,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "zerre": {
+    "aliases": [
+      "zerrenin",
+      "zerreye",
+      "zerreler",
+      "atom",
+      "cevher-i ferd",
+      "unsur"
+    ],
+    "co_occurring": [
+      "kudret",
+      "nur",
+      "kâinat",
+      "hikmet",
+      "âlem",
+      "güneş"
+    ],
+    "antonyms": [
+      "küll",
+      "kâinat bütünü"
+    ],
+    "related": [
+      "vücud",
+      "hal",
+      "mutlak",
+      "hakikat",
+      "kemal",
+      "hayat"
+    ],
+    "kok_risale": "sozler/otuzuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 637,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "risalet": {
+    "aliases": [
+      "risaletin",
+      "risalete",
+      "elçilik",
+      "peygamberlik",
+      "nübüvvet"
+    ],
+    "co_occurring": [
+      "nur",
+      "âlem",
+      "rahmet",
+      "kâinat",
+      "işaret",
+      "hakikat"
+    ],
+    "antonyms": [
+      "inkâr",
+      "tekzip"
+    ],
+    "related": [
+      "beyan",
+      "iman",
+      "makam",
+      "hayat",
+      "risale",
+      "suret"
+    ],
+    "kok_risale": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-2",
+    "word_boundary": true,
+    "_toplam_gecis": 596,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "tevhid": {
+    "aliases": [
+      "tevhidin",
+      "tevhide",
+      "tevhidi",
+      "vahdaniyet",
+      "birlik",
+      "tawhid",
+      "La ilahe illallah",
+      "kelime-i tevhid"
+    ],
+    "co_occurring": [
+      "nur",
+      "kâinat",
+      "hakikat",
+      "vahdet",
+      "iman",
+      "beyan"
+    ],
+    "antonyms": [
+      "şirk",
+      "küfür",
+      "tabiat",
+      "sebepler"
+    ],
+    "related": [
+      "işaret",
+      "vücud",
+      "makam",
+      "âlem",
+      "şirk",
+      "ders"
+    ],
+    "kok_risale": "sozler/yirmi-ikinci-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 526,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "akıl": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "kalp",
+      "kâinat",
+      "âlem",
+      "iman",
+      "hayat"
+    ],
+    "antonyms": [],
+    "related": [
+      "hakikat",
+      "ruh",
+      "hikmet",
+      "hal",
+      "insan",
+      "işaret"
+    ],
+    "kok_risale": "sozler/onuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 519,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "kalp": {
+    "aliases": [
+      "kalbin",
+      "kalbe",
+      "kalbi",
+      "kalple",
+      "gönül",
+      "yürek",
+      "fuad"
+    ],
+    "co_occurring": [
+      "nur",
+      "akıl",
+      "ruh",
+      "hakikat",
+      "iman",
+      "âlem"
+    ],
+    "antonyms": [
+      "nefs",
+      "şeytan",
+      "kör kalp",
+      "kasavet"
+    ],
+    "related": [
+      "hayat",
+      "hal",
+      "insan",
+      "kâinat",
+      "zaman",
+      "letaif"
+    ],
+    "kok_risale": "hutbe-i-samiye/hutbe-i-samiye",
+    "word_boundary": true,
+    "_toplam_gecis": 515,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "şeriat": {
+    "aliases": [],
+    "co_occurring": [
+      "hakikat",
+      "meşrutiyet",
+      "âlem",
+      "tabiat",
+      "beyan",
+      "hayat"
+    ],
+    "antonyms": [],
+    "related": [
+      "beşer",
+      "nur",
+      "hikmet",
+      "sünnet",
+      "iman",
+      "tefsir"
+    ],
+    "kok_risale": "tarihce-i-hayat/573-2",
+    "word_boundary": true,
+    "_toplam_gecis": 513,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "ilim": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hikmet",
+      "kudret",
+      "iman",
+      "âlem",
+      "hakikat"
+    ],
+    "antonyms": [],
+    "related": [
+      "kâinat",
+      "vücud",
+      "zerre",
+      "hayat",
+      "muhit",
+      "beyan"
+    ],
+    "kok_risale": "sualar/on-besinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 499,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "imanın": {
+    "aliases": [],
+    "co_occurring": [
+      "iman",
+      "hakikat",
+      "hayat",
+      "kâinat",
+      "âlem"
+    ],
+    "antonyms": [],
+    "related": [
+      "kanaat",
+      "kader",
+      "tevhid",
+      "hikmet",
+      "hürriyet"
+    ],
+    "kok_risale": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-2",
+    "word_boundary": true,
+    "_toplam_gecis": 497,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "şükür": {
+    "aliases": [
+      "şükrün",
+      "şükrü",
+      "şükürle",
+      "hamd",
+      "minnettarlık",
+      "nankörlük karşıtı"
+    ],
+    "co_occurring": [
+      "nur",
+      "nimet",
+      "hakikat",
+      "hayat",
+      "hamd",
+      "kâinat"
+    ],
+    "antonyms": [
+      "nankörlük",
+      "küfran-ı nimet",
+      "şikâyet"
+    ],
+    "related": [
+      "iman",
+      "hal",
+      "beyan",
+      "rahmet",
+      "ibadet",
+      "insan"
+    ],
+    "kok_risale": "mektubat/yirmi-sekizinci-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 482,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "şefkat": {
+    "aliases": [
+      "şefkatin",
+      "şefkate",
+      "şefkati",
+      "merhamet",
+      "acıma",
+      "sevgi"
+    ],
+    "co_occurring": [
+      "nur",
+      "rahmet",
+      "muhabbet",
+      "merhamet",
+      "hizmet",
+      "hakikat"
+    ],
+    "antonyms": [
+      "sertlik",
+      "merhametsizlik",
+      "celal"
+    ],
+    "related": [
+      "kemal",
+      "hayat",
+      "aşk",
+      "kâinat",
+      "iman",
+      "suret"
+    ],
+    "kok_risale": "sozler/otuz-ikinci-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 477,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "cemal": {
+    "aliases": [
+      "cemalin",
+      "cemale",
+      "cemalî",
+      "cemal-i ilahi",
+      "güzellik",
+      "lütuf tecellisi",
+      "jamal"
+    ],
+    "co_occurring": [
+      "kemal",
+      "kâinat",
+      "rahmet",
+      "muhabbet",
+      "sermedî",
+      "celal"
+    ],
+    "antonyms": [
+      "celal",
+      "gazap",
+      "azamet"
+    ],
+    "related": [
+      "mevcudat",
+      "insan",
+      "suret",
+      "cemil",
+      "âlem",
+      "nur"
+    ],
+    "kok_risale": "sozler/otuz-ikinci-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 458,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "ibadet": {
+    "aliases": [
+      "ibadetin",
+      "ibadete",
+      "ibadeti",
+      "ibadetler",
+      "kulluk",
+      "ubudiyet"
+    ],
+    "co_occurring": [
+      "nur",
+      "insan",
+      "iman",
+      "dua",
+      "kâinat",
+      "takva"
+    ],
+    "antonyms": [
+      "isyan",
+      "gaflet",
+      "sefahet"
+    ],
+    "related": [
+      "hayat",
+      "hakikat",
+      "namaz",
+      "mevcudat",
+      "hizmet",
+      "suret"
+    ],
+    "kok_risale": "isaratul-icaz/bakara-suresi-21-22-ayetler",
+    "word_boundary": true,
+    "_toplam_gecis": 456,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "kader": {
+    "aliases": [
+      "kaderin",
+      "kadere",
+      "kaderle",
+      "kader-i ilahi",
+      "takdir",
+      "alın yazısı",
+      "mukadderat"
+    ],
+    "co_occurring": [
+      "kudret",
+      "nur",
+      "adalet",
+      "âlem",
+      "hikmet",
+      "kaza"
+    ],
+    "antonyms": [
+      "tesadüf",
+      "irade-i cüziye inkârı"
+    ],
+    "related": [
+      "iman",
+      "kalem",
+      "hayat",
+      "hakikat",
+      "insan",
+      "kâinat"
+    ],
+    "kok_risale": "sozler/yirmi-altinci-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 429,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "nefs": {
+    "aliases": [
+      "nefsin",
+      "nefse",
+      "nefsi",
+      "nefs-i emmare",
+      "nefs-i levvame",
+      "nefs-i mutmainne",
+      "ego"
+    ],
+    "co_occurring": [
+      "hakikat",
+      "nur",
+      "hayat",
+      "insan",
+      "hak",
+      "nefis"
+    ],
+    "antonyms": [
+      "ruh",
+      "kalp",
+      "ubudiyet",
+      "ihlas"
+    ],
+    "related": [
+      "ruh",
+      "enaniyet",
+      "hizmet",
+      "vücud",
+      "kalp",
+      "kemal"
+    ],
+    "kok_risale": "mektubat/yirmi-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 423,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "ihlas": {
+    "aliases": [
+      "ihlası",
+      "ihlasın",
+      "ihlasla",
+      "ihlasse",
+      "ihlâs",
+      "ihlâsın",
+      "samimiyet",
+      "hulus"
+    ],
+    "co_occurring": [
+      "nur",
+      "hizmet",
+      "hakikat",
+      "hak",
+      "vazife",
+      "rıza"
+    ],
+    "antonyms": [
+      "riya",
+      "sum'a",
+      "gösteriş",
+      "enaniyet",
+      "nefis hesabı",
+      "dünya menfaati"
+    ],
+    "related": [
+      "riya",
+      "hayat",
+      "hal",
+      "enaniyet",
+      "beyan",
+      "sadakat"
+    ],
+    "kok_risale": "lemalar/yirmi-birinci-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 418,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "vahdet": {
+    "aliases": [
+      "vahdetin",
+      "vahdeti",
+      "birlik",
+      "yekparelik"
+    ],
+    "co_occurring": [
+      "vücud",
+      "kâinat",
+      "tevhid",
+      "hakikat",
+      "kudret",
+      "kemal"
+    ],
+    "antonyms": [
+      "kesret",
+      "ikilik",
+      "çokluk",
+      "şirk"
+    ],
+    "related": [
+      "mevcudat",
+      "hikmet",
+      "beyan",
+      "ehadiyet",
+      "esbab",
+      "güneş"
+    ],
+    "kok_risale": "sozler/yirmi-ikinci-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 417,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "namaz": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "velayet",
+      "hakikat",
+      "ibadet",
+      "hal",
+      "hikmet"
+    ],
+    "antonyms": [],
+    "related": [
+      "dua",
+      "âlem",
+      "tesbih",
+      "zikir",
+      "beyan",
+      "zaman"
+    ],
+    "kok_risale": "sozler/yirmi-birinci-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 380,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "beka": {
+    "aliases": [
+      "bekanın",
+      "bekaya",
+      "bekası",
+      "ebedîlik",
+      "ölümsüzlük",
+      "kalıcılık"
+    ],
+    "co_occurring": [
+      "âlem",
+      "ebedî",
+      "hayat",
+      "insan",
+      "vücud",
+      "âhiret"
+    ],
+    "antonyms": [
+      "fena",
+      "zeval",
+      "fanîlik",
+      "ölüm"
+    ],
+    "related": [
+      "fena",
+      "kâinat",
+      "cennet",
+      "muhabbet",
+      "hakikat",
+      "aşk"
+    ],
+    "kok_risale": "sozler/onuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 375,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "kanaat": {
+    "aliases": [
+      "kanaatin",
+      "kanaate",
+      "kanaati",
+      "yetinme",
+      "az ile yetinme",
+      "iktifa"
+    ],
+    "co_occurring": [
+      "nur",
+      "iman",
+      "hakikat",
+      "hizmet",
+      "tarz",
+      "hal"
+    ],
+    "antonyms": [
+      "hırs",
+      "tamah",
+      "istiğna yoksunluğu"
+    ],
+    "related": [
+      "ima",
+      "zaman",
+      "suret",
+      "beyan",
+      "hayat",
+      "âlem"
+    ],
+    "kok_risale": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-2",
+    "word_boundary": true,
+    "_toplam_gecis": 366,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "irade": {
+    "aliases": [
+      "iradenin",
+      "iradeye",
+      "iradesi",
+      "irade-i ilahi",
+      "dilek",
+      "istek",
+      "meşiet"
+    ],
+    "co_occurring": [
+      "kudret",
+      "kâinat",
+      "hikmet",
+      "vücud",
+      "âlem",
+      "hayat"
+    ],
+    "antonyms": [
+      "cebrîlik",
+      "mecburiyet",
+      "tesadüf"
+    ],
+    "related": [
+      "ilim",
+      "rahmet",
+      "hakikat",
+      "şehadet",
+      "nur",
+      "arz"
+    ],
+    "kok_risale": "sualar/on-besinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 365,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "sünnet": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "beyan",
+      "hak",
+      "şeriat",
+      "hakikat",
+      "velayet"
+    ],
+    "antonyms": [],
+    "related": [
+      "muhabbet",
+      "iman",
+      "hayat",
+      "âlem",
+      "hal",
+      "tefsir"
+    ],
+    "kok_risale": "lemalar/on-birinci-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 347,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "hilkat": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "âlem",
+      "arz",
+      "hikmet",
+      "semavat",
+      "insan"
+    ],
+    "antonyms": [],
+    "related": [
+      "beşer",
+      "hayat",
+      "hakikat",
+      "kudret",
+      "şehadet",
+      "kemal"
+    ],
+    "kok_risale": "muhakemat/birinci-makale",
+    "word_boundary": true,
+    "_toplam_gecis": 342,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "ubudiyet": {
+    "aliases": [
+      "ubudiyetin",
+      "ubudiyete",
+      "kulluğun",
+      "kulluk",
+      "abd",
+      "ibadet",
+      "ubudet"
+    ],
+    "co_occurring": [
+      "kâinat",
+      "vazife",
+      "rububiyet",
+      "insan",
+      "iman",
+      "dua"
+    ],
+    "antonyms": [
+      "kibir",
+      "enaniyet",
+      "isyan",
+      "tekebbür"
+    ],
+    "related": [
+      "hakikat",
+      "arz",
+      "âlem",
+      "suret",
+      "hayat",
+      "namaz"
+    ],
+    "kok_risale": "sozler/yirmi-ucuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 338,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "hürriyet": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "mutlak",
+      "şeriat",
+      "siyaset",
+      "hal",
+      "millet"
+    ],
+    "antonyms": [],
+    "related": [
+      "hakikat",
+      "sefahet",
+      "meşrutiyet",
+      "istibdat",
+      "ders",
+      "adalet"
+    ],
+    "kok_risale": "tarihce-i-hayat/573-2",
+    "word_boundary": true,
+    "_toplam_gecis": 321,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "hamd": {
+    "aliases": [
+      "hamdin",
+      "hamde",
+      "hamdi",
+      "elhamdülillah",
+      "sena"
+    ],
+    "co_occurring": [
+      "nur",
+      "nimet",
+      "şükür",
+      "iman",
+      "hayat",
+      "hakikat"
+    ],
+    "antonyms": [
+      "nankörlük",
+      "şikâyet"
+    ],
+    "related": [
+      "ihsan",
+      "kâinat",
+      "insan",
+      "hizmet",
+      "acz",
+      "beyan"
+    ],
+    "kok_risale": "sualar/yirmi-dokuzuncu-lemadan-ikinci-bab",
+    "word_boundary": true,
+    "_toplam_gecis": 306,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "şeytan": {
+    "aliases": [
+      "şeytanın",
+      "şeytana",
+      "şeytanı",
+      "iblis",
+      "vesveseci",
+      "şeytanî"
+    ],
+    "co_occurring": [
+      "insan",
+      "hak",
+      "hal",
+      "beşer",
+      "nur",
+      "suret"
+    ],
+    "antonyms": [
+      "melek",
+      "rahmet",
+      "hidayet"
+    ],
+    "related": [
+      "işaret",
+      "hakikat",
+      "beyan",
+      "ima",
+      "hikmet",
+      "arş"
+    ],
+    "kok_risale": "lemalar/on-ucuncu-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 298,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "ölüm": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hayat",
+      "ebedî",
+      "iman",
+      "insan",
+      "hakikat"
+    ],
+    "antonyms": [],
+    "related": [
+      "kabir",
+      "âlem",
+      "cehennem",
+      "vazife",
+      "beşer",
+      "hal"
+    ],
+    "kok_risale": "sualar/on-birinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 291,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "fena": {
+    "aliases": [
+      "fenanın",
+      "fenaya",
+      "yok oluş",
+      "fenafillah",
+      "geçicilik",
+      "fanîlik"
+    ],
+    "co_occurring": [
+      "hayat",
+      "beka",
+      "âlem",
+      "vücud",
+      "nur",
+      "hakikat"
+    ],
+    "antonyms": [
+      "beka",
+      "ebediyet",
+      "kalıcılık"
+    ],
+    "related": [
+      "insan",
+      "adem",
+      "muhabbet",
+      "mevcudat",
+      "ebedî",
+      "cemal"
+    ],
+    "kok_risale": "munazarat/munazarat",
+    "word_boundary": true,
+    "_toplam_gecis": 287,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "tecelli": {
+    "aliases": [
+      "tecellinin",
+      "tecelliye",
+      "tecellisi",
+      "tecelliyat",
+      "zuhur",
+      "görünme"
+    ],
+    "co_occurring": [
+      "kâinat",
+      "âlem",
+      "hayat",
+      "nur",
+      "güneş",
+      "kudret"
+    ],
+    "antonyms": [
+      "gizlilik",
+      "hicab",
+      "perde"
+    ],
+    "related": [
+      "cemal",
+      "mevcudat",
+      "vücud",
+      "hikmet",
+      "hakikat",
+      "rahmet"
+    ],
+    "kok_risale": "lemalar/fihrist-lemalar",
+    "word_boundary": true,
+    "_toplam_gecis": 283,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "mizan": {
+    "aliases": [],
+    "co_occurring": [
+      "hikmet",
+      "kâinat",
+      "kemal",
+      "âlem",
+      "vücud",
+      "kudret"
+    ],
+    "antonyms": [],
+    "related": [
+      "hal",
+      "zerre",
+      "şehadet",
+      "adalet",
+      "hayat",
+      "insan"
+    ],
+    "kok_risale": "lemalar/otuzuncu-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 256,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "müşahede": {
+    "aliases": [
+      "müşahedenin",
+      "müşahede etmek",
+      "seyretmek",
+      "görmek",
+      "kalben görmek"
+    ],
+    "co_occurring": [
+      "nur",
+      "cemal",
+      "şehadet",
+      "hikmet",
+      "işaret",
+      "kemal"
+    ],
+    "antonyms": [
+      "gaflet",
+      "kör olmak"
+    ],
+    "related": [
+      "hakikat",
+      "âlem",
+      "kâinat",
+      "ittifak",
+      "güneş",
+      "beyan"
+    ],
+    "kok_risale": "sozler/onuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 256,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "nübüvvet": {
+    "aliases": [
+      "nübüvvetin",
+      "nübüvvete",
+      "peygamberlik",
+      "risalet",
+      "risalet-i Muhammedî"
+    ],
+    "co_occurring": [
+      "velayet",
+      "delil",
+      "hakikat",
+      "işaret",
+      "hikmet",
+      "beşer"
+    ],
+    "antonyms": [
+      "inkâr",
+      "yalanlama",
+      "cahiliye"
+    ],
+    "related": [
+      "güneş",
+      "tevhid",
+      "misal",
+      "âlem",
+      "hal",
+      "beyan"
+    ],
+    "kok_risale": "mektubat/on-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 255,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "teslim": {
+    "aliases": [
+      "teslimiyet",
+      "teslimiyetin",
+      "boyun eğme",
+      "itaat"
+    ],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "rahmet",
+      "iman",
+      "beyan",
+      "hayat"
+    ],
+    "antonyms": [
+      "isyan",
+      "itiraz",
+      "nefs-i emmare"
+    ],
+    "related": [
+      "hikmet",
+      "hal",
+      "temsil",
+      "rıza",
+      "insan",
+      "risale"
+    ],
+    "kok_risale": "lemalar/yirmi-sekizinci-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 247,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "nefis": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "nefs",
+      "muhabbet",
+      "hakikat",
+      "kâinat",
+      "acz"
+    ],
+    "antonyms": [],
+    "related": [
+      "akıl",
+      "kalp",
+      "hak",
+      "hayat",
+      "işaret",
+      "âlem"
+    ],
+    "kok_risale": "mektubat/yirmi-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 246,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "niyet": {
+    "aliases": [
+      "niyetin",
+      "niyete",
+      "niyetini",
+      "niyet-i hâlise"
+    ],
+    "co_occurring": [
+      "nur",
+      "hayat",
+      "ihsan",
+      "âlem",
+      "nazar",
+      "zaman"
+    ],
+    "antonyms": [
+      "riya",
+      "gösteriş",
+      "menfaat peşinde koşma"
+    ],
+    "related": [
+      "işaret",
+      "ihlas",
+      "nimet",
+      "keramet",
+      "hizmet",
+      "evrad"
+    ],
+    "kok_risale": "mesnevi-i-nuriye/katre",
+    "word_boundary": true,
+    "_toplam_gecis": 225,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "mevt": {
+    "aliases": [],
+    "co_occurring": [
+      "hayat",
+      "hakikat",
+      "nur",
+      "suret",
+      "âlem",
+      "ruh"
+    ],
+    "antonyms": [],
+    "related": [
+      "adem",
+      "kâinat",
+      "nimet",
+      "ölüm",
+      "insan",
+      "fena"
+    ],
+    "kok_risale": "mektubat/birinci-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 223,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "rıza": {
+    "aliases": [
+      "rızayı",
+      "rızasını",
+      "rıza-yı ilahi",
+      "hoşnutluk"
+    ],
+    "co_occurring": [
+      "nur",
+      "ihlas",
+      "vazife",
+      "hizmet",
+      "hayat",
+      "iman"
+    ],
+    "antonyms": [
+      "şikâyet",
+      "isyan",
+      "hoşnutsuzluk"
+    ],
+    "related": [
+      "hal",
+      "siyaset",
+      "hakikat",
+      "kemal",
+      "hak",
+      "ubudiyet"
+    ],
+    "kok_risale": "lemalar/yirminci-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 208,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "hidayet": {
+    "aliases": [
+      "hidayetin",
+      "hidayete",
+      "hidayeti",
+      "doğru yol",
+      "irşad",
+      "rehberlik"
+    ],
+    "co_occurring": [
+      "nur",
+      "hak",
+      "hakikat",
+      "iman",
+      "hayat",
+      "ruh"
+    ],
+    "antonyms": [
+      "dalâlet",
+      "sapkınlık",
+      "küfür",
+      "şeytan yolu"
+    ],
+    "related": [
+      "beyan",
+      "işaret",
+      "insan",
+      "hal",
+      "âlem",
+      "ihlas"
+    ],
+    "kok_risale": "isaratul-icaz/bakara-suresi-4-5-ayetler",
+    "word_boundary": true,
+    "_toplam_gecis": 207,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "marifet": {
+    "aliases": [
+      "marifetullah",
+      "marifeti",
+      "marifetle",
+      "irfan"
+    ],
+    "co_occurring": [
+      "iman",
+      "kâinat",
+      "hakikat",
+      "ilim",
+      "nur",
+      "âlem"
+    ],
+    "antonyms": [
+      "cehalet",
+      "gaflet",
+      "inkâr"
+    ],
+    "related": [
+      "hikmet",
+      "makam",
+      "kalp",
+      "ima",
+      "vücud",
+      "dua"
+    ],
+    "kok_risale": "sozler/otuz-ikinci-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 204,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "niyaz": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "dua",
+      "rahmet",
+      "namaz",
+      "arz",
+      "insan"
+    ],
+    "antonyms": [],
+    "related": [
+      "hak",
+      "âlem",
+      "zaman",
+      "ibadet",
+      "kâinat",
+      "vazife"
+    ],
+    "kok_risale": "kastamonu-lahikasi/kastamonu-lahikasi-s-150-166-lemaattan",
+    "word_boundary": true,
+    "_toplam_gecis": 203,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "fikir": {
+    "aliases": [],
+    "co_occurring": [
+      "âlem",
+      "akıl",
+      "hürriyet",
+      "kalp",
+      "hakikat"
+    ],
+    "antonyms": [],
+    "related": [
+      "iman",
+      "hikmet",
+      "hayat",
+      "kâinat",
+      "nazar"
+    ],
+    "kok_risale": "sualar/on-dorduncu-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 203,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "enaniyet": {
+    "aliases": [
+      "enaniyet",
+      "enaniyeti",
+      "enaniyet-i cüziye"
+    ],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "nefs",
+      "makam",
+      "vücud",
+      "ene"
+    ],
+    "antonyms": [
+      "mahviyet",
+      "tevazu",
+      "fenafillah",
+      "terk-i enaniyet"
+    ],
+    "related": [
+      "ihlas",
+      "benlik",
+      "hal",
+      "hak",
+      "insan",
+      "hayat"
+    ],
+    "kok_risale": "sozler/otuzuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 178,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "sabır": {
+    "aliases": [
+      "sabrın",
+      "sabrı",
+      "sabredip",
+      "tahammül",
+      "metanet"
+    ],
+    "co_occurring": [
+      "nur",
+      "şükür",
+      "hal",
+      "inayet",
+      "tevekkül",
+      "hizmet"
+    ],
+    "antonyms": [
+      "sabırsızlık",
+      "isyan",
+      "feryat",
+      "şikâyet"
+    ],
+    "related": [
+      "hakikat",
+      "kemal",
+      "ibadet",
+      "hayat",
+      "zaman",
+      "iman"
+    ],
+    "kok_risale": "sualar/on-dorduncu-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 175,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "celal": {
+    "aliases": [
+      "celalin",
+      "celale",
+      "celalî",
+      "celal-i ilahi",
+      "azamet",
+      "heybetli tecelli",
+      "jalal"
+    ],
+    "co_occurring": [
+      "cemal",
+      "kemal",
+      "rahmet",
+      "âlem",
+      "nur",
+      "işaret"
+    ],
+    "antonyms": [
+      "cemal",
+      "lütuf",
+      "yumuşaklık"
+    ],
+    "related": [
+      "hal",
+      "cehennem",
+      "kudret",
+      "azamet",
+      "saltanat",
+      "arz"
+    ],
+    "kok_risale": "barla-lahikasi/barla-lahikasi-s-280-299",
+    "word_boundary": true,
+    "_toplam_gecis": 173,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "tefekkür": {
+    "aliases": [
+      "tefekkürün",
+      "tefekkürde",
+      "tefekkürü",
+      "düşünme",
+      "teemmül",
+      "tedebbür",
+      "derin düşünce"
+    ],
+    "co_occurring": [
+      "nur",
+      "ibadet",
+      "beyan",
+      "semavat",
+      "hal",
+      "zaman"
+    ],
+    "antonyms": [
+      "gaflet",
+      "sefahet",
+      "yüzeysellik"
+    ],
+    "related": [
+      "acz",
+      "kâinat",
+      "hak",
+      "hakikat",
+      "arz",
+      "dua"
+    ],
+    "kok_risale": "tarihce-i-hayat/isparta-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 167,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "tedbir": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "hikmet",
+      "vahdet",
+      "kudret",
+      "hakikat"
+    ],
+    "antonyms": [],
+    "related": [
+      "ilim",
+      "nazar",
+      "hayat",
+      "mizan",
+      "hilkat"
+    ],
+    "kok_risale": "tarihce-i-hayat/kastamonu-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 157,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "ehadiyet": {
+    "aliases": [
+      "ehadiyetin",
+      "ism-i Ehad",
+      "Ahad"
+    ],
+    "co_occurring": [
+      "kâinat",
+      "vahdet",
+      "mevcudat",
+      "arz",
+      "rahmet",
+      "güneş"
+    ],
+    "antonyms": [
+      "kesret",
+      "taaddüd"
+    ],
+    "related": [
+      "âlem",
+      "tevhid",
+      "suret",
+      "hakikat",
+      "rububiyet",
+      "hayat"
+    ],
+    "kok_risale": "sozler/otuzuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 151,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "vahdaniyet": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "hakikat",
+      "âlem",
+      "vahdet",
+      "tevhid",
+      "vücud"
+    ],
+    "antonyms": [],
+    "related": [
+      "işaret",
+      "suret",
+      "şehadet",
+      "güneş",
+      "beyan",
+      "ehadiyet"
+    ],
+    "kok_risale": "mektubat/on-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 141,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "remiz": {
+    "aliases": [
+      "remzin",
+      "remze",
+      "remzi",
+      "işaret",
+      "ima",
+      "kinaye",
+      "sembol"
+    ],
+    "co_occurring": [
+      "işaret",
+      "nur",
+      "hayat",
+      "hakikat",
+      "insan",
+      "kâinat"
+    ],
+    "antonyms": [
+      "açık ifade",
+      "sarahat"
+    ],
+    "related": [
+      "âlem",
+      "makam",
+      "kudret",
+      "güneş",
+      "kemal",
+      "suret"
+    ],
+    "kok_risale": "mesnevi-i-nuriye/katre",
+    "word_boundary": true,
+    "_toplam_gecis": 136,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "uhuvvet": {
+    "aliases": [
+      "uhuvvetin",
+      "uhuvvete",
+      "kardeşlik",
+      "imanî kardeşlik",
+      "kardeşane"
+    ],
+    "co_occurring": [
+      "nur",
+      "âlem",
+      "muhabbet",
+      "hayat",
+      "hizmet",
+      "iman"
+    ],
+    "antonyms": [
+      "husumet",
+      "kin",
+      "tefrika",
+      "ayrılık"
+    ],
+    "related": [
+      "şefkat",
+      "suret",
+      "vahdet",
+      "hal",
+      "ittihat",
+      "kemal"
+    ],
+    "kok_risale": "sualar/on-dorduncu-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 134,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "ilham": {
+    "aliases": [],
+    "co_occurring": [
+      "vahiy",
+      "nur",
+      "hakikat",
+      "şehadet",
+      "güneş",
+      "suret"
+    ],
+    "antonyms": [],
+    "related": [
+      "vücud",
+      "işaret",
+      "uluhiyet",
+      "beyan",
+      "kudret",
+      "risalet"
+    ],
+    "kok_risale": "tarihce-i-hayat/kastamonu-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 130,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "zikir": {
+    "aliases": [
+      "zikrin",
+      "zikre",
+      "zikri",
+      "Allah'ı anma",
+      "tesbih",
+      "kelime-i tevhid"
+    ],
+    "co_occurring": [
+      "namaz",
+      "tesbih",
+      "dua",
+      "beyan",
+      "arz",
+      "hikmet"
+    ],
+    "antonyms": [
+      "gaflet",
+      "nisyan",
+      "unutma"
+    ],
+    "related": [
+      "nur",
+      "velayet",
+      "şeriat",
+      "suret",
+      "insan",
+      "ubudiyet"
+    ],
+    "kok_risale": "sozler/yirmi-besinci-soz-2",
+    "word_boundary": true,
+    "_toplam_gecis": 127,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "vesvese": {
+    "aliases": [],
+    "co_occurring": [
+      "hakikat",
+      "iman",
+      "nur",
+      "âlem",
+      "suret",
+      "hak"
+    ],
+    "antonyms": [],
+    "related": [
+      "ima",
+      "beyan",
+      "hal",
+      "makam",
+      "rahmet",
+      "millet"
+    ],
+    "kok_risale": "sozler/yirmi-birinci-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 108,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "takva": {
+    "aliases": [
+      "takvanın",
+      "takvaya",
+      "takvası",
+      "günahtan sakınma",
+      "vera",
+      "huşu"
+    ],
+    "co_occurring": [
+      "ibadet",
+      "günah",
+      "ihlas",
+      "insan",
+      "zaman",
+      "nur"
+    ],
+    "antonyms": [
+      "günah",
+      "fısk",
+      "isyan",
+      "cüret"
+    ],
+    "related": [
+      "sadakat",
+      "hayat",
+      "kemal",
+      "ilim",
+      "işaret",
+      "hilkat"
+    ],
+    "kok_risale": "isaratul-icaz/bakara-suresi-21-22-ayetler",
+    "word_boundary": true,
+    "_toplam_gecis": 108,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "keşif": {
+    "aliases": [
+      "keşfin",
+      "keşfe",
+      "keşfi",
+      "keşfiyat",
+      "manevi keşif",
+      "ilham"
+    ],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "kâinat",
+      "velayet",
+      "beyan",
+      "keramet"
+    ],
+    "antonyms": [
+      "gaflet",
+      "cehalet"
+    ],
+    "related": [
+      "evliya",
+      "tahkik",
+      "suret",
+      "zevk",
+      "iman",
+      "hal"
+    ],
+    "kok_risale": "tarihce-i-hayat/kastamonu-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 107,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "istikamet": {
+    "aliases": [
+      "istikametin",
+      "istikamete",
+      "doğruluk",
+      "dürüstlük",
+      "sebat",
+      "istikrarlı olma"
+    ],
+    "co_occurring": [
+      "hakikat",
+      "hilafet",
+      "iman",
+      "hayat",
+      "beşer",
+      "suret"
+    ],
+    "antonyms": [
+      "sapkınlık",
+      "inhiraf",
+      "dalâlet"
+    ],
+    "related": [
+      "işaret",
+      "sünnet",
+      "sırat",
+      "nur",
+      "insan",
+      "hal"
+    ],
+    "kok_risale": "sualar/on-besinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 98,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "tevekkül": {
+    "aliases": [
+      "tevekkülün",
+      "tevekkülde",
+      "tevekkülü",
+      "tevekkelde",
+      "Allah'a dayanma",
+      "tevekkülname"
+    ],
+    "co_occurring": [
+      "nur",
+      "teslim",
+      "sabır",
+      "esbab",
+      "tevhid",
+      "fena"
+    ],
+    "antonyms": [
+      "tenbellik",
+      "acz karşısında ümitsizlik",
+      "kendi gücüne güvenme",
+      "esbabperestlik"
+    ],
+    "related": [
+      "insan",
+      "şükür",
+      "makam",
+      "dua",
+      "acz",
+      "hak"
+    ],
+    "kok_risale": "lemalar/yirmi-sekizinci-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 89,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "hac": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "dua",
+      "hizmet",
+      "âhiret",
+      "kemal",
+      "suret"
+    ],
+    "antonyms": [],
+    "related": [
+      "hak",
+      "ders",
+      "hayat",
+      "hamd",
+      "beyan",
+      "arz"
+    ],
+    "kok_risale": "barla-lahikasi/barla-lahikasi-s-321-340",
+    "word_boundary": true,
+    "_toplam_gecis": 88,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "zekât": {
+    "aliases": [],
+    "co_occurring": [
+      "hayat",
+      "nur",
+      "namaz",
+      "beşer",
+      "hizmet",
+      "ihsan"
+    ],
+    "antonyms": [],
+    "related": [
+      "ubudiyet",
+      "oruç",
+      "suret",
+      "rüya",
+      "millet",
+      "savm"
+    ],
+    "kok_risale": "isaratul-icaz/bakara-suresi-1-2-3-ayetler",
+    "word_boundary": true,
+    "_toplam_gecis": 83,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "istiğna": {
+    "aliases": [
+      "istiğnanın",
+      "istiğnaya",
+      "tok gözlülük",
+      "muhtaç olmamak",
+      "izzet"
+    ],
+    "co_occurring": [
+      "insan",
+      "zaman",
+      "nur",
+      "hayat",
+      "rahmet",
+      "kemal"
+    ],
+    "antonyms": [
+      "tamah",
+      "hırs",
+      "el açma",
+      "dünya sevgisi"
+    ],
+    "related": [
+      "mutlak",
+      "vücud",
+      "muhabbet",
+      "gönül",
+      "kanaat",
+      "beyan"
+    ],
+    "kok_risale": "emirdag-lahikasi-ii/emirdag-lahikasi-ii-s-210-229",
+    "word_boundary": true,
+    "_toplam_gecis": 83,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "istibdat": {
+    "aliases": [],
+    "co_occurring": [
+      "hürriyet",
+      "şeriat",
+      "meşrutiyet",
+      "hayat",
+      "zaman",
+      "adalet"
+    ],
+    "antonyms": [],
+    "related": [
+      "beyan",
+      "hakikat",
+      "beşer",
+      "meşveret",
+      "fazilet",
+      "insan"
+    ],
+    "kok_risale": "tarihce-i-hayat/573-2",
+    "word_boundary": true,
+    "_toplam_gecis": 82,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "fahr": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "âlem",
+      "hakikat",
+      "rahmet",
+      "kâinat",
+      "zerre"
+    ],
+    "antonyms": [],
+    "related": [
+      "hizmet",
+      "dua",
+      "arş",
+      "hak",
+      "insan",
+      "beyan"
+    ],
+    "kok_risale": "mektubat/on-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 81,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "ene": {
+    "aliases": [
+      "enaniyet",
+      "enaniyetin",
+      "enaniyete",
+      "enaniyetten",
+      "benlik",
+      "benlikleri",
+      "benliğin",
+      "ene-i külliye",
+      "ene-i cüziye",
+      "egoizm",
+      "ego"
+    ],
+    "co_occurring": [
+      "kâinat",
+      "enaniyet",
+      "âlem",
+      "mahiyet",
+      "vücud",
+      "hak"
+    ],
+    "antonyms": [
+      "fenafillah",
+      "fena",
+      "mahviyet",
+      "tevazu",
+      "terk-i enaniyet",
+      "nahnü"
+    ],
+    "related": [
+      "felsefe",
+      "emanet",
+      "nefis",
+      "hizmet",
+      "nübüvvet",
+      "kıyas"
+    ],
+    "kok_risale": "sozler/otuzuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 74,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "yakîn": {
+    "aliases": [
+      "yakinin",
+      "yâkîn",
+      "kat'iyet",
+      "kesin inanç"
+    ],
+    "co_occurring": [
+      "iman",
+      "kemal",
+      "âlem",
+      "kıyas",
+      "nur",
+      "misal"
+    ],
+    "antonyms": [
+      "şüphe",
+      "tereddüt",
+      "vesvese"
+    ],
+    "related": [
+      "keramet",
+      "şehadet",
+      "güneş",
+      "hayat",
+      "haşir",
+      "mahşer"
+    ],
+    "kok_risale": "lemalar/on-birinci-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 71,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "zühd": {
+    "aliases": [
+      "zühdin",
+      "zühde",
+      "zühdü",
+      "dünyaya karşı ilgisizlik",
+      "vera",
+      "perhizkârlık"
+    ],
+    "co_occurring": [
+      "nur",
+      "talebe",
+      "hizmet",
+      "kemal",
+      "sadakat",
+      "zaman"
+    ],
+    "antonyms": [
+      "dünyaperestlik",
+      "hırs",
+      "rağbet"
+    ],
+    "related": [
+      "ihlas",
+      "risalet",
+      "dua",
+      "şükür",
+      "takva",
+      "iman"
+    ],
+    "kok_risale": "kastamonu-lahikasi/kastamonu-lahikasi-s-231-255",
+    "word_boundary": true,
+    "_toplam_gecis": 62,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "meşiet": {
+    "aliases": [],
+    "co_occurring": [
+      "esbab",
+      "hikmet",
+      "rahmet",
+      "kudret",
+      "kader",
+      "beşer"
+    ],
+    "antonyms": [],
+    "related": [
+      "delil",
+      "kâinat",
+      "mahiyet",
+      "nazar",
+      "vücud",
+      "irade"
+    ],
+    "kok_risale": "isaratul-icaz/bakara-suresi-17-18-19-20-ayetler",
+    "word_boundary": true,
+    "_toplam_gecis": 60,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "marifetullah": {
+    "aliases": [],
+    "co_occurring": [
+      "iman",
+      "hakikat",
+      "hayat",
+      "makam",
+      "nur",
+      "yakîn"
+    ],
+    "antonyms": [],
+    "related": [
+      "ibadet",
+      "ima",
+      "işaret",
+      "kâinat",
+      "ebedî",
+      "risale"
+    ],
+    "kok_risale": "barla-lahikasi/barla-lahikasi-s-241-261",
+    "word_boundary": true,
+    "_toplam_gecis": 55,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "teavün": {
+    "aliases": [
+      "teavünün",
+      "teavüne",
+      "yardımlaşma",
+      "karşılıklı yardım"
+    ],
+    "co_occurring": [
+      "beyan",
+      "hayat",
+      "vesait",
+      "hakikat",
+      "nazar",
+      "âlem"
+    ],
+    "antonyms": [
+      "cidal",
+      "rekabet",
+      "bencillik",
+      "hodgâmlık"
+    ],
+    "related": [
+      "kudret",
+      "nur",
+      "esbab",
+      "uhuvvet",
+      "beka",
+      "fazilet"
+    ],
+    "kok_risale": "muhakemat/birinci-makale",
+    "word_boundary": true,
+    "_toplam_gecis": 55,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "benlik": {
+    "aliases": [
+      "benliğin",
+      "benlikleri",
+      "benliğe"
+    ],
+    "co_occurring": [
+      "enaniyet",
+      "nur",
+      "hakikat",
+      "hal",
+      "adalet",
+      "ubudiyet"
+    ],
+    "antonyms": [
+      "mahviyet",
+      "tevazu",
+      "fenafillah"
+    ],
+    "related": [
+      "hak",
+      "tabiat",
+      "ihsan",
+      "zaman",
+      "namaz",
+      "hukuk"
+    ],
+    "kok_risale": "sozler/otuzuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 50,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "rikkat": {
+    "aliases": [],
+    "co_occurring": [
+      "tabiat",
+      "âlem",
+      "şefkat",
+      "rahmet",
+      "akıl",
+      "kalp"
+    ],
+    "antonyms": [],
+    "related": [
+      "şeriat",
+      "hayat",
+      "rıza",
+      "merhamet",
+      "ima",
+      "güneş"
+    ],
+    "kok_risale": "hutbe-i-samiye/hutbe-i-samiye",
+    "word_boundary": true,
+    "_toplam_gecis": 41,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "enaniyetin": {
+    "aliases": [],
+    "co_occurring": [
+      "enaniyet",
+      "nefs",
+      "ihlas",
+      "rıza",
+      "nefis"
+    ],
+    "antonyms": [],
+    "related": [
+      "hakikat",
+      "hidayet",
+      "nazar",
+      "ilim",
+      "teslim"
+    ],
+    "kok_risale": "mektubat/yirmi-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 39,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "oruç": {
+    "aliases": [],
+    "co_occurring": [
+      "nimet",
+      "hikmet",
+      "suret",
+      "hak",
+      "fuad",
+      "nur"
+    ],
+    "antonyms": [],
+    "related": [
+      "hayat",
+      "nefs",
+      "nefis",
+      "hizmet",
+      "vazife",
+      "kemal"
+    ],
+    "kok_risale": "mektubat/yirmi-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 36,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "basîret": {
+    "aliases": [],
+    "co_occurring": [
+      "zaman",
+      "nazar",
+      "rikkat",
+      "merhamet",
+      "şefkat",
+      "âlem"
+    ],
+    "antonyms": [],
+    "related": [
+      "şehadet",
+      "seciye",
+      "istidad",
+      "nur",
+      "hak",
+      "insan"
+    ],
+    "kok_risale": "muhakemat/ucuncu-makale",
+    "word_boundary": true,
+    "_toplam_gecis": 25,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "ebediyet": {
+    "aliases": [],
+    "co_occurring": [
+      "cennet",
+      "âlem",
+      "beka",
+      "işaret",
+      "ruh",
+      "hayat"
+    ],
+    "antonyms": [],
+    "related": [
+      "zevk",
+      "hal"
+    ],
+    "kok_risale": "sozler/yirmi-sekizinci-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 24,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "şefaat": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "emirdag-lahikasi-ii/emirdag-lahikasi-ii-s-27-50",
+    "word_boundary": true,
+    "_toplam_gecis": 24,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "yaratılış": {
+    "aliases": [],
+    "co_occurring": [
+      "ibadet",
+      "şeriat",
+      "tabiat",
+      "marifet",
+      "istidad",
+      "adem"
+    ],
+    "antonyms": [],
+    "related": [
+      "hal",
+      "ruh",
+      "tenzih",
+      "âlem",
+      "şehadet",
+      "hilkat"
+    ],
+    "kok_risale": "isaratul-icaz/bakara-suresi-21-22-ayetler",
+    "word_boundary": true,
+    "_toplam_gecis": 17,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "velâyet": {
+    "aliases": [],
+    "co_occurring": [
+      "makam",
+      "nübüvvet",
+      "keşif",
+      "nazar",
+      "berzah",
+      "hal"
+    ],
+    "antonyms": [],
+    "related": [
+      "keramet",
+      "saltanat",
+      "tefekkür",
+      "temsil",
+      "tahkik",
+      "evliya"
+    ],
+    "kok_risale": "mektubat/on-dorduncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 10,
+    "_note": "auto-generated — aliases ve antonyms elle tamamlanmalı"
+  },
+  "tefviz": {
+    "aliases": [
+      "tefvizi",
+      "tefvizin",
+      "havale etmek",
+      "Allah'a bırakmak"
+    ],
+    "co_occurring": [],
+    "antonyms": [
+      "esbabperestlik",
+      "kendi hesabına çalışma"
+    ],
+    "related": [],
+    "kok_risale": "lemalar/yirmi-sekizinci-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 7,
+    "_note": "enriched — aliases ve antonyms elle dolduruldu"
+  },
+  "nur": {
+    "aliases": [],
+    "co_occurring": [
+      "hakikat",
+      "iman",
+      "âlem",
+      "hizmet",
+      "risalet",
+      "hal"
+    ],
+    "antonyms": [],
+    "related": [
+      "beyan",
+      "hayat",
+      "rahmet",
+      "işaret",
+      "zaman",
+      "risale"
+    ],
+    "kok_risale": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-2",
+    "word_boundary": true,
+    "_toplam_gecis": 8638,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "risale": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "iman",
+      "beyan",
+      "hal",
+      "hizmet"
+    ],
+    "antonyms": [],
+    "related": [
+      "işaret",
+      "âlem",
+      "hayat",
+      "suret",
+      "zaman",
+      "rahmet"
+    ],
+    "kok_risale": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-2",
+    "word_boundary": true,
+    "_toplam_gecis": 6020,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "hal": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "hayat",
+      "âlem",
+      "zaman",
+      "iman"
+    ],
+    "antonyms": [],
+    "related": [
+      "kâinat",
+      "arz",
+      "suret",
+      "hizmet",
+      "hak",
+      "kemal"
+    ],
+    "kok_risale": "tarihce-i-hayat/573-2",
+    "word_boundary": true,
+    "_toplam_gecis": 2381,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "insan": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "âlem",
+      "hayat",
+      "nur",
+      "arz",
+      "iman"
+    ],
+    "antonyms": [],
+    "related": [
+      "hakikat",
+      "beşer",
+      "hikmet",
+      "zaman",
+      "suret",
+      "hak"
+    ],
+    "kok_risale": "lemalar/otuzuncu-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 1823,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "beyan": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "işaret",
+      "suret",
+      "kâinat",
+      "tarz"
+    ],
+    "antonyms": [],
+    "related": [
+      "iman",
+      "tefsir",
+      "hayat",
+      "âlem",
+      "risale",
+      "hal"
+    ],
+    "kok_risale": "mektubat/on-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 1795,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "suret": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "kâinat",
+      "hayat",
+      "âlem",
+      "işaret"
+    ],
+    "antonyms": [],
+    "related": [
+      "beyan",
+      "tarz",
+      "hikmet",
+      "hal",
+      "insan",
+      "zaman"
+    ],
+    "kok_risale": "mektubat/on-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 1755,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "işaret": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "şehadet",
+      "hakikat",
+      "beyan",
+      "kâinat",
+      "suret"
+    ],
+    "antonyms": [],
+    "related": [
+      "âlem",
+      "hayat",
+      "makam",
+      "mana",
+      "risale",
+      "hikmet"
+    ],
+    "kok_risale": "sozler/yirmi-besinci-soz-2",
+    "word_boundary": true,
+    "_toplam_gecis": 1724,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "zaman": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "hal",
+      "hayat",
+      "âlem",
+      "iman"
+    ],
+    "antonyms": [],
+    "related": [
+      "insan",
+      "beyan",
+      "hak",
+      "suret",
+      "hizmet",
+      "beşer"
+    ],
+    "kok_risale": "tarihce-i-hayat/573-2",
+    "word_boundary": true,
+    "_toplam_gecis": 1695,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "arz": {
+    "aliases": [],
+    "co_occurring": [
+      "semavat",
+      "nur",
+      "âlem",
+      "kâinat",
+      "insan",
+      "hakikat"
+    ],
+    "antonyms": [],
+    "related": [
+      "beşer",
+      "hal",
+      "hayat",
+      "hikmet",
+      "güneş",
+      "cehennem"
+    ],
+    "kok_risale": "sualar/on-birinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 1526,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "hak": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "kâinat",
+      "hal",
+      "insan",
+      "âlem"
+    ],
+    "antonyms": [],
+    "related": [
+      "iman",
+      "hikmet",
+      "hayat",
+      "zaman",
+      "suret",
+      "hizmet"
+    ],
+    "kok_risale": "mektubat/yirmi-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 1509,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "hizmet": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hayat",
+      "iman",
+      "hakikat",
+      "hal",
+      "ihlas"
+    ],
+    "antonyms": [],
+    "related": [
+      "vazife",
+      "zaman",
+      "suret",
+      "beyan",
+      "hak",
+      "ima"
+    ],
+    "kok_risale": "sualar/on-dorduncu-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 1457,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "kemal": {
+    "aliases": [],
+    "co_occurring": [
+      "cemal",
+      "nur",
+      "hikmet",
+      "kâinat",
+      "hal",
+      "âlem"
+    ],
+    "antonyms": [],
+    "related": [
+      "mutlak",
+      "hakikat",
+      "kudret",
+      "hayat",
+      "vücud",
+      "rahmet"
+    ],
+    "kok_risale": "sozler/otuz-ucuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 1331,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "vücud": {
+    "aliases": [],
+    "co_occurring": [
+      "âlem",
+      "kâinat",
+      "hayat",
+      "adem",
+      "kudret",
+      "vahdet"
+    ],
+    "antonyms": [],
+    "related": [
+      "hakikat",
+      "mevcudat",
+      "şehadet",
+      "esbab",
+      "kemal",
+      "suret"
+    ],
+    "kok_risale": "mektubat/yirmi-dorduncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 1252,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "beşer": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "âlem",
+      "hakikat",
+      "hayat",
+      "insan",
+      "arz"
+    ],
+    "antonyms": [],
+    "related": [
+      "hikmet",
+      "nur",
+      "işaret",
+      "zaman",
+      "hal",
+      "hak"
+    ],
+    "kok_risale": "hutbe-i-samiye/hutbe-i-samiye",
+    "word_boundary": true,
+    "_toplam_gecis": 1184,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "tarz": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "suret",
+      "beyan",
+      "hal",
+      "hakikat",
+      "hayat"
+    ],
+    "antonyms": [],
+    "related": [
+      "kâinat",
+      "işaret",
+      "kemal",
+      "insan",
+      "hizmet",
+      "iman"
+    ],
+    "kok_risale": "sualar/on-besinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 1044,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "şehadet": {
+    "aliases": [],
+    "co_occurring": [
+      "âlem",
+      "işaret",
+      "kâinat",
+      "hakikat",
+      "vücud",
+      "hayat"
+    ],
+    "antonyms": [],
+    "related": [
+      "mevcudat",
+      "suret",
+      "beyan",
+      "gayb",
+      "nur",
+      "arz"
+    ],
+    "kok_risale": "tarihce-i-hayat/kastamonu-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 971,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "güneş": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "kâinat",
+      "âlem",
+      "arz",
+      "vücud"
+    ],
+    "antonyms": [],
+    "related": [
+      "hikmet",
+      "rahmet",
+      "hal",
+      "suret",
+      "işaret",
+      "zerre"
+    ],
+    "kok_risale": "sualar/on-besinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 970,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "makam": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "işaret",
+      "beyan",
+      "kâinat",
+      "iman"
+    ],
+    "antonyms": [],
+    "related": [
+      "hayat",
+      "hal",
+      "ders",
+      "insan",
+      "tevhid",
+      "risalet"
+    ],
+    "kok_risale": "sikke-i-tasdik-i-gaybi/birinci-sua-2",
+    "word_boundary": true,
+    "_toplam_gecis": 954,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ders": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "iman",
+      "kâinat",
+      "beyan",
+      "hal"
+    ],
+    "antonyms": [],
+    "related": [
+      "zaman",
+      "âlem",
+      "hayat",
+      "beşer",
+      "ima",
+      "tarz"
+    ],
+    "kok_risale": "tarihce-i-hayat/573-2",
+    "word_boundary": true,
+    "_toplam_gecis": 944,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "mana": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "işaret",
+      "hakikat",
+      "beyan",
+      "nazar",
+      "suret"
+    ],
+    "antonyms": [],
+    "related": [
+      "âlem",
+      "hal",
+      "makam",
+      "hak",
+      "tarz",
+      "kâinat"
+    ],
+    "kok_risale": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-1",
+    "word_boundary": true,
+    "_toplam_gecis": 906,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "vazife": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hayat",
+      "hizmet",
+      "hal",
+      "hakikat",
+      "insan"
+    ],
+    "antonyms": [],
+    "related": [
+      "âlem",
+      "hikmet",
+      "iman",
+      "kemal",
+      "zaman",
+      "suret"
+    ],
+    "kok_risale": "tarihce-i-hayat/kastamonu-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 899,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ima": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "iman",
+      "hakikat",
+      "hayat",
+      "hizmet",
+      "hal"
+    ],
+    "antonyms": [],
+    "related": [
+      "zaman",
+      "beyan",
+      "kâinat",
+      "âlem",
+      "ders",
+      "insan"
+    ],
+    "kok_risale": "sualar/on-dorduncu-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 858,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "mutlak": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "kemal",
+      "kâinat",
+      "hakikat",
+      "kudret",
+      "insan"
+    ],
+    "antonyms": [],
+    "related": [
+      "acz",
+      "suret",
+      "hikmet",
+      "âlem",
+      "hayat",
+      "hal"
+    ],
+    "kok_risale": "sualar/on-besinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 762,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "millet": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hayat",
+      "hal",
+      "hakikat",
+      "âlem",
+      "iman"
+    ],
+    "antonyms": [],
+    "related": [
+      "hizmet",
+      "ders",
+      "zaman",
+      "idare",
+      "siyaset",
+      "suret"
+    ],
+    "kok_risale": "tarihce-i-hayat/emirdag-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 735,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "mevcudat": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "âlem",
+      "vücud",
+      "şehadet",
+      "hakikat",
+      "hikmet"
+    ],
+    "antonyms": [],
+    "related": [
+      "insan",
+      "suret",
+      "hayat",
+      "nur",
+      "kudret",
+      "işaret"
+    ],
+    "kok_risale": "mektubat/yirminci-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 725,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "cennet": {
+    "aliases": [],
+    "co_occurring": [
+      "cehennem",
+      "nur",
+      "âlem",
+      "iman",
+      "ebedî",
+      "âhiret"
+    ],
+    "antonyms": [],
+    "related": [
+      "insan",
+      "suret",
+      "hayat",
+      "kâinat",
+      "hakikat",
+      "rahmet"
+    ],
+    "kok_risale": "isaratul-icaz/bakara-suresi-25-ayet",
+    "word_boundary": true,
+    "_toplam_gecis": 691,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ebedî": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "âlem",
+      "hayat",
+      "iman",
+      "insan",
+      "rahmet"
+    ],
+    "antonyms": [],
+    "related": [
+      "beka",
+      "cennet",
+      "ölüm",
+      "kâinat",
+      "muhabbet",
+      "suret"
+    ],
+    "kok_risale": "sozler/onuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 673,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "muhabbet": {
+    "aliases": [],
+    "co_occurring": [
+      "hayat",
+      "cemal",
+      "şefkat",
+      "nur",
+      "kemal",
+      "hakikat"
+    ],
+    "antonyms": [],
+    "related": [
+      "kâinat",
+      "insan",
+      "aşk",
+      "rahmet",
+      "iman",
+      "ebedî"
+    ],
+    "kok_risale": "sozler/otuz-ikinci-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 643,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "misal": {
+    "aliases": [],
+    "co_occurring": [
+      "âlem",
+      "nur",
+      "hakikat",
+      "beyan",
+      "kâinat",
+      "güneş"
+    ],
+    "antonyms": [],
+    "related": [
+      "hikmet",
+      "vücud",
+      "bahar",
+      "işaret",
+      "kudret",
+      "hal"
+    ],
+    "kok_risale": "mektubat/on-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 632,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "kanun": {
+    "aliases": [],
+    "co_occurring": [
+      "hal",
+      "nur",
+      "beşer",
+      "hakikat",
+      "zerre",
+      "vücud"
+    ],
+    "antonyms": [],
+    "related": [
+      "hayat",
+      "hikmet",
+      "âlem",
+      "ruh",
+      "arz",
+      "adalet"
+    ],
+    "kok_risale": "tarihce-i-hayat/eskisehir-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 628,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "inayet": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hikmet",
+      "rahmet",
+      "hal",
+      "beyan",
+      "hizmet"
+    ],
+    "antonyms": [],
+    "related": [
+      "suret",
+      "adalet",
+      "ihsan",
+      "kâinat",
+      "keramet",
+      "tarz"
+    ],
+    "kok_risale": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-2",
+    "word_boundary": true,
+    "_toplam_gecis": 580,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "esbab": {
+    "aliases": [],
+    "co_occurring": [
+      "kudret",
+      "vücud",
+      "kâinat",
+      "hal",
+      "tabiat",
+      "hayat"
+    ],
+    "antonyms": [],
+    "related": [
+      "hikmet",
+      "âlem",
+      "kemal",
+      "insan",
+      "tevhid",
+      "nur"
+    ],
+    "kok_risale": "asa-yi-musa/ucuncu-huccet-i-imaniye",
+    "word_boundary": true,
+    "_toplam_gecis": 576,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "nimet": {
+    "aliases": [],
+    "co_occurring": [
+      "rahmet",
+      "hayat",
+      "şükür",
+      "insan",
+      "iman",
+      "nur"
+    ],
+    "antonyms": [],
+    "related": [
+      "kâinat",
+      "ihsan",
+      "hamd",
+      "vücud",
+      "işaret",
+      "âlem"
+    ],
+    "kok_risale": "sualar/yirmi-dokuzuncu-lemadan-ikinci-bab",
+    "word_boundary": true,
+    "_toplam_gecis": 562,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "delil": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "işaret",
+      "hayat",
+      "kâinat",
+      "adem",
+      "hakikat"
+    ],
+    "antonyms": [],
+    "related": [
+      "şehadet",
+      "âlem",
+      "iman",
+      "vücud",
+      "beyan",
+      "hüccet"
+    ],
+    "kok_risale": "sualar/on-besinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 558,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "inkâr": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "hakikat",
+      "hal",
+      "güneş",
+      "vücud",
+      "nur"
+    ],
+    "antonyms": [],
+    "related": [
+      "iman",
+      "mevcudat",
+      "işaret",
+      "hayat",
+      "insan",
+      "hikmet"
+    ],
+    "kok_risale": "sozler/onuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 533,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "zemin": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "hikmet",
+      "şehadet",
+      "bahar",
+      "nur",
+      "arz"
+    ],
+    "antonyms": [],
+    "related": [
+      "hakikat",
+      "hayat",
+      "kudret",
+      "insan",
+      "âlem",
+      "semavat"
+    ],
+    "kok_risale": "tarihce-i-hayat/kastamonu-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 527,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "siyaset": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hal",
+      "hakikat",
+      "hizmet",
+      "hayat",
+      "iman"
+    ],
+    "antonyms": [],
+    "related": [
+      "mutlak",
+      "hürriyet",
+      "âlem",
+      "millet",
+      "ders",
+      "hak"
+    ],
+    "kok_risale": "tarihce-i-hayat/eskisehir-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 525,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "adalet": {
+    "aliases": [],
+    "co_occurring": [
+      "hikmet",
+      "nur",
+      "hakikat",
+      "beşer",
+      "rahmet",
+      "inayet"
+    ],
+    "antonyms": [],
+    "related": [
+      "kader",
+      "hayat",
+      "hak",
+      "insan",
+      "zulüm",
+      "kâinat"
+    ],
+    "kok_risale": "sozler/onuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 521,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "tefsir": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "beyan",
+      "hakikat",
+      "suret",
+      "şeriat",
+      "iman"
+    ],
+    "antonyms": [],
+    "related": [
+      "tarz",
+      "hikmet",
+      "temsil",
+      "ders",
+      "insan",
+      "mana"
+    ],
+    "kok_risale": "sozler/fihrist-sozler",
+    "word_boundary": true,
+    "_toplam_gecis": 521,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "madde": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "vücud",
+      "âlem",
+      "arz",
+      "hayat",
+      "hakikat"
+    ],
+    "antonyms": [],
+    "related": [
+      "kudret",
+      "kâinat",
+      "hal",
+      "mana",
+      "hizmet",
+      "suret"
+    ],
+    "kok_risale": "tarihce-i-hayat/eskisehir-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 499,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ihsan": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "rahmet",
+      "nimet",
+      "hak",
+      "inayet",
+      "hayat"
+    ],
+    "antonyms": [],
+    "related": [
+      "hakikat",
+      "hizmet",
+      "muhabbet",
+      "iman",
+      "âlem",
+      "şükür"
+    ],
+    "kok_risale": "sozler/otuz-ikinci-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 498,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "bahar": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "arz",
+      "kudret",
+      "haşir",
+      "âlem",
+      "hikmet"
+    ],
+    "antonyms": [],
+    "related": [
+      "kemal",
+      "ihya",
+      "misal",
+      "mevcudat",
+      "şehadet",
+      "nur"
+    ],
+    "kok_risale": "sozler/onuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 493,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "semavat": {
+    "aliases": [],
+    "co_occurring": [
+      "arz",
+      "kâinat",
+      "âlem",
+      "sema",
+      "yıldız",
+      "hikmet"
+    ],
+    "antonyms": [],
+    "related": [
+      "hilkat",
+      "işaret",
+      "şehadet",
+      "kudret",
+      "hakikat",
+      "nur"
+    ],
+    "kok_risale": "sozler/yirmi-besinci-soz-2",
+    "word_boundary": true,
+    "_toplam_gecis": 485,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "kitap": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "kâinat",
+      "hakikat",
+      "kalem",
+      "hal",
+      "işaret"
+    ],
+    "antonyms": [],
+    "related": [
+      "ders",
+      "beyan",
+      "hikmet",
+      "iman",
+      "risale",
+      "âlem"
+    ],
+    "kok_risale": "mektubat/on-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 480,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "cehennem": {
+    "aliases": [],
+    "co_occurring": [
+      "cennet",
+      "arz",
+      "nur",
+      "âlem",
+      "iman",
+      "vücud"
+    ],
+    "antonyms": [],
+    "related": [
+      "kâinat",
+      "âhiret",
+      "küfür",
+      "hayat",
+      "beşer",
+      "ebedî"
+    ],
+    "kok_risale": "sualar/on-birinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 464,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "temsil": {
+    "aliases": [],
+    "co_occurring": [
+      "hakikat",
+      "âlem",
+      "kâinat",
+      "nur",
+      "hayat",
+      "beyan"
+    ],
+    "antonyms": [],
+    "related": [
+      "münafık",
+      "güneş",
+      "vücud",
+      "suret",
+      "tefsir",
+      "işaret"
+    ],
+    "kok_risale": "isaratul-icaz/bakara-suresi-26-27-ayetler",
+    "word_boundary": true,
+    "_toplam_gecis": 450,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "rububiyet": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "saltanat",
+      "hikmet",
+      "rahmet",
+      "hakikat",
+      "kudret"
+    ],
+    "antonyms": [],
+    "related": [
+      "insan",
+      "kemal",
+      "şehadet",
+      "âlem",
+      "arz",
+      "uluhiyet"
+    ],
+    "kok_risale": "sozler/onuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 430,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "adem": {
+    "aliases": [],
+    "co_occurring": [
+      "vücud",
+      "delil",
+      "âlem",
+      "hayat",
+      "hakikat",
+      "mutlak"
+    ],
+    "antonyms": [],
+    "related": [
+      "kâinat",
+      "hikmet",
+      "mevcudat",
+      "hal",
+      "beşer",
+      "cehennem"
+    ],
+    "kok_risale": "muhakemat/ucuncu-makale",
+    "word_boundary": true,
+    "_toplam_gecis": 425,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "gaflet": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "iman",
+      "insan",
+      "tabiat",
+      "suret"
+    ],
+    "antonyms": [],
+    "related": [
+      "zaman",
+      "âlem",
+      "hak",
+      "hayat",
+      "kâinat",
+      "vücud"
+    ],
+    "kok_risale": "lemalar/yirmi-altinci-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 398,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "idare": {
+    "aliases": [],
+    "co_occurring": [
+      "şehadet",
+      "kâinat",
+      "nur",
+      "kudret",
+      "hayat",
+      "hikmet"
+    ],
+    "antonyms": [],
+    "related": [
+      "hakikat",
+      "kemal",
+      "millet",
+      "hal",
+      "işaret",
+      "âlem"
+    ],
+    "kok_risale": "tarihce-i-hayat/kastamonu-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 393,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "keramet": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "inayet",
+      "risale",
+      "hizmet",
+      "beyan",
+      "hal"
+    ],
+    "antonyms": [],
+    "related": [
+      "işaret",
+      "suret",
+      "kemal",
+      "ima",
+      "velayet",
+      "hakikat"
+    ],
+    "kok_risale": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-2",
+    "word_boundary": true,
+    "_toplam_gecis": 360,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "tabiat": {
+    "aliases": [],
+    "co_occurring": [
+      "esbab",
+      "şeriat",
+      "hakikat",
+      "kudret",
+      "kâinat",
+      "hikmet"
+    ],
+    "antonyms": [],
+    "related": [
+      "vücud",
+      "tesadüf",
+      "âlem",
+      "suret",
+      "mevcudat",
+      "zerre"
+    ],
+    "kok_risale": "lemalar/yirmi-ucuncu-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 352,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "saltanat": {
+    "aliases": [],
+    "co_occurring": [
+      "rububiyet",
+      "şehadet",
+      "kâinat",
+      "rahmet",
+      "âlem",
+      "hikmet"
+    ],
+    "antonyms": [],
+    "related": [
+      "arz",
+      "işaret",
+      "ebedî",
+      "haşmet",
+      "âhiret",
+      "kemal"
+    ],
+    "kok_risale": "sozler/onuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 352,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "acz": {
+    "aliases": [],
+    "co_occurring": [
+      "fakr",
+      "kudret",
+      "mutlak",
+      "rahmet",
+      "kâinat",
+      "insan"
+    ],
+    "antonyms": [],
+    "related": [
+      "hakikat",
+      "âlem",
+      "vücud",
+      "şefkat",
+      "nur",
+      "hayat"
+    ],
+    "kok_risale": "mektubat/yirmi-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 338,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ezelî": {
+    "aliases": [],
+    "co_occurring": [
+      "vücud",
+      "kâinat",
+      "kudret",
+      "nur",
+      "âlem",
+      "hayat"
+    ],
+    "antonyms": [],
+    "related": [
+      "suret",
+      "hakikat",
+      "şehadet",
+      "güneş",
+      "mevcudat",
+      "insan"
+    ],
+    "kok_risale": "lemalar/yirmi-ucuncu-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 335,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "zevk": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "hayat",
+      "iman",
+      "hal",
+      "kâinat"
+    ],
+    "antonyms": [],
+    "related": [
+      "beyan",
+      "zaman",
+      "insan",
+      "şükür",
+      "ders",
+      "arz"
+    ],
+    "kok_risale": "sozler/on-ucuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 324,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "yıldız": {
+    "aliases": [],
+    "co_occurring": [
+      "şehadet",
+      "semavat",
+      "güneş",
+      "âlem",
+      "işaret",
+      "arz"
+    ],
+    "antonyms": [],
+    "related": [
+      "sema",
+      "vücud",
+      "kudret",
+      "kâinat",
+      "zerre",
+      "hakikat"
+    ],
+    "kok_risale": "sozler/yirmi-besinci-soz-2",
+    "word_boundary": true,
+    "_toplam_gecis": 323,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "hüccet": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "beyan",
+      "işaret",
+      "hakikat",
+      "delil",
+      "hayat"
+    ],
+    "antonyms": [],
+    "related": [
+      "makam",
+      "şehadet",
+      "kâinat",
+      "risalet",
+      "tevhid",
+      "ima"
+    ],
+    "kok_risale": "sualar/on-besinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 315,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "felsefe": {
+    "aliases": [],
+    "co_occurring": [
+      "hikmet",
+      "nur",
+      "hakikat",
+      "kâinat",
+      "hayat",
+      "âlem"
+    ],
+    "antonyms": [],
+    "related": [
+      "zaman",
+      "ders",
+      "nazar",
+      "tabiat",
+      "beyan",
+      "mana"
+    ],
+    "kok_risale": "sozler/otuzuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 306,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ittifak": {
+    "aliases": [],
+    "co_occurring": [
+      "hakikat",
+      "nur",
+      "şehadet",
+      "hak",
+      "âlem",
+      "işaret"
+    ],
+    "antonyms": [],
+    "related": [
+      "kâinat",
+      "hal",
+      "güneş",
+      "hayat",
+      "beşer",
+      "vahdet"
+    ],
+    "kok_risale": "lemalar/yirminci-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 300,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "evliya": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "şehadet",
+      "işaret",
+      "âlem",
+      "muhabbet"
+    ],
+    "antonyms": [],
+    "related": [
+      "velayet",
+      "ittifak",
+      "makam",
+      "insan",
+      "kâinat",
+      "keşif"
+    ],
+    "kok_risale": "mektubat/on-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 294,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "kıyas": {
+    "aliases": [],
+    "co_occurring": [
+      "hakikat",
+      "hayat",
+      "işaret",
+      "insan",
+      "kâinat",
+      "hikmet"
+    ],
+    "antonyms": [],
+    "related": [
+      "âlem",
+      "suret",
+      "vücud",
+      "kudret",
+      "nur",
+      "güneş"
+    ],
+    "kok_risale": "sozler/yirmi-besinci-soz-2",
+    "word_boundary": true,
+    "_toplam_gecis": 291,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "sema": {
+    "aliases": [],
+    "co_occurring": [
+      "arz",
+      "semavat",
+      "âlem",
+      "yıldız",
+      "hikmet",
+      "güneş"
+    ],
+    "antonyms": [],
+    "related": [
+      "nazar",
+      "kudret",
+      "işaret",
+      "hal",
+      "insan",
+      "ervah"
+    ],
+    "kok_risale": "sozler/yirmi-besinci-soz-2",
+    "word_boundary": true,
+    "_toplam_gecis": 288,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "velayet": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "nübüvvet",
+      "beyan",
+      "iman",
+      "sünnet"
+    ],
+    "antonyms": [],
+    "related": [
+      "âlem",
+      "namaz",
+      "risalet",
+      "hak",
+      "evrad",
+      "makam"
+    ],
+    "kok_risale": "mektubat/yirmi-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 284,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "hayvan": {
+    "aliases": [],
+    "co_occurring": [
+      "insan",
+      "hayat",
+      "âlem",
+      "hikmet",
+      "şehadet",
+      "iman"
+    ],
+    "antonyms": [],
+    "related": [
+      "işaret",
+      "kâinat",
+      "arz",
+      "hakikat",
+      "vücud",
+      "akıl"
+    ],
+    "kok_risale": "sozler/yirmi-dorduncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 277,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "talebe": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hizmet",
+      "zaman",
+      "ders",
+      "hal",
+      "dua"
+    ],
+    "antonyms": [],
+    "related": [
+      "hakikat",
+      "hayat",
+      "hak",
+      "arz",
+      "tarz",
+      "iman"
+    ],
+    "kok_risale": "tarihce-i-hayat/573-2",
+    "word_boundary": true,
+    "_toplam_gecis": 275,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "mahiyet": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "vücud",
+      "nur",
+      "insan",
+      "hayat",
+      "hakikat"
+    ],
+    "antonyms": [],
+    "related": [
+      "âlem",
+      "cehennem",
+      "muhabbet",
+      "temsil",
+      "suret",
+      "güneş"
+    ],
+    "kok_risale": "sozler/otuzuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 274,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "kalem": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "kudret",
+      "zerre",
+      "kader",
+      "kitap",
+      "kâinat"
+    ],
+    "antonyms": [],
+    "related": [
+      "âlem",
+      "hikmet",
+      "ezelî",
+      "hizmet",
+      "hayat",
+      "vücud"
+    ],
+    "kok_risale": "asa-yi-musa/ucuncu-huccet-i-imaniye",
+    "word_boundary": true,
+    "_toplam_gecis": 273,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "haşir": {
+    "aliases": [],
+    "co_occurring": [
+      "bahar",
+      "hakikat",
+      "kâinat",
+      "hikmet",
+      "şehadet",
+      "arz"
+    ],
+    "antonyms": [],
+    "related": [
+      "âhiret",
+      "kudret",
+      "neşir",
+      "insan",
+      "ihya",
+      "âlem"
+    ],
+    "kok_risale": "sozler/onuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 271,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "küfür": {
+    "aliases": [],
+    "co_occurring": [
+      "iman",
+      "nur",
+      "cehennem",
+      "kâinat",
+      "insan",
+      "hal"
+    ],
+    "antonyms": [],
+    "related": [
+      "cennet",
+      "kâfir",
+      "ima",
+      "işaret",
+      "inkâr",
+      "adem"
+    ],
+    "kok_risale": "lemalar/on-ucuncu-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 265,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "azamet": {
+    "aliases": [],
+    "co_occurring": [
+      "kudret",
+      "arz",
+      "rahmet",
+      "kâinat",
+      "kemal",
+      "saltanat"
+    ],
+    "antonyms": [],
+    "related": [
+      "insan",
+      "rububiyet",
+      "semavat",
+      "hikmet",
+      "güneş",
+      "suret"
+    ],
+    "kok_risale": "tarihce-i-hayat/kastamonu-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 251,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "gayb": {
+    "aliases": [],
+    "co_occurring": [
+      "âlem",
+      "şehadet",
+      "nur",
+      "hayat",
+      "kâinat",
+      "vücud"
+    ],
+    "antonyms": [],
+    "related": [
+      "işaret",
+      "hakikat",
+      "akıl",
+      "güneş",
+      "beyan",
+      "hal"
+    ],
+    "kok_risale": "sualar/yedinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 244,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "muhit": {
+    "aliases": [],
+    "co_occurring": [
+      "şehadet",
+      "kudret",
+      "işaret",
+      "hikmet",
+      "kâinat",
+      "vücud"
+    ],
+    "antonyms": [],
+    "related": [
+      "güneş",
+      "ilim",
+      "suret",
+      "hayat",
+      "zerre",
+      "mevcudat"
+    ],
+    "kok_risale": "mektubat/yirminci-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 241,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "zulüm": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "adalet",
+      "hal",
+      "hayat",
+      "hakikat",
+      "iman"
+    ],
+    "antonyms": [],
+    "related": [
+      "hizmet",
+      "beşer",
+      "kader",
+      "mutlak",
+      "hak",
+      "hikmet"
+    ],
+    "kok_risale": "tarihce-i-hayat/601-2",
+    "word_boundary": true,
+    "_toplam_gecis": 240,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "münafık": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "temsil",
+      "kâfir",
+      "hal",
+      "hakikat",
+      "zındık"
+    ],
+    "antonyms": [],
+    "related": [
+      "hak",
+      "siyaset",
+      "beyan",
+      "küfür",
+      "işaret",
+      "namaz"
+    ],
+    "kok_risale": "isaratul-icaz/bakara-suresi-17-18-19-20-ayetler",
+    "word_boundary": true,
+    "_toplam_gecis": 230,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "âlim": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "hal",
+      "siyaset",
+      "ders",
+      "iman"
+    ],
+    "antonyms": [],
+    "related": [
+      "beyan",
+      "âlem",
+      "hizmet",
+      "mana",
+      "ilim",
+      "millet"
+    ],
+    "kok_risale": "sualar/on-dorduncu-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 229,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "merhamet": {
+    "aliases": [],
+    "co_occurring": [
+      "şefkat",
+      "ebedî",
+      "hayat",
+      "hikmet",
+      "adalet",
+      "inayet"
+    ],
+    "antonyms": [],
+    "related": [
+      "rahmet",
+      "nur",
+      "muhabbet",
+      "rikkat",
+      "suret",
+      "insan"
+    ],
+    "kok_risale": "sozler/onuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 227,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "kâfir": {
+    "aliases": [],
+    "co_occurring": [
+      "münafık",
+      "cehennem",
+      "küfür",
+      "inkâr",
+      "hayat",
+      "hakikat"
+    ],
+    "antonyms": [],
+    "related": [
+      "nur",
+      "iman",
+      "ebedî",
+      "insan",
+      "cennet",
+      "zaman"
+    ],
+    "kok_risale": "isaratul-icaz/bakara-suresi-7-ayet",
+    "word_boundary": true,
+    "_toplam_gecis": 223,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "rüya": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "hal",
+      "beyan",
+      "âlem",
+      "hayat"
+    ],
+    "antonyms": [],
+    "related": [
+      "zaman",
+      "güneş",
+      "suret",
+      "kemal",
+      "işaret",
+      "hak"
+    ],
+    "kok_risale": "mektubat/yirmi-sekizinci-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 217,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "vicdan": {
+    "aliases": [],
+    "co_occurring": [
+      "hürriyet",
+      "nur",
+      "hakikat",
+      "hayat",
+      "iman",
+      "ruh"
+    ],
+    "antonyms": [],
+    "related": [
+      "kalp",
+      "hal",
+      "millet",
+      "fıtrat",
+      "siyaset",
+      "akıl"
+    ],
+    "kok_risale": "sozler/lemaat",
+    "word_boundary": true,
+    "_toplam_gecis": 215,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "aşk": {
+    "aliases": [],
+    "co_occurring": [
+      "muhabbet",
+      "beka",
+      "şefkat",
+      "kâinat",
+      "nur",
+      "vahdet"
+    ],
+    "antonyms": [],
+    "related": [
+      "hakikat",
+      "vücud",
+      "suret",
+      "zaman",
+      "beyan",
+      "cennet"
+    ],
+    "kok_risale": "barla-lahikasi/barla-lahikasi-s-262-280",
+    "word_boundary": true,
+    "_toplam_gecis": 209,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "arş": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "kâinat",
+      "hakikat",
+      "âlem",
+      "işaret",
+      "güneş"
+    ],
+    "antonyms": [],
+    "related": [
+      "insan",
+      "semavat",
+      "melekût",
+      "mülk",
+      "kalp",
+      "suret"
+    ],
+    "kok_risale": "sozler/otuz-birinci-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 206,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "tesadüf": {
+    "aliases": [],
+    "co_occurring": [
+      "tabiat",
+      "nur",
+      "hikmet",
+      "işaret",
+      "suret",
+      "hal"
+    ],
+    "antonyms": [],
+    "related": [
+      "esbab",
+      "kemal",
+      "kâinat",
+      "mutlak",
+      "mizan",
+      "risale"
+    ],
+    "kok_risale": "mektubat/yirmi-sekizinci-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 203,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "haya": {
+    "aliases": [],
+    "co_occurring": [
+      "hayat",
+      "âlem",
+      "kâinat",
+      "nur",
+      "insan",
+      "beka"
+    ],
+    "antonyms": [],
+    "related": [
+      "hakikat",
+      "ebedî",
+      "işaret",
+      "arz",
+      "zaman",
+      "iman"
+    ],
+    "kok_risale": "tarihce-i-hayat/kastamonu-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 199,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "kabir": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hayat",
+      "ölüm",
+      "âlem",
+      "zaman",
+      "iman"
+    ],
+    "antonyms": [],
+    "related": [
+      "insan",
+      "ebedî",
+      "hizmet",
+      "hakikat",
+      "rahmet",
+      "hal"
+    ],
+    "kok_risale": "tarihce-i-hayat/601-2",
+    "word_boundary": true,
+    "_toplam_gecis": 191,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "melek": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "rahmet",
+      "âlem",
+      "insan",
+      "nur",
+      "misal"
+    ],
+    "antonyms": [],
+    "related": [
+      "kudret",
+      "ubudiyet",
+      "rububiyet",
+      "saltanat",
+      "temsil",
+      "haşmet"
+    ],
+    "kok_risale": "sualar/on-birinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 188,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "fakr": {
+    "aliases": [],
+    "co_occurring": [
+      "acz",
+      "hayat",
+      "mutlak",
+      "insan",
+      "ubudiyet",
+      "vücud"
+    ],
+    "antonyms": [],
+    "related": [
+      "hakikat",
+      "şefkat",
+      "kudret",
+      "aşk",
+      "kâinat",
+      "rahmet"
+    ],
+    "kok_risale": "mektubat/yirmi-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 181,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ebed": {
+    "aliases": [],
+    "co_occurring": [
+      "ezel",
+      "kâinat",
+      "rahmet",
+      "insan",
+      "hakikat",
+      "ebedî"
+    ],
+    "antonyms": [],
+    "related": [
+      "âlem",
+      "güneş",
+      "vazife",
+      "suret",
+      "beşer",
+      "mevcudat"
+    ],
+    "kok_risale": "sozler/otuz-birinci-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 171,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "rızık": {
+    "aliases": [],
+    "co_occurring": [
+      "hayat",
+      "hikmet",
+      "rahmet",
+      "suret",
+      "nimet",
+      "mana"
+    ],
+    "antonyms": [],
+    "related": [
+      "beyan",
+      "inayet",
+      "tarz",
+      "şükür",
+      "ihsan",
+      "arz"
+    ],
+    "kok_risale": "isaratul-icaz/bakara-suresi-25-ayet",
+    "word_boundary": true,
+    "_toplam_gecis": 165,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "fıtrat": {
+    "aliases": [],
+    "co_occurring": [
+      "hakikat",
+      "hayat",
+      "beşer",
+      "kudret",
+      "âlem",
+      "hikmet"
+    ],
+    "antonyms": [],
+    "related": [
+      "kâinat",
+      "insan",
+      "kemal",
+      "hak",
+      "adem",
+      "suret"
+    ],
+    "kok_risale": "sozler/lemaat",
+    "word_boundary": true,
+    "_toplam_gecis": 165,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "tesbih": {
+    "aliases": [],
+    "co_occurring": [
+      "namaz",
+      "zikir",
+      "mevcudat",
+      "ibadet",
+      "nur",
+      "kâinat"
+    ],
+    "antonyms": [],
+    "related": [
+      "arz",
+      "azamet",
+      "şehadet",
+      "insan",
+      "hamd",
+      "suret"
+    ],
+    "kok_risale": "sozler/yirmi-besinci-soz-2",
+    "word_boundary": true,
+    "_toplam_gecis": 164,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ümmet": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "suret",
+      "zaman",
+      "âlem",
+      "dua"
+    ],
+    "antonyms": [],
+    "related": [
+      "hal",
+      "iman",
+      "beşer",
+      "rahmet",
+      "işaret",
+      "hak"
+    ],
+    "kok_risale": "mektubat/on-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 160,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "sır": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "hak",
+      "nur",
+      "makam",
+      "suret",
+      "insan"
+    ],
+    "antonyms": [],
+    "related": [
+      "rahmet",
+      "arz",
+      "hakikat",
+      "beyan",
+      "mevcudat",
+      "nazar"
+    ],
+    "kok_risale": "lemalar/on-dorduncu-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 159,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "şirk": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "tevhid",
+      "vahdet",
+      "esbab",
+      "hakikat",
+      "rububiyet"
+    ],
+    "antonyms": [],
+    "related": [
+      "beyan",
+      "zerre",
+      "arz",
+      "küfür",
+      "semavat",
+      "tabiat"
+    ],
+    "kok_risale": "sualar/ikinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 156,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "iftihar": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "nimet",
+      "iman",
+      "hak",
+      "hizmet"
+    ],
+    "antonyms": [],
+    "related": [
+      "kemal",
+      "kâinat",
+      "insan",
+      "âlem",
+      "ima",
+      "hayat"
+    ],
+    "kok_risale": "sualar/on-dorduncu-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 155,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "itikad": {
+    "aliases": [],
+    "co_occurring": [
+      "âlem",
+      "kâinat",
+      "nur",
+      "hakikat",
+      "vücud",
+      "iman"
+    ],
+    "antonyms": [],
+    "related": [
+      "adem",
+      "esbab",
+      "hayat",
+      "hal",
+      "cehennem",
+      "hikmet"
+    ],
+    "kok_risale": "muhakemat/ucuncu-makale",
+    "word_boundary": true,
+    "_toplam_gecis": 155,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "sermedî": {
+    "aliases": [],
+    "co_occurring": [
+      "cemal",
+      "ebedî",
+      "kâinat",
+      "âlem",
+      "hayat",
+      "mevcudat"
+    ],
+    "antonyms": [],
+    "related": [
+      "kemal",
+      "saltanat",
+      "insan",
+      "güneş",
+      "rububiyet",
+      "ezelî"
+    ],
+    "kok_risale": "sualar/on-besinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 150,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "sefahet": {
+    "aliases": [],
+    "co_occurring": [
+      "iman",
+      "hürriyet",
+      "nur",
+      "ebedî",
+      "cehennem",
+      "hal"
+    ],
+    "antonyms": [],
+    "related": [
+      "hayat",
+      "cennet",
+      "hakikat",
+      "beşer",
+      "ima",
+      "ölüm"
+    ],
+    "kok_risale": "hutbe-i-samiye/hutbe-i-samiye",
+    "word_boundary": true,
+    "_toplam_gecis": 150,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "sadakat": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hizmet",
+      "ihlas",
+      "iman",
+      "kemal",
+      "metanet"
+    ],
+    "antonyms": [],
+    "related": [
+      "hakikat",
+      "rahmet",
+      "takva",
+      "vazife",
+      "kıyas",
+      "tarz"
+    ],
+    "kok_risale": "kastamonu-lahikasi/kastamonu-lahikasi-s-70-91",
+    "word_boundary": true,
+    "_toplam_gecis": 148,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "unsur": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "âlem",
+      "kâinat",
+      "zerre",
+      "şehadet",
+      "hal"
+    ],
+    "antonyms": [],
+    "related": [
+      "hikmet",
+      "vücud",
+      "madde",
+      "hayat",
+      "vazife",
+      "kemal"
+    ],
+    "kok_risale": "emirdag-lahikasi-ii/emirdag-lahikasi-ii-s-110-128",
+    "word_boundary": true,
+    "_toplam_gecis": 147,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ihya": {
+    "aliases": [],
+    "co_occurring": [
+      "bahar",
+      "hayat",
+      "haşir",
+      "arz",
+      "kâinat",
+      "âlem"
+    ],
+    "antonyms": [],
+    "related": [
+      "kemal",
+      "hakikat",
+      "kanun",
+      "ima",
+      "hak",
+      "hikmet"
+    ],
+    "kok_risale": "sozler/onuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 145,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ezel": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "ebed",
+      "kâinat",
+      "beşer",
+      "rahmet",
+      "vücud"
+    ],
+    "antonyms": [],
+    "related": [
+      "hakikat",
+      "arz",
+      "insan",
+      "âlem",
+      "hayat",
+      "hamd"
+    ],
+    "kok_risale": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-2",
+    "word_boundary": true,
+    "_toplam_gecis": 144,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "fazilet": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "iman",
+      "insan",
+      "hayat",
+      "muhabbet"
+    ],
+    "antonyms": [],
+    "related": [
+      "kemal",
+      "ders",
+      "hürriyet",
+      "millet",
+      "ruh",
+      "hikmet"
+    ],
+    "kok_risale": "tarihce-i-hayat/isparta-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 143,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ervah": {
+    "aliases": [],
+    "co_occurring": [
+      "âlem",
+      "hayat",
+      "sema",
+      "insan",
+      "arz",
+      "hikmet"
+    ],
+    "antonyms": [],
+    "related": [
+      "vücud",
+      "şehadet",
+      "hakikat",
+      "misal",
+      "sünnet",
+      "akıl"
+    ],
+    "kok_risale": "sozler/yirmi-dokuzuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 142,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "maslahat": {
+    "aliases": [],
+    "co_occurring": [
+      "hikmet",
+      "hal",
+      "beşer",
+      "hakikat",
+      "hayat",
+      "âlem"
+    ],
+    "antonyms": [],
+    "related": [
+      "suret",
+      "nur",
+      "millet",
+      "nazar",
+      "şeriat",
+      "hak"
+    ],
+    "kok_risale": "hutbe-i-samiye/hutbe-i-samiye",
+    "word_boundary": true,
+    "_toplam_gecis": 136,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "bereket": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "dua",
+      "hakikat",
+      "misal",
+      "risalet",
+      "hal"
+    ],
+    "antonyms": [],
+    "related": [
+      "hizmet",
+      "beyan",
+      "keramet",
+      "kanaat",
+      "zaman",
+      "suret"
+    ],
+    "kok_risale": "mektubat/on-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 135,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "kütüb": {
+    "aliases": [],
+    "co_occurring": [
+      "beyan",
+      "hakikat",
+      "misal",
+      "şehadet",
+      "beşer",
+      "kitap"
+    ],
+    "antonyms": [],
+    "related": [
+      "suret",
+      "hayat",
+      "hikmet",
+      "dua",
+      "vahy",
+      "risale"
+    ],
+    "kok_risale": "mektubat/on-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 132,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ins": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "âlem",
+      "nur",
+      "hak",
+      "vücud",
+      "semavat"
+    ],
+    "antonyms": [],
+    "related": [
+      "suret",
+      "arz",
+      "cennet",
+      "melek",
+      "beyan",
+      "hikmet"
+    ],
+    "kok_risale": "mektubat/on-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 132,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "letaif": {
+    "aliases": [],
+    "co_occurring": [
+      "kalp",
+      "ruh",
+      "suret",
+      "akıl",
+      "sır",
+      "insan"
+    ],
+    "antonyms": [],
+    "related": [
+      "nefis",
+      "his",
+      "mana",
+      "nübüvvet",
+      "vazife",
+      "hakikat"
+    ],
+    "kok_risale": "barla-lahikasi/barla-lahikasi-s-340-362",
+    "word_boundary": true,
+    "_toplam_gecis": 131,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "haşmet": {
+    "aliases": [],
+    "co_occurring": [
+      "saltanat",
+      "kâinat",
+      "kemal",
+      "güneş",
+      "rububiyet",
+      "arz"
+    ],
+    "antonyms": [],
+    "related": [
+      "âlem",
+      "hikmet",
+      "melek",
+      "rahmet",
+      "beşer",
+      "suret"
+    ],
+    "kok_risale": "mektubat/yirminci-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 130,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "tahkik": {
+    "aliases": [],
+    "co_occurring": [
+      "hakikat",
+      "sema",
+      "işaret",
+      "nur",
+      "beşer",
+      "vücud"
+    ],
+    "antonyms": [],
+    "related": [
+      "keşif",
+      "hikmet",
+      "âlem",
+      "ittifak",
+      "risale",
+      "güneş"
+    ],
+    "kok_risale": "mektubat/on-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 130,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "mülk": {
+    "aliases": [],
+    "co_occurring": [
+      "insan",
+      "âlem",
+      "melekût",
+      "kâinat",
+      "arz",
+      "kudret"
+    ],
+    "antonyms": [],
+    "related": [
+      "hayat",
+      "arş",
+      "hakikat",
+      "vücud",
+      "esbab",
+      "suret"
+    ],
+    "kok_risale": "mesnevi-i-nuriye/hubab",
+    "word_boundary": true,
+    "_toplam_gecis": 129,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "uluhiyet": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "rububiyet",
+      "vücud",
+      "hakikat",
+      "vahdet",
+      "inkâr"
+    ],
+    "antonyms": [],
+    "related": [
+      "rahmet",
+      "madde",
+      "nazar",
+      "ilham",
+      "kemal",
+      "hayat"
+    ],
+    "kok_risale": "sualar/yedinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 125,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "istidat": {
+    "aliases": [],
+    "co_occurring": [
+      "dua",
+      "kâinat",
+      "hakikat",
+      "hayat",
+      "nur",
+      "ebed"
+    ],
+    "antonyms": [],
+    "related": [
+      "insan",
+      "âlem",
+      "beşer",
+      "hak",
+      "kabiliyet",
+      "ruh"
+    ],
+    "kok_risale": "sozler/yirmi-ucuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 118,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "günah": {
+    "aliases": [],
+    "co_occurring": [
+      "takva",
+      "iman",
+      "zaman",
+      "hayat",
+      "nur",
+      "ebedî"
+    ],
+    "antonyms": [],
+    "related": [
+      "ima",
+      "ibadet",
+      "hakikat",
+      "cehennem",
+      "cennet",
+      "niyet"
+    ],
+    "kok_risale": "lemalar/ikinci-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 118,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "sohbet": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "güneş",
+      "hakikat",
+      "velayet",
+      "nübüvvet",
+      "hal"
+    ],
+    "antonyms": [],
+    "related": [
+      "ders",
+      "ihlas",
+      "temsil",
+      "beyan",
+      "hizmet",
+      "âlem"
+    ],
+    "kok_risale": "sozler/yirmi-yedinci-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 118,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "hukuk": {
+    "aliases": [],
+    "co_occurring": [
+      "hakikat",
+      "hal",
+      "adalet",
+      "âlem",
+      "nur",
+      "hikmet"
+    ],
+    "antonyms": [],
+    "related": [
+      "hak",
+      "tarz",
+      "millet",
+      "arş",
+      "kâinat",
+      "hayat"
+    ],
+    "kok_risale": "tarihce-i-hayat/eskisehir-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 116,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "emanet": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "arz",
+      "insan",
+      "ene",
+      "hikmet",
+      "vazife"
+    ],
+    "antonyms": [],
+    "related": [
+      "nur",
+      "rahmet",
+      "semavat",
+      "hak",
+      "suret",
+      "mizan"
+    ],
+    "kok_risale": "kastamonu-lahikasi/kastamonu-lahikasi-s-231-255",
+    "word_boundary": true,
+    "_toplam_gecis": 112,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "kabiliyet": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "hakikat",
+      "kemal",
+      "âlem",
+      "insan",
+      "istidat"
+    ],
+    "antonyms": [],
+    "related": [
+      "zerre",
+      "berzah",
+      "tabiat",
+      "istidad",
+      "hak",
+      "hikmet"
+    ],
+    "kok_risale": "sozler/yirmi-dorduncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 110,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "cevher": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hayat",
+      "hakikat",
+      "zaman",
+      "ruh",
+      "kâinat"
+    ],
+    "antonyms": [],
+    "related": [
+      "suret",
+      "adem",
+      "akıl",
+      "arz",
+      "şeriat",
+      "his"
+    ],
+    "kok_risale": "lemalar/yirmi-sekizinci-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 107,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ittihat": {
+    "aliases": [],
+    "co_occurring": [
+      "arz",
+      "hakikat",
+      "hak",
+      "ittifak",
+      "insan",
+      "âlem"
+    ],
+    "antonyms": [],
+    "related": [
+      "muhabbet",
+      "hayat",
+      "uhuvvet",
+      "kâinat",
+      "ubudiyet",
+      "ihlas"
+    ],
+    "kok_risale": "hutbe-i-samiye/hutbe-i-samiye",
+    "word_boundary": true,
+    "_toplam_gecis": 107,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "külliyat": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "arz",
+      "âlem",
+      "idrak",
+      "semavat"
+    ],
+    "antonyms": [],
+    "related": [
+      "millet",
+      "suret",
+      "iman",
+      "insan",
+      "zaman",
+      "dua"
+    ],
+    "kok_risale": "tarihce-i-hayat/on-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 106,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "hilafet": {
+    "aliases": [],
+    "co_occurring": [
+      "saltanat",
+      "siyaset",
+      "zaman",
+      "işaret",
+      "vazife",
+      "hal"
+    ],
+    "antonyms": [],
+    "related": [
+      "beşer",
+      "istikamet",
+      "velayet",
+      "mana",
+      "hakikat",
+      "arz"
+    ],
+    "kok_risale": "sikke-i-tasdik-i-gaybi/sekizinci-sua-2",
+    "word_boundary": true,
+    "_toplam_gecis": 106,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "kaza": {
+    "aliases": [],
+    "co_occurring": [
+      "kader",
+      "nur",
+      "âlem",
+      "şehadet",
+      "hayat",
+      "hikmet"
+    ],
+    "antonyms": [],
+    "related": [
+      "hizmet",
+      "hakikat",
+      "iman",
+      "suret",
+      "kanun",
+      "ârif"
+    ],
+    "kok_risale": "mesnevi-i-nuriye/onuncu-risale",
+    "word_boundary": true,
+    "_toplam_gecis": 105,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "mevsim": {
+    "aliases": [],
+    "co_occurring": [
+      "bahar",
+      "kâinat",
+      "nur",
+      "arz",
+      "âlem",
+      "güneş"
+    ],
+    "antonyms": [],
+    "related": [
+      "kudret",
+      "hikmet",
+      "zaman",
+      "suret",
+      "şehadet",
+      "kemal"
+    ],
+    "kok_risale": "mektubat/yirminci-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 104,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "his": {
+    "aliases": [],
+    "co_occurring": [
+      "hayat",
+      "ruh",
+      "kâinat",
+      "nur",
+      "akıl",
+      "insan"
+    ],
+    "antonyms": [],
+    "related": [
+      "güneş",
+      "gaflet",
+      "iman",
+      "arz",
+      "risalet",
+      "cennet"
+    ],
+    "kok_risale": "hutbe-i-samiye/hutbe-i-samiye",
+    "word_boundary": true,
+    "_toplam_gecis": 103,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "berzah": {
+    "aliases": [],
+    "co_occurring": [
+      "âlem",
+      "hayat",
+      "hakikat",
+      "muhabbet",
+      "güneş",
+      "insan"
+    ],
+    "antonyms": [],
+    "related": [
+      "âhiret",
+      "kabir",
+      "kemal",
+      "makam",
+      "mevt",
+      "kabiliyet"
+    ],
+    "kok_risale": "sozler/yirmi-dorduncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 98,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "metanet": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hizmet",
+      "sadakat",
+      "ihlas",
+      "kemal",
+      "hal"
+    ],
+    "antonyms": [],
+    "related": [
+      "iman",
+      "misal",
+      "zulüm",
+      "mutlak",
+      "hikmet",
+      "dua"
+    ],
+    "kok_risale": "tarihce-i-hayat/kastamonu-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 98,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ihtiyat": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "inayet",
+      "hakikat",
+      "hal",
+      "siyaset",
+      "beyan"
+    ],
+    "antonyms": [],
+    "related": [
+      "hizmet",
+      "zaman",
+      "münafık",
+      "tarz",
+      "dua",
+      "vazife"
+    ],
+    "kok_risale": "sualar/on-dorduncu-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 97,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "istidad": {
+    "aliases": [],
+    "co_occurring": [
+      "insan",
+      "beşer",
+      "şeriat",
+      "ders",
+      "hakikat",
+      "âlem"
+    ],
+    "antonyms": [],
+    "related": [
+      "adem",
+      "muhabbet",
+      "hayat",
+      "fıtrat",
+      "adalet",
+      "hak"
+    ],
+    "kok_risale": "muhakemat/ucuncu-makale",
+    "word_boundary": true,
+    "_toplam_gecis": 96,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "riya": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "ihlas",
+      "vazife",
+      "hizmet",
+      "beyan",
+      "fena"
+    ],
+    "antonyms": [],
+    "related": [
+      "keramet",
+      "beşer",
+      "gurur",
+      "hal",
+      "iman",
+      "nefs"
+    ],
+    "kok_risale": "kastamonu-lahikasi/kastamonu-lahikasi-s-167-189",
+    "word_boundary": true,
+    "_toplam_gecis": 96,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "zındık": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "münafık",
+      "siyaset",
+      "hakikat",
+      "hürriyet",
+      "risale"
+    ],
+    "antonyms": [],
+    "related": [
+      "hal",
+      "millet",
+      "mutlak",
+      "güneş",
+      "teslim",
+      "kıyas"
+    ],
+    "kok_risale": "tarihce-i-hayat/denizli-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 96,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "isyan": {
+    "aliases": [],
+    "co_occurring": [
+      "iman",
+      "hikmet",
+      "nefis",
+      "adalet",
+      "küfür",
+      "zaman"
+    ],
+    "antonyms": [],
+    "related": [
+      "saltanat",
+      "hizmet",
+      "rububiyet",
+      "arz",
+      "âlem",
+      "adem"
+    ],
+    "kok_risale": "sozler/onuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 95,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ibret": {
+    "aliases": [],
+    "co_occurring": [
+      "âlem",
+      "akıl",
+      "insan",
+      "zaman",
+      "beşer",
+      "tefekkür"
+    ],
+    "antonyms": [],
+    "related": [
+      "mütefekkir",
+      "hikmet",
+      "ders",
+      "işaret",
+      "arz",
+      "ilim"
+    ],
+    "kok_risale": "hutbe-i-samiye/hutbe-i-samiye",
+    "word_boundary": true,
+    "_toplam_gecis": 88,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "gurur": {
+    "aliases": [],
+    "co_occurring": [
+      "insan",
+      "hakikat",
+      "keramet",
+      "riya",
+      "nimet",
+      "kader"
+    ],
+    "antonyms": [],
+    "related": [
+      "tekebbür",
+      "enaniyet",
+      "hak",
+      "millet",
+      "beyan",
+      "bereket"
+    ],
+    "kok_risale": "tarihce-i-hayat/eskisehir-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 87,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "cemil": {
+    "aliases": [],
+    "co_occurring": [
+      "cemal",
+      "celil",
+      "kâinat",
+      "kemal",
+      "mevcudat",
+      "rahmet"
+    ],
+    "antonyms": [],
+    "related": [
+      "hakikat",
+      "mutlak",
+      "inkâr",
+      "risalet",
+      "nur",
+      "güneş"
+    ],
+    "kok_risale": "lemalar/otuzuncu-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 85,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "haşre": {
+    "aliases": [],
+    "co_occurring": [
+      "âlem",
+      "beyan",
+      "işaret",
+      "âhiret",
+      "nur",
+      "şehadet"
+    ],
+    "antonyms": [],
+    "related": [
+      "iman",
+      "kader",
+      "hüccet",
+      "delil",
+      "bahar",
+      "suret"
+    ],
+    "kok_risale": "sozler/onuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 84,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "meşrutiyet": {
+    "aliases": [],
+    "co_occurring": [
+      "şeriat",
+      "hürriyet",
+      "adalet",
+      "millet",
+      "istibdat",
+      "hayat"
+    ],
+    "antonyms": [],
+    "related": [
+      "hal",
+      "siyaset",
+      "meşveret",
+      "hak",
+      "nur",
+      "cevher"
+    ],
+    "kok_risale": "tarihce-i-hayat/573-2",
+    "word_boundary": true,
+    "_toplam_gecis": 84,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "neşir": {
+    "aliases": [],
+    "co_occurring": [
+      "haşir",
+      "beşer",
+      "hikmet",
+      "kâinat",
+      "insan",
+      "arz"
+    ],
+    "antonyms": [],
+    "related": [
+      "nur",
+      "bahar",
+      "hakikat",
+      "hak",
+      "kudret",
+      "rahmet"
+    ],
+    "kok_risale": "mesnevi-i-nuriye/lemalar-risalesi",
+    "word_boundary": true,
+    "_toplam_gecis": 80,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "feyiz": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "güneş",
+      "iman",
+      "hak",
+      "arz",
+      "hal"
+    ],
+    "antonyms": [],
+    "related": [
+      "ders",
+      "madde",
+      "insan",
+      "mana",
+      "kâinat",
+      "nazar"
+    ],
+    "kok_risale": "tarihce-i-hayat/on-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 79,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "vahiy": {
+    "aliases": [],
+    "co_occurring": [
+      "ilham",
+      "hakikat",
+      "şehadet",
+      "nur",
+      "kâinat",
+      "vücud"
+    ],
+    "antonyms": [],
+    "related": [
+      "beyan",
+      "risalet",
+      "âlem",
+      "suret",
+      "gayb",
+      "ezelî"
+    ],
+    "kok_risale": "mektubat/on-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 77,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "tevazu": {
+    "aliases": [],
+    "co_occurring": [
+      "mahviyet",
+      "nimet",
+      "nur",
+      "hakikat",
+      "enaniyet",
+      "nefs"
+    ],
+    "antonyms": [],
+    "related": [
+      "hak",
+      "tekebbür",
+      "gurur",
+      "makam",
+      "fazilet",
+      "acz"
+    ],
+    "kok_risale": "tarihce-i-hayat/barla-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 72,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "levh": {
+    "aliases": [],
+    "co_occurring": [
+      "âlem",
+      "vücud",
+      "hakikat",
+      "kader",
+      "zaman",
+      "kudret"
+    ],
+    "antonyms": [],
+    "related": [
+      "mevcudat",
+      "gayb",
+      "işaret",
+      "ezelî",
+      "kâinat",
+      "ilim"
+    ],
+    "kok_risale": "sozler/onuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 71,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "idrak": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "hayat",
+      "külliyat",
+      "âlem",
+      "kâinat"
+    ],
+    "antonyms": [],
+    "related": [
+      "hal",
+      "zaman",
+      "dua",
+      "tefekkür",
+      "keşif",
+      "millet"
+    ],
+    "kok_risale": "tarihce-i-hayat/isparta-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 68,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "kibriya": {
+    "aliases": [],
+    "co_occurring": [
+      "azamet",
+      "kâinat",
+      "nur",
+      "hakikat",
+      "şirk",
+      "kudret"
+    ],
+    "antonyms": [],
+    "related": [
+      "tevhid",
+      "akıl",
+      "celal",
+      "beyan",
+      "acz",
+      "arz"
+    ],
+    "kok_risale": "sualar/yedinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 67,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "münkir": {
+    "aliases": [],
+    "co_occurring": [
+      "tabiat",
+      "vücud",
+      "kâfir",
+      "nur",
+      "beyan",
+      "ezelî"
+    ],
+    "antonyms": [],
+    "related": [
+      "kâinat",
+      "mana",
+      "işaret",
+      "hakikat",
+      "suret",
+      "risale"
+    ],
+    "kok_risale": "sozler/otuz-ucuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 66,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "üslup": {
+    "aliases": [],
+    "co_occurring": [
+      "beyan",
+      "mana",
+      "hal",
+      "işaret",
+      "hakikat",
+      "zevk"
+    ],
+    "antonyms": [],
+    "related": [
+      "suret",
+      "kâinat",
+      "iman",
+      "teşbih",
+      "âlem",
+      "cemal"
+    ],
+    "kok_risale": "sozler/yirmi-besinci-soz-2",
+    "word_boundary": true,
+    "_toplam_gecis": 65,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "münezzeh": {
+    "aliases": [],
+    "co_occurring": [
+      "cemal",
+      "kudret",
+      "kâinat",
+      "mutlak",
+      "kemal",
+      "aşk"
+    ],
+    "antonyms": [],
+    "related": [
+      "madde",
+      "acz",
+      "mevcudat",
+      "nur",
+      "tarz",
+      "cennet"
+    ],
+    "kok_risale": "sozler/otuz-ikinci-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 64,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "lütuf": {
+    "aliases": [],
+    "co_occurring": [
+      "inayet",
+      "hal",
+      "cemal",
+      "rahmet",
+      "nimet",
+      "mevcudat"
+    ],
+    "antonyms": [],
+    "related": [
+      "ihsan",
+      "nur",
+      "hamd",
+      "şükür",
+      "sermedî",
+      "mana"
+    ],
+    "kok_risale": "sozler/otuz-ikinci-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 63,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "mahşer": {
+    "aliases": [],
+    "co_occurring": [
+      "arz",
+      "cennet",
+      "rahmet",
+      "hayat",
+      "âlem",
+      "âhiret"
+    ],
+    "antonyms": [],
+    "related": [
+      "hakikat",
+      "insan",
+      "şehadet",
+      "vücud",
+      "akıl",
+      "hikmet"
+    ],
+    "kok_risale": "sozler/onuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 61,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "gönül": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "âlem",
+      "rahmet",
+      "hakikat",
+      "risalet",
+      "iman"
+    ],
+    "antonyms": [],
+    "related": [
+      "insan",
+      "arz",
+      "zaman",
+      "hayat",
+      "hak",
+      "güneş"
+    ],
+    "kok_risale": "tarihce-i-hayat/on-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 60,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "nebat": {
+    "aliases": [],
+    "co_occurring": [
+      "ebedî",
+      "suret",
+      "hal",
+      "rahmet",
+      "tesbih",
+      "tahmid"
+    ],
+    "antonyms": [],
+    "related": [
+      "âlem",
+      "hayvan",
+      "işaret",
+      "kemal",
+      "zerre",
+      "şehadet"
+    ],
+    "kok_risale": "tarihce-i-hayat/kastamonu-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 60,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "vesait": {
+    "aliases": [],
+    "co_occurring": [
+      "esbab",
+      "kudret",
+      "âlem",
+      "insan",
+      "vücud",
+      "kâinat"
+    ],
+    "antonyms": [],
+    "related": [
+      "mana",
+      "tevhid",
+      "beşer",
+      "kemal",
+      "kalem",
+      "ehadiyet"
+    ],
+    "kok_risale": "sozler/otuz-ikinci-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 58,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "sırat": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "risalet",
+      "işaret",
+      "makam",
+      "istikamet",
+      "vicdan"
+    ],
+    "antonyms": [],
+    "related": [
+      "iman",
+      "hakikat",
+      "hidayet",
+      "ruh",
+      "inayet",
+      "suret"
+    ],
+    "kok_risale": "sikke-i-tasdik-i-gaybi/birinci-sua-2",
+    "word_boundary": true,
+    "_toplam_gecis": 58,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "meşveret": {
+    "aliases": [],
+    "co_occurring": [
+      "hürriyet",
+      "şûra",
+      "meşrutiyet",
+      "zaman",
+      "istibdat",
+      "beşer"
+    ],
+    "antonyms": [],
+    "related": [
+      "şeriat",
+      "hakikat",
+      "ders",
+      "hikmet",
+      "hayat",
+      "adalet"
+    ],
+    "kok_risale": "hutbe-i-samiye/hutbe-i-samiye",
+    "word_boundary": true,
+    "_toplam_gecis": 55,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "mahviyet": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "nefs",
+      "enaniyet",
+      "nefis",
+      "ihsan",
+      "hakikat"
+    ],
+    "antonyms": [],
+    "related": [
+      "hizmet",
+      "tevazu",
+      "hak",
+      "acz",
+      "mizan",
+      "tekebbür"
+    ],
+    "kok_risale": "sualar/on-ucuncu-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 52,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "merhame": {
+    "aliases": [],
+    "co_occurring": [
+      "suret",
+      "hikmet",
+      "hal",
+      "rububiyet",
+      "kâinat",
+      "hayat"
+    ],
+    "antonyms": [],
+    "related": [
+      "hizmet",
+      "rahmet",
+      "hakikat",
+      "işaret",
+      "temsil",
+      "şefkat"
+    ],
+    "kok_risale": "lemalar/yirmi-altinci-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 51,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "teşbih": {
+    "aliases": [],
+    "co_occurring": [
+      "hakikat",
+      "zaman",
+      "hal",
+      "arz",
+      "işaret",
+      "makam"
+    ],
+    "antonyms": [],
+    "related": [
+      "mana",
+      "sema",
+      "hak",
+      "takva",
+      "gaflet",
+      "hikmet"
+    ],
+    "kok_risale": "isaratul-icaz/bakara-suresi-17-18-19-20-ayetler",
+    "word_boundary": true,
+    "_toplam_gecis": 49,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ilhad": {
+    "aliases": [],
+    "co_occurring": [
+      "mana",
+      "hayat",
+      "ima",
+      "nur",
+      "insan",
+      "âlem"
+    ],
+    "antonyms": [],
+    "related": [
+      "âhiret",
+      "sermedî",
+      "hakikat",
+      "hal",
+      "suret",
+      "idare"
+    ],
+    "kok_risale": "mektubat/yirmi-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 46,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "melaikeye": {
+    "aliases": [],
+    "co_occurring": [
+      "beşer",
+      "iman",
+      "işaret",
+      "arz",
+      "hilafet",
+      "hikmet"
+    ],
+    "antonyms": [],
+    "related": [
+      "ima",
+      "melek",
+      "makam",
+      "hayat",
+      "ruh",
+      "saltanat"
+    ],
+    "kok_risale": "isaratul-icaz/bakara-suresi-31-32-33-ayetler",
+    "word_boundary": true,
+    "_toplam_gecis": 44,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "hesap": {
+    "aliases": [],
+    "co_occurring": [
+      "tefsir",
+      "iman",
+      "nur",
+      "suret",
+      "hikmet",
+      "mevt"
+    ],
+    "antonyms": [],
+    "related": [
+      "mevcudat",
+      "işaret"
+    ],
+    "kok_risale": "barla-lahikasi/barla-lahikasi-s-280-299",
+    "word_boundary": true,
+    "_toplam_gecis": 44,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "evrad": {
+    "aliases": [],
+    "co_occurring": [
+      "velayet",
+      "namaz",
+      "niyet",
+      "ubudiyet",
+      "ihlas",
+      "suret"
+    ],
+    "antonyms": [],
+    "related": [
+      "hakikat",
+      "insan",
+      "rıza",
+      "âhiret",
+      "hikmet",
+      "sünnet"
+    ],
+    "kok_risale": "lemalar/on-yedinci-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 42,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "kayyumiyet": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "işaret",
+      "mevcudat",
+      "insan",
+      "zerre",
+      "beka"
+    ],
+    "antonyms": [],
+    "related": [
+      "hikmet",
+      "beyan",
+      "nur",
+      "kemal",
+      "yıldız",
+      "vücud"
+    ],
+    "kok_risale": "lemalar/otuzuncu-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 39,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "vahy": {
+    "aliases": [],
+    "co_occurring": [
+      "hayat",
+      "kâinat",
+      "risalet",
+      "hakikat",
+      "şehadet",
+      "beşer"
+    ],
+    "antonyms": [],
+    "related": [
+      "semavat",
+      "kütüb",
+      "işaret",
+      "beyan",
+      "ezelî",
+      "hüccet"
+    ],
+    "kok_risale": "lemalar/yirmi-sekizinci-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 38,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "mütefekkir": {
+    "aliases": [],
+    "co_occurring": [
+      "makam",
+      "arz",
+      "hakikat",
+      "insan",
+      "iman",
+      "şehadet"
+    ],
+    "antonyms": [],
+    "related": [
+      "marifet",
+      "mana",
+      "beşer",
+      "işaret",
+      "ebedî",
+      "cemal"
+    ],
+    "kok_risale": "asa-yi-musa/birinci-huccet-i-imaniye",
+    "word_boundary": true,
+    "_toplam_gecis": 38,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "tekebbür": {
+    "aliases": [],
+    "co_occurring": [
+      "hürriyet",
+      "adalet",
+      "insan",
+      "mahviyet",
+      "âlem",
+      "mizan"
+    ],
+    "antonyms": [],
+    "related": [
+      "nefs",
+      "velayet",
+      "beşer",
+      "tevazu",
+      "şefkat",
+      "misal"
+    ],
+    "kok_risale": "munazarat/munazarat",
+    "word_boundary": true,
+    "_toplam_gecis": 38,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "seciye": {
+    "aliases": [],
+    "co_occurring": [
+      "hayat",
+      "iman",
+      "hak",
+      "ima",
+      "fena",
+      "âhiret"
+    ],
+    "antonyms": [],
+    "related": [
+      "nur",
+      "meşveret",
+      "ders",
+      "günah",
+      "ebed",
+      "zulüm"
+    ],
+    "kok_risale": "hutbe-i-samiye/hutbe-i-samiye",
+    "word_boundary": true,
+    "_toplam_gecis": 37,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "irfan": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "iman",
+      "hal",
+      "feyiz",
+      "hakikat",
+      "ihlas"
+    ],
+    "antonyms": [],
+    "related": [
+      "mana",
+      "üslup",
+      "ilim",
+      "kalp",
+      "hak",
+      "güneş"
+    ],
+    "kok_risale": "tarihce-i-hayat/on-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 36,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ârif": {
+    "aliases": [],
+    "co_occurring": [
+      "suret",
+      "zaman",
+      "risalet",
+      "şehadet",
+      "nübüvvet",
+      "iman"
+    ],
+    "antonyms": [],
+    "related": [
+      "beyan",
+      "kitap",
+      "kabir",
+      "teslim",
+      "tarz",
+      "neşir"
+    ],
+    "kok_risale": "sualar/on-besinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 36,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "kin": {
+    "aliases": [],
+    "co_occurring": [
+      "hayat",
+      "iman",
+      "zulüm",
+      "esbab",
+      "hakikat",
+      "muhabbet"
+    ],
+    "antonyms": [],
+    "related": [
+      "kader",
+      "hased",
+      "uhuvvet",
+      "rahmet",
+      "beyan",
+      "fena"
+    ],
+    "kok_risale": "mektubat/yirmi-ikinci-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 36,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "nazm": {
+    "aliases": [],
+    "co_occurring": [
+      "mana",
+      "işaret",
+      "zevk",
+      "mantık",
+      "millet",
+      "iman"
+    ],
+    "antonyms": [],
+    "related": [
+      "âlem",
+      "beyan",
+      "mutlak",
+      "saltanat",
+      "istidad",
+      "nazar"
+    ],
+    "kok_risale": "muhakemat/ikinci-makale",
+    "word_boundary": true,
+    "_toplam_gecis": 36,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "mantık": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "kanaat",
+      "beşer",
+      "cehennem",
+      "şehadet",
+      "kitap"
+    ],
+    "antonyms": [],
+    "related": [
+      "unsur",
+      "hakikat",
+      "hikmet",
+      "yakîn",
+      "şeriat",
+      "hidayet"
+    ],
+    "kok_risale": "sozler/lemaat",
+    "word_boundary": true,
+    "_toplam_gecis": 36,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "melekût": {
+    "aliases": [],
+    "co_occurring": [
+      "mülk",
+      "arş",
+      "âlem",
+      "insan",
+      "kalp",
+      "ervah"
+    ],
+    "antonyms": [],
+    "related": [
+      "melek",
+      "yaratılış",
+      "acz",
+      "kudret",
+      "beyan",
+      "nazar"
+    ],
+    "kok_risale": "sozler/yirmi-dokuzuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 35,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "kudsiyet": {
+    "aliases": [],
+    "co_occurring": [
+      "sır",
+      "akıl",
+      "feyiz",
+      "nur",
+      "hakikat",
+      "beyan"
+    ],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "mektubat/yirmi-altinci-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 34,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "taayyün": {
+    "aliases": [],
+    "co_occurring": [
+      "ilim",
+      "kudret",
+      "tevhid",
+      "nazar",
+      "ezelî",
+      "mevcudat"
+    ],
+    "antonyms": [],
+    "related": [
+      "vücud",
+      "ehadiyet",
+      "ittifak",
+      "hayat",
+      "suret",
+      "misal"
+    ],
+    "kok_risale": "sozler/lemaat",
+    "word_boundary": true,
+    "_toplam_gecis": 34,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "itminan": {
+    "aliases": [],
+    "co_occurring": [
+      "fıtrat",
+      "kemal",
+      "kalp",
+      "hakikat",
+      "makam",
+      "tabiat"
+    ],
+    "antonyms": [],
+    "related": [
+      "itikad",
+      "mana",
+      "ima",
+      "felsefe",
+      "ebedî",
+      "hayat"
+    ],
+    "kok_risale": "isaratul-icaz/bakara-suresi-23-24-ayetler",
+    "word_boundary": true,
+    "_toplam_gecis": 34,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "sebepler": {
+    "aliases": [],
+    "co_occurring": [
+      "muhabbet",
+      "ima",
+      "madde",
+      "âlem",
+      "kalp",
+      "iman"
+    ],
+    "antonyms": [],
+    "related": [
+      "tefsir",
+      "beşer",
+      "ittifak",
+      "uhuvvet",
+      "emanet",
+      "arz"
+    ],
+    "kok_risale": "hutbe-i-samiye/hutbe-i-samiye",
+    "word_boundary": true,
+    "_toplam_gecis": 34,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "mümteni": {
+    "aliases": [],
+    "co_occurring": [
+      "vücud",
+      "tabiat",
+      "akıl",
+      "hikmet",
+      "esbab",
+      "kudret"
+    ],
+    "antonyms": [],
+    "related": [
+      "risale",
+      "vahdaniyet",
+      "âlem",
+      "kıyas",
+      "insan",
+      "mevcudat"
+    ],
+    "kok_risale": "asa-yi-musa/ucuncu-huccet-i-imaniye",
+    "word_boundary": true,
+    "_toplam_gecis": 34,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "hased": {
+    "aliases": [],
+    "co_occurring": [
+      "mana",
+      "nimet",
+      "beşer",
+      "hürriyet",
+      "kin",
+      "hayat"
+    ],
+    "antonyms": [],
+    "related": [
+      "rahmet",
+      "riya",
+      "kader",
+      "işaret",
+      "ümmet",
+      "saltanat"
+    ],
+    "kok_risale": "mektubat/yirmi-ikinci-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 34,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "fuad": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hizmet",
+      "ima",
+      "insan",
+      "oruç",
+      "hayat"
+    ],
+    "antonyms": [],
+    "related": [
+      "rahmet",
+      "vazife",
+      "tarz",
+      "emanet",
+      "mizan",
+      "beyan"
+    ],
+    "kok_risale": "emirdag-lahikasi-i/emirdag-lahikasi-i-s-212-230",
+    "word_boundary": true,
+    "_toplam_gecis": 33,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "samimiyet": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hakikat",
+      "iman",
+      "hidayet",
+      "ruh",
+      "gönül"
+    ],
+    "antonyms": [],
+    "related": [
+      "külliyat",
+      "sohbet",
+      "hak",
+      "zaman",
+      "ezelî",
+      "risalet"
+    ],
+    "kok_risale": "isaratul-icaz/ecnebi-feylesoflarin-kuran-hakkindaki-beyanatlari",
+    "word_boundary": true,
+    "_toplam_gecis": 33,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "mecaz": {
+    "aliases": [],
+    "co_occurring": [
+      "hakikat",
+      "nazar",
+      "akıl",
+      "teşbih",
+      "mana",
+      "şeriat"
+    ],
+    "antonyms": [],
+    "related": [
+      "muhabbet",
+      "kalp",
+      "arz",
+      "tefsir",
+      "rahmet",
+      "kanaat"
+    ],
+    "kok_risale": "muhakemat/birinci-makale",
+    "word_boundary": true,
+    "_toplam_gecis": 33,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "edep": {
+    "aliases": [],
+    "co_occurring": [
+      "sünnet",
+      "cemil",
+      "isyan",
+      "beyan",
+      "hak",
+      "nazar"
+    ],
+    "antonyms": [],
+    "related": [
+      "şeriat",
+      "riya",
+      "nur",
+      "suret",
+      "ihsan",
+      "kemal"
+    ],
+    "kok_risale": "lemalar/on-birinci-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 32,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "akide": {
+    "aliases": [],
+    "co_occurring": [
+      "mana",
+      "esbab",
+      "şeriat",
+      "vesait",
+      "tevhid",
+      "hakikat"
+    ],
+    "antonyms": [],
+    "related": [
+      "teslim",
+      "zaman",
+      "hikmet",
+      "hak",
+      "arz",
+      "kalem"
+    ],
+    "kok_risale": "muhakemat/birinci-makale",
+    "word_boundary": true,
+    "_toplam_gecis": 32,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "nuraniyet": {
+    "aliases": [],
+    "co_occurring": [
+      "güneş",
+      "zerre",
+      "azamet",
+      "hakikat",
+      "kabiliyet",
+      "vazife"
+    ],
+    "antonyms": [],
+    "related": [
+      "nur",
+      "hal",
+      "madde",
+      "lütuf",
+      "inayet",
+      "ruh"
+    ],
+    "kok_risale": "sozler/on-dorduncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 30,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "fesahat": {
+    "aliases": [],
+    "co_occurring": [
+      "beyan",
+      "hal",
+      "zaman",
+      "iftihar",
+      "tarz",
+      "makam"
+    ],
+    "antonyms": [],
+    "related": [
+      "beşer",
+      "nazar",
+      "akıl",
+      "esbab",
+      "millet",
+      "muhit"
+    ],
+    "kok_risale": "sozler/yirmi-besinci-soz-2",
+    "word_boundary": true,
+    "_toplam_gecis": 29,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "hudûs": {
+    "aliases": [],
+    "co_occurring": [
+      "âlem",
+      "kâinat",
+      "vücud",
+      "hakikat",
+      "bahar",
+      "vazife"
+    ],
+    "antonyms": [],
+    "related": [
+      "mizan",
+      "adem",
+      "ezeliyet",
+      "kudret",
+      "hikmet",
+      "akıl"
+    ],
+    "kok_risale": "asa-yi-musa/birinci-huccet-i-imaniye",
+    "word_boundary": true,
+    "_toplam_gecis": 29,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "samedanî": {
+    "aliases": [],
+    "co_occurring": [
+      "vahdet",
+      "cemal",
+      "kemal",
+      "kâinat",
+      "hikmet",
+      "mevcudat"
+    ],
+    "antonyms": [],
+    "related": [
+      "bahar",
+      "beyan",
+      "ibadet",
+      "ders",
+      "tevhid",
+      "hilkat"
+    ],
+    "kok_risale": "sualar/ikinci-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 28,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "tahlil": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "mana",
+      "işaret",
+      "nazar",
+      "gayb",
+      "celal"
+    ],
+    "antonyms": [],
+    "related": [
+      "tefsir",
+      "kalp",
+      "hal",
+      "ümmet",
+      "makam"
+    ],
+    "kok_risale": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-1",
+    "word_boundary": true,
+    "_toplam_gecis": 25,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "celil": {
+    "aliases": [],
+    "co_occurring": [
+      "cemil",
+      "hakikat",
+      "haşmet",
+      "merhamet",
+      "şefkat",
+      "sema"
+    ],
+    "antonyms": [],
+    "related": [
+      "ebed",
+      "insan",
+      "güneş",
+      "rububiyet",
+      "mutlak",
+      "vücud"
+    ],
+    "kok_risale": "sozler/onuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 23,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "tekbir": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "asa-yi-musa/sekizinci-huccet-i-imaniye",
+    "word_boundary": true,
+    "_toplam_gecis": 22,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "şûra": {
+    "aliases": [],
+    "co_occurring": [
+      "meşveret",
+      "hayat",
+      "hürriyet",
+      "ima",
+      "ihlas",
+      "zaman"
+    ],
+    "antonyms": [],
+    "related": [
+      "istibdat",
+      "beşer",
+      "muhabbet",
+      "nur",
+      "temsil",
+      "âlem"
+    ],
+    "kok_risale": "hutbe-i-samiye/hutbe-i-samiye",
+    "word_boundary": true,
+    "_toplam_gecis": 21,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "tenzih": {
+    "aliases": [],
+    "co_occurring": [
+      "sünnet",
+      "hak",
+      "muhabbet",
+      "sır",
+      "hayvan",
+      "işaret"
+    ],
+    "antonyms": [],
+    "related": [
+      "nefis",
+      "insan",
+      "fıtrat",
+      "tarz",
+      "hamd",
+      "tesbih"
+    ],
+    "kok_risale": "mektubat/yirmi-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 20,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "tahmid": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "asa-yi-musa/sekizinci-huccet-i-imaniye",
+    "word_boundary": true,
+    "_toplam_gecis": 20,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "kardeşlik": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "sualar/on-dorduncu-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 19,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "sermedi": {
+    "aliases": [],
+    "co_occurring": [
+      "adalet",
+      "hikmet",
+      "kemal",
+      "fena",
+      "güneş",
+      "ölüm"
+    ],
+    "antonyms": [],
+    "related": [
+      "tarz",
+      "hukuk",
+      "mizan",
+      "inayet",
+      "saltanat",
+      "haşmet"
+    ],
+    "kok_risale": "asa-yi-musa/yedinci-mesele",
+    "word_boundary": true,
+    "_toplam_gecis": 18,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "müşrik": {
+    "aliases": [],
+    "co_occurring": [
+      "güneş",
+      "delil",
+      "azamet",
+      "rahmet",
+      "hak",
+      "hakikat"
+    ],
+    "antonyms": [],
+    "related": [
+      "hidayet",
+      "fesahat",
+      "itikad",
+      "uluhiyet"
+    ],
+    "kok_risale": "sozler/yirmi-besinci-soz-2",
+    "word_boundary": true,
+    "_toplam_gecis": 17,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "gösteriş": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "emirdag-lahikasi-i/emirdag-lahikasi-i-s-50-69",
+    "word_boundary": true,
+    "_toplam_gecis": 17,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "atom": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "delil",
+      "beşer",
+      "felsefe",
+      "millet",
+      "esbab"
+    ],
+    "antonyms": [],
+    "related": [
+      "âlem",
+      "mahiyet"
+    ],
+    "kok_risale": "emirdag-lahikasi-ii/emirdag-lahikasi-ii-s-171-189",
+    "word_boundary": true,
+    "_toplam_gecis": 17,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "taklid": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "suret",
+      "riya",
+      "beşer",
+      "hak",
+      "ceberut"
+    ],
+    "antonyms": [],
+    "related": [
+      "adalet",
+      "âlem",
+      "insan",
+      "iman"
+    ],
+    "kok_risale": "sozler/yirmi-besinci-soz-2",
+    "word_boundary": true,
+    "_toplam_gecis": 16,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "varlık": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "barla-lahikasi/barla-lahikasi-s-181-201",
+    "word_boundary": true,
+    "_toplam_gecis": 16,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "muhabbetullah": {
+    "aliases": [],
+    "co_occurring": [
+      "sünnet",
+      "güneş",
+      "iman",
+      "hal",
+      "ubudiyet",
+      "cemal"
+    ],
+    "antonyms": [],
+    "related": [
+      "muhabbet",
+      "işaret",
+      "kıyas",
+      "kâfir",
+      "küfür",
+      "suret"
+    ],
+    "kok_risale": "lemalar/on-birinci-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 16,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ezeliyet": {
+    "aliases": [],
+    "co_occurring": [
+      "vücud",
+      "adem",
+      "madde",
+      "nazar",
+      "vahdet",
+      "zerre"
+    ],
+    "antonyms": [],
+    "related": [
+      "sermediyet",
+      "hakikat",
+      "suret",
+      "hudûs",
+      "tesadüf",
+      "ezelî"
+    ],
+    "kok_risale": "lemalar/otuzuncu-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 15,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "müstağni": {
+    "aliases": [],
+    "co_occurring": [
+      "kemal",
+      "nimet",
+      "cemal",
+      "mutlak",
+      "hal",
+      "kudret"
+    ],
+    "antonyms": [],
+    "related": [
+      "rahmet",
+      "kâinat",
+      "uluhiyet",
+      "rububiyet",
+      "semavat",
+      "arz"
+    ],
+    "kok_risale": "sozler/otuz-ikinci-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 15,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "fehim": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "barla-lahikasi/barla-lahikasi-s-40-58",
+    "word_boundary": true,
+    "_toplam_gecis": 15,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "mümkin": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "mesnevi-i-nuriye/hubab",
+    "word_boundary": true,
+    "_toplam_gecis": 15,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "istidlal": {
+    "aliases": [],
+    "co_occurring": [
+      "kâinat",
+      "delil",
+      "mana",
+      "nübüvvet",
+      "haşir",
+      "adalet"
+    ],
+    "antonyms": [],
+    "related": [
+      "ima",
+      "vücud",
+      "kitap",
+      "arz",
+      "ibadet",
+      "vahdet"
+    ],
+    "kok_risale": "isaratul-icaz/bakara-suresi-23-24-ayetler",
+    "word_boundary": true,
+    "_toplam_gecis": 14,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "celalî": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "lemalar/on-ucuncu-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 14,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "teemmül": {
+    "aliases": [],
+    "co_occurring": [
+      "tefekkür",
+      "nur",
+      "ezelî",
+      "gaflet",
+      "zaman",
+      "keşif"
+    ],
+    "antonyms": [],
+    "related": [
+      "sünnet",
+      "hak",
+      "tarz",
+      "esbab"
+    ],
+    "kok_risale": "mesnevi-i-nuriye/habbe",
+    "word_boundary": true,
+    "_toplam_gecis": 14,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "seyir": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "tarihce-i-hayat/isparta-hayati",
+    "word_boundary": true,
+    "_toplam_gecis": 14,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ukba": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "sozler/lemaat",
+    "word_boundary": true,
+    "_toplam_gecis": 13,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "sermediyet": {
+    "aliases": [],
+    "co_occurring": [
+      "âhiret",
+      "kâinat",
+      "haşmet",
+      "hayat",
+      "adalet",
+      "âlem"
+    ],
+    "antonyms": [],
+    "related": [
+      "cemal",
+      "hakikat",
+      "celil",
+      "mevcudat",
+      "güneş",
+      "idare"
+    ],
+    "kok_risale": "sozler/onuncu-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 12,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "yokluk": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "lemalar/yirmi-altinci-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 12,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "kürsî": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "asa-yi-musa/on-birinci-mesele",
+    "word_boundary": true,
+    "_toplam_gecis": 12,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "savm": {
+    "aliases": [],
+    "co_occurring": [
+      "hayat",
+      "hikmet",
+      "insan",
+      "beyan",
+      "nefs",
+      "ubudiyet"
+    ],
+    "antonyms": [],
+    "related": [
+      "hal",
+      "gaflet",
+      "oruç",
+      "âhiret",
+      "ruh"
+    ],
+    "kok_risale": "mektubat/yirmi-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 11,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "burhan": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "emirdag-lahikasi-i/emirdag-lahikasi-i-s-212-230",
+    "word_boundary": true,
+    "_toplam_gecis": 11,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "sevgi": {
+    "aliases": [],
+    "co_occurring": [
+      "nur",
+      "hayat",
+      "arş"
+    ],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "sozler/konferans-sozler",
+    "word_boundary": true,
+    "_toplam_gecis": 11,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "kuran": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "asa-yi-musa/altinci-mesele",
+    "word_boundary": true,
+    "_toplam_gecis": 10,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "cemalî": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "lemalar/on-ucuncu-lema",
+    "word_boundary": true,
+    "_toplam_gecis": 10,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "vefa": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "muhakemat/ikinci-makale",
+    "word_boundary": true,
+    "_toplam_gecis": 10,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "hafi": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "barla-lahikasi/barla-lahikasi-s-59-80",
+    "word_boundary": true,
+    "_toplam_gecis": 8,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "kibir": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "mesnevi-i-nuriye/onuncu-risale",
+    "word_boundary": true,
+    "_toplam_gecis": 7,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "temkin": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "sualar/on-dorduncu-sua",
+    "word_boundary": true,
+    "_toplam_gecis": 7,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "bakış": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "barla-lahikasi/barla-lahikasi-s-103-121",
+    "word_boundary": true,
+    "_toplam_gecis": 6,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ceberut": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "mektubat/on-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 5,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "huy": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "asa-yi-musa/birinci-huccet-i-imaniye",
+    "word_boundary": true,
+    "_toplam_gecis": 5,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "dehr": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "munazarat/munazarat",
+    "word_boundary": true,
+    "_toplam_gecis": 5,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "nahnü": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "kastamonu-lahikasi/kastamonu-lahikasi-s-167-189",
+    "word_boundary": true,
+    "_toplam_gecis": 4,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "fıkıh": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "isaratul-icaz/ecnebi-feylesoflarin-kuran-hakkindaki-beyanatlari",
+    "word_boundary": true,
+    "_toplam_gecis": 4,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "tedebbür": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "muhakemat/ucuncu-makale",
+    "word_boundary": true,
+    "_toplam_gecis": 4,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "basiret": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "isaratul-icaz/bakara-suresi-11-12-ayetler",
+    "word_boundary": true,
+    "_toplam_gecis": 2,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "tekvin": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "muhakemat/ucuncu-makale",
+    "word_boundary": true,
+    "_toplam_gecis": 2,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "gerçek": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "emirdag-lahikasi-i/emirdag-lahikasi-i-s-70-90",
+    "word_boundary": true,
+    "_toplam_gecis": 2,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "hadis": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "mektubat/on-dorduncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 2,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "rıfk": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "mektubat/on-dokuzuncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 2,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "tebyin": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "asa-yi-musa/on-birinci-mesele",
+    "word_boundary": true,
+    "_toplam_gecis": 2,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "ferdaniyet": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "sozler/on-altinci-soz",
+    "word_boundary": true,
+    "_toplam_gecis": 1,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "lahut": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-2",
+    "word_boundary": true,
+    "_toplam_gecis": 1,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "vera": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "muhakemat/birinci-makale",
+    "word_boundary": true,
+    "_toplam_gecis": 1,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "vücut": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "mektubat/on-dorduncu-mektup",
+    "word_boundary": true,
+    "_toplam_gecis": 1,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "buğz": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "isaratul-icaz/bakara-suresi-11-12-ayetler",
+    "word_boundary": true,
+    "_toplam_gecis": 1,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "dalâlet": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "mesnevi-i-nuriye/habbe",
+    "word_boundary": true,
+    "_toplam_gecis": 1,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  },
+  "sapkınlık": {
+    "aliases": [],
+    "co_occurring": [],
+    "antonyms": [],
+    "related": [],
+    "kok_risale": "sozler/konferans-sozler",
+    "word_boundary": true,
+    "_toplam_gecis": 1,
+    "_note": "auto-generated — aliases/antonyms elle tamamlanmali"
+  }
+}

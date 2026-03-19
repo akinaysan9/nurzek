@@ -1,0 +1,1019 @@
+import os
+import re
+import json
+import uuid
+import time
+import pickle
+import asyncio
+import logging
+import unicodedata
+from collections import Counter
+from typing import List, Optional
+
+import numpy as np
+
+from fastapi import FastAPI, Request
+from fastapi.responses import StreamingResponse
+from pydantic import BaseModel
+from sentence_transformers import SentenceTransformer
+from openai import OpenAI
+from dotenv import load_dotenv
+
+from conversations import router as conv_router
+from database import get_db
+
+try:
+    from nano_graphrag import GraphRAG, QueryParam
+    from nano_graphrag._utils import wrap_embedding_func_with_attrs
+except Exception as exc:
+    GraphRAG = None
+    QueryParam = None
+    wrap_embedding_func_with_attrs = None
+    logging.warning("nano-graphrag import unavailable: %s", exc)
+
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+load_dotenv()
+
+app = FastAPI(title="NurZeka V2 API")
+app.include_router(conv_router)
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+METADATA_PATH = os.path.join(BASE_DIR, "risale_metadata.pkl")
+RISALE_SOZLUK_PATH = os.path.join(BASE_DIR, "risale_sozluk.json")
+NANO_GRAPHRAG_WORK_DIR = os.path.join(BASE_DIR, "nano_graphrag_cache")
+KAVRAMLAR_JSON_PATH = os.path.join(os.path.dirname(BASE_DIR), "frontend", "src", "kavramlar.json")
+OTTOMAN_DICT_JSON_PATH = os.path.join(os.path.dirname(BASE_DIR), "frontend", "src", "ottoman_dict.json")
+
+EMBEDDING_MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+TOP_K = 10
+NANO_GRAPHRAG_TOP_K_MULTIPLIER = 4
+NANO_GRAPHRAG_MIN_QUERY_TOP_K = 24
+MIN_DISTINCT_SOURCES = 3
+GRAPH_QUERY_TIMEOUT_SEC = 25
+GRAPH_QUERY_MAX_RETRIES = 2
+GRAPH_QUERY_BACKOFF_SEC = 0.8
+LLM_TIMEOUT_SEC = 70
+LLM_MAX_RETRIES = 2
+LLM_BACKOFF_SEC = 1.0
+
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+client = OpenAI(api_key=DEEPSEEK_API_KEY or "sk-placeholder", base_url="https://api.deepseek.com")
+
+# ============================================================================
+# SYSTEM PROMPT - TEK VE DOĞRU VERSİYON
+# ============================================================================
+
+SYSTEM_PROMPT = """Sen "Nur Zekâ"sın.
+
+Risale-i Nur Külliyatı'nın tamamına — Sözler, Mektubat, Lem'alar, Şualar,
+Mesnevi-i Nuriye ve Lahikalar'a — derinlemesine vakıf; Kur'an'ın tefsir
+metodolojisini, bilhassa "nazm" (kavramların dizilişindeki anlam) ilmini
+bilen ve bu ilmi dijital bir müzakere ortamına taşıyan bir şarih ve
+analistsin.
+
+Görevin yalnızca bilgi aktarmak değil; metni okuyucunun önünde açmak,
+kavramların içindeki gizli mimariye ışık tutmak ve bu hakikatlerin bugünkü
+insan için ne anlam ifade ettiğini keşfettirmektir.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## I. EPİSTEMOLOJİK TEMEL: KAYNAĞA BAĞLILIK
+
+Sana CONTEXT BLOCK içinde külliyat metinleri verilir. Cevabın bu metinlere
+dayanır. Her çıkarımını metinden bir alıntıyla desteklersin.
+
+Genel bilgi üretme. Tahmin yürütme.
+
+Kullanıcı "X nedir?", "kaçtır?", "dört düstur nelerdir?" gibi net cevap
+istiyorsa cevaba önce kısa ve doğrudan cevapla başla. Context'te ifade
+kelimesi kelimesine geçmese bile, context'in açıkça desteklediği çıkarımı
+"bu metinlerden hareketle" diyerek ver; "context block içinde geçmiyor"
+şeklinde kaçamak veya savunmacı cümle kurma.
+
+Bir atıf veya alıntı yaparken o ifade kelimesi kelimesine CONTEXT BLOCK içinde geçmiyorsa asla alıntıymış gibi sunma. 'Bediüzzaman şöyle der:' kalıbını yalnızca context'te birebir bulunan ifadeler için kullan. Eğer kavram context'te işlenmiş ama o exact ifade yoksa 'bu metinde şu anlam öne çıkıyor' gibi yorumlayıcı bir dille sun, alıntı formatında değil.
+
+Metinden beslenmeyen her cümle,
+tefekkürün değil hayal gücünün ürünüdür — bu sisteme yabancıdır.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## II. METİN OKUMA METODOLOJİN: BEŞ KATMAN
+
+Her metni bu beş katmanda analiz edersin:
+
+### KATMAN 1 — NAZM: Kavramların Diziliş Sırası
+Risale'deki her kavram sırası kasıtlıdır — Kur'an'ın nazm ilminden mülhem.
+"Acz → Fakr → Şükür → Tefekkür" sırası rastlantı değildir; her kavram
+bir sonrakinin kapısını açar. Bu sırayı tespit et ve neden böyle sıralandığını
+açıkla. Sıranın kendisi bir argümandır.
+
+### KATMAN 2 — TEMSİL → HAKİKAT → TATBİK ÜÇGENI
+Bediüzzaman her büyük hakikati üç adımda sunar:
+  a) TEMSİL: Bir analoji, mecaz veya somut örnek verir
+  b) HAKİKAT: "İşte bunun gibi..." diyerek soyut gerçeğe geçer
+  c) TATBİK: Bazen pratik hayata uygular
+
+Bu üçgeni her metinde tespit et. Temsilin hangi hakikatin anahtarı
+olduğunu göster. Cevabını da bu yapıyla kur.
+
+### KATMAN 3 — DİYALEKTİK YAPI: İddia → İtiraz → Cevap
+Bediüzzaman her büyük iddiasını bir itirazla sınar:
+  "Vehim:" / "Sual:" / "İ'tiraz:" ile başlayan kısımlar bu itirazlardır.
+  Sonraki "Cevap:" / "Elcevap:" ise hakikatin sınanmış halidir.
+
+Bu yapıyı fark et. Kullanıcının sorusunda gizli bir itiraz varsa onu da
+yüzeye çıkar ve Bediüzzaman'ın metodu gibi hem soruyu hem karşı-soruyu
+birlikte cevapla.
+
+### KATMAN 4 — KÜLLİYAT İÇİ ÇAPRAZ REFERANS
+Hiçbir kavram Risale'de tek bir yerde işlenmez. "Ene" 30. Söz'de bir
+boyutuyla, Mesnevi-i Nuriye'de başka bir boyutuyla, Şualar'da farklı
+bir tezahürüyle karşımıza çıkar. Context'teki metin hangi külliyat
+bölümünden geliyorsa, o kavramın diğer bölümlerdeki yankısını da —
+eğer context'te mevcutsa — bağlaştır. Bağlantı yoksa işaret et:
+"Bu mesele [diğer bölüm adı]'nda farklı bir pencereden ele alınır."
+
+### KATMAN 5 — TERMİNOLOJİ HARİTASI
+Osmanlıca ve Arapça terimleri üç boyutuyla sun:
+  • Sözlük anlamı (kelimenin aslı)
+  • Risale'deki teknik anlamı (nasıl kullanılıyor)
+  • Modern karşılığı (bugünkü insanın dünyasında ne demek)
+
+Örnek:
+"Vahidiyet" → sözlükte "birlik", Risale'de "Allah'ın isimlerinin kâinatta
+toplu tezahürü", modern karşılığı "evrensel yasaların tek kaynağa işaret
+etmesi".
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## III. CEVAP YAPISI: AKAN NESİR, ROBOTIK BAŞLIK YOK
+
+Cevabını numaralı başlıklar ve maddeler olarak değil; akan, nefes alan,
+birbiriyle konuşan paragraflar olarak yaz. İlim meclisinde konuşur gibi.
+
+Takip edeceğin iç sıra (ama bunu başlık olarak gösterme):
+
+1. Metinden vurucu bir alıntıyla başla — hemen ardından [Kitap, Bölüm] yaz
+2. O metindeki nazm sırasını ve temsil-hakikat köprüsünü açık et
+3. Kavramların birbirine nasıl kapı açtığını göster
+4. Külliyat içi bağlantıyı kur (context'te varsa)
+5. Terminolojiyi doğal şekilde aç
+6. Modern insanın dünyasına bir köprü kur — soyut kalma, elle tutulur ol
+7. Gerekirse diyalektik yap: gizli itirazı yüzeye çıkar ve cevapla
+
+Uzunluk: 450–650 kelime. Ne özet ne deneme — tefekkür.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## IV. ÜSLUP VE TON
+
+- Alıntılar daima "tırnak içinde", hemen ardından [Kitap — Bölüm] ile
+- Osmanlıca terim ilk kullanımda parantez içinde açıklanır, sonra serbestçe kullanılır
+- Kendi görüşünü sunmak yerine metnin görüşünü keşfettir — "görüyoruz ki",
+  "Bediüzzaman burada şunu gösteriyor" gibi
+- Kullanıcıya öğretme — onunla birlikte metni gez, onu metnin içine al
+- Uzun listeler ve maddeler kullanma — her fikir bir paragrafta nefes alsın
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## V. ÖZEL DURUMLAR
+
+### Kullanıcı Kısa / Net Bir Tanım Sorarsa
+"İman nedir?" gibi doğrudan sorularda önce kısa ve güçlü bir metin alıntısı,
+sonra o alıntının açılımı. Uzun şerhe gerek yok — derinlik, uzunlukta değil.
+
+### Kullanıcı Kendi Yorumunu Getirirse
+"Bence bu metin şunu söylüyor..." derse: önce onun yorumunu ciddiye al,
+sonra metinden destek veya düzeltme sun. "Haklısınız, şu ifade bunu
+doğruluyor" ya da "Şu metin bize farklı bir yön gösteriyor" de.
+
+### Kullanıcı Uzun Bir Metin Gönderirse
+Retrieval'a gerek yok — doğrudan o metni analiz et. "Bu metni
+birlikte okuyalım..." diyerek başla.
+
+### İki Kavramı Karşılaştırma
+"Vahidiyet ile Ehadiyet farkı nedir?" gibi sorularda her kavramı önce
+kendi bağlamında tanı, sonra Bediüzzaman'ın ikisini nasıl ilişkilendirdiğini
+göster. Karşıtlık değil, tamamlayıcılık vurgula.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## VI. SNAP ANI VE AÇIK UÇLI SORU
+
+Her cevabın sonunda, kullanıcının kendi aklıyla bir adım daha atmasını
+sağlayacak tek bir açık uçli soru sor. Bu soru:
+
+- Dogmatik değil, keşifsel olsun — "doğru cevap" bekleme
+- Metinden organik doğsun — sonradan yapıştırılmış gibi durmasın
+- Kullanıcıyı metne değil, kendi tecrübesine veya düşüncesine yöneltsin
+- Kısa ve keskin olsun — tek cümle, fazlası değil
+
+Örnek: "Peki sence Bediüzzaman 'acz'i neden 'fakr'dan önce zikrediyor —
+bu sıra senin için ne değiştirir?"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## VII. ÇAPRAZ MEDENİYET KÖPRÜSÜ
+
+Uygun bağlamlarda — kullanıcı doğrudan sormasa bile — ele alınan kavramın
+İslam dışı düşünce geleneklerindeki yankısını kur. Bu köprü zorunlu değil,
+organik olduğunda kurulsun.
+
+Kaynak havuzu:
+- İslam Klasikleri: Gazali (İhya), İbn Arabi (Fusus), Mevlana (Mesnevi)
+- Batı Felsefesi: Spinoza, Kant, Kierkegaard, Heidegger
+- Edebiyat: Goethe (Faust), Dostoyevski, Dante
+- Psikoloji: Jung (gölge / kendilik), Frankl (anlam), Maslow
+- Stoacılık: Epiktetos, Marcus Aurelius
+
+Sunum kuralları:
+- Uyuşan fikir: "Goethe de Faust'ta benzer bir gerilimi işler —
+  insanın içindeki karanlık güç yok edilemez, dönüştürülür."
+- Tezat fikir: "Nietzsche burada tam karşı cephede durur — acz değil,
+  güç iradesi. Bu farkın kaynağı nedir sence?"
+- Tarafsız kal — "Bediüzzaman haklı, Nietzsche yanılıyor" deme,
+  farkı göster, soruyu kullanıcıya bırak
+- En fazla bir karşılaştırma per cevap — çok sayıda isim sıralama
+
+Açıklamalarını yaparken sadece sana verilen metinlere sadık kal. Kendi genel bilgilerinden veya sunulan metinlerde bulunmayan kaynaklardan atıf yapma.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CONTEXT BLOCK:
+{context}
+"""
+
+
+@app.middleware("http")
+async def auth_middleware(request: Request, call_next):
+    public_paths = ["/api/login", "/api/register", "/static", "/docs", "/openapi.json"]
+    path = request.url.path
+    if path == "/" or any(path.startswith(p) for p in public_paths):
+        return await call_next(request)
+
+    x_user_id = request.headers.get("x-user-id")
+    if x_user_id:
+        request.state.user_id = x_user_id
+        return await call_next(request)
+
+    auth_header = request.headers.get("Authorization", "")
+    token = auth_header.replace("Bearer ", "") if auth_header.startswith("Bearer ") else None
+    if token:
+        request.state.user_id = token
+
+    return await call_next(request)
+
+
+class GlobalState:
+    embedding_model: Optional[SentenceTransformer] = None
+    chunks: Optional[List[dict]] = None
+    chunk_lookup: dict = {}
+    risale_chunk_index: dict = {}
+    risale_sozluk: list = []
+    risale_lookup: dict = {}
+    kavram_map: dict = {}
+    ottoman_dict: dict = {}
+    graphrag: Optional[GraphRAG] = None
+    graphrag_ready: bool = False
+
+
+state = GlobalState()
+
+
+def normalize_alias(value: str) -> str:
+    text = str(value or "").strip()
+    text = text.replace("İ", "i").replace("I", "i").replace("ı", "i")
+    text = text.lower()
+    text = "".join(ch for ch in unicodedata.normalize("NFKD", text) if not unicodedata.combining(ch))
+    text = text.replace("ğ", "g").replace("ü", "u").replace("ş", "s")
+    text = text.replace("ö", "o").replace("ç", "c")
+    text = text.replace("â", "a").replace("î", "i").replace("û", "u")
+    text = re.sub(r"[^a-z0-9\s]", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def normalize_for_match(value: str) -> str:
+    return normalize_alias(value)
+
+
+def to_slug(value: str) -> str:
+    text = normalize_alias(value)
+    return re.sub(r"\s+", "-", text).strip("-")
+
+
+def strip_frontmatter(text: str) -> str:
+    return re.sub(r"^---[\s\S]*?---\s*", "", text or "").strip()
+
+
+def load_risale_sozluk():
+    state.risale_sozluk = []
+    state.risale_lookup = {}
+    if not os.path.exists(RISALE_SOZLUK_PATH):
+        return
+
+    try:
+        with open(RISALE_SOZLUK_PATH, "r", encoding="utf-8") as f:
+            payload = json.load(f)
+        state.risale_sozluk = payload.get("entries", []) if isinstance(payload, dict) else []
+
+        aliases = payload.get("aliases", {}) if isinstance(payload, dict) else {}
+        for alias, mappings in aliases.items():
+            key = normalize_for_match(alias)
+            if len(key) < 2:
+                continue
+            state.risale_lookup.setdefault(key, {"exact": set(), "broad": set()})
+            for item in mappings or []:
+                slug = str(item.get("slug") or "").strip()
+                source = str(item.get("source") or "broad").strip().lower()
+                if not slug:
+                    continue
+                if source == "exact":
+                    state.risale_lookup[key]["exact"].add(slug)
+                else:
+                    state.risale_lookup[key]["broad"].add(slug)
+
+        for key in list(state.risale_lookup.keys()):
+            exact = sorted(set(state.risale_lookup[key].get("exact", set())))
+            broad = sorted(set(state.risale_lookup[key].get("broad", set())) - set(exact))
+            state.risale_lookup[key] = {"exact": exact, "broad": broad}
+
+        logging.info("Risale dictionary loaded: entries=%s terms=%s", len(state.risale_sozluk), len(state.risale_lookup))
+    except Exception as exc:
+        logging.warning("Risale dictionary load failed: %s", exc)
+
+
+def load_aux_lexicons():
+    state.kavram_map = {}
+    state.ottoman_dict = {}
+
+    try:
+        if os.path.exists(KAVRAMLAR_JSON_PATH):
+            with open(KAVRAMLAR_JSON_PATH, "r", encoding="utf-8") as f:
+                raw = json.load(f)
+            if isinstance(raw, dict):
+                state.kavram_map = {normalize_for_match(k): v for k, v in raw.items() if str(k).strip()}
+    except Exception as exc:
+        logging.warning("Kavram lexicon load failed: %s", exc)
+
+    try:
+        if os.path.exists(OTTOMAN_DICT_JSON_PATH):
+            with open(OTTOMAN_DICT_JSON_PATH, "r", encoding="utf-8") as f:
+                raw = json.load(f)
+            if isinstance(raw, dict):
+                state.ottoman_dict = {normalize_for_match(k): v for k, v in raw.items() if str(k).strip()}
+    except Exception as exc:
+        logging.warning("Ottoman dictionary load failed: %s", exc)
+
+
+def get_temperature(question: str) -> float:
+    if len((question or "").split()) <= 4:
+        return 0.2
+    return 0.05
+
+
+def get_chunk_identity(chunk: dict) -> str:
+    metadata = chunk.get("metadata", {}) if isinstance(chunk.get("metadata"), dict) else {}
+    return str(chunk.get("id") or metadata.get("id") or metadata.get("original_order_index") or id(chunk))
+
+
+def get_chunk_canonical_slug(chunk: dict) -> str:
+    metadata = chunk.get("metadata", {}) if isinstance(chunk.get("metadata"), dict) else {}
+    slug = str(metadata.get("risale_canonical_slug") or metadata.get("risale_slug") or "").strip()
+    if slug:
+        return slug
+    chapter = str(metadata.get("chapter") or chunk.get("chapter") or "").strip()
+    return to_slug(chapter)
+
+
+def get_chunk_book_and_section(chunk: dict) -> tuple[str, str]:
+    metadata = chunk.get("metadata", {}) if isinstance(chunk.get("metadata"), dict) else {}
+    book = str(metadata.get("book") or chunk.get("book") or "Belirtilmemiş").strip() or "Belirtilmemiş"
+    chapter = str(metadata.get("chapter") or chunk.get("chapter") or "Belirtilmemiş").strip() or "Belirtilmemiş"
+    return book, chapter
+
+
+def get_chunk_source_label(chunk: dict) -> str:
+    book, chapter = get_chunk_book_and_section(chunk)
+    return f"{book} / {chapter}"
+
+
+def build_source_payload(chunks: list) -> list:
+    payload = []
+    for chunk in chunks:
+        if not isinstance(chunk, dict):
+            continue
+        metadata = chunk.get("metadata", {}) if isinstance(chunk.get("metadata"), dict) else {}
+        book, chapter = get_chunk_book_and_section(chunk)
+        text = re.sub(r"\s+", " ", strip_frontmatter(chunk.get("text", ""))).strip()
+        source_slug = str(metadata.get("source") or "").replace(".md", "").strip()
+        canonical_slug = get_chunk_canonical_slug(chunk)
+        payload.append(
+            {
+                "id": get_chunk_identity(chunk),
+                "kitap": book,
+                "bolum_adi": chapter,
+                "book_slug": canonical_slug or source_slug,
+                "chapter_slug": source_slug or canonical_slug,
+                "bolum_no": metadata.get("original_order_index", 0),
+                "pasaj": (text[:260] + "...") if len(text) > 260 else text,
+                "source": source_slug,
+            }
+        )
+    return payload
+
+
+def build_context(chunks: list) -> str:
+    if not chunks:
+        return "[KAYNAK BULUNAMADI]"
+
+    selected = chunks[:TOP_K]
+    primary_slug = get_chunk_canonical_slug(selected[0]) if selected else ""
+    lines = []
+    for chunk in selected:
+        source = get_chunk_source_label(chunk)
+        text = re.sub(r"\s+", " ", strip_frontmatter(chunk.get("text", ""))).strip()
+        slug = get_chunk_canonical_slug(chunk)
+        if primary_slug and slug == primary_slug:
+            lines.append(f"[ANA KAYNAK - {source}]")
+        else:
+            lines.append(f"[KAVRAMSAL KÖPRÜ (Destekleyici) - {source}]")
+        lines.append(text)
+        lines.append("")
+    return "\n".join(lines).strip()
+
+
+def sanitize_answer_text(text: str) -> str:
+    clean = str(text or "").strip()
+    clean = re.sub(r"\n{3,}", "\n\n", clean)
+    return clean
+
+
+def _make_graphrag_embedding_func():
+    if state.embedding_model is None:
+        raise RuntimeError("Embedding model is not initialized")
+    embedding_dim = int(state.embedding_model.get_sentence_embedding_dimension())
+
+    @wrap_embedding_func_with_attrs(embedding_dim=embedding_dim, max_token_size=8192)
+    async def _embed(texts: list[str]) -> np.ndarray:
+        vectors = state.embedding_model.encode(texts, convert_to_numpy=True)
+        return np.asarray(vectors, dtype=np.float32)
+
+    return _embed
+
+
+async def _graphrag_model_call(prompt, system_prompt=None, **kwargs):
+    full_prompt = str(system_prompt or "") + "\n\n" + str(prompt or "")
+    response_format = kwargs.get("response_format") or {}
+
+    def _call():
+        return client.chat.completions.create(
+            model="deepseek-chat",
+            messages=[{"role": "user", "content": full_prompt[:12000]}],
+            temperature=0.1,
+            stream=False,
+            response_format=response_format if isinstance(response_format, dict) and response_format else None,
+        )
+
+    try:
+        resp = await asyncio.to_thread(_call)
+        return str(resp.choices[0].message.content or "")
+    except Exception as exc:
+        logging.warning("GraphRAG LLM call failed: %s", exc)
+        if isinstance(response_format, dict) and response_format.get("type") == "json_object":
+            return json.dumps({"points": [{"description": "fallback", "score": 0.1}]}, ensure_ascii=False)
+        return "fallback"
+
+
+def init_nano_graphrag():
+    state.graphrag = None
+    state.graphrag_ready = False
+
+    if GraphRAG is None or QueryParam is None or wrap_embedding_func_with_attrs is None:
+        logging.warning("GraphRAG modules unavailable")
+        return
+    if not os.path.isdir(NANO_GRAPHRAG_WORK_DIR):
+        logging.warning("GraphRAG work dir not found: %s", NANO_GRAPHRAG_WORK_DIR)
+        return
+    if state.embedding_model is None:
+        logging.warning("Embedding model unavailable; GraphRAG init skipped")
+        return
+
+    try:
+        state.graphrag = GraphRAG(
+            working_dir=NANO_GRAPHRAG_WORK_DIR,
+            enable_local=True,
+            enable_naive_rag=False,
+            always_create_working_dir=True,
+            enable_llm_cache=False,
+            embedding_func=_make_graphrag_embedding_func(),
+            best_model_func=_graphrag_model_call,
+            cheap_model_func=_graphrag_model_call,
+        )
+        state.graphrag_ready = True
+        logging.info("nano-graphrag ready: %s", NANO_GRAPHRAG_WORK_DIR)
+    except Exception as exc:
+        state.graphrag = None
+        state.graphrag_ready = False
+        logging.warning("GraphRAG initialization failed: %s", exc)
+
+
+def _extract_chunk_ids_from_graphrag_context(raw_text: str) -> list:
+    ids = []
+    seen = set()
+    for match in re.findall(r"\[CHUNK_ID:(\d+)\]", str(raw_text or "")):
+        try:
+            idx = int(match)
+        except Exception:
+            continue
+        if idx in seen:
+            continue
+        seen.add(idx)
+        ids.append(idx)
+    return ids
+
+
+def _is_general_theme_query(query: str) -> bool:
+    q = normalize_for_match(query)
+    if not q:
+        return True
+
+    words = q.split()
+    generic_patterns = [
+        "nedir",
+        "ne demek",
+        "anlami nedir",
+        "tanimi",
+        "aciklar misin",
+        "acikla",
+    ]
+    specific_markers = [
+        "risalesi",
+        "risalesinin",
+        "mektup",
+        "lem",
+        "sua",
+        "dustur",
+        "mahiyeti",
+        "bahsi",
+        "bolum",
+        "dorduncu",
+        "ene",
+    ]
+
+    if any(marker in q for marker in specific_markers):
+        return False
+    if re.search(r"\d", q):
+        return False
+
+    for token in words:
+        if token in state.risale_lookup:
+            return False
+
+    if any(pattern in q for pattern in generic_patterns) and len(words) <= 8:
+        return True
+    return len(words) <= 3
+
+
+def _route_query_mode(query: str) -> str:
+    return "global" if _is_general_theme_query(query) else "local"
+
+
+async def _query_graphrag_mode_with_resilience(query: str, mode: str, top_k: int) -> list:
+    last_error = None
+    for attempt in range(1, GRAPH_QUERY_MAX_RETRIES + 2):
+        try:
+            param = QueryParam(mode=mode, only_need_context=True, top_k=top_k)
+            context_text = await asyncio.wait_for(
+                asyncio.to_thread(state.graphrag.query, query, param),
+                timeout=GRAPH_QUERY_TIMEOUT_SEC,
+            )
+            return _extract_chunk_ids_from_graphrag_context(context_text)
+        except Exception as exc:
+            last_error = exc
+            if attempt <= GRAPH_QUERY_MAX_RETRIES:
+                delay = GRAPH_QUERY_BACKOFF_SEC * (2 ** (attempt - 1))
+                logging.warning(
+                    "GraphRAG %s query attempt %s failed; retrying in %.1fs (%s)",
+                    mode,
+                    attempt,
+                    delay,
+                    exc,
+                )
+                await asyncio.sleep(delay)
+
+    if last_error is not None:
+        logging.warning("GraphRAG %s query exhausted retries: %s", mode, last_error)
+    return []
+
+
+async def _query_nano_graphrag_chunk_ids(query: str, top_k: int = TOP_K) -> tuple[list, str]:
+    if not state.graphrag_ready or state.graphrag is None:
+        return [], "none"
+
+    query_top_k = max(int(top_k * NANO_GRAPHRAG_TOP_K_MULTIPLIER), NANO_GRAPHRAG_MIN_QUERY_TOP_K)
+    preferred_mode = _route_query_mode(query)
+    mode_order = [preferred_mode, "global" if preferred_mode == "local" else "local"]
+
+    for mode in mode_order:
+        chunk_ids = await _query_graphrag_mode_with_resilience(query, mode, query_top_k)
+        if chunk_ids:
+            return chunk_ids, mode
+
+    return [], "none"
+
+
+def dedupe_chunks(chunks: list) -> list:
+    seen = set()
+    deduped = []
+    for chunk in chunks or []:
+        cid = get_chunk_identity(chunk)
+        if cid in seen:
+            continue
+        seen.add(cid)
+        deduped.append(chunk)
+    return deduped
+
+
+def ensure_source_diversity(chunks: list, top_k: int = TOP_K, min_distinct_sources: int = MIN_DISTINCT_SOURCES) -> list:
+    ranked = dedupe_chunks(chunks)
+    if not ranked:
+        return []
+
+    primary_slug = get_chunk_canonical_slug(ranked[0])
+    primary = [c for c in ranked if get_chunk_canonical_slug(c) == primary_slug]
+    secondary = [c for c in ranked if get_chunk_canonical_slug(c) != primary_slug]
+
+    secondary_by_slug = {}
+    for chunk in secondary:
+        slug = get_chunk_canonical_slug(chunk)
+        if not slug or slug in secondary_by_slug:
+            continue
+        secondary_by_slug[slug] = chunk
+
+    reserve = min(max(min_distinct_sources - 1, 0), len(secondary_by_slug))
+    primary_limit = max(1, top_k - reserve)
+
+    selected = primary[:primary_limit]
+    selected.extend(list(secondary_by_slug.values())[:reserve])
+
+    if len(selected) < top_k:
+        used_ids = {get_chunk_identity(c) for c in selected}
+        for chunk in secondary:
+            cid = get_chunk_identity(chunk)
+            if cid in used_ids:
+                continue
+            selected.append(chunk)
+            used_ids.add(cid)
+            if len(selected) >= top_k:
+                break
+
+    return selected[:top_k]
+
+
+def _keyword_fallback_chunks(query: str, top_k: int = TOP_K) -> list:
+    tokens = [t for t in re.findall(r"[a-zA-Z0-9çğıöşüÇĞİÖŞÜ]+", normalize_for_match(query)) if len(t) >= 3]
+    if not tokens or not state.chunks:
+        return []
+
+    scored = []
+    for idx, chunk in enumerate(state.chunks):
+        metadata = chunk.get("metadata", {}) if isinstance(chunk.get("metadata"), dict) else {}
+        haystack = " ".join(
+            [
+                str(metadata.get("book") or ""),
+                str(metadata.get("chapter") or ""),
+                str(chunk.get("text") or ""),
+            ]
+        ).lower()
+        score = 0
+        for token in tokens:
+            if token in haystack:
+                score += haystack.count(token)
+        if score <= 0:
+            continue
+
+        item = chunk.copy()
+        item["_idx"] = int(idx)
+        item["_retrieval"] = "keyword_fallback"
+        item["_mode"] = "fallback"
+        item["_score"] = float(score)
+        scored.append(item)
+
+    scored.sort(key=lambda c: c.get("_score", 0.0), reverse=True)
+    diversified = ensure_source_diversity(scored, top_k=top_k, min_distinct_sources=MIN_DISTINCT_SOURCES)
+    return dedupe_chunks(diversified)
+
+
+def _fallback_answer_from_chunks(question: str, chunks: list) -> str:
+    if not chunks:
+        return "Bu soru için uygun bağlam bulunamadı. [Kaynak: Bulunamadı]"
+
+    lines = [
+        "Sistem geçici sorgu yoğunluğu nedeniyle özet cevap fallback kipinde hazırlandı. [Kaynak: Sistem Durumu]",
+        f"Soru odağı: {str(question or '').strip()} [Kaynak: Kullanıcı Sorusu]",
+    ]
+    for chunk in chunks[:3]:
+        source = get_chunk_source_label(chunk)
+        text = re.sub(r"\s+", " ", strip_frontmatter(chunk.get("text", ""))).strip()
+        snippet = text[:260] + ("..." if len(text) > 260 else "")
+        lines.append(f"{snippet} [Kaynak: {source}]")
+    return "\n".join(lines)
+
+
+async def _chat_completion_with_resilience(system_prompt: str, user_question: str) -> str:
+    last_error = None
+    for attempt in range(1, LLM_MAX_RETRIES + 2):
+        try:
+            def _call():
+                return client.chat.completions.create(
+                    model="deepseek-chat",
+                    messages=[
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": user_question},
+                    ],
+                    stream=False,
+                    temperature=get_temperature(user_question),
+                    max_tokens=3000,
+                )
+
+            resp = await asyncio.wait_for(asyncio.to_thread(_call), timeout=LLM_TIMEOUT_SEC)
+            return sanitize_answer_text(resp.choices[0].message.content or "")
+        except Exception as exc:
+            last_error = exc
+            if attempt <= LLM_MAX_RETRIES:
+                delay = LLM_BACKOFF_SEC * (2 ** (attempt - 1))
+                logging.warning(
+                    "Answer generation attempt %s failed; retrying in %.1fs (%s)",
+                    attempt,
+                    delay,
+                    exc,
+                )
+                await asyncio.sleep(delay)
+
+    raise RuntimeError(f"Answer generation failed after retries: {last_error}")
+
+
+async def retrieve_chunks(query: str, top_k: int = TOP_K) -> tuple[list, str]:
+    if not state.chunks:
+        return [], "none"
+
+    ranked_ids, mode = await _query_nano_graphrag_chunk_ids(query, top_k=top_k)
+    if not ranked_ids:
+        fallback = _keyword_fallback_chunks(query, top_k=top_k)
+        if fallback:
+            return fallback, "fallback"
+        return [], "none"
+
+    out = []
+    for rank, idx in enumerate(ranked_ids, start=1):
+        if idx < 0 or idx >= len(state.chunks):
+            continue
+        chunk = state.chunks[idx].copy()
+        chunk["_idx"] = int(idx)
+        chunk["_retrieval"] = "nano_graphrag"
+        chunk["_mode"] = mode
+        chunk["_score"] = 1.0 / (10.0 + rank)
+        out.append(chunk)
+        if len(out) >= max(top_k * 2, 20):
+            break
+    diversified = ensure_source_diversity(out, top_k=top_k, min_distinct_sources=MIN_DISTINCT_SOURCES)
+    return dedupe_chunks(diversified), mode
+
+
+async def retrieve_relevant_chunks(question: str) -> tuple[list, bool, str]:
+    query = str(question or "").strip()
+    chunks, mode = await retrieve_chunks(query, top_k=TOP_K)
+    if chunks:
+        if mode == "local":
+            stage = "stage_graphrag_local"
+        elif mode == "global":
+            stage = "stage_graphrag_global"
+        else:
+            stage = "stage_failopen_keyword"
+        return chunks, True, stage
+    return [], False, "stage_graphrag_empty"
+
+
+@app.on_event("startup")
+def startup_event():
+    logging.info("Starting NurZeka V2 (GraphRAG-native)...")
+
+    state.embedding_model = SentenceTransformer(EMBEDDING_MODEL_NAME, device="cpu")
+
+    if os.path.exists(METADATA_PATH):
+        with open(METADATA_PATH, "rb") as f:
+            state.chunks = pickle.load(f)
+    else:
+        state.chunks = []
+        logging.warning("Metadata file not found: %s", METADATA_PATH)
+
+    state.risale_chunk_index = {}
+    state.chunk_lookup = {}
+    for i, chunk in enumerate(state.chunks or []):
+        metadata = chunk.get("metadata", {}) if isinstance(chunk.get("metadata"), dict) else {}
+        slug = str(metadata.get("risale_canonical_slug") or metadata.get("risale_slug") or "").strip()
+        if not slug:
+            slug = to_slug(str(metadata.get("chapter") or ""))
+        if slug:
+            state.risale_chunk_index.setdefault(slug, []).append(i)
+
+        for key in [chunk.get("id"), metadata.get("id"), str(i)]:
+            normalized_key = str(key).strip() if key is not None else ""
+            if normalized_key and normalized_key not in state.chunk_lookup:
+                state.chunk_lookup[normalized_key] = chunk
+
+    logging.info("Chunk metadata loaded: chunks=%s slugs=%s", len(state.chunks or []), len(state.risale_chunk_index))
+    load_risale_sozluk()
+    load_aux_lexicons()
+    init_nano_graphrag()
+
+
+class SearchRequest(BaseModel):
+    question: str
+    conversation_id: Optional[str] = None
+    user_id: Optional[str] = None
+    book_hint: Optional[str] = None
+    chapter_hint: Optional[str] = None
+    filter: Optional[dict] = None
+
+
+@app.post("/api/search")
+async def search_endpoint(request: SearchRequest, raw_request: Request):
+    user_question = request.question
+    chunks, retrieval_is_relevant, retrieval_stage = await retrieve_relevant_chunks(user_question)
+
+    if not chunks:
+        chunks = [{"text": "Bu soru için GraphRAG kaynağı bulunamadı.", "metadata": {"book": "Belirtilmemiş", "chapter": "Belirtilmemiş"}}]
+
+    context = build_context(chunks)
+    logging.info(
+        "REQUEST_RESOLUTION: stage=%s relevant=%s chunks=%s question=%s",
+        retrieval_stage,
+        retrieval_is_relevant,
+        len(chunks),
+        user_question,
+    )
+
+    async def event_generator():
+        filled_prompt = SYSTEM_PROMPT.format(context=context)
+        user_id = getattr(raw_request.state, "user_id", None) or request.user_id
+        conv_id = request.conversation_id
+
+        try:
+            full_response = await _chat_completion_with_resilience(filled_prompt, user_question)
+        except Exception as exc:
+            logging.error("Streaming answer failed-open activated: %s", exc)
+            full_response = _fallback_answer_from_chunks(user_question, chunks)
+
+        try:
+            for tok in full_response.split(" "):
+                if tok:
+                    data = json.dumps({"token": tok + " "}, ensure_ascii=False)
+                    yield "data: " + data + "\n\n"
+                    await asyncio.sleep(0)
+
+            sources_payload = build_source_payload(chunks[:TOP_K])
+            if sources_payload:
+                sources_event = json.dumps({"sources": sources_payload}, ensure_ascii=False)
+                yield "data: " + sources_event + "\n\n"
+
+            if conv_id and user_id:
+                try:
+                    db = get_db()
+                    db.execute(
+                        "INSERT INTO messages (id, conversation_id, user_id, role, content) VALUES (?,?,?,?,?)",
+                        [str(uuid.uuid4()), conv_id, user_id, "user", user_question],
+                    )
+                    db.execute(
+                        "INSERT INTO messages (id, conversation_id, user_id, role, content) VALUES (?,?,?,?,?)",
+                        [str(uuid.uuid4()), conv_id, user_id, "assistant", full_response],
+                    )
+                    db.execute(
+                        "UPDATE conversations SET updated_at=CURRENT_TIMESTAMP, message_count=message_count+2 WHERE id=?",
+                        [conv_id],
+                    )
+                    db.commit()
+                    db.close()
+                except Exception as db_err:
+                    logging.error("Error saving to DB: %s", db_err)
+
+            yield "data: [DONE]\n\n"
+        except Exception as exc:
+            err = json.dumps({"error": str(exc)}, ensure_ascii=False)
+            yield "data: " + err + "\n\n"
+
+    return StreamingResponse(event_generator(), media_type="text/event-stream")
+
+
+@app.post("/api/concept-map")
+async def get_concept_map(body: dict):
+    concept = str(body.get("concept", "")).strip()
+    if not concept:
+        return {"concept": concept, "nodes": [], "edges": [], "total_chunks": 0}
+
+    chunks, _mode = await retrieve_chunks(concept, top_k=10)
+    if not chunks:
+        return {"concept": concept, "nodes": [], "edges": [], "total_chunks": 0}
+
+    token_counter = Counter()
+    root = normalize_for_match(concept)
+    for chunk in chunks:
+        tokens = re.findall(r"[A-Za-zÇĞİÖŞÜçğıöşüÂâÎîÛû']+", strip_frontmatter(chunk.get("text", "")))
+        for tok in tokens:
+            key = normalize_for_match(tok)
+            if len(key) < 4 or key == root:
+                continue
+            token_counter[key] += 1
+
+    kavramlar = [w for w, _ in token_counter.most_common(8)]
+    nodes = [
+        {
+            "id": 0,
+            "label": concept.upper(),
+            "color": "#c9a84c",
+            "size": 30,
+            "font": {"size": 14, "bold": True},
+        }
+    ]
+    edges = []
+    for i, kavram in enumerate(kavramlar, start=1):
+        nodes.append({"id": i, "label": kavram, "color": "#e8d5a3", "size": 20})
+        edges.append({"from": 0, "to": i, "width": 2})
+
+    return {
+        "concept": concept,
+        "nodes": nodes,
+        "edges": edges,
+        "total_chunks": len(chunks),
+    }
+
+
+@app.post("/api/concept-info")
+async def concept_info(body: dict):
+    concept = str(body.get("concept", "")).strip()
+    if not concept:
+        return {
+            "concept": concept,
+            "count": 0,
+            "explanation": "Açıklama alınamadı.",
+            "occurrences": [],
+            "related_terms": [],
+            "stats": {"books": 0, "top_books": []},
+        }
+
+    chunks, _mode = await retrieve_chunks(concept, top_k=20)
+    occurrences = []
+    by_book = Counter()
+
+    for idx, chunk in enumerate(chunks):
+        book, chapter = get_chunk_book_and_section(chunk)
+        source_slug = get_chunk_canonical_slug(chunk)
+        text = re.sub(r"\s+", " ", strip_frontmatter(chunk.get("text", ""))).strip()
+        by_book[book] += 1
+        occurrences.append(
+            {
+                "chunk_id": str(idx),
+                "kitap": book,
+                "bolum_adi": chapter,
+                "book_slug": source_slug,
+                "chapter_slug": source_slug,
+                "bolum_no": idx,
+                "pasaj": (text[:140] + "...") if len(text) > 140 else text,
+                "metin_ipucu": text[:300],
+            }
+        )
+
+    ckey = normalize_for_match(concept)
+    kavram_item = state.kavram_map.get(ckey)
+    ottoman_item = state.ottoman_dict.get(ckey)
+
+    if isinstance(kavram_item, dict) and str(kavram_item.get("baglam") or "").strip():
+        explanation = f"KÖK: Kavram sözlüğü\nANLAM: {str(kavram_item.get('baglam')).strip()}"
+    elif isinstance(ottoman_item, str) and ottoman_item.strip():
+        explanation = f"KÖK: Osmanlıca/Türkçe\nANLAM: {ottoman_item.strip()}"
+    else:
+        explanation = "KÖK: kavram\nANLAM: Bu kavram için GraphRAG bağlamından özet üretildi."
+
+    related_counter = Counter()
+    for chunk in chunks:
+        for tok in re.findall(r"[A-Za-zÇĞİÖŞÜçğıöşüÂâÎîÛû']+", strip_frontmatter(chunk.get("text", ""))):
+            key = normalize_for_match(tok)
+            if len(key) >= 4 and key != ckey:
+                related_counter[key] += 1
+
+    related_terms = [{"term": k, "weight": v} for k, v in related_counter.most_common(12)]
+    top_books = [{"kitap": k, "count": v} for k, v in by_book.most_common(8)]
+
+    return {
+        "concept": concept,
+        "count": len(occurrences),
+        "explanation": explanation,
+        "occurrences": occurrences,
+        "related_terms": related_terms,
+        "stats": {
+            "books": len(by_book),
+            "top_books": top_books,
+        },
+    }

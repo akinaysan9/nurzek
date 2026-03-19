@@ -1,0 +1,532 @@
+[[Kategori:Kur'an]]
+[[Kategori:Mefhum]]
+'''Huruf-u Mukattaa''' kesilmiş, ayrılmış harfler demektir ve Kur'an'da ikisi Medenî olmak üzere 29 sûrenin başındaki 30 ayette (Şûrâ suresinde ilk 2 ayette) yer alan ve isimleriyle telaffuz edilen harflerin ortak adıdır. Hurûf-ı mukattaa Arap alfabesindeki 14 harften ({{Arabi|ا، ح، ر، س، ص، ط، ع، ق، ك، ل، م، ن، هـ، ى}}) teşekkül etmiş olup bunların üçü ({{Arabi|ﻕ}}, {{Arabi|ﻥ}} ve {{Arabi|ﺹ}}) tek harften, dördü ({{Arabi|ﺣﻢ}}, {{Arabi|ﻃﻪ}}, {{Arabi|ﻃﺲ}} ve {{Arabi|ﻳﺲ}}) 2 harften, üçü ({{Arabi|ﺍﻟﻢ}}, {{Arabi|ﺍﻟﺮ}} ve {{Arabi|ﻃﺴﻢ}}) 3 harften, ikisi ({{Arabi|ﺍﻟﻤﺮ}} ve {{Arabi|ﺍﻟﻤﺺ}}) 4 harften ve ikisi de ({{Arabi|ﺣﻢ ﻋﺴﻖ}} ve {{Arabi|ﻛﻬﻴﻌﺺ}}) 5 harften oluşur (Hurûf-ı Mukattaanın Alfabetik Listesi bu sayfanın en altındadır). Huruf-u Mukataa'da toplam 78 harf geçer (Elif 13, He 7, Ra 6, Sin 5, Sad 3, Tı 4, Ayn 2, Kaf 2, Kef 1, Lam 13, Mim 17, Nun 1, He 2, Ye 2 - Toplam: 78). Eğer tekrarlanan üniteler birer defa alınırsa (yani elif-lam-mim bir defa, ha-mim bir defa vb. sayılırsa) toplam 36 harf geçer. Mukattaa harflerinden tekrarlanan “hâ mîm”lere çoğul olarak “havâmîm”, “tâ sîn”lere “tavâsîn” denilir. Bu harflerin tam bir âyet sayılıp sayılmayacağı hususu da ihtilâflıdır. Bugünkü mevcut Kur'an'larda Hicr, Hud, Kaf, Kalem, İbrahim, Yusuf, Yunus, Sad, Ra'd ve Neml surelerinin başındaki huruf-u mukatta harfleri tek başına olmayıp izleyen ibarelerle birlikte ayet oluştururken diğer surelerin başındaki huruf-u mukattaa tek başına ayet teşkil eder. Bazı alimler söz konusu harflerin müteşâbihattan olduğu ve müteşâbihatın te’vilinin dinen yasaklanmış olması görüşüne dayanarak hurûf-ı mukattaaya anlam vermekten kaçınmışlardır.<ref name='a'>https://islamansiklopedisi.org.tr/huruf-i-mukattaa</ref>
+
+'''Risale-i Nur'da Huruf-u Mukattaa Hakkındaki Dersler:'''
+
+* Bâkıllânî, Zemahşerî gibi âlimlerin de işaret ettiği gibi hece harflerinin (Lam elifte yer alan ve okunmayan) elif-i sâkine hariç kalmak şartıyla (Lam-elif'in elifi hariç tutulunca lam kalır, lam harfi zaten mevcut olduğundan lam-elif sayılmaz) 28'tir ve Kur'an surelerin başında bu harflerin yarısını zikretmiş, yarısını da terk etmiştir. Alınan harfler: {{Arabi|ا ، ح ، ر ، س ، ص ، ط ، ع ، ق ، ك ، ل ، م ، ن ، هـ ، ى}}
+* Huruf-u mukattaa'ya alınan harfler alınmayanlardan daha çok kullanılan harflerdir.
+* Dilde daha kolay telaffuz edilen “elif, lâm” çok tekrar edilmiştir. 29 sureden 13'ü (Bakara, Âl-i İmran, A’raf, Yunus, Hûd, Yusuf, Ra’d, İbrahim, Hicr, Ankebut, Rum, Lokman ve Secde sureleri) Elif-lam ile başlar (yani bu surelerde elif-lam geçer). Başka bir hesapla huruf-u mukattaa'da geçen 78 harfin 26'sı elif ve lam harfleridir.
+* Huruf-u mukattta ile başlayan sure sayısı (29) ile alfabedeki harflerin sayısı (29) aynıdır. Lam-elif'te iki harf vardır ve toplamı 30 harf eder. Huruf-u mukattaa içeren ayet sayısı da 30'dur (Şûrâ suresinin başında iki huruf-u mukattaa ayeti vardır).
+* Harflerin cinslerinin (sıfatlarının) çiftli olanlarından her bir cinsten harflerin yarısı huruf-u mukattaa'da geçer:
+
+1a. Mehmuse (mahreç tam kapanmadan, zayıf mahreçle çıkan harfler): 10 adettir ({{Arabi|ت ، ث ، ح ، خ ، س ، ش ، ص ، ف ، ك ، ه}})
+
+Huruf-u mukattaa'da bunlardan yarısı olan 5 adeti zikredilmiştir: ({{Arabi| ح ، س ، ص ، ك ، ه}})
+
+1b. Mechure (mahrecinden kuvvetle çıkan sesler): Yukarıdaki 10 harfin dışında kalan 18 harftir.
+
+Huruf-u mukattaa'da bunlardan yarısı olan 9 adeti zikredilmiştir: ({{Arabi|ا ، ر ، ط ، ع ، ق ، ل ، م ، ن ، ى}})
+
+2a. Şedide (söylenirken mahrecin şiddetle kapandığı harfler): 8 adettir ({{Arabi|ا ، ب ، ت ، ج ، د ، ط ، ق ، ك}})
+
+Huruf-u mukattaa'da bunlardan yarısı olan 4 adeti zikredilmiştir: ({{Arabi|ا ، ط ، ق ، ك}})
+
+2b. Rahve (söylenirken mahreçten ses veya nefesin aktığı yumuşaklık içeren harfler): Yukarıdaki 8 harfin dışında kalan 20 harftir.
+
+Huruf-u mukattaa'da bunlardan yarısı olan 10 adeti zikredilmiştir: ({{Arabi|ح ، س ، ص ،  ه ، ى ، ر ، ع ، ل ، م ، ن}})
+
+3a. Müsta’liye (dil, üst damağa yükseltilerek söylenen kalın harfler): 7 adettir ({{Arabi|خ ، ص ، ض ، ط ، ظ ، غ ، ق}})
+
+Huruf-u mukattaa'da bunlardan yaklaşık yarısı olan 3 adeti zikredilmiştir: ({{Arabi|ص ، ط ، ق}})
+
+3b. Münhafıza (dilin damağa yükselmeyip aşağıda kalmasıyla söylenen harfler): Yukarıdaki 7 harfin dışında kalan 21 harftir.
+
+Huruf-u mukattaa'da bunlardan yaklaşık yarısı olan 11 adeti zikredilmiştir: ({{Arabi|ا ، ح ، ر ، س ، ع ، ك ، ل ، م ، ن ، ه ، ى}})
+
+4a. Müntabıka (dil, üst damağa kapatılarak söylenen harfler): 4 adettir ({{Arabi|ص ، ض ، ط ، ظ}})
+
+Huruf-u mukattaa'da bunlardan yarısı olan 2 adeti zikredilmiştir: ({{Arabi|ص ، ط}})
+
+4b. Münfetiha (dil, üst damaktan ayrılarak söylenen harfler): Yukarıdaki 4 harfin dışında kalan 24 harftir.
+
+Huruf-u mukattaa'da bunlardan yarısı olan 12 adeti zikredilmiştir: ({{Arabi|ا ، ح ، ر ، س ، ع ، ق ، ك ، ل ، م ، ن ، ه ، ى}})<ref>https://risaleizah.com/59-huruf-u-mukattaanin-dizilisinin-504-ihtimalden-veya-200-ihtimalden-bir-ihtimal-olmasi.html</ref>
+
+5a. Boğaz harfleri: 6 adettir ({{Arabi|ا ، ح ، غ ، خ ، ع ، ه}})
+
+Huruf-u mukattaa'da bunlardan yaklaşık yarısı olan 4 adeti zikredilmiştir: ({{Arabi|ا ، ح ، ع ، ه}})
+
+5b. Boğaz harfi olmayanlar: Yukarıdaki 6 harfin dışında kalan 22 harftir.
+
+Huruf-u mukattaa'da bunlardan yaklaşık yarısı olan 10 adeti zikredilmiştir: ({{Arabi|ص ، س ، ر ، ق ، ك ، ل ، م ، ن ، ط ، ى}})
+
+6a. Dudak harfleri: 2 adettir ({{Arabi|م ، ب}})
+
+Huruf-u mukattaa'da bunlardan yarısı olan 1 adeti zikredilmiştir: ({{Arabi|م}})<ref>https://sorularlarisale.com/surelerin-basinda-mezkur-olan-huruf-hurufatin-aksam-i-malumesi-olan-mechure-mehmuse-sedide-rahve-zelaka-kalkale-gibi</ref>
+
+6b. Dudak harfi olmayanlar: Yukarıdaki 2 harfin dışında kalan 26 harftir.
+
+Huruf-u mukattaa'da bunlardan yarısı olan 13 adeti zikredilmiştir: ({{Arabi|ا ، ص ، ر ، ح ، ط ، س ، ع ، ق ، ك ، ل ، م ، ن ، ى}})
+
+* Harflerin cinslerinin (sıfatlarının) çiftli olmayanlarından ağır olanlardan azı, hafif olanlarından çoğu huruf-u mukattaa'da geçer:
+
+7. Kalkale: Telaffuzu ağır harflerdir: 5 adettir ({{Arabi|ب ، ج ، د ، ط ، ق}})
+
+Huruf-u mukattaa'da bunlardan yarıdan azı olan 2 adeti zikredilmiştir: ({{Arabi|ط ، ق}})
+
+8. Zellaka: Telaffuzu hafif harflerdir: 6 adettir ({{Arabi|ب ، ر ، ف ، ل ، م ، ن}})
+
+Huruf-u mukattaa'da bunlardan yarıdan fazlası olan 4 adeti zikredilmiştir: ({{Arabi|ر ، ل ، م ، ن}})
+
+* Kur'an'ın surelerin başındaki huruf-u mukattaanın yukarıdaki şekilde sınıflandırılması 200 veya 504 ihtimal içinden seçilmiştir ve başka bir şekilde mümkün değildir. Ancak gizli ve fikren bilinmeyecek bir tek yol ile hepsini sınıflandırmak insan fikri ile olamaz ve tesadüf hiç karışamaz.
+* Huruf-u mukattaa'daki gariplik bu harflerin pek garib bir şeyin keşif kolları olduğuna işarettir.
+* Bu surelerin başlarındaki taktî-i huruf ile isimleri hecelemek, müsemmanın me’hazine ve neden neş’et ettiğine işarettir.
+* Kur'an bu kesik harfler ile kabul etmeyenlere meydan okuyup “İşte mucizeli sanatı şu gördüğünüz harflerin nazmından yaptım!” diye onları tekdir eder.
+* Harfleri böyle hecelemek okuma-yazmaya yeni başlayanlara mahsus olduğundan anlaşılıyor ki Kur’an ümmi bir kavme muallimlik yapıyor.
+* En çok tekrarlanan ve Kur'an'da ilk geçen mukattaa harfleri olan Elif-Lam-mim'de Elif "bu Allah'ın kelamıdır", Lam "Cebrail (aracılığıyla indi)" ve Mim "Hz. Muhammed'e (indi)" hükmüne işarettir.
+* Elif-Lam-mim, tüm harflerin esas mahreçleri olan "boğaz, dil ve dudağa" işaret eder.
+* Surelerin başlarındaki huruf-u mukattaa ilahî bir şifredir ve anahtarı ancak Hz. Muhammed'dedir (asm) (ve onun yolundan gidenlerdedir). O fevkalâde bir zekâya sahiptir ki en gizli şeyleri sarih gibi anlar.
+* Şu harflerin kesik kesik olması harflerin yalnızca manaya işaret etmediğini, adet ve sayılar gibi harflerin arasında fıtrî münasebetlerin bulunduğunu gösterir.
+* Bu harflerin terkip şeklinde değil ayrı ayrı zikredilmesi hiçbir imama tabi olmadığına ve hiç kimseyi taklit etmiş olmadığına işarettir.
+* Velayet ve tahkik ehli ruhanî seyr-i sülûk'a ait çok gaybi muameleleri bu harflerde bulmuştur.
+* En kısa sure olan Kevser suresinde ve Kur'an'ın fihristesi olan Fatiha suresinde Huruf-u mukattaa'ya işaretler vardır. Mesela {{Arabi|اَعْطَيْنَاكَ}} 'deki {{Arabi|ى،ط}}; [[Taha 1|{{Arabi|طٰهٰ}}]]  ve [[Yasin 1|{{Arabi|يٰسٓ}}]]'e işaret ederek peygamberimizin meşhur iki ismine ve iki surenin başına ve isimlerine işaret eder.
+* Kevser suresinde elif 13 defa geçer ({{Arabi|اَللّٰهْ}} lafzının aslı {{Arabi|اَلْاِلٰهْ}} 'dır). Fatiha'da {{Arabi|ال}} yine 13 defa geçer ({{Arabi|اَلْحَمْدُ لِلّٰهِ}} 'da {{Arabi|لِلّٰهِ}} lafzında hemze, yazılmadığından ve okunmadığından oradaki {{Arabi|ال}} sayılmaz). {{Arabi|الٓمٓ}} 7 ve {{Arabi|الٓرٰ}} 6 defa geçtiğinden toplamı 13'e tevafuk eder.
+* Huruf-u mukattaa ile başlayan surelerin çoğu (15 adedi) {{Arabi|الٓمٓ}}, {{Arabi|ﺍﻟﻤﺮ}}, {{Arabi|ﺍﻟﻤﺺ}} ve {{Arabi|حٰمٓ}} ile başlar. Fatiha'da {{Arabi|م}} 15 defa geçer. 
+* Hadiste haber verildiği üzere Kur'an harflerinin, hususan surelerin başlarındaki huruf-u mukattaa'nın özellikleri, faziletleri ve maddi tesirleri vardır. Kudsi şifreler içeren bu harfler ince ve gizli münasebetleri zamansız olarak harekete geçirecek birer düğüm ve düğmedir ve bu harflerin okunmasıyla ve yazılmasıyla maddî ilâç gibi şifa ve başka maksadlar hasıl olabilir.
+* Huruf-u mukattaa'da cifir hesabıyla gaybî işaretler vardır. Bir zaman bazı İsrailoğulları âlimleri bildikleri huruf-u mukattaa ile hesap yapıp Peygamberimize geldiler ve ümmetinin ömrünün kısa olduğunu söylediler. Peygamberimiz onların henüz bilmediği diğer huruf-u mukattaa'yı söyleyerek bilakis uzun olduğunu söyledi ve sustular.
+* Bu harflerde geleceğe dair bazı gaybî işaretleri Muhyiddin-i Arabî ve İmam-ı Rabbanî gibi büyük ehl-i velayet keşfetmiş ve eserlerinde yazmıştır.
+
+==Bilgiler==
+
+'''Diğer İsimleri:''' Mukattaat Hurufu, Hurûf-ı teheccî, Evâilü’s-Süver ve Fevâtihu’s-Süver (sûrelerin ilk harflerini oluşturduklarından dolayı), Hurûf-ı Mübheme (ne mânaya geldikleri veya bu sûrelerin başında hangi amaçla yer aldıkları kesin olarak bilinmediğinden dolayı), Mukattaat-ı Hurufiye
+
+'''Huruf-u Mukattaa İçeren Ayetler Listesi:''' [[:Kategori:Huruf-u Mukattaa İçeren Ayetler|Huruf-u Mukattaa İçeren Ayetler]] (30 adet)
+
+'''Huruf-u Mukattaa İle Başlayan Sureler Listesi:''' [[:Kategori:Huruf-u Mukattaa İle Başlayan Sureler|Huruf-u Mukattaa İle Başlayan Sureler]] (29 adet)
+
+==Risale-i Nur'da Nerede ve Nasıl Bahsedildiği==
+
+''İşarat-ül İ'caz tefsirinde bu konuyla alakalı kısmı okumak için [[Risale:Bakara_Suresi_1-3._âyetler#Sure-i_Bakara|bu sayfaya gidin]]''
+
+===Huruf-u Mukattaa'daki Gaybi İşaretler===
+
+Bir zaman Benî-İsrail âlimlerinden bir kısmı huzur-u Peygamberîde surelerin başlarındaki 
+
+[[Bakara 1|{{Arabi|الٓمٓ}}]]
+
+[[Meryem 1|{{Arabi|كٓهٰيٰعٓصٓ}}]]
+
+gibi [[Huruf-u Mukattaa|mukattaat-ı hurufiyeyi]] işittikleri vakit, hesab-ı cifrî ile dediler: “Yâ Muhammed! Senin ümmetinin müddeti azdır.” Onlara mukabil dedi: “Az değil.” Sair surelerin başlarındaki mukattaatı okudu ve ferman etti: “Daha var.” Onlar sustular.
+
+([[Risale:1._Şuâ#Birincisi_2|1. Şua]])
+----
+İstikbale ait ihbarat-ı gaybiyesidir.
+
+Şu kısım ihbaratın çok envaı var. Birinci kısım, hususidir. Bir kısım ehl-i keşif ve velayete mahsustur.
+
+Mesela, Muhyiddin-i Arabî
+
+[[Rum 1|{{Arabi|الٓمٓ}}]]
+
+[[Rum 2|{{Arabi|غُلِبَتِ الرُّومُ}}]]
+
+Suresi’nde pek çok ihbarat-ı gaybiyeyi bulmuştur. İmam-ı Rabbanî, surelerin başındaki [[Huruf-u Mukattaa|mukattaat-ı huruf]] ile çok muamelat-ı gaybiyenin işaretlerini ve ihbaratını görmüştür ve hâkeza… Ulema-yı bâtın için Kur’an, baştan başa ihbarat-ı gaybiye nevindendir.
+
+([[Risale:25._Söz#İkinci_Şavk|25. Söz]])
+
+===Kur'an'ın Cenab-ı Hakk’ın Yanındaki Ehemmiyeti===
+
+Hem başlarında [[Fatiha 2|{{Arabi|اَلْحَمْدُ لِلّٰهِ}}]] veyahut [[Haşir 1|{{Arabi|سَبَّحَ}}]] ve [[Cumua 1|{{Arabi|يُسَبِّحُ}}]] bulunan surelerin başlarına dikkat et. Tâ bu sırr-ı azîmin şuâını göresin. Hem [[Bakara 1|{{Arabi|الٓمٓ}}]] lerin ve [[Yusuf 1|{{Arabi|الٓرٰ}}]] ların ve [[Mü'min 1|{{Arabi|حٰمٓ}}]] lerin [[Huruf-u Mukattaa|fatihalarına]] bak; Kur’an’ın, Cenab-ı Hakk’ın yanında ehemmiyetini bilesin.
+
+([[Risale:12._Söz#D.C3.B6rd.C3.BCnc.C3.BC_Esas|12. Söz]])
+----
+Madem Kur’an-ı Hakîm mürşidimizdir, üstadımızdır, imamımızdır, her bir âdabda rehberimizdir. O, kendi kendini medhediyor. Biz de onun dersine ittibaen, onun tefsirini medhedeceğiz.
+
+Hem madem yazılan Sözler onun bir nevi tefsiridir ve o risalelerdeki hakaik ise Kur’an’ın malıdır ve hakikatleridir. Ve madem Kur’an-ı Hakîm [[Huruf-u Mukattaa|ekser surelerde]], hususan {{Arabi|الٰرٓ}} larda {{Arabi|حٰمٓ}} lerde kendi kendini kemal-i haşmetle gösteriyor, kemalâtını söylüyor, lâyık olduğu medhi kendi kendine ediyor. Elbette Sözler’de in’ikas etmiş Kur’an-ı Hakîm’in lemaat-ı i’caziyesinden ve o hizmetin makbuliyetine alâmet olan inayat-ı Rabbaniyenin izharına mükellefiz. Çünkü o üstadımız öyle eder ve öyle ders verir.
+
+([[Risale:28._Mektup#İkinci_Sebep|28. Mektup]])
+----
+Hâmisen: Rehber ise senin gibi Kur’an’ın nuru altına girenlere, Kur’an’dır. {{Arabi|الٓمٓ}} lerin {{Arabi|الٰرٓ}} ların {{Arabi|حٰمٓ}} lerin [[Huruf-u Mukattaa|başlarına]] bak, anla ki Kur’an ne kadar makbul bir şefaatçi ne kadar doğru bir rehber ne kadar kudsî bir nur olduğunu gör!
+
+([[Risale:28._Mektup#Dördüncü_Nükte|28. Mektup]])
+
+===Diğer Bahisler===
+
+[[Bakara 1|{{Arabi|الٓمٓ}}]]
+
+Surelerin başlarında bulunan huruf-u mukattaaya ait izahatı dört mebhasta zikredeceğiz.
+
+Birinci Mebhas
+
+{{Arabi|الٓمٓ}} ile surelerin evvellerinde bulunan huruf-u mukattaadan teneffüs eden i’caz hakkındadır. İ’caz, inci gibi incecik letaif-i belâgatın parıltılarının imtizaç ve içtimaından tecelli eden bir nurdur. Bu mebhasta, bu nuru birkaç letaif zımnında izah etmekle parlatacağız. Fakat her bir latîfe ince ve ziyası az ise de letaifin heyet-i mecmuasından hasıl olan tam bir ziya ile fecr-i sadık çıkacaktır.
+
+1- Hece harflerinin adedi –elif-i sakine hariç kalmak şartıyla– yirmi sekiz harftir. Kur’an-ı Azîmüşşan, surelerin başında bu harflerin yarısını zikretmiş, yarısını da terk etmiştir.
+
+2- Kur’an’ın almış olduğu nısıf, terk ettiği nısıftan daha ziyade kesîrü’l-istimaldir.
+
+3- Kur’an, surelerin başında zikrettiği kısım içinde, lisan üzerine daha suhuletli olan “elif, lâm”ı çok tekrar etmiştir.
+
+4- Kur’an aldığı harfleri, hece harflerinin adedince surelere tevzi etmiştir.
+
+5- Hece harflerinin mehmuse, mechure, şedide, rahve, müsta’liye, münhafıza, müntabıka, münfetiha gibi çiftli cinslerinin her birisinden yine nısıf almıştır.
+
+6- Çifti, yani eşi olmayan –evtar– kısmında sakîlden azı, hafiften çoğu almıştır. Kalkale, zelâka gibi.
+
+7- Kur’an-ı Azîmüşşan’ın, surelerin başındaki huruf-u mukattaanın zikredilen minval üzerine tansifleri hakkında ihtiyar ettiği tarîk, beş yüz dört ihtimalden intihab edilmiştir. Ve intihab edilen şu tarîkten başka hiçbir ihtimal ile mezkûr tansif mümkün değildir. Çünkü taksimler pek çok birbirine girmiş ve çok mütefavittir. Bu gibi i’caz lem’alarından hisse alamayan, zevkine levm ve itab etsin.
+
+İkinci Mebhas
+
+Bu mebhasta da birkaç letaif vardır:
+
+1- {{Arabi|الٓمٓ}} ile emsalinde göze çarpan garabet, bu harflerin pek garib ve acib bir şeyin mukaddimesi ve keşif kolları olduklarına işarettir.
+
+2- Bu surelerin başlarındaki taktî-i huruf ile isimleri hecelemek, müsemmanın me’hazine ve neden neş’et ettiğine işarettir.
+
+3- Bu harflerin taktîi, müsemmanın vâhid-i itibarî olup terkib-i mezcî olmadığına işarettir.
+
+4- Bu harflerin taktî ile ta’dadı, sanatın madde ve me’hazini muhataba göstermekle muarazaya talip olanlara karşı meydan okuyarak “İşte i’caz sanatını, şu gördüğünüz harflerin nazım ve nakışlarından yaptım. Buyurunuz meydana!” diye onların tahkirane tebkitlerine (tekdirlerine) işarettir.
+
+5- Manadan soyulmuş şu hece harflerinin zikri, muarızları hüccetsiz bırakmaya işarettir. Evet Kur’an-ı Mu’cizü’l-Beyan, şu manasız harflerin lisan-ı haliyle ilan ediyor ki: “Ben sizden beliğ manaları, hükümleri, hakikatleri ifade eden yüksek hutbeleri ve nutukları istemiyorum. Yalnız şu ta’dad ettiğim harflerden bir nazire yapınız, velev iftira ve hikâyelerden ibaret bile olursa olsun!”
+
+6- Harfleri ta’dad ile hecelemek, yeni kıraata ve kitabete başlayan müptedilere mahsustur. Bundan anlaşılıyor ki Kur’an, ümmi bir kavme ve müptedi bir muhite muallimlik yapıyor.
+
+7- {{Arabi|ا}}, {{Arabi|ل}}, {{Arabi|د}} gibi harfleri, mesela “elif, lâm, dal” gibi isimleriyle tabir ve zikretmek, ehl-i kıraat ve erbab-ı kitabetin ittihaz ettikleri bir usûldür. Bundan anlaşılıyor ki hem söyleyen hem dinleyen ümmi olduklarına nazaran bu tabirler, söyleyenden doğmuyor ve onun malı değildir ancak başka bir yerden ona geliyor.
+
+Ey arkadaş! Bu letaifin ince iplerinden dokunan yüksek nakş-ı belâgatı göremeyen adam, belâgat ehlinden değildir. Erbab-ı belâgata müracaat etsin.
+
+Üçüncü Mebhas
+
+{{Arabi|الٓمٓ}} i’cazın esaslarından îcazın en yüksek ve en ince derecesine bir misaldir. Bunda da birkaç letaif vardır:
+
+1- {{Arabi|الٓمٓ}} üç harfiyle üç hükme işarettir. Şöyle ki: Elif, [[Risale:İşarat-ül İ'caz (Ayet-Hadis Mealleri)#53|{{Arabi|هٰذَا كَلَامُ اللّٰهِ الْاَزَلِىِّ}}]] hükmüne ve kaziyesine; lâm, [[Risale:İşarat-ül İ'caz (Ayet-Hadis Mealleri)#54|{{Arabi|نَزَلَ بِهٖ جِبْرٖيلُ}}]] hükmüne ve kaziyesine; mim [[Risale:İşarat-ül İ'caz (Ayet-Hadis Mealleri)#55|{{Arabi|عَلٰى مُحَمَّدٍ ع.ص.م.}}]] hükmüne ve kaziyesine remzen ve îmaen işarettir.
+
+Evet, nasıl ki Kur’an’ın hükümleri uzun bir surede, uzun bir sure kısa bir surede, kısa bir sure bir âyette, bir âyet bir cümlede, bir cümle bir kelimede, o kelime de “sin, lâm, mim” gibi huruf-u mukattaada irtisam eder, görünür. Kezalik {{Arabi|الٓمٓ}} in her bir harfinde mezkûr hükümlerden biri temessül etmiş görünüyor.
+
+2- Surelerin başlarındaki huruf-u mukattaa, İlahî bir şifredir. Beşer fikri ona yetişemiyor. Anahtarı ancak Hazret-i Muhammed aleyhissalâtü vesselâmdadır.
+
+3- Şifrevari şu huruf-u mukattaanın zikri, Hazret-i Muhammed aleyhissalâtü vesselâmın fevkalâde bir zekâya mâlik olduğuna işarettir ki Muhammed aleyhissalâtü vesselâm remizleri, îmaları ve en gizli şeyleri sarîh gibi telakki eder, anlar.
+
+4- Şu harflerin taktîi; harf ve lafızların hâvi oldukları kıymet, yalnız ifade ettikleri manalara göre olmayıp ilm-i esrarü’l-hurufta beyan edildiği gibi adet ve sayılar misillü, harflerin arasında fıtrî münasebetlerin bulunduğuna işarettir. (Hâşiye<ref>Kırk sene sonra Risale-i Nur, bu lem’a-i i’cazı körlere dahi göstermiştir.</ref>)
+
+5- {{Arabi|الٓمٓ}} taktîiyle, bütün harflerin esas mahreçleri olan “halk, vasat, şefe” mahreçlerine işarettir. Ve zihinlerin nazar-ı dikkatini şu mahreçlere çeviriyor ki zihinler, gerek bu üç mahreçte, gerek bunlara bağlı küçük küçük mahreçlerde lafızların ve harflerin nasıl vücuda geldiklerini hayret ve ibretle mütalaa etsinler.
+
+Ey zihnini belâgatın boyasıyla boyayan arkadaş! Bu letaifi sıkacak olursan [[Risale:İşarat-ül İ'caz (Ayet-Hadis Mealleri)#56|{{Arabi|هٰذَا كَلَامُ اللّٰهِ}}]] içinden çıkacaktır.
+
+Dördüncü Mebhas
+
+{{Arabi|الٓمٓ}} emsaliyle beraber terkip şeklinden taktî suretinde zikirleri, bu şeklin müstakil olup hiçbir imama tabi olmadığına ve hiç kimseyi taklit etmiş olmadığına ve üslupları acib, çeşitleri garib yeni saha-i vücuda gelen bir bedîa olduğuna işarettir. Bu mebhasta da birkaç letaif vardır:
+
+1- Hatip ve beliğlerin âdetindendir ki mesleklerinde daima bir misale tabi oluyorlar ve bir örnek üzerine nakış dokuyorlar ve işlenmiş bir yolda yürüyorlar. Halbuki bu harflerden anlaşıldığına nazaran Kur’an, hiçbir misale tabi olmamıştır ve hiçbir nakş-ı belâgat örneği üzerine nakış yapmamıştır ve işlenmemiş bir yolda yürümüştür.
+
+2- Kur’an baştan aşağıya kadar, nâzil olduğu heyet üzerine bâkidir. Bu kadar Kur’an’ı taklit etmeye müştak olan dostlar ve mütehacim düşmanlara rağmen, şimdiye kadar Kur’an’ın ne taklidi yapılmış ve ne de bir misali gösterilmiştir. Evet Kur’an, milyonlarca Arabî kitaplarla mukayese edilirse benzeri bulunamaz. O halde Kur’an ya hepsinin altındadır, bu ise muhaldir; öyle ise hepsinin fevkindedir, öyle ise Allah’ın kelâmıdır.
+
+3- Beşerin sanatı olan bir şey, bidayette çirkin ve gayr-ı muntazam olur, sonra yavaş yavaş intizama sokulur. Kur’an ise ilk zuhurunda gösterdiği halâveti, güzelliği, gençliği şimdi de öylece muhafaza etmektedir.
+
+Ey belâgat letafetinin kokusunu koklayan arkadaş! Zihnini şu mebahis-i erbaaya gönder ki bal arısı [[Risale:İşarat-ül İ'caz (Ayet-Hadis Mealleri)#57|{{Arabi|اَشْهَدُ اَنَّ هٰذَا كَلَامُ اللّٰهِ}}]] balını çıkarsın.
+
+...
+
+Arkadaş! Kelâmların hüsnünü artıran ve güzelliğini fazlaca parlatan belâgatın esaslarından biri de şudur ki: Bir havuzu doldurmak için etrafından süzülen sular gibi beliğ kelâmlarda da zikredilen kelimelerin, kayıtların, heyetlerin tamamen o kelâmın takip ettiği esas maksada nâzır olmakla onun takviyesine hizmet etmeleri, belâgat mezhebinde lâzımdır.
+
+...
+
+İkinci Misal:
+
+[[Bakara 1|{{Arabi|الٓمٓ}}]]
+
+[[Bakara 2|{{Arabi|ذٰلِكَ الْكِتَابُ لَا رَيْبَ فٖيهِ هُدًى لِلْمُتَّقٖينَ}}]]
+
+olan âyet-i kerîmedir. Bu âyette maksad-ı esas, “Kur’an’ın yüksekliğini göstermek”tir. Ve bu maksadı takviye eden {{Arabi|الٓمٓ ، ذٰلِكَ ، الْكِتَاب ، لَا رَيْبَ فٖيهِ}} kayıtlarıdır. Evet bu kayıtlar, istinad ettikleri pek ince ve gizli delillerine işaret etmekle beraber, o maksadın takviyesine koşuyorlar.
+
+Ezcümle: {{Arabi|الٓمٓ}} kasem olduğu cihetle Kur’an’ın azametine ve altında müstetir, gizli o mezkûr letaif cihetiyle de davanın ispatına işaret eder.
+
+([[Risale:Bakara_Suresi_1-3._âyetler#Sure-i_Bakara|Bakara 1.-3. Ayetler, İşarat-ül İ'caz]])
+----
+Surelerin başlarındaki [[Huruf-u Mukattaa|huruf-u mukattaa]] İlahî bir şifredir. Has abdine, onlarla bazı işaret-i gaybiye veriyor. O şifrenin miftahı, o abd-i hastadır hem onun veresesindedir. Kur’an-ı Hakîm madem her zaman ve her taifeye hitap ediyor; her asrın her tabakasının hissesini câmi’ çok mütenevvi vücuhları, manaları olabilir. Selef-i Salihîn ise en hâlis parça onlarındır ki beyan etmişler. Ehl-i velayet ve tahkik, seyr ü sülûk-u ruhaniyeye ait çok muamelat-ı gaybiye işaratını onlarda bulmuşlar. İşaratü’l-İ’caz tefsirinde “[[El-Bakara]]” Suresi’nin başında, i’caz-ı belâgat noktasında bir nebze onlardan bahsetmişiz; müracaat edilsin.
+
+([[Risale:29._Mektup#Üçüncü_Nükte|29. Mektup]])
+----
+Bu münasebetle [[Fatiha Suresi|Fatiha'nın]] şu letafetini bir derece izah için deriz ki:
+
+Madem Kur'an, Fatiha'da icmalen münderic olduğunu ehl-i tahkik zevk-i şuhudî ile hükmetmişler.
+
+Ve madem Kur'an'da Fatiha'nın bir ismi "Seb'ul-mesanî ve'l-Kur'anu'l-azîm"dir.
+
+Ve madem surelerin başında mukattaat-ı hurufla başlayan mühim sureler, {{Arabi|الٓمٓ}} ler ve {{Arabi|الٓرٰ}} lar ve {{Arabi|حٰمٓ}} lerdir.
+
+Ve madem Fatiha-i Şerife'de on üç {{Arabi|ال}} lafzı tekerrür ediyor.<ref>{{Arabi|اَلْحَمْدُ لِلّٰهِ}} 'da {{Arabi|لِلّٰهِ}} lafzında hemze, hatten ve lafzen tayyedildiği için oradaki {{Arabi|ال}} sayılmaz.</ref> yani {{Arabi|لام ،ألف}} zikredilmiş.
+
+Ve madem o meşhur surelerin başında mukattaat-ı huruftan on üç defa {{Arabi|لام،ألف}} ism-i hecaisiyle okunuyor ve {{Arabi|ال}} suretiyle yazılıyor.
+
+Ve madem Fatiha müteaddid vecihler ile o meşhur {{Arabi|الٓمٓ}} ler ve {{Arabi|الٓرٰ}} lar ve {{Arabi|حٰمٓ}} lere bakıyor.
+
+Ve madem o meşhur surelerde on beş defa {{Arabi|م}} ism-i hecaisiyle zikredilmiş ve on üç defa {{Arabi|ال}} ism-i hecaileri ile tekrar edilir. Ve Fatiha'da dahi on beş {{Arabi|م}} tekerrür ediyor ve o surelerdeki on beş {{Arabi|م}} e tevafuk ediyor. Ve Fatiha'da on üç defa {{Arabi|ال}} tekerrür etmekle o surelerdeki on üç defa {{Arabi|ال}} adetlerine tevafuk ediyor.
+
+([[Risale:29._Mektubun_8._Kısmı_(Rumuzat-ı_Semaniye)#Üçüncü_Letafet_2|Rumuzat-ı Semaniye]])
+----
+İkincisi: Şu [[Sure-i Kevser]]'e dair remizde on üç defa 13 rakamıyla beyan edilen sırrın hülâsası şudur ki:
+
+Nasıl ki [[Fatiha-i Şerife]] 13 {{Arabi|ال}} ile 13 meşhur suver-i Kur'aniye olan yedi {{Arabi|الٓمٓ}} , altı {{Arabi|الٓرٰ}} 'nın mecmu-u adedine tevafukla 13 {{Arabi|ال}} ler ile o 13 surenin başlarına işaret edip parmaklarını bastığı gibi ve Fatiha'da bulunan 15 {{Arabi|م}} ile {{Arabi|الٓمٓ}} ve {{Arabi|حٰمٓ}} ler ve bir {{Arabi|الٓمٓرٰ}} ile beraber 15 surenin başına işaret edip mimlerine parmağını bastığı misillü Kur'an [[Fatiha]]'da, Fatiha [[Sure-i Kevser]]'de münderic olduğunun sırrıyla [[Sure-i Kevser]] dahi 13 elif ile Fatiha'nın 13 {{Arabi|ال}} i gibi 13 parmakla 13 meşhur surelerin başlarına parmağını basıyor ve kendi de küçük bir Kur'an olduğunu gösteriyor.
+
+([[Risale:Rumuzat-ı_Semaniye_Fihristi#Yirmi_Dokuzuncu_Mektub'un_Sekizinci_Kısmı'nın_Altıncı_Remzi|Rumuzat-ı Semaniye]])
+
+===Huruf-u Mukattaa'daki Harflerin Mu'cizevari Tansifi===
+
+Üslubundaki bedaat-i hârikadır.
+
+Evet, Kur’an’ın üslupları hem garibdir hem bedî’dir hem acibdir hem muknidir. Hiçbir şeyi hiçbir kimseyi taklit etmemiş. Hiç kimse de onu taklit edemiyor. Nasıl gelmiş, öyle o üsluplar taravetini, gençliğini, garabetini daima muhafaza etmiş ve ediyor.
+
+Ezcümle, bir kısım surelerin başlarında şifre-misal {{Arabi|الٓمٓ ۞ الٓرٰ ۞ طٰهٰ ۞ يٰسٓ ۞ حٰمٓ ۞ عٓسٓقٓ}} gibi [[Huruf-u Mukattaa|mukattaat hurufundaki]] üslub-u bedîîsi, beş altı lem’a-i i’cazı tazammun ettiğini İşaratü’l-İ’caz’da yazmışız. Ezcümle: Surelerin başında mezkûr olan huruf, hurufatın aksam-ı malûmesi olan mechure, mehmuse, şedide, rahve, zelâka, kalkale gibi aksam-ı kesîresinden her bir kısmından nısfını almıştır. Kabil-i taksim olmayan hafifinden nısf-ı ekser, sakîlinden nısf-ı ekall olarak bütün aksamını tansif etmiştir. Şu mütedâhil ve birbiri içindeki kısımları ve iki yüz ihtimal içinde mütereddid yalnız gizli ve fikren bilinmeyecek bir tek yol ile umumu tansif etmek kabil olduğu halde, o yolda, o geniş mesafede sevk-i kelâm etmek, fikr-i beşerin işi olamaz. Tesadüf hiç karışamaz.
+
+İşte bir şifre-i İlahiye olan surelerin başlarındaki huruf, bunun gibi daha beş altı lem’a-i i’caziyeyi gösterdikleriyle beraber; ilm-i esrar-ı huruf ulemasıyla evliyanın muhakkikleri şu mukattaattan çok esrar istihraç etmişler ve öyle hakaik bulmuşlar ki onlarca şu mukattaat kendi başıyla gayet parlak bir mu’cizedir. Onların esrarına ehil olmadığımız hem umuma göz görecek derecede ispat edemediğimiz için o kapıyı açamayız. Yalnız İşaratü’l-İ’caz’da şunlara dair beyan olunan beş altı lem’a-i i’caza havale etmekle iktifa ediyoruz.
+
+([[Risale:25._Söz#Üçüncü_Nokta|25. Söz]])
+----
+Besmele'siz [[Sure-i Kevser]]'de hecai hurufat içinde ikişer kardeş sayılan harflerden her bir iki kardeşten en güzelini ve en manidarını almış, öteki kardeşini bırakmış.
+
+Mesela, iki kardeş olan {{Arabi|ز،ر}} den {{Arabi|ر}} var, {{Arabi|ز}} yok. {{Arabi|ش،س}} 'dan {{Arabi|ش}} var, {{Arabi|س}} yok. {{Arabi|ض،ص}} dan {{Arabi|ص}} var, {{Arabi|ض}} yok. {{Arabi|ظ،ط}} dan {{Arabi|ط}} var, {{Arabi|ظ}} yok. {{Arabi|غ،ع}} dan {{Arabi|ع}} var, {{Arabi|غ}} yok. {{Arabi|ق،ف}} dan {{Arabi|ف}} var, {{Arabi|ق}} yok. {{Arabi|ن،م}} dan {{Arabi|ن}} var, {{Arabi|م}} yok; gibi zarif ve muntazam ve manidar bir intihab var.
+
+Hem Kur'an'ın bir misal-i musağğarı olan Kevser'de tekerrür eden hurufat, surelerin başlarına bâhusus [[Huruf-u Mukattaa|mukattaat-ı hurufla]] başlayan surelerin başlarına, [[Fatiha]] misillü hafî işaretleri var. Fakat Fatiha-i Şerife'nin işâratı sarahate yakındır.
+
+Mesela:
+
+[[Kevser 1|{{Arabi|اِنَّٓا اَعْطَيْنَاكَ الْكَوْثَرَ}}]]
+
+âyeti doğrudan doğruya Resul-i Ekrem aleyhissalâtü vesselâma hitap edip Kevser'i ihsan ettiğine delâlet etmekle, elbette o muhatabın medar-ı imtiyazı olan has isimlerine îmaen {{Arabi|اَعْطَيْنَاكَ}} 'deki {{Arabi|ى،ط}}; [[Taha 1|{{Arabi|طٰهٰ}}]]  ve [[Yasin 1|{{Arabi|يٰسٓ}}]]'e işaretle Resul-i Ekrem aleyhissalâtü vesselâmın meşhur iki ismini ve iki surenin başlarına ve isimlerine işaret ediyor.
+
+Hem Kevser'de elif tekerrürü on ikidir. {{Arabi|اَللّٰهْ}} lafzının aslı {{Arabi|اَلْاِلٰهْ}} olmak cihetiyle elifin Kevser'de tekerrürü on üç olmakla; yedi {{Arabi|الٓمٓ}} altı {{Arabi|الٓرٰ}} 'nın mecmu-u adedi olan on üçe tevafukla o surelerin başlarının başlarına küçücük fihristecik nevinden işaretleri var deriz. Çünkü elifin ism-i sarîhi o surelerde zikretmesiyle ve Fatiha-i Şerife'de on üç yine on üç sureye sarahate yakın işaret etmekle Kur'an Fatiha'da, Fatiha Kevser'de dâhil olmak sırrıyla Kevser'in bir manası Kur'an olmak cihetiyle deriz ki:
+
+Kevser'de elifin on üç defa tekerrürü, Fatiha'da on üç defa {{Arabi|ال}} tekerrürü gibi nısf-ı Kur'anı teşkil eden o on üç surenin isimlerine işaret ederek başlarına parmak basıyor.
+
+Bu münasebetle [[Fatiha Suresi|Fatiha'nın]] şu letafetini bir derece izah için deriz ki:
+
+Madem Kur'an, Fatiha'da icmalen münderic olduğunu ehl-i tahkik zevk-i şuhudî ile hükmetmişler.
+
+Ve madem Kur'an'da Fatiha'nın bir ismi "Seb'ul-mesanî ve'l-Kur'anu'l-azîm"dir.
+
+Ve madem surelerin başında mukattaat-ı hurufla başlayan mühim sureler, {{Arabi|الٓمٓ}} ler ve {{Arabi|الٓرٰ}} lar ve {{Arabi|حٰمٓ}} lerdir.
+
+Ve madem Fatiha-i Şerife'de on üç {{Arabi|ال}} lafzı tekerrür ediyor.<ref>{{Arabi|اَلْحَمْدُ لِلّٰهِ}} 'da {{Arabi|لِلّٰهِ}} lafzında hemze, hatten ve lafzen tayyedildiği için oradaki {{Arabi|ال}} sayılmaz.</ref> yani {{Arabi|لام ،ألف}} zikredilmiş.
+
+Ve madem o meşhur surelerin başında mukattaat-ı huruftan on üç defa {{Arabi|لام،ألف}} ism-i hecaisiyle okunuyor ve {{Arabi|ال}} suretiyle yazılıyor.
+
+Ve madem Fatiha müteaddid vecihler ile o meşhur {{Arabi|الٓمٓ}} ler ve {{Arabi|الٓرٰ}} lar ve {{Arabi|حٰمٓ}} lere bakıyor.
+
+Ve madem o meşhur surelerde on beş defa {{Arabi|م}} ism-i hecaisiyle zikredilmiş ve on üç defa {{Arabi|ال}} ism-i hecaileri ile tekrar edilir. Ve Fatiha'da dahi on beş {{Arabi|م}} tekerrür ediyor ve o surelerdeki on beş {{Arabi|م}} e tevafuk ediyor. Ve Fatiha'da on üç defa {{Arabi|ال}} tekerrür etmekle o surelerdeki on üç defa {{Arabi|ال}} adetlerine tevafuk ediyor.
+
+Elbette bütün bu tevafuk Fatiha'da o surelere karşı olan on üç {{Arabi|ال}} den on üç işaret parmakları hükmünde olan on üç {{Arabi|ال}} tekrar edilmiştir.
+
+([[Risale:29._Mektubun_8._Kısmı_(Rumuzat-ı_Semaniye)#Üçüncü_Letafet_2|Rumuzat-ı Semaniye]])
+----
+Suver-i Kur'aniye'nin başlarında olan [[Huruf-u Mukattaa|mukattaat-ı huruf]], gayet manidar ve esrarlı bir şifre-i İlahiye olduğu gibi, Fatiha hurufatı belki Kur'an'ın umum hurufatı dahi kudsî ve ayrı ayrı mütenevvi binler İlahî şifreler olduğunu Yedinci, Sekizinci Remiz'lerde işaret edilen sırlar ve tevafuklar teyid ediyorlar.
+
+([[Risale:29._Mektubun_8._Kısmı_(Rumuzat-ı_Semaniye)#Yirmi_Dokuzuncu_Mektub'un_Sekizinci_Kısmı'nın_Sekizinci_Remzi|Rumuzat-ı Semaniye]])
+----
+[[Fatiha-i Şerife]] hurufatının ebcedî hesabı olan 10212 adedi mecmu-u Kur'an'da {{Arabi|ب}} nin 10 bin, hem {{Arabi|ت}} nin 10 bin aded-i tekerrürlerine tevafuku, hem Fatiha'nın o 10 bin adedi 7 adet âyetine darbedilmesiyle mecmu-u kelimat-ı Kur'aniye adedi olan 70 bine muvafık gelmesiyle, ehl-i hakikat indinde muhakkak ve hadîsçe musaddak olan "Fatiha Kur'an kadardır ve Kur'an Fatiha'da mündericdir ve
+
+{{Arabi|اَلسَّبْعُ الْمَثَانٖى وَالْقُرْاٰنُ الْعَظٖيمُ}}
+
+Fatiha'dır." diye olan meşhur hükmün ispatını îma edip ihtar eder. Suver-i Kur'aniyenin başlarında olan [[Huruf-u Mukattaa|mukattaat-ı huruf]] gayet manidar ve esrarlı bir şifre-i İlahiye olduğu gibi, Fatiha hurufu belki Kur'an'ın umum hurufatı kudsî ve ayrı ayrı mütenevvi binler İlahî şifreler olduğunu Rumuzat-ı Semaniye ile dikkat edenler hissedebiliyor. Ve bilhassa Fatiha-i Şerife'nin hurufu daha zahir ve nuranî bir şifre olduğunu ehl-i keşif görmüşler ve emareleri de vardır.
+
+([[Risale:Rumuzat-ı_Semaniye_Fihristi#Yirmi_Dokuzuncu_Mektub'un_Sekizinci_Kısmı'nın_Sekizinci_Remzi_olan_Sekizinci_Risale|Rumuzat-ı Semaniye]])
+
+===Kur'an Harflerinin Yazılması ve Okunmasındaki Tesir===
+
+{{Arabi|ﺑِﺴْﻢِ ﺍﻟﻠَّﻪِ ﺍﻟﺮَّﺣْﻤَﻦِ ﺍﻟﺮَّﺣِﻴﻢِ}}
+
+[[Yasin 82|{{Arabi|ﺍِﻧﻤَّﺎَ ﺍَﻣْﺮُﻩُ ﺍِﺫَﺍ ﺍَﺭَﺍﺩَ ﺷَﻴْﺌًﺎ ﺍَﻥْ ﻳَﻘُﻮﻝَ ﻟَﻪُ ﻛُﻦْ ﻓَﻴَﻜُﻮﻥُ}}]]
+
+âyet-i kerimenin işaretiyle emr ile icad oluyor. Ve kudret hazineleri "[[Kün Feyekun|Kâf-Nun]]"dadır. Bu sırr-ı dakikin vücuh-u kesiresinden birkaç vechi risalelerde zikredilmiştir. Burada huruf-u Kur'anın, hususan surelerin başlarındaki [[Huruf-u Mukattaa|mukattaat-ı hurufun]] hâsiyetlerine ve fezaillerine ve tesirat-ı maddiyelerine dair vürud eden hadîsleri şu asrın nazar-ı maddîsine takrib etmek için, maddî bir misal üzerinde o sırrın tefhimine çalışacağız. Şöyle ki:
+
+Zât-ı Zülcelal olan sahib-i arş-ı a'zamın manevî bir merkezi, âlem ve kalb ve kıble-i kâinat hükmündeki olan küre-i arzdaki mahlukatın tedbirine medar dört arş-ı İlahîsi var:
+
+Birisi: Hıfz ve hayat arşıdır ki, topraktır. İsm-i Hafîz ve Muhyi'nin mazharıdır.
+
+İkincisi: Fazl ve rahmet arşıdır ki, su unsurudur.
+
+Üçüncüsü: İlim ve hikmet arşıdır ki, unsur-u nurdur.
+
+Dördüncüsü: Emr ve iradenin arşıdır ki, unsur-u havadır.
+
+Basit topraktan hadsiz hacat-ı hayvaniye ve insaniyeye medar olan maadin ve hadsiz muhtelif nebatatın basit bir unsurdan kemal-i intizamla, vahdetten hadsiz kesret, basitten nihayetsiz muhtelif enva', sade bir sahifede hadsiz muntazam nukuş gözümüzle gördüğümüz gibi; suyun hususan hayvanatın nutfelerinin, su gibi basit bir madde iken hadsiz mu'cizat-ı san'atının muhtelif zîhayatlarda o suyla tezahürü gösteriyor ki; bu iki arş misillü, nur ve hava dahi besatetleriyle beraber Nakkaş-ı Ezelî'nin ve Alîm-i Zülcelal'in kalem-i ilm ve emr ve iradesine -evvelki iki arş gibi- acaib-i mu'cizatının mazharlarıdırlar. Nur unsurunu şimdilik bırakıp, mes'elemiz münasebetiyle, küre-i arza göre emr ve irade arşı olan unsur-u hava içinde emr ve iradenin acaibini ve garaibini örten perdenin bir derece keşfine çalışacağız. Şöyle ki:
+
+Biz nasıl ağzımızdaki hava ile hurufat ve kelimatı ekiyoruz, birden sünbülleniyorlar. Yani havada âdeta zamansız, bir anda bir kelime, bir habbe olup hariç havada sünbüllenir. Küçük, büyük hadsiz aynı kelimeyi câmi' bir havayı sünbül veriyor. Unsur-u havaiyeye bakıyoruz ki: O derece emr-i "Kün Feyekûn"e muti' ve müsahhar ve emirberdir ki; güya her bir zerresi bir nefer gibi, muntazam bir ordunun her dakika emrini bekler. Zamansız en uzak zerreden emr-i "Kün"den cilveger olan bir iradenin imtisalini, itaatini gösterir. Meselâ: Âhize ve nâkile radyo makineleri vasıtasıyla, havanın hangi yerinde olursa olsun, bir nutk-u beşerî bütün küre-i arzın her tarafında, radyo âhizeleri bulunmak şartıyla, zamansız aynı nutuk aynı anda her yerde işittirilmesi; emr-i "Kün Feyekûn"ün cilvesine ne derece kemal-i imtisal ile herbir zerre-i havaiyede itaat ettiğini gösterdiği gibi, havada sebatsız vücudları bulunan hurufatın kudsiyet keyfiyetiyle bu sırr-ı imtisale göre çok tesirat-ı hariciyeye ve hasiyat-ı maddiyeye mazhar olabilirler. Âdeta maneviyatı maddiyata inkılab ve gaybı şehadete tahavvül ettirir bir hasiyet onlarda görünüyor. İşte bunun gibi hadsiz emarelerle gösteriyor ki; mevcudat-ı havaiye olan hurufun, hususan huruf-u kudsiyenin ve Kur'aniyenin hususan evail-i suredeki şifre-i İlahiyenin hurufatı muntazam ve nihayetsiz hassas ve zamansız emirleri dinler ve yapar gibi göründüğünden, elbette zerrat-ı havaiye de kudsiyet noktasında emr-i "Kün Feyekûn"ün cilvesine ve irade-i ezeliyenin tecellisine mazhar hurufatın maddî hassalarını ve hârika ve mervî faziletlerini teslim ettirir.
+
+İşte bu sırra binaendir ki: Kur'an-ı Mu'ciz-ül Beyan'da bazan kudret eserini sıfat-ı irade ve sıfat-ı kelâmdan gelir gibi tabiratı, gayet derecede sür'at-i icad ve gayet derecede inkıyad-ı eşya ve müsahhariyet-i mevcudattan başka; ayn-ı emir, kudret gibi hükmediyor demektir. Yani emr-i tekvinîden gelen hurufat, maddî kuvvet hükmünde vücud-u eşyada hükmeder. Ve emr-i tekvinî âdeta ayn-ı kudret, ayn-ı irade olarak tezahür eder. Evet emr ve iradenin bu gayet hafî ve vücud-u maddîleri gayet gizli ve havayı âdeta nim-manevî, nim-maddî nev'indeki mevcudatta emr-i tekvinî ayn-ı kudret gibi âsârı görünüyor. Belki ayn-ı kudret olur. Âdeta maneviyatla maddiyatın mabeyninde berzahî olan mevcudata nazar-ı dikkati celb etmek için, Kur'an-ı Mu'ciz-ül Beyan
+
+[[Yasin 82|{{Arabi|ﺍِﻧﻤَّﺎَ ﺍَﻣْﺮُﻩُ ﺍِﺫَﺍ ﺍَﺭَﺍﺩَ ﺷَﻴْﺌًﺎ ﺍَﻥْ ﻳَﻘُﻮﻝَ ﻟَﻪُ ﻛُﻦْ ﻓَﻴَﻜُﻮﻥُ}}]]
+
+ferman ediyor.
+
+İşte [[Huruf-u Mukattaa|evail-i suredeki]] {{Arabi|ﺍﻟٓﻢٓ، ﻃَﺲٓ، ﺣَﻢٓ}} gibi huruf-u kudsiye-i şifriye-i İlahiye, hava zerratı içinde, zamansız münasebat-ı dakika-i hafiye tellerini ihtizaza getirecek birer düğüm ve birer düğme harfi olduklarını ve ferşten arşa manevî telsiz telefon muhaberat-ı kudsiyeyi îfa etmeleri, o şifre-i kudsiye-i İlahiyenin şe'nindendir ve vazifesidir ve gayet makuldür.
+
+Evet havanın herbir zerresi ve bütün zerratı telsiz, telefon, telgraflar gibi aktar-ı âlemde münteşir zerreler, emirleri imtisal ettiklerini ve elektrik ve seyyalat-ı latifeye âhize ve nâkilelik vazifesi gibi, sair vezaif-i havaiyeden başka bir vazifesini bir hads-i kat'î ile, belki müşahede ile ben kendim badem çiçeklerinde gördüm. Ağaçların rûy-i zeminde muntazam bir ordu hükmünde, hava-yı nesimînin dokunmasıyla, bir anda aynı emri o âhizeler hükmündeki zerrelerden aldığı vaziyet-i meşhudesi, bana iki kerre iki dört eder derecesinde kat'î bir kanaat vermiş.
+
+Demek havanın rûy-i zeminde çevik ve çalak bir hizmetkâr olması ve rûy-i zemindeki Rahman-ur Rahîm'in misafirlerine hizmet ettiği gibi, o Rahman'ın emirlerini tebliğ etmek için bütün zerratı telsiz telefonun âhizeleri gibi emirber nefer hükmünde, evamir-i kudsiyeyi nebatata ve hayvanata tebliğ eder. Nefeslere yelpaze, nüfusa nefes, yani âb-ı hayat olan kanı tasfiye ve nâr-ı hayatı olan hararet-i gariziyeyi iş'al vazifesini yaptıktan sonra, çıkıp ağızda hurufatın teşekkülüne medar olduğu gibi, pek çok muntazam vazifeleri emr-i "Kün Feyekûn" ile icra eder.
+
+İşte havanın bu hâsiyetine binaendir ki; mevcudat-ı havaiye olan hurufat, kudsiyet kesbettikçe yani âhizelik vaziyetini aldıkça, yani Kur'an hurufatı olduğundan âhizelik vaziyetini aldığı ve düğmeler hükmüne geçtiği ve surelerin başlarındaki hurufat daha ziyade o münasebat-ı hafiyenin uçlarının merkezî ukdeleri, düğümleri ve hassas düğmeleri hükmünde olduğundan vücud-u havaîleri bu hasiyete mâlik olduğu gibi, vücud-u zihniyeleri dahi, hattâ vücud-u nakşiyeleri de bu hasiyetten hassaları ve hisseleri var. Demek o harflerin okunmasıyla ve yazılmasıyla maddî ilâç gibi şifa ve başka maksadlar hasıl olabilir.
+
+Said-ün Nursî
+
+([[Risale:Latif_Nükteler#Kur'an_Hazineleri_"Kaf-Nun"dadır|Latif Nükteler]])
+
+===Huruf-u Mukattaa İle Hat İcadına Çalışan Adam===
+
+O bîçare adam bir zaman [[Huruf-u Mukattaa|huruf-u mukattaa]] ile bir hatt icadına çalışıyordu. Hem pek hararetli çalışıyordu. O vakit anladım ki; o adam zındıkların tavrından hissetmiş ki hurufat-ı İslâmiyenin kaldırılmasına teşebbüs edecekler. O adam güya o seyle karşı bir hizmet edeceğim diye çok beyhude çalışmış. Şimdi bu mes'elede ve hem ikinci mes'elesinde yine zındıkların esasat-ı İslâmiyeye karşı müdhiş hücumunu hissetmiş ki, böyle manasız tevilat ile bir musalaha yolunu açmak istediğini zannediyorum.
+
+([[Risale:Latif_Nükteler#Dördüncü_Sualiniz|Latif Nükteler]])
+
+==Risale-i Nur'daki Diğer Alakalı Yerler==
+
+{|class="wikitable"
+|+Hurûf-ı Mukattaanın Alfabetik Listesi
+!Huruf-u Mukattaa'nın Okunuşu
+!Huruf-u Mukattaa
+!Sure Adı
+!Sure Sıra No
+|-
+|1. Elif lâm mîm
+|{{Arabi|ﺍﻟﻢ}}
+|Bakara
+|2
+|-
+|2. Elif lâm mîm
+|{{Arabi|ﺍﻟﻢ}}
+|Âl-i İmrân
+|3
+|-
+|3. Elif lâm mîm
+|{{Arabi|ﺍﻟﻢ}}
+|Ankebût
+|29
+|-
+|4. Elif lâm mîm
+|{{Arabi|ﺍﻟﻢ}}
+|Rûm
+|30
+|-
+|5. Elif lâm mîm
+|{{Arabi|ﺍﻟﻢ}}
+|Lokmân
+|31
+|-
+|6. Elif lâm mîm
+|{{Arabi|ﺍﻟﻢ}}
+|Secde
+|32
+|-
+|7. Elif lâm mîm râ
+|{{Arabi|ﺍﻟﻤﺮ}}
+|Ra'd
+|13
+|-
+|8. Elif lâm mîm sâd
+|{{Arabi|ﺍﻟﻤﺺ}}
+|A'râf
+|7
+|-
+|9. Elif lâm râ
+|{{Arabi|ﺍﻟﺮ}}
+|Yûnus
+|10
+|-
+|10. Elif lâm râ
+|{{Arabi|ﺍﻟﺮ}}
+|Hûd
+|11
+|-
+|11. Elif lâm râ
+|{{Arabi|ﺍﻟﺮ}}
+|Yûsuf
+|12
+|-
+|12. Elif lâm râ
+|{{Arabi|ﺍﻟﺮ}}
+|İbrâhîm
+|14
+|-
+|13. Elif lâm râ
+|{{Arabi|ﺍﻟﺮ}}
+|Hicr
+|15
+|-
+|14. Hâ mîm
+|{{Arabi|ﺣﻢ}}
+|Mü'min
+|40
+|-
+|15. Hâ mîm
+|{{Arabi|ﺣﻢ}}
+|Fussılet
+|41
+|-
+|'''Huruf-u Mukattaa'nın Okunuşu'''
+|'''Huruf-u Mukattaa'''
+|'''Sure Adı'''
+|'''Sure Sıra No'''
+|-
+|16. Hâ mîm
+|{{Arabi|ﺣﻢ}}
+|Zuhruf
+|43
+|-
+|17. Hâ mîm
+|{{Arabi|ﺣﻢ}}
+|Duhân
+|44
+|-
+|18. Hâ mîm
+|{{Arabi|ﺣﻢ}}
+|Câsiye
+|45
+|-
+|19. Hâ mîm
+|{{Arabi|ﺣﻢ}}
+|Ahkâf
+|46
+|-
+|20. Hâ mîm ayn sîn kâf
+|{{Arabi|ﺣﻢ ﻋﺴﻖ}}
+|Şûrâ (2 ayet)
+|42
+|-
+|21. Kâf
+|{{Arabi|ﻕ}}
+|Kâf
+|50
+|-
+|22. Kâf hâ yâ ayn sâd
+|{{Arabi|ﻛﻬﻴﻌﺺ}}
+|Meryem
+|19
+|-
+|23. Nûn
+|{{Arabi|ﻥ}}
+|Kalem
+|68
+|-
+|24. Sâd
+|{{Arabi|ﺹ}}
+|Sâd
+|38
+|-
+|25. Tâ hâ
+|{{Arabi|ﻃﻪ}}
+|Tâhâ
+|20
+|-
+|26. Tâ sîn
+|{{Arabi|ﻃﺲ}}
+|Neml
+|27
+|-
+|27. Tâ sîn mîm
+|{{Arabi|ﻃﺴﻢ}}
+|Şuarâ
+|26
+|-
+|28. Tâ sîn mîm
+|{{Arabi|ﻃﺴﻢ}}
+|Kasas
+|28
+|-
+|29. Yâ sîn
+|{{Arabi|ﻳﺲ}}
+|Yâsîn
+|36
+|-}
+
+==İlgili Maddeler/Kategoriler==
+
+*[[:Kategori:Huruf-u Mukattaa İçeren Ayetler|Huruf-u Mukattaa İçeren Ayetler listesi]]
+*[[:Kategori:Huruf-u Mukattaa İle Başlayan Sureler|Huruf-u Mukattaa İle Başlayan Sureler listesi]]

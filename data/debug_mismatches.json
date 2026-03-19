@@ -1,0 +1,56 @@
+{
+  "known_relationship_total": 10,
+  "relationship_scan_limit": 200000,
+  "found_count": 8,
+  "missed_count": 2,
+  "found": [
+    [
+      "ayet",
+      "vahiy"
+    ],
+    [
+      "dua",
+      "ibadet"
+    ],
+    [
+      "ene",
+      "tevazu"
+    ],
+    [
+      "farz",
+      "sünnet"
+    ],
+    [
+      "hikmet",
+      "rahmet"
+    ],
+    [
+      "ibadet",
+      "şükür"
+    ],
+    [
+      "iman",
+      "nefis"
+    ],
+    [
+      "kalp",
+      "ruh"
+    ]
+  ],
+  "missed": [
+    {
+      "pair": [
+        "haram",
+        "helal"
+      ],
+      "reason": "co-occurrence/PMI veya normalizasyon nedeniyle yakalanamadı"
+    },
+    {
+      "pair": [
+        "marifet",
+        "tevhid"
+      ],
+      "reason": "co-occurrence/PMI veya normalizasyon nedeniyle yakalanamadı"
+    }
+  ]
+}

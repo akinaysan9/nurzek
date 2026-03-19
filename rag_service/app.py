@@ -4,13 +4,13 @@ import time
 import logging
 import json
 import re
-from typing import List, Optional, AsyncGenerator, Any, Dict
+from typing import List, Optional, AsyncGenerator
 from rank_bm25 import BM25Okapi
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import JSONResponse, StreamingResponse
 from pydantic import BaseModel
 from collections import Counter
-from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer, CrossEncoder
 import faiss
 import numpy as np
 from openai import OpenAI
@@ -67,7 +67,7 @@ ALIAS_MAP_PATH = os.path.join(SERVICE_DIR, "alias_map.json")
 GLOSSARY_PATH = os.path.join(SERVICE_DIR, "risale_sozluk.json")
 FIHRIST_INDEX_PATH = os.path.join(SERVICE_DIR, "fihrist_index.json")
 NURPEDIA_INDEX_PATH = os.path.join(SERVICE_DIR, "nurpedia_index.json")
-EMBEDDING_MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+EMBEDDING_MODEL_NAME = "BAAI/bge-m3"
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 deepseek_client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
@@ -175,8 +175,13 @@ dayanır. Her çıkarımını metinden bir alıntıyla desteklersin.
 
 Her bağlam bloğunda sana bir kaynak kimliği verilir. Cevapta kullandığın her iddia,
 yorum veya alıntının sonunda yalnızca bağlamda gerçekten verilen kaynak kimliklerini
-köşeli parantez içinde kullan: [Kaynak 1], [Kaynak 2] gibi. Bağlamda verilmeyen
-hiçbir kaynak kimliği, risale adı, bölüm adı veya belge numarası uydurma.
+köşeli parantez içinde kullan: [Kaynak 1], [Kaynak 2] gibi. Her kaynağı ayrı köşeli
+parantezle yaz: [Kaynak 1] [Kaynak 2] — asla [Kaynak 1, Kaynak 2] şeklinde birleştirme.
+Bağlamda verilmeyen hiçbir kaynak kimliği, risale adı, bölüm adı veya belge numarası uydurma.
+
+YASAK: Cevabında herhangi bir kitap adı (örn. "Onuncu Söz", "Sözler", "Lemalar") veya
+bölüm adı yazıyorsan, o kitap/bölüm mutlaka bağlamda verilen kaynaklardan birinde geçiyor
+olmalıdır. Context'te olmayan hiçbir eser veya bölüm adını cevabına ekleme.
 
 Eğer sorunun cevabı bağlamda yeterince yoksa açıkça "Bu konuyla ilgili sağlanan
 kaynaklarda yeterli bilgi bulunmamaktadır" de. Eksik yeri tahmin ederek doldurma.
@@ -349,6 +354,7 @@ class GlobalState:
     nurpedia_index: dict = {}
     section_chunk_index: dict = {}  # section_name -> [chunk_indices]
     slug_chunk_index: dict = {}
+    reranker: Optional[CrossEncoder] = None
 
 state = GlobalState()
 
@@ -708,16 +714,21 @@ def extract_source_labels_from_answer(answer_text: str) -> list:
         return []
 
     matches = re.findall(r'\[\[\s*([^\[\]]+?)\s*\]\]', answer_text)
-    bracket_refs = re.findall(r'(?<!\[)\[(Kaynak\s+\d+|Doc_[A-Za-z0-9_-]+)\]', answer_text, flags=re.IGNORECASE)
+    # Match both single [Kaynak N] and multi [Kaynak N, Kaynak M, ...]
+    bracket_refs = re.findall(r'(?<!\[)\[([^\[\]]+)\]', answer_text)
     labels = []
     seen = set()
 
     for ref in bracket_refs:
-        candidate = re.sub(r'\s+', ' ', ref).strip()
-        normalized = candidate.lower()
-        if normalized not in seen:
-            seen.add(normalized)
-            labels.append(candidate)
+        # Split by comma to handle [Kaynak 2, Kaynak 3] style
+        parts = [p.strip() for p in ref.split(',')]
+        for part in parts:
+            if re.match(r'^Kaynak\s+\d+$', part, flags=re.IGNORECASE) or re.match(r'^Doc_[A-Za-z0-9_-]+$', part):
+                candidate = re.sub(r'\s+', ' ', part).strip()
+                normalized = candidate.lower()
+                if normalized not in seen:
+                    seen.add(normalized)
+                    labels.append(candidate)
 
     for match in matches:
         candidate = re.sub(r'^KAYNAK ETİKETİ\s*:\s*', '', match, flags=re.IGNORECASE).strip()
@@ -882,11 +893,9 @@ def build_context(chunks: list, max_tokens: int = 5000) -> str:
         channel_label = 'KAVRAMSAL KOPRU' if channel == 'bridge' else 'ANA KAYNAK'
         bridge_term = str(chunk.get('_concept_bridge_term') or '').strip()
 
-        block = f"[[KANAL: {channel_label}]]\n"
-        block += f"[[KAYNAK ID: {citation_id}]]\n"
-        if bridge_term:
-            block += f"[[KOPRU TERIMI: {bridge_term}]]\n"
-        block += f"[[KAYNAK ETİKETİ: {kaynak_etiketi}]]\n{metin}\n"
+        bridge_note = f" | Köprü: {bridge_term}" if bridge_term else ""
+        block = f"=== {citation_id}: {kaynak_etiketi} [{channel_label}{bridge_note}] ===\n"
+        block += f"{metin}\n"
         
         estimated_tokens = len(block.split()) * 1.3
         if total_tokens + estimated_tokens > max_tokens:
@@ -1190,55 +1199,6 @@ def contains_term(text: str, term: str) -> bool:
     if not text or not term:
         return False
     return re.search(r'(?<!\w)' + re.escape(term) + r'(?!\w)', text) is not None
-
-
-def get_concept_match_variants(concept: str) -> list:
-    raw = str(concept or '').strip()
-    if not raw:
-        return []
-
-    variants = []
-    candidates = {
-        raw,
-        raw.lower(),
-        normalize_query(raw),
-        normalize_query(raw).lower(),
-        normalize_loose_text(raw),
-        normalize_loose_text(normalize_query(raw)),
-        normalize_slug_key(raw).replace('-', ' '),
-    }
-
-    for candidate in candidates:
-        normalized = normalize_loose_text(candidate)
-        if normalized and normalized not in variants:
-            variants.append(normalized)
-
-    return variants
-
-
-def text_contains_concept(text: str, concept: str) -> bool:
-    normalized_text = normalize_loose_text(text)
-    if not normalized_text:
-        return False
-
-    for variant in get_concept_match_variants(concept):
-        if contains_term(normalized_text, variant):
-            return True
-
-    return False
-
-
-def extract_relevant_sentence_for_concept(chunk_text: str, concept: str) -> str:
-    sentences = re.split(r'(?<=[.!?])\s+|\n+', str(chunk_text or '').replace('\r', ' '))
-    for sentence in sentences:
-        cleaned = sentence.strip()
-        if len(cleaned) < 20:
-            continue
-        if text_contains_concept(cleaned, concept):
-            return cleaned[:160]
-
-    fallback = re.sub(r'\s+', ' ', str(chunk_text or '')).strip()
-    return fallback[:160]
 
 
 def is_specific_anchor_alias(alias_text: str) -> bool:
@@ -1882,6 +1842,16 @@ Sadece şu JSON formatında cevap ver:
 
     return merged[:max(MULTI_QUERY_COUNT, 5)]
 
+def rerank_chunks_local(question: str, chunks: list) -> tuple[list, bool]:
+    if not chunks or state.reranker is None:
+        return [], False
+    pairs = [(question, c.get('text', '')) for c in chunks]
+    scores = state.reranker.predict(pairs)
+    scored = sorted(zip(scores, chunks), key=lambda x: x[0], reverse=True)
+    top = [c for _, c in scored[:RERANK_TOP_K]]
+    is_relevant = bool(top) and float(scored[0][0]) > 0.3
+    return top, is_relevant
+
 def rerank_chunks_with_llm(question: str, chunks: list) -> tuple[list, bool]:
     if not chunks:
         return [], False
@@ -1953,7 +1923,7 @@ def retrieve_relevant_chunks(question: str, book_hint: Optional[str] = None, cha
         )
 
     deduped_candidates = dedupe_chunks(direct_passage_chunks + candidate_chunks)
-    reranked_chunks, is_relevant = rerank_chunks_with_llm(question, deduped_candidates[:15])
+    reranked_chunks, is_relevant = rerank_chunks_local(question, deduped_candidates[:15])
     anchor_profile = get_query_anchor_profile(question)
 
     # If user is asking from an open chapter, force that chapter as primary anchor.
@@ -2055,6 +2025,8 @@ def startup_event():
                         CHAPTER_TO_BOOK_SLUG[f.replace('.md', '')] = book_folder
 
     state.embedding_model = SentenceTransformer(EMBEDDING_MODEL_NAME, device='cpu')
+    state.reranker = CrossEncoder('BAAI/bge-reranker-base', device='cpu')
+    logging.info("Reranker yüklendi: BAAI/bge-reranker-base")
     if os.path.exists(INDEX_PATH):
         state.index = faiss.read_index(INDEX_PATH)
         logging.info(f"FAISS index loaded: {state.index.ntotal} vectors")
@@ -2153,23 +2125,33 @@ async def search_endpoint(request: SearchRequest, raw_request: Request):
     
     # Bypass logic check (Simple length check for now)
     if len(user_question.split()) > 150:
+         # Retrieve related chunks for context and source cards
+         _analysis_query = build_analysis_query(user_question)
+         _chunks, _, _ = retrieve_relevant_chunks(_analysis_query, book_hint=book_hint, chapter_hint=chapter_hint)
+         _ordered_chunks = sorted(_chunks, key=lambda x: x.get('metadata', {}).get('original_order_index', 0))
+         _context_block = build_context(_ordered_chunks) if _ordered_chunks else f"[KULLANICI METNİ]\n{user_question}"
+
          async def no_retrieval_stream():
-             # We should probably run the LLM heavily here on the input
-             # But following strict V2 plan, if user provides long passage, we analyze it.
-             # Construct dummy context from input
-             context = f"[KULLANICI METNİ]\n{user_question}"
-             prompt = SYSTEM_PROMPT.format(context=context)
-             
+             prompt = SYSTEM_PROMPT.format(context=_context_block)
              try:
-                 stream = client.chat.completions.create(
+                 resp = client.chat.completions.create(
                     model="deepseek-chat",
-                    messages=[{"role": "system", "content": prompt}, {"role": "user", "content": "Bu metni analiz et."}],
+                    messages=[{"role": "system", "content": prompt}, {"role": "user", "content": user_question}],
                     stream=False, temperature=get_temperature(user_question)
                  )
-                 for chunk in stream:
-                    if chunk.choices[0].delta.content:
-                        data = json.dumps({"token": chunk.choices[0].delta.content}, ensure_ascii=False)
-                        yield f"data: {data}\n\n"
+                 full_response_raw = resp.choices[0].message.content or ""
+                 selected_source_chunks = select_source_chunks_with_fallback(full_response_raw, _ordered_chunks)
+                 sources_payload = build_source_payload(selected_source_chunks) if selected_source_chunks else []
+                 full_text = strip_source_labels_from_answer(full_response_raw)
+                 full_text = replace_answer_citation_labels(full_text, _ordered_chunks)
+                 full_text = sanitize_assistant_response(full_text)
+                 for tok in full_text.split(" "):
+                     if tok:
+                         data = json.dumps({"token": tok + " "}, ensure_ascii=False)
+                         yield f"data: {data}\n\n"
+                 if sources_payload:
+                     sources_event = json.dumps({"sources": sources_payload}, ensure_ascii=False)
+                     yield f"data: {sources_event}\n\n"
                  yield "data: [DONE]\n\n"
              except Exception as e:
                  yield f"data: {json.dumps({'error': str(e)})}\n\n"
@@ -2386,6 +2368,13 @@ Bağlam: {context[:500]}
     results = []
     seen = set()
     
+    def get_relevant_sentence(chunk_text, concept):
+        sentences = chunk_text.replace('\n', ' ').split('.')
+        for sentence in sentences:
+            if concept.lower() in sentence.lower() and len(sentence.strip()) > 20:
+                return sentence.strip()[:120]
+        return chunk_text[:80]
+
     def to_slug(text):
         text = text.lower()
         text = text.replace('ğ','g').replace('ü','u').replace('ş','s')
@@ -2398,7 +2387,7 @@ Bağlam: {context[:500]}
     if state.chunks:
         for chunk in state.chunks:
             text = chunk.get('text', '')
-            if text_contains_concept(text, concept):
+            if concept.lower() in text.lower():
                 chunk_id = chunk.get('id', '')
                 if chunk_id and chunk_id in seen:
                     continue
@@ -2406,7 +2395,11 @@ Bağlam: {context[:500]}
                     seen.add(chunk_id)
                 
                 # İlgili cümleyi çıkar
-                relevant = extract_relevant_sentence_for_concept(text, concept)
+                sentences = text.split('.')
+                relevant = next(
+                    (s for s in sentences if concept.lower() in s.lower()),
+                    text[:200]
+                )
                 # Extract frontmatter variables if present using regex
                 kitap_match = re.search(r'^kitap:\s*"?(.*?)"?\r?\n', text, re.MULTILINE | re.IGNORECASE)
                 bolum_match = re.search(r'^bölüm:\s*"?(.*?)"?\r?\n', text, re.MULTILINE | re.IGNORECASE)
@@ -2447,7 +2440,7 @@ Bağlam: {context[:500]}
                     "chapter_slug": chapter_slug,
                     "bolum_no":     metadata.get('bolum_no', metadata.get('original_order_index', int(chunk_id if str(chunk_id).isdigit() else 0))),
                     "pasaj":        relevant.strip() + "...",
-                    "metin_ipucu":  extract_relevant_sentence_for_concept(text, concept)
+                    "metin_ipucu":  get_relevant_sentence(text, concept)  # gelişmiş eşleştirme için o cümleyi döndür
                 })
                 
     # Kitap sırasına göre sırala
@@ -2466,102 +2459,6 @@ Bağlam: {context[:500]}
         "explanation": explanation,
         "count":       len(results),
         "occurrences": results
-    }
-
-
-class ReplayRequest(BaseModel):
-    mode: Optional[str] = "strict"
-
-
-@app.post("/api/replay/{event_id}")
-async def replay_event(event_id: str, request: ReplayRequest):
-    mode = (request.mode or "strict").strip().lower()
-    if mode not in {"strict", "compat"}:
-        raise HTTPException(status_code=400, detail="mode must be strict or compat")
-
-    database_url = os.getenv("DATABASE_URL")
-    if not database_url:
-        raise HTTPException(status_code=503, detail="DATABASE_URL is not configured")
-
-    try:
-        import psycopg
-        from psycopg.rows import dict_row
-    except Exception as exc:
-        raise HTTPException(status_code=500, detail=f"psycopg import failed: {exc}")
-
-    try:
-        with psycopg.connect(database_url, row_factory=dict_row) as conn:
-            with conn.cursor() as cur:
-                cur.execute(
-                    """
-                    SELECT
-                        event_id,
-                        concept_name,
-                        mention_type,
-                        confidence,
-                        source_refs,
-                        decision_trace,
-                        rule_snapshot_hash,
-                        ontology_snapshot_hash,
-                        engine_build_id,
-                        feature_schema_version,
-                        lane,
-                        status,
-                        created_at
-                    FROM occurrence_events_core
-                    WHERE event_id = %s
-                    """,
-                    [event_id]
-                )
-                event_row = cur.fetchone()
-                if not event_row:
-                    raise HTTPException(status_code=404, detail="event_id not found")
-
-                has_full_trace = bool(
-                    event_row.get("rule_snapshot_hash")
-                    and event_row.get("ontology_snapshot_hash")
-                    and event_row.get("engine_build_id")
-                )
-
-                replay_result: Dict[str, Any] = {
-                    "mode": mode,
-                    "event_id": str(event_row.get("event_id")),
-                    "trace_ok": has_full_trace,
-                    "lane": event_row.get("lane"),
-                    "status": event_row.get("status"),
-                    "feature_schema_version": event_row.get("feature_schema_version"),
-                    "decision_trace": event_row.get("decision_trace") or {},
-                    "source_refs": event_row.get("source_refs") or []
-                }
-
-                if mode == "strict" and not has_full_trace:
-                    replay_result["replay_status"] = "rejected"
-                    replay_result["reason"] = "missing trace fields for strict replay"
-                else:
-                    replay_result["replay_status"] = "accepted"
-                    replay_result["reason"] = "compat mode" if mode == "compat" else "strict trace checks passed"
-
-                cur.execute(
-                    """
-                    INSERT INTO replay_runs (event_id, mode, result)
-                    VALUES (%s, %s, %s::jsonb)
-                    RETURNING run_id, created_at
-                    """,
-                    [event_id, mode, json.dumps(replay_result)]
-                )
-                run_row = cur.fetchone()
-
-            conn.commit()
-
-    except HTTPException:
-        raise
-    except Exception as exc:
-        raise HTTPException(status_code=500, detail=f"replay failed: {exc}")
-
-    return {
-        "run_id": str(run_row.get("run_id")),
-        "created_at": str(run_row.get("created_at")),
-        "result": replay_result
     }
 
 if __name__ == "__main__":

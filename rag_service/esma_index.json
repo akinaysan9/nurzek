@@ -1,0 +1,2058 @@
+{
+  "Hak": {
+    "toplam": 1509,
+    "bolum_sayisi": 214,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "mektubat/yirmi-dokuzuncu-mektup",
+        "sayi": 37
+      },
+      {
+        "bolum": "mektubat/on-dokuzuncu-mektup",
+        "sayi": 32
+      },
+      {
+        "bolum": "muhakemat/birinci-makale",
+        "sayi": 28
+      },
+      {
+        "bolum": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-2",
+        "sayi": 28
+      },
+      {
+        "bolum": "sozler/yirmi-besinci-soz-2",
+        "sayi": 28
+      },
+      {
+        "bolum": "sozler/otuz-ikinci-soz",
+        "sayi": 27
+      },
+      {
+        "bolum": "tarihce-i-hayat/isparta-hayati",
+        "sayi": 24
+      },
+      {
+        "bolum": "lemalar/fihrist-lemalar",
+        "sayi": 23
+      },
+      {
+        "bolum": "isaratul-icaz/bakara-suresi-26-27-ayetler",
+        "sayi": 22
+      },
+      {
+        "bolum": "lemalar/yirminci-lema",
+        "sayi": 22
+      }
+    ]
+  },
+  "Hakîm": {
+    "toplam": 1138,
+    "bolum_sayisi": 179,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "sozler/otuz-ucuncu-soz",
+        "sayi": 46
+      },
+      {
+        "bolum": "sozler/otuz-ikinci-soz",
+        "sayi": 37
+      },
+      {
+        "bolum": "sozler/onuncu-soz",
+        "sayi": 33
+      },
+      {
+        "bolum": "mektubat/on-dokuzuncu-mektup",
+        "sayi": 30
+      },
+      {
+        "bolum": "lemalar/otuzuncu-lema",
+        "sayi": 28
+      },
+      {
+        "bolum": "mektubat/yirmi-dokuzuncu-mektup",
+        "sayi": 28
+      },
+      {
+        "bolum": "tarihce-i-hayat/kastamonu-hayati",
+        "sayi": 28
+      },
+      {
+        "bolum": "sozler/yirmi-besinci-soz-2",
+        "sayi": 27
+      },
+      {
+        "bolum": "tarihce-i-hayat/barla-hayati",
+        "sayi": 25
+      },
+      {
+        "bolum": "mektubat/yirmi-sekizinci-mektup",
+        "sayi": 24
+      }
+    ]
+  },
+  "Allah": {
+    "toplam": 1112,
+    "bolum_sayisi": 199,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "tarihce-i-hayat/isparta-hayati",
+        "sayi": 48
+      },
+      {
+        "bolum": "mektubat/yirmi-dokuzuncu-mektup",
+        "sayi": 29
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/habbe",
+        "sayi": 28
+      },
+      {
+        "bolum": "isaratul-icaz/bakara-suresi-26-27-ayetler",
+        "sayi": 27
+      },
+      {
+        "bolum": "sualar/on-dorduncu-sua",
+        "sayi": 24
+      },
+      {
+        "bolum": "sualar/on-birinci-sua",
+        "sayi": 22
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-21-39",
+        "sayi": 20
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/hubab",
+        "sayi": 20
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/onuncu-risale",
+        "sayi": 19
+      },
+      {
+        "bolum": "sozler/yirmi-besinci-soz-2",
+        "sayi": 19
+      }
+    ]
+  },
+  "Aziz": {
+    "toplam": 1093,
+    "bolum_sayisi": 124,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "sualar/on-dorduncu-sua",
+        "sayi": 71
+      },
+      {
+        "bolum": "sualar/on-ucuncu-sua",
+        "sayi": 62
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/habbe",
+        "sayi": 57
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/hubab",
+        "sayi": 52
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/onuncu-risale",
+        "sayi": 51
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/zerre",
+        "sayi": 34
+      },
+      {
+        "bolum": "tarihce-i-hayat/601-2",
+        "sayi": 28
+      },
+      {
+        "bolum": "tarihce-i-hayat/emirdag-hayati",
+        "sayi": 25
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/semme-risalesi",
+        "sayi": 22
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/sule",
+        "sayi": 21
+      }
+    ]
+  },
+  "Evvel": {
+    "toplam": 989,
+    "bolum_sayisi": 180,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "mektubat/on-dokuzuncu-mektup",
+        "sayi": 44
+      },
+      {
+        "bolum": "tarihce-i-hayat/eskisehir-hayati",
+        "sayi": 39
+      },
+      {
+        "bolum": "sualar/on-dorduncu-sua",
+        "sayi": 34
+      },
+      {
+        "bolum": "tarihce-i-hayat/573-2",
+        "sayi": 30
+      },
+      {
+        "bolum": "hutbe-i-samiye/hutbe-i-samiye",
+        "sayi": 22
+      },
+      {
+        "bolum": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-2",
+        "sayi": 22
+      },
+      {
+        "bolum": "tarihce-i-hayat/kastamonu-hayati",
+        "sayi": 21
+      },
+      {
+        "bolum": "tarihce-i-hayat/isparta-hayati",
+        "sayi": 16
+      },
+      {
+        "bolum": "tarihce-i-hayat/emirdag-hayati",
+        "sayi": 15
+      },
+      {
+        "bolum": "munazarat/munazarat",
+        "sayi": 14
+      }
+    ]
+  },
+  "Hâlık": {
+    "toplam": 878,
+    "bolum_sayisi": 156,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "mektubat/on-dokuzuncu-mektup",
+        "sayi": 33
+      },
+      {
+        "bolum": "sualar/yedinci-sua",
+        "sayi": 33
+      },
+      {
+        "bolum": "sualar/on-besinci-sua",
+        "sayi": 31
+      },
+      {
+        "bolum": "tarihce-i-hayat/kastamonu-hayati",
+        "sayi": 31
+      },
+      {
+        "bolum": "sozler/yirmi-besinci-soz-2",
+        "sayi": 30
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/katre",
+        "sayi": 29
+      },
+      {
+        "bolum": "sualar/on-birinci-sua",
+        "sayi": 26
+      },
+      {
+        "bolum": "lemalar/otuzuncu-lema",
+        "sayi": 20
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/onuncu-risale",
+        "sayi": 20
+      },
+      {
+        "bolum": "sozler/otuz-ucuncu-soz",
+        "sayi": 18
+      }
+    ]
+  },
+  "Kerîm": {
+    "toplam": 417,
+    "bolum_sayisi": 115,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "isaratul-icaz/bakara-suresi-23-24-ayetler",
+        "sayi": 40
+      },
+      {
+        "bolum": "sozler/otuz-ikinci-soz",
+        "sayi": 16
+      },
+      {
+        "bolum": "sozler/otuz-ucuncu-soz",
+        "sayi": 16
+      },
+      {
+        "bolum": "isaratul-icaz/bakara-suresi-26-27-ayetler",
+        "sayi": 15
+      },
+      {
+        "bolum": "isaratul-icaz/bakara-suresi-21-22-ayetler",
+        "sayi": 13
+      },
+      {
+        "bolum": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-2",
+        "sayi": 13
+      },
+      {
+        "bolum": "sozler/onuncu-soz",
+        "sayi": 10
+      },
+      {
+        "bolum": "sualar/on-besinci-sua",
+        "sayi": 10
+      },
+      {
+        "bolum": "lemalar/on-yedinci-lema",
+        "sayi": 8
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/zuhre",
+        "sayi": 8
+      }
+    ]
+  },
+  "Azîm": {
+    "toplam": 408,
+    "bolum_sayisi": 146,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-80-102",
+        "sayi": 11
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-160-180",
+        "sayi": 10
+      },
+      {
+        "bolum": "mektubat/fihriste-i-mektubat",
+        "sayi": 9
+      },
+      {
+        "bolum": "sozler/otuz-birinci-soz",
+        "sayi": 9
+      },
+      {
+        "bolum": "sozler/yirmi-besinci-soz-2",
+        "sayi": 8
+      },
+      {
+        "bolum": "sualar/on-besinci-sua",
+        "sayi": 8
+      },
+      {
+        "bolum": "lemalar/otuzuncu-lema",
+        "sayi": 7
+      },
+      {
+        "bolum": "mektubat/on-dokuzuncu-mektup",
+        "sayi": 7
+      },
+      {
+        "bolum": "sozler/otuzuncu-soz",
+        "sayi": 7
+      },
+      {
+        "bolum": "sualar/on-dorduncu-sua",
+        "sayi": 7
+      }
+    ]
+  },
+  "Latîf": {
+    "toplam": 349,
+    "bolum_sayisi": 140,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "sozler/yirmi-dorduncu-soz",
+        "sayi": 13
+      },
+      {
+        "bolum": "sozler/otuz-ikinci-soz",
+        "sayi": 12
+      },
+      {
+        "bolum": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-2",
+        "sayi": 10
+      },
+      {
+        "bolum": "sozler/yirmi-besinci-soz-2",
+        "sayi": 10
+      },
+      {
+        "bolum": "lemalar/otuzuncu-lema",
+        "sayi": 8
+      },
+      {
+        "bolum": "sozler/onuncu-soz",
+        "sayi": 8
+      },
+      {
+        "bolum": "sozler/yirminci-soz",
+        "sayi": 8
+      },
+      {
+        "bolum": "sozler/yirmi-dokuzuncu-soz",
+        "sayi": 8
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-160-180",
+        "sayi": 7
+      },
+      {
+        "bolum": "kastamonu-lahikasi/kastamonu-lahikasi-s-190-210",
+        "sayi": 7
+      }
+    ]
+  },
+  "Âhir": {
+    "toplam": 324,
+    "bolum_sayisi": 119,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "sualar/besinci-sua",
+        "sayi": 12
+      },
+      {
+        "bolum": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-2",
+        "sayi": 11
+      },
+      {
+        "bolum": "mektubat/on-dokuzuncu-mektup",
+        "sayi": 10
+      },
+      {
+        "bolum": "sikke-i-tasdik-i-gaybi/sekizinci-sua-2",
+        "sayi": 10
+      },
+      {
+        "bolum": "sualar/sekizinci-sua",
+        "sayi": 10
+      },
+      {
+        "bolum": "sualar/on-birinci-sua",
+        "sayi": 8
+      },
+      {
+        "bolum": "sualar/on-ucuncu-sua",
+        "sayi": 8
+      },
+      {
+        "bolum": "kastamonu-lahikasi/kastamonu-lahikasi-s-52-69",
+        "sayi": 7
+      },
+      {
+        "bolum": "kastamonu-lahikasi/kastamonu-lahikasi-s-91-109",
+        "sayi": 6
+      },
+      {
+        "bolum": "lemalar/yedinci-lema",
+        "sayi": 6
+      }
+    ]
+  },
+  "Rahman": {
+    "toplam": 280,
+    "bolum_sayisi": 101,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "sozler/otuz-ikinci-soz",
+        "sayi": 20
+      },
+      {
+        "bolum": "sozler/birinci-soz",
+        "sayi": 11
+      },
+      {
+        "bolum": "lemalar/on-dorduncu-lema",
+        "sayi": 10
+      },
+      {
+        "bolum": "sualar/yedinci-sua",
+        "sayi": 9
+      },
+      {
+        "bolum": "sualar/on-besinci-sua",
+        "sayi": 9
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/onuncu-risale",
+        "sayi": 7
+      },
+      {
+        "bolum": "tarihce-i-hayat/kastamonu-hayati",
+        "sayi": 7
+      },
+      {
+        "bolum": "lemalar/fihrist-lemalar",
+        "sayi": 6
+      },
+      {
+        "bolum": "mektubat/yirmi-sekizinci-mektup",
+        "sayi": 6
+      },
+      {
+        "bolum": "mektubat/yirmi-dokuzuncu-mektup",
+        "sayi": 6
+      }
+    ]
+  },
+  "Vâhid": {
+    "toplam": 263,
+    "bolum_sayisi": 72,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "mektubat/yirminci-mektup",
+        "sayi": 25
+      },
+      {
+        "bolum": "lemalar/otuzuncu-lema",
+        "sayi": 18
+      },
+      {
+        "bolum": "lemalar/fihrist-lemalar",
+        "sayi": 13
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/katre",
+        "sayi": 13
+      },
+      {
+        "bolum": "mektubat/on-dokuzuncu-mektup",
+        "sayi": 12
+      },
+      {
+        "bolum": "asa-yi-musa/ucuncu-huccet-i-imaniye",
+        "sayi": 10
+      },
+      {
+        "bolum": "lemalar/yirmi-ucuncu-lema",
+        "sayi": 10
+      },
+      {
+        "bolum": "sualar/yedinci-sua",
+        "sayi": 10
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/lemalar-risalesi",
+        "sayi": 9
+      },
+      {
+        "bolum": "sozler/otuz-ucuncu-soz",
+        "sayi": 9
+      }
+    ]
+  },
+  "Ferd": {
+    "toplam": 248,
+    "bolum_sayisi": 79,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "lemalar/otuzuncu-lema",
+        "sayi": 33
+      },
+      {
+        "bolum": "lemalar/fihrist-lemalar",
+        "sayi": 18
+      },
+      {
+        "bolum": "tarihce-i-hayat/573-2",
+        "sayi": 11
+      },
+      {
+        "bolum": "sualar/on-besinci-sua",
+        "sayi": 10
+      },
+      {
+        "bolum": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-1",
+        "sayi": 9
+      },
+      {
+        "bolum": "sikke-i-tasdik-i-gaybi/birinci-sua-2",
+        "sayi": 8
+      },
+      {
+        "bolum": "sualar/birinci-sua",
+        "sayi": 8
+      },
+      {
+        "bolum": "mektubat/yirmi-dorduncu-mektup",
+        "sayi": 6
+      },
+      {
+        "bolum": "tarihce-i-hayat/kastamonu-hayati",
+        "sayi": 6
+      },
+      {
+        "bolum": "isaratul-icaz/ifadetul-meram",
+        "sayi": 5
+      }
+    ]
+  },
+  "Câmi": {
+    "toplam": 211,
+    "bolum_sayisi": 91,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "mektubat/on-dokuzuncu-mektup",
+        "sayi": 11
+      },
+      {
+        "bolum": "sozler/otuz-ikinci-soz",
+        "sayi": 8
+      },
+      {
+        "bolum": "sozler/onuncu-soz",
+        "sayi": 7
+      },
+      {
+        "bolum": "tarihce-i-hayat/573-2",
+        "sayi": 7
+      },
+      {
+        "bolum": "lemalar/otuzuncu-lema",
+        "sayi": 6
+      },
+      {
+        "bolum": "sozler/yirmi-dorduncu-soz",
+        "sayi": 6
+      },
+      {
+        "bolum": "sozler/yirmi-besinci-soz-2",
+        "sayi": 6
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/reshalar",
+        "sayi": 5
+      },
+      {
+        "bolum": "sozler/yirmi-ucuncu-soz",
+        "sayi": 5
+      },
+      {
+        "bolum": "sozler/yirmi-sekizinci-soz",
+        "sayi": 5
+      }
+    ]
+  },
+  "Ehad": {
+    "toplam": 136,
+    "bolum_sayisi": 52,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "mektubat/yirminci-mektup",
+        "sayi": 13
+      },
+      {
+        "bolum": "lemalar/otuzuncu-lema",
+        "sayi": 12
+      },
+      {
+        "bolum": "asa-yi-musa/ucuncu-huccet-i-imaniye",
+        "sayi": 8
+      },
+      {
+        "bolum": "lemalar/yirmi-ucuncu-lema",
+        "sayi": 8
+      },
+      {
+        "bolum": "sualar/ikinci-sua",
+        "sayi": 8
+      },
+      {
+        "bolum": "lemalar/fihrist-lemalar",
+        "sayi": 7
+      },
+      {
+        "bolum": "sozler/otuz-ikinci-soz",
+        "sayi": 7
+      },
+      {
+        "bolum": "sozler/otuz-ucuncu-soz",
+        "sayi": 7
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/katre",
+        "sayi": 4
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/lemalar-risalesi",
+        "sayi": 3
+      }
+    ]
+  },
+  "Kayyum": {
+    "toplam": 136,
+    "bolum_sayisi": 41,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "lemalar/otuzuncu-lema",
+        "sayi": 52
+      },
+      {
+        "bolum": "lemalar/fihrist-lemalar",
+        "sayi": 12
+      },
+      {
+        "bolum": "sozler/otuz-ucuncu-soz",
+        "sayi": 7
+      },
+      {
+        "bolum": "sozler/onuncu-soz",
+        "sayi": 6
+      },
+      {
+        "bolum": "sualar/dorduncu-sua",
+        "sayi": 5
+      },
+      {
+        "bolum": "mektubat/yirminci-mektup",
+        "sayi": 4
+      },
+      {
+        "bolum": "lemalar/yirmi-altinci-lema",
+        "sayi": 3
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/sule",
+        "sayi": 3
+      },
+      {
+        "bolum": "tarihce-i-hayat/kastamonu-hayati",
+        "sayi": 3
+      },
+      {
+        "bolum": "asa-yi-musa/birinci-huccet-i-imaniye",
+        "sayi": 2
+      }
+    ]
+  },
+  "Alîm": {
+    "toplam": 118,
+    "bolum_sayisi": 44,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "sualar/on-besinci-sua",
+        "sayi": 21
+      },
+      {
+        "bolum": "sozler/otuz-ucuncu-soz",
+        "sayi": 8
+      },
+      {
+        "bolum": "sozler/onuncu-soz",
+        "sayi": 7
+      },
+      {
+        "bolum": "sozler/yirmi-besinci-soz-2",
+        "sayi": 7
+      },
+      {
+        "bolum": "sozler/otuz-ikinci-soz",
+        "sayi": 7
+      },
+      {
+        "bolum": "mektubat/yirminci-mektup",
+        "sayi": 5
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/zerre",
+        "sayi": 5
+      },
+      {
+        "bolum": "sualar/on-birinci-sua",
+        "sayi": 4
+      },
+      {
+        "bolum": "asa-yi-musa/birinci-huccet-i-imaniye",
+        "sayi": 3
+      },
+      {
+        "bolum": "mektubat/yirmi-dokuzuncu-mektup",
+        "sayi": 3
+      }
+    ]
+  },
+  "Fâtır": {
+    "toplam": 116,
+    "bolum_sayisi": 48,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "sozler/yirmi-dorduncu-soz",
+        "sayi": 11
+      },
+      {
+        "bolum": "lemalar/on-yedinci-lema",
+        "sayi": 10
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/zuhre",
+        "sayi": 10
+      },
+      {
+        "bolum": "sozler/yirmi-besinci-soz-2",
+        "sayi": 6
+      },
+      {
+        "bolum": "sozler/yirmi-dokuzuncu-soz",
+        "sayi": 6
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/onuncu-risale",
+        "sayi": 5
+      },
+      {
+        "bolum": "sozler/otuzuncu-soz",
+        "sayi": 4
+      },
+      {
+        "bolum": "mektubat/on-dokuzuncu-mektup",
+        "sayi": 3
+      },
+      {
+        "bolum": "mektubat/yirmi-dokuzuncu-mektup",
+        "sayi": 3
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/hubab",
+        "sayi": 3
+      }
+    ]
+  },
+  "Rezzak": {
+    "toplam": 94,
+    "bolum_sayisi": 45,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "sualar/on-besinci-sua",
+        "sayi": 10
+      },
+      {
+        "bolum": "sozler/otuz-ucuncu-soz",
+        "sayi": 6
+      },
+      {
+        "bolum": "sualar/yedinci-sua",
+        "sayi": 5
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/katre",
+        "sayi": 4
+      },
+      {
+        "bolum": "asa-yi-musa/sekizinci-huccet-i-imaniye",
+        "sayi": 3
+      },
+      {
+        "bolum": "isaratul-icaz/fatiha-suresi",
+        "sayi": 3
+      },
+      {
+        "bolum": "lemalar/otuzuncu-lema",
+        "sayi": 3
+      },
+      {
+        "bolum": "lemalar/munacat-lemalar",
+        "sayi": 3
+      },
+      {
+        "bolum": "mektubat/on-sekizinci-mektup",
+        "sayi": 3
+      },
+      {
+        "bolum": "sozler/yirmi-dorduncu-soz",
+        "sayi": 3
+      }
+    ]
+  },
+  "Muktedir": {
+    "toplam": 91,
+    "bolum_sayisi": 61,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-363-392",
+        "sayi": 4
+      },
+      {
+        "bolum": "sozler/onuncu-soz",
+        "sayi": 4
+      },
+      {
+        "bolum": "sozler/yirmi-ikinci-soz",
+        "sayi": 4
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-121-146",
+        "sayi": 3
+      },
+      {
+        "bolum": "muhakemat/birinci-makale",
+        "sayi": 3
+      },
+      {
+        "bolum": "sozler/lemaat",
+        "sayi": 3
+      },
+      {
+        "bolum": "sualar/on-birinci-sua",
+        "sayi": 3
+      },
+      {
+        "bolum": "asa-yi-musa/onuncu-mesele",
+        "sayi": 2
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-103-121",
+        "sayi": 2
+      },
+      {
+        "bolum": "hutbe-i-samiye/hutbe-i-samiye",
+        "sayi": 2
+      }
+    ]
+  },
+  "Adl": {
+    "toplam": 87,
+    "bolum_sayisi": 33,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "lemalar/otuzuncu-lema",
+        "sayi": 14
+      },
+      {
+        "bolum": "tarihce-i-hayat/haric-memleketler",
+        "sayi": 8
+      },
+      {
+        "bolum": "lemalar/fihrist-lemalar",
+        "sayi": 7
+      },
+      {
+        "bolum": "asa-yi-musa/dorduncu-huccet-i-imaniye",
+        "sayi": 6
+      },
+      {
+        "bolum": "sozler/otuz-ikinci-soz",
+        "sayi": 6
+      },
+      {
+        "bolum": "tarihce-i-hayat/573-2",
+        "sayi": 6
+      },
+      {
+        "bolum": "isaratul-icaz/fatiha-suresi",
+        "sayi": 3
+      },
+      {
+        "bolum": "sozler/otuzuncu-soz",
+        "sayi": 3
+      },
+      {
+        "bolum": "asa-yi-musa/yedinci-mesele",
+        "sayi": 2
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/onuncu-risale",
+        "sayi": 2
+      }
+    ]
+  },
+  "Bedî": {
+    "toplam": 86,
+    "bolum_sayisi": 42,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "sikke-i-tasdik-i-gaybi/sekizinci-sua-2",
+        "sayi": 9
+      },
+      {
+        "bolum": "sualar/sekizinci-sua",
+        "sayi": 9
+      },
+      {
+        "bolum": "mektubat/isarat-i-gaybiye-hakkinda-bir-takriz",
+        "sayi": 7
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-160-180",
+        "sayi": 4
+      },
+      {
+        "bolum": "mektubat/on-dokuzuncu-mektup",
+        "sayi": 4
+      },
+      {
+        "bolum": "sozler/yirmi-besinci-soz-2",
+        "sayi": 4
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-121-146",
+        "sayi": 3
+      },
+      {
+        "bolum": "mektubat/yirmi-sekizinci-mektup",
+        "sayi": 3
+      },
+      {
+        "bolum": "sozler/yirmi-dorduncu-soz",
+        "sayi": 3
+      },
+      {
+        "bolum": "tarihce-i-hayat/kastamonu-hayati",
+        "sayi": 3
+      }
+    ]
+  },
+  "Kavî": {
+    "toplam": 74,
+    "bolum_sayisi": 51,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "lemalar/yirminci-lema",
+        "sayi": 4
+      },
+      {
+        "bolum": "mektubat/yirmi-dokuzuncu-mektup",
+        "sayi": 4
+      },
+      {
+        "bolum": "sozler/lemaat",
+        "sayi": 4
+      },
+      {
+        "bolum": "hutbe-i-samiye/hutbe-i-samiye",
+        "sayi": 3
+      },
+      {
+        "bolum": "mektubat/hakikat-cekirdekleri",
+        "sayi": 3
+      },
+      {
+        "bolum": "munazarat/munazarat",
+        "sayi": 3
+      },
+      {
+        "bolum": "sozler/onuncu-soz",
+        "sayi": 3
+      },
+      {
+        "bolum": "isaratul-icaz/bakara-suresi-21-22-ayetler",
+        "sayi": 2
+      },
+      {
+        "bolum": "lemalar/otuzuncu-lema",
+        "sayi": 2
+      },
+      {
+        "bolum": "mektubat/on-dokuzuncu-mektup",
+        "sayi": 2
+      }
+    ]
+  },
+  "Hakem": {
+    "toplam": 63,
+    "bolum_sayisi": 20,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "lemalar/otuzuncu-lema",
+        "sayi": 19
+      },
+      {
+        "bolum": "asa-yi-musa/besinci-huccet-i-imaniye",
+        "sayi": 13
+      },
+      {
+        "bolum": "lemalar/fihrist-lemalar",
+        "sayi": 9
+      },
+      {
+        "bolum": "sikke-i-tasdik-i-gaybi/birinci-sua-2",
+        "sayi": 2
+      },
+      {
+        "bolum": "sikke-i-tasdik-i-gaybi/sekizinci-sua-2",
+        "sayi": 2
+      },
+      {
+        "bolum": "sualar/birinci-sua",
+        "sayi": 2
+      },
+      {
+        "bolum": "sualar/sekizinci-sua",
+        "sayi": 2
+      },
+      {
+        "bolum": "tarihce-i-hayat/eskisehir-hayati",
+        "sayi": 2
+      },
+      {
+        "bolum": "asa-yi-musa/yedinci-mesele",
+        "sayi": 1
+      },
+      {
+        "bolum": "asa-yi-musa/fihrist-asa-yi-musa",
+        "sayi": 1
+      }
+    ]
+  },
+  "Vâris": {
+    "toplam": 61,
+    "bolum_sayisi": 37,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "emirdag-lahikasi-i/emirdag-lahikasi-i-s-212-230",
+        "sayi": 5
+      },
+      {
+        "bolum": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-2",
+        "sayi": 5
+      },
+      {
+        "bolum": "sualar/on-besinci-sua",
+        "sayi": 4
+      },
+      {
+        "bolum": "emirdag-lahikasi-i/emirdag-lahikasi-i-s-131-150",
+        "sayi": 3
+      },
+      {
+        "bolum": "kastamonu-lahikasi/kastamonu-lahikasi-s-211-230",
+        "sayi": 3
+      },
+      {
+        "bolum": "tarihce-i-hayat/on-soz",
+        "sayi": 3
+      },
+      {
+        "bolum": "tarihce-i-hayat/601-2",
+        "sayi": 3
+      },
+      {
+        "bolum": "emirdag-lahikasi-i/emirdag-lahikasi-i-s-70-90",
+        "sayi": 2
+      },
+      {
+        "bolum": "emirdag-lahikasi-i/emirdag-lahikasi-i-s-170-190",
+        "sayi": 2
+      },
+      {
+        "bolum": "kastamonu-lahikasi/kastamonu-lahikasi-s-110-129",
+        "sayi": 2
+      }
+    ]
+  },
+  "Hay": {
+    "toplam": 49,
+    "bolum_sayisi": 33,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "lemalar/otuzuncu-lema",
+        "sayi": 10
+      },
+      {
+        "bolum": "lemalar/fihrist-lemalar",
+        "sayi": 3
+      },
+      {
+        "bolum": "isaratul-icaz/fatiha-suresi",
+        "sayi": 2
+      },
+      {
+        "bolum": "muhakemat/birinci-makale",
+        "sayi": 2
+      },
+      {
+        "bolum": "sozler/onuncu-soz",
+        "sayi": 2
+      },
+      {
+        "bolum": "sozler/lemaat",
+        "sayi": 2
+      },
+      {
+        "bolum": "sualar/dorduncu-sua",
+        "sayi": 2
+      },
+      {
+        "bolum": "asa-yi-musa/yedinci-mesele",
+        "sayi": 1
+      },
+      {
+        "bolum": "asa-yi-musa/dokuzuncu-huccet-i-imaniye",
+        "sayi": 1
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-121-146",
+        "sayi": 1
+      }
+    ]
+  },
+  "Bâtın": {
+    "toplam": 47,
+    "bolum_sayisi": 30,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "mesnevi-i-nuriye/hubab",
+        "sayi": 6
+      },
+      {
+        "bolum": "sozler/yirmi-besinci-soz-2",
+        "sayi": 4
+      },
+      {
+        "bolum": "sualar/ikinci-sua",
+        "sayi": 4
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/katre",
+        "sayi": 3
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/zerre",
+        "sayi": 3
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/onuncu-risale",
+        "sayi": 2
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/sule",
+        "sayi": 2
+      },
+      {
+        "bolum": "asa-yi-musa/yedinci-mesele",
+        "sayi": 1
+      },
+      {
+        "bolum": "asa-yi-musa/ucuncu-huccet-i-imaniye",
+        "sayi": 1
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-121-146",
+        "sayi": 1
+      }
+    ]
+  },
+  "Samed": {
+    "toplam": 36,
+    "bolum_sayisi": 28,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "sozler/otuz-ikinci-soz",
+        "sayi": 3
+      },
+      {
+        "bolum": "asa-yi-musa/ucuncu-huccet-i-imaniye",
+        "sayi": 2
+      },
+      {
+        "bolum": "lemalar/yirmi-ucuncu-lema",
+        "sayi": 2
+      },
+      {
+        "bolum": "lemalar/otuzuncu-lema",
+        "sayi": 2
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/lasiyyemalar",
+        "sayi": 2
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/nokta",
+        "sayi": 2
+      },
+      {
+        "bolum": "sozler/yirmi-ikinci-soz",
+        "sayi": 2
+      },
+      {
+        "bolum": "asa-yi-musa/birinci-huccet-i-imaniye",
+        "sayi": 1
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-340-362",
+        "sayi": 1
+      },
+      {
+        "bolum": "emirdag-lahikasi-ii/emirdag-lahikasi-ii-s-91-109",
+        "sayi": 1
+      }
+    ]
+  },
+  "Muhyî": {
+    "toplam": 35,
+    "bolum_sayisi": 25,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "lemalar/otuzuncu-lema",
+        "sayi": 7
+      },
+      {
+        "bolum": "mektubat/yirmi-altinci-mektup",
+        "sayi": 2
+      },
+      {
+        "bolum": "sozler/onuncu-soz",
+        "sayi": 2
+      },
+      {
+        "bolum": "sozler/otuz-ikinci-soz",
+        "sayi": 2
+      },
+      {
+        "bolum": "sualar/on-besinci-sua",
+        "sayi": 2
+      },
+      {
+        "bolum": "asa-yi-musa/yedinci-mesele",
+        "sayi": 1
+      },
+      {
+        "bolum": "asa-yi-musa/altinci-huccet-i-imaniye",
+        "sayi": 1
+      },
+      {
+        "bolum": "emirdag-lahikasi-ii/emirdag-lahikasi-ii-s-91-109",
+        "sayi": 1
+      },
+      {
+        "bolum": "hutbe-i-samiye/hutbe-i-samiye",
+        "sayi": 1
+      },
+      {
+        "bolum": "isaratul-icaz/fatiha-suresi",
+        "sayi": 1
+      }
+    ]
+  },
+  "Kuddüs": {
+    "toplam": 34,
+    "bolum_sayisi": 10,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "lemalar/otuzuncu-lema",
+        "sayi": 12
+      },
+      {
+        "bolum": "lemalar/fihrist-lemalar",
+        "sayi": 5
+      },
+      {
+        "bolum": "sikke-i-tasdik-i-gaybi/parlak-fikralar-ve-guzel-mektuplar-2",
+        "sayi": 5
+      },
+      {
+        "bolum": "emirdag-lahikasi-i/emirdag-lahikasi-i-s-31-50",
+        "sayi": 4
+      },
+      {
+        "bolum": "emirdag-lahikasi-i/emirdag-lahikasi-i-s-70-90",
+        "sayi": 3
+      },
+      {
+        "bolum": "asa-yi-musa/on-birinci-mesele",
+        "sayi": 1
+      },
+      {
+        "bolum": "asa-yi-musa/dorduncu-huccet-i-imaniye",
+        "sayi": 1
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-181-201",
+        "sayi": 1
+      },
+      {
+        "bolum": "emirdag-lahikasi-i/emirdag-lahikasi-i-s-50-69",
+        "sayi": 1
+      },
+      {
+        "bolum": "sualar/on-birinci-sua",
+        "sayi": 1
+      }
+    ]
+  },
+  "Berr": {
+    "toplam": 24,
+    "bolum_sayisi": 16,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "lemalar/otuzuncu-lema",
+        "sayi": 3
+      },
+      {
+        "bolum": "asa-yi-musa/sekizinci-huccet-i-imaniye",
+        "sayi": 2
+      },
+      {
+        "bolum": "lemalar/munacat-lemalar",
+        "sayi": 2
+      },
+      {
+        "bolum": "mektubat/on-dokuzuncu-mektup",
+        "sayi": 2
+      },
+      {
+        "bolum": "sozler/yirmi-besinci-soz-2",
+        "sayi": 2
+      },
+      {
+        "bolum": "sualar/ucuncu-sua",
+        "sayi": 2
+      },
+      {
+        "bolum": "tarihce-i-hayat/kastamonu-hayati",
+        "sayi": 2
+      },
+      {
+        "bolum": "asa-yi-musa/besinci-huccet-i-imaniye",
+        "sayi": 1
+      },
+      {
+        "bolum": "mektubat/yirmi-dorduncu-mektup",
+        "sayi": 1
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/reshalar",
+        "sayi": 1
+      }
+    ]
+  },
+  "Melik": {
+    "toplam": 21,
+    "bolum_sayisi": 10,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "mektubat/on-dokuzuncu-mektup",
+        "sayi": 6
+      },
+      {
+        "bolum": "sozler/on-birinci-soz",
+        "sayi": 4
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/lasiyyemalar",
+        "sayi": 3
+      },
+      {
+        "bolum": "munazarat/munazarat",
+        "sayi": 2
+      },
+      {
+        "bolum": "mektubat/fihriste-i-mektubat",
+        "sayi": 1
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/katre",
+        "sayi": 1
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/fihrist-mesnevi",
+        "sayi": 1
+      },
+      {
+        "bolum": "muhakemat/birinci-makale",
+        "sayi": 1
+      },
+      {
+        "bolum": "sozler/ikinci-soz-2",
+        "sayi": 1
+      },
+      {
+        "bolum": "sozler/otuzuncu-soz",
+        "sayi": 1
+      }
+    ]
+  },
+  "Basîr": {
+    "toplam": 19,
+    "bolum_sayisi": 14,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "mektubat/on-dokuzuncu-mektup",
+        "sayi": 2
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/katre",
+        "sayi": 2
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/zerre",
+        "sayi": 2
+      },
+      {
+        "bolum": "sozler/onuncu-soz",
+        "sayi": 2
+      },
+      {
+        "bolum": "sozler/on-dokuzuncu-soz",
+        "sayi": 2
+      },
+      {
+        "bolum": "kastamonu-lahikasi/kastamonu-lahikasi-s-91-109",
+        "sayi": 1
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/reshalar",
+        "sayi": 1
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/lasiyyemalar",
+        "sayi": 1
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/habbe",
+        "sayi": 1
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/nokta",
+        "sayi": 1
+      }
+    ]
+  },
+  "Vâsi": {
+    "toplam": 17,
+    "bolum_sayisi": 14,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "sozler/onuncu-soz",
+        "sayi": 3
+      },
+      {
+        "bolum": "sozler/lemaat",
+        "sayi": 2
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-121-146",
+        "sayi": 1
+      },
+      {
+        "bolum": "kastamonu-lahikasi/kastamonu-lahikasi-s-150-166-lemaattan",
+        "sayi": 1
+      },
+      {
+        "bolum": "mektubat/yirmi-sekizinci-mektup",
+        "sayi": 1
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/semme-risalesi",
+        "sayi": 1
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/onuncu-risale",
+        "sayi": 1
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/nokta",
+        "sayi": 1
+      },
+      {
+        "bolum": "muhakemat/birinci-makale",
+        "sayi": 1
+      },
+      {
+        "bolum": "sozler/on-sekizinci-soz",
+        "sayi": 1
+      }
+    ]
+  },
+  "Bâis": {
+    "toplam": 17,
+    "bolum_sayisi": 15,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-202-221",
+        "sayi": 2
+      },
+      {
+        "bolum": "isaratul-icaz/bakara-suresi-25-ayet",
+        "sayi": 2
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-80-102",
+        "sayi": 1
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-103-121",
+        "sayi": 1
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-221-240",
+        "sayi": 1
+      },
+      {
+        "bolum": "hutbe-i-samiye/hutbe-i-samiye",
+        "sayi": 1
+      },
+      {
+        "bolum": "isaratul-icaz/bakara-suresi-1-2-3-ayetler",
+        "sayi": 1
+      },
+      {
+        "bolum": "isaratul-icaz/bakara-suresi-8-ayet",
+        "sayi": 1
+      },
+      {
+        "bolum": "isaratul-icaz/bakara-suresi-23-24-ayetler",
+        "sayi": 1
+      },
+      {
+        "bolum": "isaratul-icaz/bakara-suresi-26-27-ayetler",
+        "sayi": 1
+      }
+    ]
+  },
+  "Bâri": {
+    "toplam": 15,
+    "bolum_sayisi": 12,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-21-39",
+        "sayi": 2
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-221-240",
+        "sayi": 2
+      },
+      {
+        "bolum": "tarihce-i-hayat/on-soz",
+        "sayi": 2
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-103-121",
+        "sayi": 1
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-121-146",
+        "sayi": 1
+      },
+      {
+        "bolum": "lemalar/yirmi-dorduncu-lema",
+        "sayi": 1
+      },
+      {
+        "bolum": "lemalar/fihrist-lemalar",
+        "sayi": 1
+      },
+      {
+        "bolum": "mektubat/yirmi-sekizinci-mektup",
+        "sayi": 1
+      },
+      {
+        "bolum": "mektubat/hakikat-isiklari",
+        "sayi": 1
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/katre",
+        "sayi": 1
+      }
+    ]
+  },
+  "Mücîb": {
+    "toplam": 15,
+    "bolum_sayisi": 10,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "tarihce-i-hayat/denizli-hayati",
+        "sayi": 3
+      },
+      {
+        "bolum": "asa-yi-musa/yedinci-mesele",
+        "sayi": 2
+      },
+      {
+        "bolum": "sualar/on-birinci-sua",
+        "sayi": 2
+      },
+      {
+        "bolum": "sualar/on-besinci-sua",
+        "sayi": 2
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/zerre",
+        "sayi": 1
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/onuncu-risale",
+        "sayi": 1
+      },
+      {
+        "bolum": "munazarat/munazarat",
+        "sayi": 1
+      },
+      {
+        "bolum": "sozler/onuncu-soz",
+        "sayi": 1
+      },
+      {
+        "bolum": "sozler/otuz-ucuncu-soz",
+        "sayi": 1
+      },
+      {
+        "bolum": "sualar/on-ucuncu-sua",
+        "sayi": 1
+      }
+    ]
+  },
+  "Fettah": {
+    "toplam": 12,
+    "bolum_sayisi": 9,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "sualar/dorduncu-sua",
+        "sayi": 2
+      },
+      {
+        "bolum": "sualar/yedinci-sua",
+        "sayi": 2
+      },
+      {
+        "bolum": "tarihce-i-hayat/573-2",
+        "sayi": 2
+      },
+      {
+        "bolum": "asa-yi-musa/sekizinci-huccet-i-imaniye",
+        "sayi": 1
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-280-299",
+        "sayi": 1
+      },
+      {
+        "bolum": "lemalar/munacat-lemalar",
+        "sayi": 1
+      },
+      {
+        "bolum": "mektubat/yirminci-mektup",
+        "sayi": 1
+      },
+      {
+        "bolum": "sualar/ucuncu-sua",
+        "sayi": 1
+      },
+      {
+        "bolum": "tarihce-i-hayat/kastamonu-hayati",
+        "sayi": 1
+      }
+    ]
+  },
+  "Musavvir": {
+    "toplam": 11,
+    "bolum_sayisi": 7,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "sozler/otuz-ikinci-soz",
+        "sayi": 5
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/katre",
+        "sayi": 1
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/zerre",
+        "sayi": 1
+      },
+      {
+        "bolum": "sozler/yirmi-dorduncu-soz",
+        "sayi": 1
+      },
+      {
+        "bolum": "sualar/dorduncu-sua",
+        "sayi": 1
+      },
+      {
+        "bolum": "sualar/yedinci-sua",
+        "sayi": 1
+      },
+      {
+        "bolum": "sualar/on-besinci-sua",
+        "sayi": 1
+      }
+    ]
+  },
+  "Mümît": {
+    "toplam": 10,
+    "bolum_sayisi": 10,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "asa-yi-musa/yedinci-mesele",
+        "sayi": 1
+      },
+      {
+        "bolum": "asa-yi-musa/altinci-huccet-i-imaniye",
+        "sayi": 1
+      },
+      {
+        "bolum": "emirdag-lahikasi-ii/emirdag-lahikasi-ii-s-91-109",
+        "sayi": 1
+      },
+      {
+        "bolum": "isaratul-icaz/fatiha-suresi",
+        "sayi": 1
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/katre",
+        "sayi": 1
+      },
+      {
+        "bolum": "sozler/onuncu-soz",
+        "sayi": 1
+      },
+      {
+        "bolum": "sozler/on-yedinci-soz",
+        "sayi": 1
+      },
+      {
+        "bolum": "sozler/otuz-ucuncu-soz",
+        "sayi": 1
+      },
+      {
+        "bolum": "sualar/on-birinci-sua",
+        "sayi": 1
+      },
+      {
+        "bolum": "tarihce-i-hayat/denizli-hayati",
+        "sayi": 1
+      }
+    ]
+  },
+  "Halîm": {
+    "toplam": 9,
+    "bolum_sayisi": 6,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "lemalar/on-yedinci-lema",
+        "sayi": 2
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/zuhre",
+        "sayi": 2
+      },
+      {
+        "bolum": "tarihce-i-hayat/isparta-hayati",
+        "sayi": 2
+      },
+      {
+        "bolum": "emirdag-lahikasi-ii/emirdag-lahikasi-ii-s-149-170",
+        "sayi": 1
+      },
+      {
+        "bolum": "lemalar/yirminci-lema",
+        "sayi": 1
+      },
+      {
+        "bolum": "tarihce-i-hayat/on-soz",
+        "sayi": 1
+      }
+    ]
+  },
+  "Hâdî": {
+    "toplam": 8,
+    "bolum_sayisi": 8,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-40-58",
+        "sayi": 1
+      },
+      {
+        "bolum": "emirdag-lahikasi-ii/emirdag-lahikasi-ii-s-149-170",
+        "sayi": 1
+      },
+      {
+        "bolum": "kastamonu-lahikasi/kastamonu-lahikasi-s-30-51",
+        "sayi": 1
+      },
+      {
+        "bolum": "lemalar/yirmi-sekizinci-lema",
+        "sayi": 1
+      },
+      {
+        "bolum": "mektubat/yirmi-altinci-mektup",
+        "sayi": 1
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/sule",
+        "sayi": 1
+      },
+      {
+        "bolum": "sozler/konferans-sozler",
+        "sayi": 1
+      },
+      {
+        "bolum": "tarihce-i-hayat/isparta-hayati",
+        "sayi": 1
+      }
+    ]
+  },
+  "Rahim": {
+    "toplam": 6,
+    "bolum_sayisi": 5,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "isaratul-icaz/bakara-suresi-26-27-ayetler",
+        "sayi": 2
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-321-340",
+        "sayi": 1
+      },
+      {
+        "bolum": "isaratul-icaz/bakara-suresi-1-2-3-ayetler",
+        "sayi": 1
+      },
+      {
+        "bolum": "muhakemat/ikinci-makale",
+        "sayi": 1
+      },
+      {
+        "bolum": "sozler/lemaat",
+        "sayi": 1
+      }
+    ]
+  },
+  "Mâni": {
+    "toplam": 4,
+    "bolum_sayisi": 3,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "sualar/on-dorduncu-sua",
+        "sayi": 2
+      },
+      {
+        "bolum": "barla-lahikasi/barla-lahikasi-s-262-280",
+        "sayi": 1
+      },
+      {
+        "bolum": "lemalar/dokuzuncu-lema",
+        "sayi": 1
+      }
+    ]
+  },
+  "Sabûr": {
+    "toplam": 4,
+    "bolum_sayisi": 4,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "lemalar/yirmi-besinci-lema",
+        "sayi": 1
+      },
+      {
+        "bolum": "lemalar/fihrist-lemalar",
+        "sayi": 1
+      },
+      {
+        "bolum": "mektubat/yirmi-dorduncu-mektup",
+        "sayi": 1
+      },
+      {
+        "bolum": "sozler/yirmi-birinci-soz",
+        "sayi": 1
+      }
+    ]
+  },
+  "Mütekebbir": {
+    "toplam": 2,
+    "bolum_sayisi": 2,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "mesnevi-i-nuriye/hubab",
+        "sayi": 1
+      },
+      {
+        "bolum": "sualar/on-ucuncu-sua",
+        "sayi": 1
+      }
+    ]
+  },
+  "Şehîd": {
+    "toplam": 2,
+    "bolum_sayisi": 2,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "mesnevi-i-nuriye/lasiyyemalar",
+        "sayi": 1
+      },
+      {
+        "bolum": "mesnevi-i-nuriye/hubab",
+        "sayi": 1
+      }
+    ]
+  },
+  "Zâhir": {
+    "toplam": 2,
+    "bolum_sayisi": 1,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "mektubat/on-dorduncu-mektup",
+        "sayi": 2
+      }
+    ]
+  },
+  "Râfi": {
+    "toplam": 1,
+    "bolum_sayisi": 1,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "munazarat/munazarat",
+        "sayi": 1
+      }
+    ]
+  },
+  "Habîr": {
+    "toplam": 1,
+    "bolum_sayisi": 1,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "mesnevi-i-nuriye/habbe",
+        "sayi": 1
+      }
+    ]
+  },
+  "Velî": {
+    "toplam": 1,
+    "bolum_sayisi": 1,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "mektubat/on-dorduncu-mektup",
+        "sayi": 1
+      }
+    ]
+  },
+  "Bâkî": {
+    "toplam": 1,
+    "bolum_sayisi": 1,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "mektubat/on-dorduncu-mektup",
+        "sayi": 1
+      }
+    ]
+  },
+  "Mümit": {
+    "toplam": 1,
+    "bolum_sayisi": 1,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "isaratul-icaz/bakara-suresi-17-18-19-20-ayetler",
+        "sayi": 1
+      }
+    ]
+  },
+  "Bedi": {
+    "toplam": 1,
+    "bolum_sayisi": 1,
+    "en_yogun_bolumler": [
+      {
+        "bolum": "lemalar/dokuzuncu-lema",
+        "sayi": 1
+      }
+    ]
+  }
+}
